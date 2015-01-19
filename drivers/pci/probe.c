@@ -14,6 +14,9 @@
 #include <asm-generic/pci-bridge.h>
 #include "pci.h"
 
+#include <linux/irq.h>
+#include "./host/pcie-designware.h"
+
 #define CARDBUS_LATENCY_TIMER	176	/* secondary latency timer */
 #define CARDBUS_RESERVE_BUSNR	3
 
@@ -677,6 +680,10 @@ static struct pci_bus *pci_alloc_child_bus(struct pci_bus *parent,
 	child->parent = parent;
 	child->ops = parent->ops;
 	child->msi = parent->msi;
+
+	/* add this to pass domain */
+	child->domain = parent->domain;
+
 	child->sysdata = parent->sysdata;
 	child->bus_flags = parent->bus_flags;
 
@@ -1904,6 +1911,9 @@ struct pci_bus *pci_create_root_bus(struct device *parent, int bus,
 	b = pci_alloc_bus(NULL);
 	if (!b)
 		return NULL;
+
+	/* add msi domain in pci root bus */
+	b->domain = ((struct pcie_port *)sysdata)->domain;
 
 	b->sysdata = sysdata;
 	b->ops = ops;

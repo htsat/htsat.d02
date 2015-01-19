@@ -22,6 +22,7 @@
 #include <linux/pci_regs.h>
 #include <linux/platform_device.h>
 #include <linux/types.h>
+#include <asm/hardirq.h>
 
 #include "pcie-designware.h"
 
@@ -31,6 +32,7 @@
 #define PORT_LINK_MODE_1_LANES		(0x1 << 16)
 #define PORT_LINK_MODE_2_LANES		(0x3 << 16)
 #define PORT_LINK_MODE_4_LANES		(0x7 << 16)
+#define PORT_LINK_MODE_8_LANES 		(0xf << 16)
 
 #define PCIE_LINK_WIDTH_SPEED_CONTROL	0x80C
 #define PORT_LOGIC_SPEED_CHANGE		(0x1 << 17)
@@ -38,12 +40,15 @@
 #define PORT_LOGIC_LINK_WIDTH_1_LANES	(0x1 << 8)
 #define PORT_LOGIC_LINK_WIDTH_2_LANES	(0x2 << 8)
 #define PORT_LOGIC_LINK_WIDTH_4_LANES	(0x4 << 8)
+#define PORT_LOGIC_LINK_WIDTH_8_LANES	(0x8 << 8)
 
 #define PCIE_MSI_ADDR_LO		0x820
 #define PCIE_MSI_ADDR_HI		0x824
 #define PCIE_MSI_INTR0_ENABLE		0x828
 #define PCIE_MSI_INTR0_MASK		0x82C
 #define PCIE_MSI_INTR0_STATUS		0x830
+
+#define PCIE_GEN3_RELATED_OFF		0x890
 
 #define PCIE_ATU_VIEWPORT		0x900
 #define PCIE_ATU_REGION_INBOUND		(0x1 << 31)
@@ -68,14 +73,19 @@
 #define PCIE_ATU_UPPER_TARGET		0x91C
 
 static struct hw_pci dw_pci;
+static struct pci_ops dw_pcie_ops;
 
 static unsigned long global_io_offset;
 
-static inline struct pcie_port *sys_to_pcie(struct pci_sys_data *sys)
+static inline struct pcie_port *sys_to_pcie(void *sys)
 {
-	BUG_ON(!sys->private_data);
+#ifdef CONFIG_ARM
+	pci_sys_data *sys_data = (struct pci_sys_data *)sys;
 
-	return sys->private_data;
+	BUG_ON(!sys->private_data);
+	return sys_data->private_data;
+#endif
+	return (struct pcie_port *)sys;
 }
 
 int dw_pcie_cfg_read(void __iomem *addr, int where, int size, u32 *val)
@@ -499,6 +509,24 @@ int __init dw_pcie_host_init(struct pcie_port *pp)
 	val |= PORT_LOGIC_SPEED_CHANGE;
 	dw_pcie_wr_own_conf(pp, PCIE_LINK_WIDTH_SPEED_CONTROL, 4, val);
 
+#ifdef CONFIG_ARM64
+	struct pci_bus *bus;
+	LIST_HEAD(res);
+
+	ret = of_pci_get_host_bridge_resources(np, 0, 0xff, &res, &pp->io_base);
+	if (ret)
+		return ret;
+
+	bus = pci_scan_root_bus(pp->dev, pp->root_bus_nr, &dw_pcie_ops,
+				pp, &res);
+	if (!bus)
+		return -ENOMEM;
+
+	if (!pci_has_flag(PCI_PROBE_ONLY))
+		pci_assign_unassigned_bus_resources(bus);
+#endif
+
+#ifdef CONFIG_ARM
 #ifdef CONFIG_PCI_MSI
 	dw_pcie_msi_chip.dev = pp->dev;
 	dw_pci.msi_ctrl = &dw_pcie_msi_chip;
@@ -510,6 +538,7 @@ int __init dw_pcie_host_init(struct pcie_port *pp)
 	pci_common_init_dev(pp->dev, &dw_pci);
 #ifdef CONFIG_PCI_DOMAINS
 	dw_pci.domain++;
+#endif
 #endif
 
 	return 0;
@@ -701,6 +730,7 @@ static struct pci_ops dw_pcie_ops = {
 	.write = dw_pcie_wr_conf,
 };
 
+#ifdef CONFIG_ARM
 static int dw_pcie_setup(int nr, struct pci_sys_data *sys)
 {
 	struct pcie_port *pp;
@@ -758,6 +788,7 @@ static struct hw_pci dw_pci = {
 	.scan		= dw_pcie_scan_bus,
 	.map_irq	= dw_pcie_map_irq,
 };
+#endif
 
 void dw_pcie_setup_rc(struct pcie_port *pp)
 {
