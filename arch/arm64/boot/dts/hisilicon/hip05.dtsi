@@ -429,4 +429,6 @@
 			};
 		};
 	};
+
+	/include/ "hip05_xge.dtsi"
 };
