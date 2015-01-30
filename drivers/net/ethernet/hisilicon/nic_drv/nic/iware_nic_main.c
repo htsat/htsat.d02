@@ -60,8 +60,8 @@ KqxZNQj4YL/8LmI05+N5OariN4VbvmXKFv5RlOy5W+D57hMBsyvEg8A8jvFUKA==*/
 
 /**
  * nic_rx_napi_poll - NAPI Rx polling callback
- * @napi: structure for representing this polling device。
- * @budget: how many packets driver is allowed to clean。
+ * @napi: structure for representing this polling device??
+ * @budget: how many packets driver is allowed to clean??
  *
  * Return budget
  */
@@ -103,8 +103,8 @@ int nic_rx_napi_poll(struct napi_struct *napi, int budget)
 
 /**
  * nic_rx_napi_poll - NAPI Rx polling callback
- * @napi: structure for representing this polling device。
- * @budget: how many packets driver is allowed to clean。
+ * @napi: structure for representing this polling device??
+ * @budget: how many packets driver is allowed to clean??
  * Return budget
  */
 int nic_tx_napi_poll(struct napi_struct *napi, int budget)
@@ -140,8 +140,8 @@ int nic_tx_napi_poll(struct napi_struct *napi, int budget)
 
 /**
  * nic_set_mac_address - set mac address
- * @netdev: net device。
- * @p: mac address。
+ * @netdev: net device??
+ * @p: mac address??
  *
  * Return 0 on success, else on failure
  */
@@ -178,8 +178,8 @@ int nic_set_mac_address(struct net_device *netdev, void *p)
 
 /**
  * nic_start_xmit - send packet
- * @skb: skb info。
- * @netdev: net device。
+ * @skb: skb info??
+ * @netdev: net device??
  *
  * Return 0 on success, negative on failure
  */
@@ -198,7 +198,7 @@ netdev_tx_t nic_start_xmit(struct sk_buff *skb, struct net_device *netdev)
 
 /**
  * nic_led_timer - action for set LED
- * @nic_dev: nic_dev device。
+ * @nic_dev: nic_dev device??
  *
  */
 void nic_led_timer(struct nic_device *nic_dev)
@@ -307,7 +307,7 @@ void nic_update_stats(struct net_device *netdev)
 
 /**
  * nic_update_link_status - update link status
- * @netdev: net device。
+ * @netdev: net device??
  *
  */
 void nic_update_link_status(struct net_device *netdev)
@@ -642,7 +642,7 @@ static void nic_service_task(struct work_struct *work)
 
 /**
  * nic_open - open netdev
- * @netdev: net device。
+ * @netdev: net device??
  *
  * Return 0 on success, negative on failure
  */
@@ -759,7 +759,7 @@ ring_enable_fail:
 
 /**
  * nic_open - open netdev
- * @netdev: net device。
+ * @netdev: net device??
  *
  * Return 0 on success, negative on failure
  */
@@ -854,7 +854,7 @@ static void nic_down(struct net_device *netdev)
 
 /**
  * nic_stop - stop netdev
- * @netdev: net device。
+ * @netdev: net device??
  *
  * Return 0 on success, negative on failure
  */
@@ -885,7 +885,7 @@ int nic_stop(struct net_device *netdev)
 
 /**
  * nic_reset - reset all sub module and reinit it, but not enable
- * @netdev: net device。
+ * @netdev: net device??
  */
 void nic_reset(struct net_device *netdev)
 {
@@ -927,7 +927,7 @@ void nic_reset(struct net_device *netdev)
 
 /**
  * nic_reinit - reset all sub module, reinit and enable it
- * @netdev: net device。
+ * @netdev: net device??
  */
 void nic_reinit(struct net_device *netdev)
 {
@@ -950,7 +950,7 @@ void nic_reinit(struct net_device *netdev)
 #ifdef CONFIG_NET_POLL_CONTROLLER
 /**
  * nic_poll_controller - netdev poll controller
- * @netdev: net device。
+ * @netdev: net device??
  */
 void nic_poll_controller(struct net_device *dev)
 {
@@ -970,7 +970,7 @@ void nic_poll_controller(struct net_device *dev)
 
 /**
  * nic_timeout - nic timeout
- * @netdev: net device。
+ * @netdev: net device??
  */
 void nic_timeout(struct net_device *netdev)
 {
@@ -985,7 +985,7 @@ void nic_timeout(struct net_device *netdev)
 
 /**
  * nic_change_mtu - change mtu
- * @netdev: net device。
+ * @netdev: net device??
  * @new_mtu: mtu
  *
  * Return 0 on success, negative on failure
@@ -1012,7 +1012,7 @@ int nic_change_mtu(struct net_device *netdev, int new_mtu)
 
 /**
  * nic_suspend - netdev suspend
- * @pdev: platform device。
+ * @pdev: platform device??
  * @state: power manage message
  *
  * Return 0 on success, negative on failure
@@ -1026,7 +1026,7 @@ int nic_suspend(struct platform_device *pdev, pm_message_t state)
 
 /**
  * nic_resume - netdev resume
- * @pdev: platform device。
+ * @pdev: platform device??
  *
  * Return 0 on success, negative on failure
  */
@@ -1047,7 +1047,7 @@ int nic_ioctl(struct net_device *netdev, struct ifreq *ifr, int cmd)
 
 /**
  * nic_show_sw_stat_by_port - show software status
- * @netdev: net device。
+ * @netdev: net device??
  */
 void nic_show_sw_stat_by_port(struct net_device *netdev)
 {
@@ -1102,7 +1102,7 @@ const struct net_device_ops g_nic_netdev_ops = {
 
 /**
  * nic_get_chip_id - get chip id
- * @pdev: platform device。
+ * @pdev: platform device??
  *
  * Return chip id. if can't read from device tree, then return 0
  */
@@ -1125,7 +1125,7 @@ u32 nic_get_chip_id(struct platform_device *pdev)
 
 /**
  * nic_bind_mac - bind mac to netdev
- * @pdev: platform device。
+ * @pdev: platform device??
  *
  * Return 0 on success, negative on failure
  */
@@ -1160,7 +1160,7 @@ static int nic_bind_mac(struct platform_device *pdev)
 
 /**
  * nic_probe - probe netdev
- * @pdev: platform device。
+ * @pdev: platform device??
  *
  * Return 0 on success, negative on failure
  */
@@ -1177,7 +1177,7 @@ int nic_probe(struct platform_device *pdev)
 	log_info(&pdev->dev, "nic_probe begin\n");
 
 	/* Init network device */
-	netdev = alloc_netdev_mq(sizeof(struct nic_device), "HiNIC%d",
+	netdev = alloc_netdev_mq(sizeof(struct nic_device), "eth%d",
 				 NET_NAME_UNKNOWN, ether_setup, NIC_MAX_Q_PER_VF);
 	if (NULL == netdev) {
 		log_err(&pdev->dev, "alloc_netdev_mq failed!\n");
@@ -1340,7 +1340,7 @@ get_work_mode_fail:
 
 /**
  * nic_remove - bind mac to netdev
- * @pdev: platform device。
+ * @pdev: platform device??
  *
  * Return 0 on success, negative on failure
  */

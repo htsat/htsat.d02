@@ -83,8 +83,6 @@ static void rcb_int_ctrl_hw(struct rcb_device *rcb_dev,
  */
 u32 rcb_get_int_stat(struct rcb_device *rcb_dev)
 {
-	/*»ñÈ¡½ÓÊÕÖÐ¶Ï×´Ì¬£¬ÓÐÖÐ¶Ï£¬º¯Êý·µ»Ø0·ñÔò·µ»Ø-1 */
-
 	if (rcb_read_reg(rcb_dev, RCB_RING_INTSTS_RX_RING_REG))
 		return 1;
 	else if (rcb_read_reg(rcb_dev, RCB_RING_INTSTS_RX_OVERTIME_REG))
@@ -1302,7 +1300,7 @@ void rcb_get_regs(struct rcb_common_dev *rcb_common, void *data)
 	u32 *regs_buff = data;
 	u32 i = 0;
 
-	/*RCB_COMMON 0 - 0x4A0  296ö */
+	/*RCB_COMMON 0 - 0x4A0  296 */
 	for (i = 0; i < 296; i++)
 		regs_buff[i] = rcb_com_read_reg(rcb_common, i * 4);
 
@@ -1561,6 +1559,9 @@ static void rcb_set_port_desc_cnt(struct rcb_common_dev *rcb_common,
 		port_idx = 0;
 
 	rcb_com_write_reg(rcb_common, RCB_CFG_BD_NUM_REG + port_idx * 4,
+			  desc_cnt);
+
+	rcb_com_write_reg(rcb_common, RCB_CFG_BD_NUM_REG,
 			  desc_cnt);
 }
 
