@@ -1,11 +1,4 @@
-/*--------------------------------------------------------------------------------------------------------------------------*/
-/*!!Warning: This is a key information asset of Huawei Tech Co.,Ltd                                                         */
-/*CODEMARK:64z4jYnYa5t1KtRL8a/vnMxg4uGttU/wzF06xcyNtiEfsIe4UpyXkUSy93j7U7XZDdqx2rNx
-p+25Dla32ZW7osA9Q1ovzSUNJmwD2Lwb8CS3jj1e4NXnh+7DT2iIAuYHJTrgjUqp838S0X3Y
-kLe48xckF9EzKOiitHAnfJ5lBdlF/ZeY6tsROnp6UhHx3W/UMCesB/RGEUj3pIdsfy1UhN36
-+VNH9ewHukWy4eCW/RxY/Oc8U7wGt8c6bXt2U08wQCYaCFoDTT04CjbMzp1lTg==*/
-/*--------------------------------------------------------------------------------------------------------------------------*/
-/*******************************************************************************
+/*----------------------------------------------------------------------------------------------------------
 
   Hisilicon dsa fabric driver - support L2 switch
   Copyright(c) 2014 - 2019 Huawei Corporation.
@@ -805,7 +798,7 @@ static int dsaf_del_mac_mc_port(struct dsaf_device *dsaf_dev,
 		soft_mac_entry += entry_index;
 		soft_mac_entry->index = DSAF_INVALID_ENTRY_IDX;
 	}
-	/*not zer£¬just del port£¬updata*/
+	/*not zer??just del port??updata*/
 	else {
 		dsaf_tcam_mc_cfg((u32)dsaf_dev->chip_id, entry_index,
 			(struct dsaf_tbl_tcam_data *)(&mac_key), &mac_data);

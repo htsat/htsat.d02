@@ -1,21 +1,26 @@
-/******************************************************************************
+/*******************************************************************************
 
-                  °æÈ¨ËùÓÐ (C), 2001-2011, »ªÎª¼¼ÊõÓÐÏÞ¹«Ë¾
+  Copyright(c) 2014 - 2019 Huawei Corporation.
 
- ******************************************************************************
-  ÎÄ ¼þ Ãû   : hrd_bsp_mod.h
-  °æ ±¾ ºÅ   : ³õ¸å
-  ×÷    Õß   : w00146306
-  Éú³ÉÈÕÆÚ   : 2013Äê4ÔÂ25ÈÕ
-  ×î½üÐÞ¸Ä   :
-  ¹¦ÄÜÃèÊö   : uniBSPÄÚºËÌ¬Í·ÎÄ¼þ
-  º¯ÊýÁÐ±í   :
-  ÐÞ¸ÄÀúÊ·   :
-  1.ÈÕ    ÆÚ   : 2013Äê4ÔÂ25ÈÕ
-    ×÷    Õß   : w00146306
-    ÐÞ¸ÄÄÚÈÝ   : ´´½¨ÎÄ¼þ
+  This program is free software; you can redistribute it and/or modify it
+  under the terms and conditions of the GNU General Public License,
+  version 2, as published by the Free Software Foundation.
 
-******************************************************************************/
+  This program is distributed in the hope it will be useful, but WITHOUT
+  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+  FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+  more details.
+
+  You should have received a copy of the GNU General Public License along with
+  this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
+
+  The full GNU General Public License is included in this distribution in
+  the file called "COPYING".
+
+  Contact Information:TBD
+
+*******************************************************************************/
 
 #ifndef _UNIBSP_MOD_H
 #define _UNIBSP_MOD_H
@@ -29,15 +34,15 @@
 
 
 /*----------------------------------------------*
- * Íâ²¿±äÁ¿ËµÃ÷                                 *
+ * ?â²¿??Á¿Ëµ??                                 *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * Íâ²¿º¯ÊýÔ­ÐÍËµÃ÷                             *
+ * ?â²¿????Ô­??Ëµ??                             *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * ºê¶¨Òå                                       *
+ * ?ê¶¨??                                       *
  *----------------------------------------------*/
 
 #define MCSS_DEVS_EACH_MAX_MAC_NUM  3
@@ -52,24 +57,24 @@ typedef struct tagMcssDev2
 #pragma pack(4)
 typedef struct tagMcssDev
 {
-    UINT32            uwIndex;   /* Éè±¸±àºÅ */
-    UINT32            uwPid;     /* ½ø³ÌID */
-    UINT32            uwRingID;  /* Éè±¸¶ÔÓ¦µÄRingID */
-    UINT32            uwChnFlg;  /* Í¨µÀÊÇ·ñ´ò¿ª */
+    UINT32            uwIndex;   /* ?è±¸???? */
+    UINT32            uwPid;     /* ????ID */
+    UINT32            uwRingID;  /* ?è±¸??Ó¦??RingID */
+    UINT32            uwChnFlg;  /* Í¨???Ç·????? */
     UINT32            uwPktFlg;
-    UINT32            uwSemFlg;  /* Éè±¸Õ¼ÓÐÐÅºÅÁ¿±ê¼Ç */
-    atomic_t          stOpenFlg; /* Éè±¸´ò¿ª±ê¼Ç */
+    UINT32            uwSemFlg;  /* ?è±¸Õ¼???Åº?Á¿???? */
+    atomic_t          stOpenFlg; /* ?è±¸?ò¿ª±??? */
     wait_queue_head_t stQueue;
-    UINT32            uwTxPort;  /* ·¢ËÍ¶Ë¿ÚºÅ */
+    UINT32            uwTxPort;  /* ???Í¶Ë¿Úº? */
     struct cdev       stChrDev;
     struct device    *pstDev;
 }MCSS_DEV_S;
 
 typedef struct tagMcssDevMacInfo
 {
-    UINT32              uwNum;  /* Ã¿¸öPIDÒÑÅäÖÃµÄMAC¸öÊý */
-    UINT32              uwPid;  /* ½ø³ÌID */
-    MCSS_TYPE_MAC_S     stMac[MCSS_DEVS_EACH_MAX_MAC_NUM]; /* Ã¿¸öpid¶ÔÓ¦¶à¸öMACµØÖ· */
+    UINT32              uwNum;  /* Ã¿??PID?????Ãµ?MAC???? */
+    UINT32              uwPid;  /* ????ID */
+    MCSS_TYPE_MAC_S     stMac[MCSS_DEVS_EACH_MAX_MAC_NUM]; /* Ã¿??pid??Ó¦????MAC??Ö· */
 }MCSS_DEV_MAC_INFO_S;
 
 typedef struct tagMcssDevInfo
@@ -106,7 +111,7 @@ typedef struct tagBspCmd
 #pragma pack()
 
 /*----------------------------------------------*
- * ÄÚ²¿º¯ÊýÔ­ÐÍËµÃ÷                             *
+ * ?Ú²?????Ô­??Ëµ??                             *
  *----------------------------------------------*/
 INT32  MC_Init(void);
 INT32  MC_CommInitVm(void);
@@ -121,15 +126,15 @@ UINT32 MC_MmuShow(void);
 UINT32 SRE_GetCoreID(void);
 
 /*----------------------------------------------*
- * È«¾Ö±äÁ¿                                     *
+ * È«?Ö±?Á¿                                     *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * Ä£¿é¼¶±äÁ¿                                   *
+ * Ä£?é¼¶??Á¿                                   *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * ³£Á¿¶¨Òå                                     *
+ * ??Á¿????                                     *
  *----------------------------------------------*/
 
 #endif /*_UNIBSP_MOD_H*/

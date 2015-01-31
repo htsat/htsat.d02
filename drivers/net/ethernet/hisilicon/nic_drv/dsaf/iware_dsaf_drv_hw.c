@@ -1,10 +1,3 @@
-/*--------------------------------------------------------------------------------------------------------------------------*/
-/*!!Warning: This is a key information asset of Huawei Tech Co.,Ltd                                                         */
-/*CODEMARK:64z4jYnYa5t1KtRL8a/vnMxg4uGttU/wzF06xcyNtiEfsIe4UpyXkUSy93j7U7XZDdqx2rNx
-p+25Dla32ZW7osA9Q1ovzSUNJmwD2Lwb8CS3jj1e4NXnh+7DT2iIAuYHJTrgjUqp838S0X3Y
-kLe489NY00RmHFrcWUTviF/V5VlslDUJe7l/UVGLTI+V57J6JFEUkvm2xFHEF4Nmp7nh2qG5
-URiqSnsHDhkmgsdPF8RPR7VE67+Xj0z2JYSf3pp7cRvyl0F4iyRx+JFhz9bySQ==*/
-/*--------------------------------------------------------------------------------------------------------------------------*/
 /*******************************************************************************
 
   Hisilicon dsa fabric hal - support L2 switch

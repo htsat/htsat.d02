@@ -1,26 +1,19 @@
-/*--------------------------------------------------------------------------------------------------------------------------*/
-/*!!Warning: This is a key information asset of Huawei Tech Co.,Ltd                                                         */
-/*CODEMARK:kOyQZYzjDpyGdBAEC2GaWuVy7vy/wDnq7gJfHBOj2pBXFF9pJtpDLt9sw5WJiMsUkN5d7jr7
-aK5J3kmlnl+vpaISWHqOHbuE99WnZz8Urp0KNb0WWl+qRa4EjbbH6IvvJ8uAZ7aN4Vd0NGho
-uLjlYuOoFI7qbbSv+pGrmQZd2p+vvraTSUNhoxo1HN7RmTat5sOdsNViVvDbWAVqNe05Ke/b
-cFMyGOT741d0G9dovxshQzNBQQ9w0z82rrCcfBOoJZPdqrEbnhKv3S6fNEkaug==*/
-/*--------------------------------------------------------------------------------------------------------------------------*/
 /******************************************************************************
 
-                  °æÈ¨ËùÓÐ (C), 2011-2021, »ªÎª¼¼ÊõÓÐÏÞ¹«Ë¾
+                  ??È¨???? (C), 2011-2021, ??Îª???????Þ¹?Ë¾
 
  ******************************************************************************
-  ÎÄ ¼þ Ãû   : sre_sub_dsaf.h
-  °æ ±¾ ºÅ   : ³õ¸å
-  ×÷    Õß   : z00176027
-  Éú³ÉÈÕÆÚ   : 2013Äê10ÔÂ17ÈÕ
-  ×î½üÐÞ¸Ä   :
-  ¹¦ÄÜÃèÊö   : p660 dsaf×ÓÏµÍ³ ¸´Î»¼°½â¸´Î»Ïà¹ØÍ·ÎÄ¼þ
-  º¯ÊýÁÐ±í   :
-  ÐÞ¸ÄÀúÊ·   :
-  1.ÈÕ    ÆÚ   : 2013Äê10ÔÂ17ÈÕ
-    ×÷    Õß   : z00176027
-    ÐÞ¸ÄÄÚÈÝ   : ´´½¨ÎÄ¼þ
+  ?? ?? ??   : sre_sub_dsaf.h
+  ?? ?? ??   : ????
+  ??    ??   : z00176027
+  ????????   : 2013??10??17??
+  ?????Þ¸?   :
+  ????????   : p660 dsaf??ÏµÍ³ ??Î»???â¸´Î»????Í·?Ä¼?
+  ?????Ð±?   :
+  ?Þ¸???Ê·   :
+  1.??    ??   : 2013??10??17??
+    ??    ??   : z00176027
+    ?Þ¸?????   : ?????Ä¼?
 
 ******************************************************************************/
 #ifndef __C_SRE_SUB_DSAF_H__
@@ -38,34 +31,34 @@ cFMyGOT741d0G9dovxshQzNBQQ9w0z82rrCcfBOoJZPdqrEbnhKv3S6fNEkaug==*/
 
 
 /*----------------------------------------------*
- * Íâ²¿±äÁ¿ËµÃ÷                                 *
+ * ?â²¿??Á¿Ëµ??                                 *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * Íâ²¿º¯ÊýÔ­ÐÍËµÃ÷                             *
+ * ?â²¿????Ô­??Ëµ??                             *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * ÄÚ²¿º¯ÊýÔ­ÐÍËµÃ÷                             *
+ * ?Ú²?????Ô­??Ëµ??                             *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * È«¾Ö±äÁ¿                                     *
+ * È«?Ö±?Á¿                                     *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * Ä£¿é¼¶±äÁ¿                                   *
+ * Ä£?é¼¶??Á¿                                   *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * ³£Á¿¶¨Òå                                     *
+ * ??Á¿????                                     *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * ºê¶¨Òå                                       *
+ * ?ê¶¨??                                       *
  *----------------------------------------------*/
 
-    /* dsaf_subctrl Ä£¿é¼Ä´æÆ÷»ùµØÖ· */
+    /* dsaf_subctrl Ä£???Ä´???????Ö· */
 #define DSAF_SUB_BASE                             (0xC0000000)
 #define DSAF_SUB_BASE_SIZE                        (0x10000)
 
@@ -73,200 +66,200 @@ cFMyGOT741d0G9dovxshQzNBQQ9w0z82rrCcfBOoJZPdqrEbnhKv3S6fNEkaug==*/
 /*                      PHOSPHOR DSAF_SUB Registers' Definitions                            */
 /******************************************************************************/
 
-#define DSAF_SUB_SC_NT_SRAM_CLK_SEL_REG                (DSAF_SUB_BASE + 0x100)  /* Node TableÄ£¿éTCAM±ímemoryÊ±ÖÓ¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_CRG_CTRL0_REG              (DSAF_SUB_BASE + 0x180)  /* ÅäÖÃHILINK CRG */
-#define DSAF_SUB_SC_HILINK3_CRG_CTRL1_REG              (DSAF_SUB_BASE + 0x184)  /* ÅäÖÃHILINK CRG */
-#define DSAF_SUB_SC_HILINK3_CRG_CTRL2_REG              (DSAF_SUB_BASE + 0x188)  /* ÅäÖÃHILINK CRG */
-#define DSAF_SUB_SC_HILINK3_CRG_CTRL3_REG              (DSAF_SUB_BASE + 0x18C)  /* ÅäÖÃHILINK CRG */
-#define DSAF_SUB_SC_HILINK4_CRG_CTRL0_REG              (DSAF_SUB_BASE + 0x190)  /* ÅäÖÃHILINK CRG */
-#define DSAF_SUB_SC_HILINK4_CRG_CTRL1_REG              (DSAF_SUB_BASE + 0x194)  /* ÅäÖÃHILINK CRG */
-#define DSAF_SUB_SC_DSAF_CLK_EN_REG                    (DSAF_SUB_BASE + 0x300)  /* DSAFÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_DSAF_CLK_DIS_REG                   (DSAF_SUB_BASE + 0x304)  /* DSAFÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_NT_CLK_EN_REG                      (DSAF_SUB_BASE + 0x308)  /* NTÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_NT_CLK_DIS_REG                     (DSAF_SUB_BASE + 0x30C)  /* NTÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_XGE_CLK_EN_REG                     (DSAF_SUB_BASE + 0x310)  /* XGEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_XGE_CLK_DIS_REG                    (DSAF_SUB_BASE + 0x314)  /* XGEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_GE_CLK_EN_REG                      (DSAF_SUB_BASE + 0x318)  /* GEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_GE_CLK_DIS_REG                     (DSAF_SUB_BASE + 0x31C)  /* GEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_PPE_CLK_EN_REG                     (DSAF_SUB_BASE + 0x320)  /* PPEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_PPE_CLK_DIS_REG                    (DSAF_SUB_BASE + 0x324)  /* PPEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_ROCEE_CLK_EN_REG                   (DSAF_SUB_BASE + 0x328)  /* ROCEEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_ROCEE_CLK_DIS_REG                  (DSAF_SUB_BASE + 0x32C)  /* ROCEEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_CPU_CLK_EN_REG                     (DSAF_SUB_BASE + 0x330)  /* CPUÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_CPU_CLK_DIS_REG                    (DSAF_SUB_BASE + 0x334)  /* CPUÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SAS_CLK_EN_REG                     (DSAF_SUB_BASE + 0x338)  /* SASÊ±ÖÓÃÅ¿ØÐÅºÅ */
-#define DSAF_SUB_SC_SAS_CLK_DIS_REG                    (DSAF_SUB_BASE + 0x33C)  /* SASÊ±ÖÓÃÅ¿ØÐÅºÅ */
-#define DSAF_SUB_SC_ITS_CLK_EN_REG                     (DSAF_SUB_BASE + 0x340)  /* itsÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_ITS_CLK_DIS_REG                    (DSAF_SUB_BASE + 0x344)  /* itsÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SRAM_CLK_EN_REG                    (DSAF_SUB_BASE + 0x348)  /* SRAMÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SRAM_CLK_DIS_REG                   (DSAF_SUB_BASE + 0x34C)  /* SRAMÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_RCB_PPE_COM_CLK_EN_REG             (DSAF_SUB_BASE + 0x350)  /* RCB PPE¹«¹²Ê±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_RCB_PPE_COM_CLK_DIS_REG            (DSAF_SUB_BASE + 0x354)  /* RCB PPE¹«¹²Ê±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_TIMER_CLK_EN_REG                   (DSAF_SUB_BASE + 0x358)  /* TIMERÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_TIMER_CLK_DIS_REG                  (DSAF_SUB_BASE + 0x35C)  /* TIMERÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SLLC_CLK_EN_REG                    (DSAF_SUB_BASE + 0x360)  /* SLLC1Ê±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SLLC_CLK_DIS_REG                   (DSAF_SUB_BASE + 0x364)  /* SLLC1Ê±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_XBAR_RESET_REQ_REG                 (DSAF_SUB_BASE + 0xA00)  /* XBARÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_XBAR_RESET_DREQ_REG                (DSAF_SUB_BASE + 0xA04)  /* XBARÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_NT_RESET_REQ_REG                   (DSAF_SUB_BASE + 0xA08)  /* NTÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_NT_RESET_DREQ_REG                  (DSAF_SUB_BASE + 0xA0C)  /* NTÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_XGE_RESET_REQ_REG                  (DSAF_SUB_BASE + 0xA10)  /* XGEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_XGE_RESET_DREQ_REG                 (DSAF_SUB_BASE + 0xA14)  /* XGEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_GE_RESET_REQ0_REG                  (DSAF_SUB_BASE + 0xA18)  /* GEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷0 */
-#define DSAF_SUB_SC_GE_RESET_DREQ0_REG                 (DSAF_SUB_BASE + 0xA1C)  /* GEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷0 */
-#define DSAF_SUB_SC_GE_RESET_REQ1_REG                  (DSAF_SUB_BASE + 0xA20)  /* GEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷1 */
-#define DSAF_SUB_SC_GE_RESET_DREQ1_REG                 (DSAF_SUB_BASE + 0xA24)  /* GEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷1 */
-#define DSAF_SUB_SC_PPE_RESET_REQ_REG                  (DSAF_SUB_BASE + 0xA48)  /* PPEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_PPE_RESET_DREQ_REG                 (DSAF_SUB_BASE + 0xA4C)  /* PPEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_ROCEE_RESET_REQ_REG                (DSAF_SUB_BASE + 0xA50)  /* ROCEEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_ROCEE_RESET_DREQ_REG               (DSAF_SUB_BASE + 0xA54)  /* ROCEEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_CPU_RESET_REQ_REG                  (DSAF_SUB_BASE + 0xA58)  /* CPUÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_CPU_RESET_DREQ_REG                 (DSAF_SUB_BASE + 0xA5C)  /* CPUÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SAS_RESET_REQ_REG                  (DSAF_SUB_BASE + 0xA60)  /* SASÈí¸´Î»ÇëÇó */
-#define DSAF_SUB_SC_SAS_RESET_DREQ_REG                 (DSAF_SUB_BASE + 0xA64)  /* SAS³·ÏúÈí¸´Î»ÇëÇó */
-#define DSAF_SUB_SC_SLLC_TSVRX_RESET_REQ_REG           (DSAF_SUB_BASE + 0xA68)  /* SLLC TSVRXÍ¨µÀÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SLLC_TSVRX_RESET_DREQ_REG          (DSAF_SUB_BASE + 0xA6C)  /* SLLC TSVRXÍ¨µÀÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_ITS_RESET_REQ_REG                  (DSAF_SUB_BASE + 0xA70)  /* ITSÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_ITS_RESET_DREQ_REG                 (DSAF_SUB_BASE + 0xA74)  /* ITSÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SRAM_RESET_REQ_REG                 (DSAF_SUB_BASE + 0xA80)  /* SRAMÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SRAM_RESET_DREQ_REG                (DSAF_SUB_BASE + 0xA84)  /* SRAMÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_RCB_PPE_COM_RESET_REQ_REG          (DSAF_SUB_BASE + 0xA88)  /* RCB PPE¹«¹²Èí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_RCB_PPE_COM_RESET_DREQ_REG         (DSAF_SUB_BASE + 0xA8C)  /* RCB PPE¹«¹²Èí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_TIMER_RESET_REQ_REG                (DSAF_SUB_BASE + 0xA98)  /* TIMERÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_TIMER_RESET_DREQ_REG               (DSAF_SUB_BASE + 0xA9C)  /* TIMERÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SLLC_RESET_REQ_REG                 (DSAF_SUB_BASE + 0xAA0)  /* SLLC1Èí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SLLC_RESET_DREQ_REG                (DSAF_SUB_BASE + 0xAA4)  /* SLLC1Èí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_DISPATCH_DAW_EN_REG                (DSAF_SUB_BASE + 0x1000) /* dispatch daw enÅäÖÃ */
-#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY0_REG            (DSAF_SUB_BASE + 0x1004) /* dispatch dawÅäÖÃÕóÁÐ0 */
-#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY1_REG            (DSAF_SUB_BASE + 0x1008) /* dispatch dawÅäÖÃÕóÁÐ1 */
-#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY2_REG            (DSAF_SUB_BASE + 0x100C) /* dispatch dawÅäÖÃÕóÁÐ2 */
-#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY3_REG            (DSAF_SUB_BASE + 0x1010) /* dispatch dawÅäÖÃÕóÁÐ3 */
-#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY4_REG            (DSAF_SUB_BASE + 0x1014) /* dispatch dawÅäÖÃÕóÁÐ4 */
-#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY5_REG            (DSAF_SUB_BASE + 0x1018) /* dispatch dawÅäÖÃÕóÁÐ5 */
-#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY6_REG            (DSAF_SUB_BASE + 0x101C) /* dispatch dawÅäÖÃÕóÁÐ6 */
-#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY7_REG            (DSAF_SUB_BASE + 0x1020) /* dispatch dawÅäÖÃÕóÁÐ7 */
-#define DSAF_SUB_SC_DISPATCH_RETRY_CONTROL_REG         (DSAF_SUB_BASE + 0x1030) /* dispatch retry¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_DISPATCH_INTMASK_REG               (DSAF_SUB_BASE + 0x1100) /* dispatchµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_DISPATCH_RAWINT_REG                (DSAF_SUB_BASE + 0x1104) /* dispatchµÄÔ­Ê¼ÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_DISPATCH_INTSTAT_REG               (DSAF_SUB_BASE + 0x1108) /* dispatchµÄÆÁ±ÎºóµÄÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_DISPATCH_INTCLR_REG                (DSAF_SUB_BASE + 0x110C) /* dispatchµÄÖÐ¶ÏÇå³ý¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_DISPATCH_ERRSTAT_REG               (DSAF_SUB_BASE + 0x1110) /* dispatchµÄERR×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_REMAP_CTRL_REG                     (DSAF_SUB_BASE + 0x1200) /* subsysµÄÆô¶¯Remap¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SRAM_CTRL0_REG                     (DSAF_SUB_BASE + 0x2030) /* sram¿ØÖÆ¼Ä´æÆ÷0 */
-#define DSAF_SUB_SC_M3_CTRL_REG                        (DSAF_SUB_BASE + 0x2040) /* M3¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_REMAP_SRAM_ADDR_CTRL_REG           (DSAF_SUB_BASE + 0x2050) /* M3 remapµ½sramµÄµØÖ·ÅäÖÃ */
-#define DSAF_SUB_SC_LIGHT_MODULE_DETECT_EN_REG         (DSAF_SUB_BASE + 0x2060) /* ¹âÄ£¿éSDÐÅºÅ¼ì²âÊ¹ÄÜ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_TIMER_CLKEN_CTRL_REG               (DSAF_SUB_BASE + 0x2070) /* TIMERµÄclkenÉú³É¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_VMID_CTRL0_REG                     (DSAF_SUB_BASE + 0x20E0) /* M3 VMIDÅäÖÃ */
-#define DSAF_SUB_SC_ROCEE_VMID_REG                     (DSAF_SUB_BASE + 0x20E4) /* ROCEE VMIDÅäÖÃ */
-#define DSAF_SUB_SC_ITS_M3_INT_MUX_SEL_REG             (DSAF_SUB_BASE + 0x21F0) /* ¶ÔÖÐ¶ÏËÍµ½ITS»¹ÊÇM3£¬×öMUXÑ¡Ôñ */
+#define DSAF_SUB_SC_NT_SRAM_CLK_SEL_REG                (DSAF_SUB_BASE + 0x100)  /* Node TableÄ£??TCAM??memoryÊ±?Ó¿??Æ¼Ä´??? */
+#define DSAF_SUB_SC_HILINK3_CRG_CTRL0_REG              (DSAF_SUB_BASE + 0x180)  /* ????HILINK CRG */
+#define DSAF_SUB_SC_HILINK3_CRG_CTRL1_REG              (DSAF_SUB_BASE + 0x184)  /* ????HILINK CRG */
+#define DSAF_SUB_SC_HILINK3_CRG_CTRL2_REG              (DSAF_SUB_BASE + 0x188)  /* ????HILINK CRG */
+#define DSAF_SUB_SC_HILINK3_CRG_CTRL3_REG              (DSAF_SUB_BASE + 0x18C)  /* ????HILINK CRG */
+#define DSAF_SUB_SC_HILINK4_CRG_CTRL0_REG              (DSAF_SUB_BASE + 0x190)  /* ????HILINK CRG */
+#define DSAF_SUB_SC_HILINK4_CRG_CTRL1_REG              (DSAF_SUB_BASE + 0x194)  /* ????HILINK CRG */
+#define DSAF_SUB_SC_DSAF_CLK_EN_REG                    (DSAF_SUB_BASE + 0x300)  /* DSAFÊ±??Ê¹?Ü¼Ä´??? */
+#define DSAF_SUB_SC_DSAF_CLK_DIS_REG                   (DSAF_SUB_BASE + 0x304)  /* DSAFÊ±?Ó½?Ö¹?Ä´??? */
+#define DSAF_SUB_SC_NT_CLK_EN_REG                      (DSAF_SUB_BASE + 0x308)  /* NTÊ±??Ê¹?Ü¼Ä´??? */
+#define DSAF_SUB_SC_NT_CLK_DIS_REG                     (DSAF_SUB_BASE + 0x30C)  /* NTÊ±?Ó½?Ö¹?Ä´??? */
+#define DSAF_SUB_SC_XGE_CLK_EN_REG                     (DSAF_SUB_BASE + 0x310)  /* XGEÊ±??Ê¹?Ü¼Ä´??? */
+#define DSAF_SUB_SC_XGE_CLK_DIS_REG                    (DSAF_SUB_BASE + 0x314)  /* XGEÊ±?Ó½?Ö¹?Ä´??? */
+#define DSAF_SUB_SC_GE_CLK_EN_REG                      (DSAF_SUB_BASE + 0x318)  /* GEÊ±??Ê¹?Ü¼Ä´??? */
+#define DSAF_SUB_SC_GE_CLK_DIS_REG                     (DSAF_SUB_BASE + 0x31C)  /* GEÊ±?Ó½?Ö¹?Ä´??? */
+#define DSAF_SUB_SC_PPE_CLK_EN_REG                     (DSAF_SUB_BASE + 0x320)  /* PPEÊ±??Ê¹?Ü¼Ä´??? */
+#define DSAF_SUB_SC_PPE_CLK_DIS_REG                    (DSAF_SUB_BASE + 0x324)  /* PPEÊ±?Ó½?Ö¹?Ä´??? */
+#define DSAF_SUB_SC_ROCEE_CLK_EN_REG                   (DSAF_SUB_BASE + 0x328)  /* ROCEEÊ±??Ê¹?Ü¼Ä´??? */
+#define DSAF_SUB_SC_ROCEE_CLK_DIS_REG                  (DSAF_SUB_BASE + 0x32C)  /* ROCEEÊ±?Ó½?Ö¹?Ä´??? */
+#define DSAF_SUB_SC_CPU_CLK_EN_REG                     (DSAF_SUB_BASE + 0x330)  /* CPUÊ±??Ê¹?Ü¼Ä´??? */
+#define DSAF_SUB_SC_CPU_CLK_DIS_REG                    (DSAF_SUB_BASE + 0x334)  /* CPUÊ±?Ó½?Ö¹?Ä´??? */
+#define DSAF_SUB_SC_SAS_CLK_EN_REG                     (DSAF_SUB_BASE + 0x338)  /* SASÊ±???Å¿??Åº? */
+#define DSAF_SUB_SC_SAS_CLK_DIS_REG                    (DSAF_SUB_BASE + 0x33C)  /* SASÊ±???Å¿??Åº? */
+#define DSAF_SUB_SC_ITS_CLK_EN_REG                     (DSAF_SUB_BASE + 0x340)  /* itsÊ±??Ê¹?Ü¼Ä´??? */
+#define DSAF_SUB_SC_ITS_CLK_DIS_REG                    (DSAF_SUB_BASE + 0x344)  /* itsÊ±?Ó½?Ö¹?Ä´??? */
+#define DSAF_SUB_SC_SRAM_CLK_EN_REG                    (DSAF_SUB_BASE + 0x348)  /* SRAMÊ±??Ê¹?Ü¼Ä´??? */
+#define DSAF_SUB_SC_SRAM_CLK_DIS_REG                   (DSAF_SUB_BASE + 0x34C)  /* SRAMÊ±?Ó½?Ö¹?Ä´??? */
+#define DSAF_SUB_SC_RCB_PPE_COM_CLK_EN_REG             (DSAF_SUB_BASE + 0x350)  /* RCB PPE????Ê±??Ê¹?Ü¼Ä´??? */
+#define DSAF_SUB_SC_RCB_PPE_COM_CLK_DIS_REG            (DSAF_SUB_BASE + 0x354)  /* RCB PPE????Ê±?Ó½?Ö¹?Ä´??? */
+#define DSAF_SUB_SC_TIMER_CLK_EN_REG                   (DSAF_SUB_BASE + 0x358)  /* TIMERÊ±??Ê¹?Ü¼Ä´??? */
+#define DSAF_SUB_SC_TIMER_CLK_DIS_REG                  (DSAF_SUB_BASE + 0x35C)  /* TIMERÊ±?Ó½?Ö¹?Ä´??? */
+#define DSAF_SUB_SC_SLLC_CLK_EN_REG                    (DSAF_SUB_BASE + 0x360)  /* SLLC1Ê±??Ê¹?Ü¼Ä´??? */
+#define DSAF_SUB_SC_SLLC_CLK_DIS_REG                   (DSAF_SUB_BASE + 0x364)  /* SLLC1Ê±?Ó½?Ö¹?Ä´??? */
+#define DSAF_SUB_SC_XBAR_RESET_REQ_REG                 (DSAF_SUB_BASE + 0xA00)  /* XBAR?í¸´Î»???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_XBAR_RESET_DREQ_REG                (DSAF_SUB_BASE + 0xA04)  /* XBAR?í¸´Î»È¥???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_NT_RESET_REQ_REG                   (DSAF_SUB_BASE + 0xA08)  /* NT?í¸´Î»???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_NT_RESET_DREQ_REG                  (DSAF_SUB_BASE + 0xA0C)  /* NT?í¸´Î»È¥???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_XGE_RESET_REQ_REG                  (DSAF_SUB_BASE + 0xA10)  /* XGE?í¸´Î»???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_XGE_RESET_DREQ_REG                 (DSAF_SUB_BASE + 0xA14)  /* XGE?í¸´Î»È¥???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_GE_RESET_REQ0_REG                  (DSAF_SUB_BASE + 0xA18)  /* GE?í¸´Î»???????Æ¼Ä´???0 */
+#define DSAF_SUB_SC_GE_RESET_DREQ0_REG                 (DSAF_SUB_BASE + 0xA1C)  /* GE?í¸´Î»È¥???????Æ¼Ä´???0 */
+#define DSAF_SUB_SC_GE_RESET_REQ1_REG                  (DSAF_SUB_BASE + 0xA20)  /* GE?í¸´Î»???????Æ¼Ä´???1 */
+#define DSAF_SUB_SC_GE_RESET_DREQ1_REG                 (DSAF_SUB_BASE + 0xA24)  /* GE?í¸´Î»È¥???????Æ¼Ä´???1 */
+#define DSAF_SUB_SC_PPE_RESET_REQ_REG                  (DSAF_SUB_BASE + 0xA48)  /* PPE?í¸´Î»???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_PPE_RESET_DREQ_REG                 (DSAF_SUB_BASE + 0xA4C)  /* PPE?í¸´Î»È¥???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_ROCEE_RESET_REQ_REG                (DSAF_SUB_BASE + 0xA50)  /* ROCEE?í¸´Î»???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_ROCEE_RESET_DREQ_REG               (DSAF_SUB_BASE + 0xA54)  /* ROCEE?í¸´Î»È¥???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_CPU_RESET_REQ_REG                  (DSAF_SUB_BASE + 0xA58)  /* CPU?í¸´Î»???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_CPU_RESET_DREQ_REG                 (DSAF_SUB_BASE + 0xA5C)  /* CPU?í¸´Î»È¥???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_SAS_RESET_REQ_REG                  (DSAF_SUB_BASE + 0xA60)  /* SAS?í¸´Î»???? */
+#define DSAF_SUB_SC_SAS_RESET_DREQ_REG                 (DSAF_SUB_BASE + 0xA64)  /* SAS?????í¸´Î»???? */
+#define DSAF_SUB_SC_SLLC_TSVRX_RESET_REQ_REG           (DSAF_SUB_BASE + 0xA68)  /* SLLC TSVRXÍ¨???í¸´Î»???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_SLLC_TSVRX_RESET_DREQ_REG          (DSAF_SUB_BASE + 0xA6C)  /* SLLC TSVRXÍ¨???í¸´Î»???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_ITS_RESET_REQ_REG                  (DSAF_SUB_BASE + 0xA70)  /* ITS?í¸´Î»???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_ITS_RESET_DREQ_REG                 (DSAF_SUB_BASE + 0xA74)  /* ITS?í¸´Î»È¥???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_SRAM_RESET_REQ_REG                 (DSAF_SUB_BASE + 0xA80)  /* SRAM?í¸´Î»???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_SRAM_RESET_DREQ_REG                (DSAF_SUB_BASE + 0xA84)  /* SRAM?í¸´Î»È¥???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_RCB_PPE_COM_RESET_REQ_REG          (DSAF_SUB_BASE + 0xA88)  /* RCB PPE?????í¸´Î»???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_RCB_PPE_COM_RESET_DREQ_REG         (DSAF_SUB_BASE + 0xA8C)  /* RCB PPE?????í¸´Î»È¥???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_TIMER_RESET_REQ_REG                (DSAF_SUB_BASE + 0xA98)  /* TIMER?í¸´Î»???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_TIMER_RESET_DREQ_REG               (DSAF_SUB_BASE + 0xA9C)  /* TIMER?í¸´Î»È¥???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_SLLC_RESET_REQ_REG                 (DSAF_SUB_BASE + 0xAA0)  /* SLLC1?í¸´Î»???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_SLLC_RESET_DREQ_REG                (DSAF_SUB_BASE + 0xAA4)  /* SLLC1?í¸´Î»È¥???????Æ¼Ä´??? */
+#define DSAF_SUB_SC_DISPATCH_DAW_EN_REG                (DSAF_SUB_BASE + 0x1000) /* dispatch daw en???? */
+#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY0_REG            (DSAF_SUB_BASE + 0x1004) /* dispatch daw????????0 */
+#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY1_REG            (DSAF_SUB_BASE + 0x1008) /* dispatch daw????????1 */
+#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY2_REG            (DSAF_SUB_BASE + 0x100C) /* dispatch daw????????2 */
+#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY3_REG            (DSAF_SUB_BASE + 0x1010) /* dispatch daw????????3 */
+#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY4_REG            (DSAF_SUB_BASE + 0x1014) /* dispatch daw????????4 */
+#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY5_REG            (DSAF_SUB_BASE + 0x1018) /* dispatch daw????????5 */
+#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY6_REG            (DSAF_SUB_BASE + 0x101C) /* dispatch daw????????6 */
+#define DSAF_SUB_SC_DISPATCH_DAW_ARRAY7_REG            (DSAF_SUB_BASE + 0x1020) /* dispatch daw????????7 */
+#define DSAF_SUB_SC_DISPATCH_RETRY_CONTROL_REG         (DSAF_SUB_BASE + 0x1030) /* dispatch retry???Æ¼Ä´??? */
+#define DSAF_SUB_SC_DISPATCH_INTMASK_REG               (DSAF_SUB_BASE + 0x1100) /* dispatch???Ð¶??Á±Î¼Ä´??? */
+#define DSAF_SUB_SC_DISPATCH_RAWINT_REG                (DSAF_SUB_BASE + 0x1104) /* dispatch??Ô­Ê¼?Ð¶?×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_DISPATCH_INTSTAT_REG               (DSAF_SUB_BASE + 0x1108) /* dispatch???Á±Îº????Ð¶?×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_DISPATCH_INTCLR_REG                (DSAF_SUB_BASE + 0x110C) /* dispatch???Ð¶??????Ä´??? */
+#define DSAF_SUB_SC_DISPATCH_ERRSTAT_REG               (DSAF_SUB_BASE + 0x1110) /* dispatch??ERR×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_REMAP_CTRL_REG                     (DSAF_SUB_BASE + 0x1200) /* subsys??????Remap?Ä´??? */
+#define DSAF_SUB_SC_SRAM_CTRL0_REG                     (DSAF_SUB_BASE + 0x2030) /* sram???Æ¼Ä´???0 */
+#define DSAF_SUB_SC_M3_CTRL_REG                        (DSAF_SUB_BASE + 0x2040) /* M3???Æ¼Ä´??? */
+#define DSAF_SUB_SC_REMAP_SRAM_ADDR_CTRL_REG           (DSAF_SUB_BASE + 0x2050) /* M3 remap??sram?Äµ?Ö·???? */
+#define DSAF_SUB_SC_LIGHT_MODULE_DETECT_EN_REG         (DSAF_SUB_BASE + 0x2060) /* ??Ä£??SD?ÅºÅ¼???Ê¹?Ü¼Ä´??? */
+#define DSAF_SUB_SC_TIMER_CLKEN_CTRL_REG               (DSAF_SUB_BASE + 0x2070) /* TIMER??clken???É¿??Æ¼Ä´??? */
+#define DSAF_SUB_SC_VMID_CTRL0_REG                     (DSAF_SUB_BASE + 0x20E0) /* M3 VMID???? */
+#define DSAF_SUB_SC_ROCEE_VMID_REG                     (DSAF_SUB_BASE + 0x20E4) /* ROCEE VMID???? */
+#define DSAF_SUB_SC_ITS_M3_INT_MUX_SEL_REG             (DSAF_SUB_BASE + 0x21F0) /* ???Ð¶??Íµ?ITS????M3????MUXÑ¡?? */
 #define DSAF_SUB_SC_FTE_MUX_SEL_REG                    (DSAF_SUB_BASE + 0x2200)
-#define DSAF_SUB_SC_TCAM_MBIST_EN_REG                  (DSAF_SUB_BASE + 0x2300) /* DSAFÖÐTCAM MBISTÆô¶¯Ê¹ÄÜ¡£ */
-#define DSAF_SUB_SC_HILINK2_LRSTB_MUX_CTRL_REG         (DSAF_SUB_BASE + 0x2340) /* HILINK2 lrstb[7:0]µÄMUXÑ¡Ôñ¿ØÖÆ */
-#define DSAF_SUB_SC_HILINK2_MACRO_SS_REFCLK_REG        (DSAF_SUB_BASE + 0x2400) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK2_MACRO_CS_REFCLK_DIRSEL_REG (DSAF_SUB_BASE + 0x2404) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK2_MACRO_LIFECLK2DIG_SEL_REG  (DSAF_SUB_BASE + 0x2408) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK2_MACRO_CORE_CLK_SELEXT_REG  (DSAF_SUB_BASE + 0x240C) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK2_MACRO_CORE_CLK_SEL_REG     (DSAF_SUB_BASE + 0x2410) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK2_MACRO_CTRL_BUS_MODE_REG    (DSAF_SUB_BASE + 0x2414) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK2_MACRO_MACROPWRDB_REG       (DSAF_SUB_BASE + 0x2418) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK2_MACRO_GRSTB_REG            (DSAF_SUB_BASE + 0x241C) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK2_MACRO_BIT_SLIP_REG         (DSAF_SUB_BASE + 0x2420) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK2_MACRO_LRSTB_REG            (DSAF_SUB_BASE + 0x2424) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_MACRO_SS_REFCLK_REG        (DSAF_SUB_BASE + 0x2500) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_MACRO_CS_REFCLK_DIRSEL_REG (DSAF_SUB_BASE + 0x2504) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_MACRO_LIFECLK2DIG_SEL_REG  (DSAF_SUB_BASE + 0x2508) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_MACRO_CORE_CLK_SELEXT_REG  (DSAF_SUB_BASE + 0x250C) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_MACRO_CORE_CLK_SEL_REG     (DSAF_SUB_BASE + 0x2510) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_MACRO_CTRL_BUS_MODE_REG    (DSAF_SUB_BASE + 0x2514) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_MACRO_MACROPWRDB_REG       (DSAF_SUB_BASE + 0x2518) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_MACRO_GRSTB_REG            (DSAF_SUB_BASE + 0x251C) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_MACRO_BIT_SLIP_REG         (DSAF_SUB_BASE + 0x2520) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_MACRO_LRSTB_REG            (DSAF_SUB_BASE + 0x2524) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK4_MACRO_SS_REFCLK_REG        (DSAF_SUB_BASE + 0x2600) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK4_MACRO_CS_REFCLK_DIRSEL_REG (DSAF_SUB_BASE + 0x2604) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK4_MACRO_LIFECLK2DIG_SEL_REG  (DSAF_SUB_BASE + 0x2608) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK4_MACRO_CORE_CLK_SELEXT_REG  (DSAF_SUB_BASE + 0x260C) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK4_MACRO_CORE_CLK_SEL_REG     (DSAF_SUB_BASE + 0x2610) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK4_MACRO_CTRL_BUS_MODE_REG    (DSAF_SUB_BASE + 0x2614) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK4_MACRO_MACROPWRDB_REG       (DSAF_SUB_BASE + 0x2618) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK4_MACRO_GRSTB_REG            (DSAF_SUB_BASE + 0x261C) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK4_MACRO_BIT_SLIP_REG         (DSAF_SUB_BASE + 0x2620) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK4_MACRO_LRSTB_REG            (DSAF_SUB_BASE + 0x2624) /* HILINKÅäÖÃ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_M3_I_ADDR_H_REG                    (DSAF_SUB_BASE + 0x2E00) /* M3Ö¸ÁîÍ¨µÀ¸ß32Î»µØÖ·²¹³ä¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_M3_D_ADDR_H_REG                    (DSAF_SUB_BASE + 0x2E04) /* M3Êý¾ÝÍ¨µÀ¸ß32Î»µØÖ·²¹³ä¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_M3_S_ADDR_H_REG                    (DSAF_SUB_BASE + 0x2E08) /* M3ÍâÉèÍ¨µÀ¸ß32Î»µØÖ·²¹³ä¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SMMU_MEM_CTRL0_REG                 (DSAF_SUB_BASE + 0x3000) /* smmu mem¿ØÖÆ¼Ä´æÆ÷0 */
-#define DSAF_SUB_SC_SMMU_MEM_CTRL1_REG                 (DSAF_SUB_BASE + 0x3004) /* smmu mem¿ØÖÆ¼Ä´æÆ÷1 */
-#define DSAF_SUB_SC_SMMU_MEM_CTRL2_REG                 (DSAF_SUB_BASE + 0x3008) /* smmu mem¿ØÖÆ¼Ä´æÆ÷2 */
-#define DSAF_SUB_SC_SLLC1_MEM_CTRL_REG                 (DSAF_SUB_BASE + 0x3010) /* sllc1 mem¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SRAM_MEM_CTRL_REG                  (DSAF_SUB_BASE + 0x3020) /* sram mem¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_ROCEE_MEM_CTRL0_REG                (DSAF_SUB_BASE + 0x3030) /* rocee mem¿ØÖÆ¼Ä´æÆ÷0 */
-#define DSAF_SUB_SC_ROCEE_MEM_CTRL1_REG                (DSAF_SUB_BASE + 0x3034) /* rocee mem¿ØÖÆ¼Ä´æÆ÷1 */
-#define DSAF_SUB_SC_XGE_MEM_CTRL0_REG                  (DSAF_SUB_BASE + 0x3040) /* xge mem¿ØÖÆ¼Ä´æÆ÷0 */
-#define DSAF_SUB_SC_XGE_MEM_CTRL1_REG                  (DSAF_SUB_BASE + 0x3044) /* xge mem¿ØÖÆ¼Ä´æÆ÷1 */
-#define DSAF_SUB_SC_SAS_MEM_CTRL_REG                   (DSAF_SUB_BASE + 0x3050) /* sas mem¿ØÖÆ¼Ä´æÆ÷0 */
-#define DSAF_SUB_SC_GE_MEM_CTRL_REG                    (DSAF_SUB_BASE + 0x3060) /* ge mem¿ØÖÆ¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_XBAR_MEM_CTRL0_REG                 (DSAF_SUB_BASE + 0x3070) /* xbar mem¿ØÖÆ¼Ä´æÆ÷0 */
-#define DSAF_SUB_SC_XBAR_MEM_CTRL1_REG                 (DSAF_SUB_BASE + 0x3074) /* xbar mem¿ØÖÆ¼Ä´æÆ÷1 */
-#define DSAF_SUB_SC_RCB_MEM_CTRL0_REG                  (DSAF_SUB_BASE + 0x3080) /* rcb mem¿ØÖÆ¼Ä´æÆ÷0 */
-#define DSAF_SUB_SC_RCB_MEM_CTRL1_REG                  (DSAF_SUB_BASE + 0x3084) /* rcb mem¿ØÖÆ¼Ä´æÆ÷1 */
-#define DSAF_SUB_SC_DSAF_CLK_ST_REG                    (DSAF_SUB_BASE + 0x5300) /* DSAFÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_NT_CLK_ST_REG                      (DSAF_SUB_BASE + 0x5304) /* NTÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_XGE_CLK_ST_REG                     (DSAF_SUB_BASE + 0x5308) /* XGEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_GE_CLK_ST_REG                      (DSAF_SUB_BASE + 0x530C) /* GEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_PPE_CLK_ST_REG                     (DSAF_SUB_BASE + 0x5310) /* PPEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_ROCEE_CLK_ST_REG                   (DSAF_SUB_BASE + 0x5314) /* ROCEEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_CPU_CLK_ST_REG                     (DSAF_SUB_BASE + 0x5318) /* CPUÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SAS_CLK_ST_REG                     (DSAF_SUB_BASE + 0x531C) /* SASÊ±ÖÓÃÅ¿ØÐÅºÅ×´Ì¬ */
-#define DSAF_SUB_SC_ITS_CLK_ST_REG                     (DSAF_SUB_BASE + 0x5320) /* ITSÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SRAM_CLK_ST_REG                    (DSAF_SUB_BASE + 0x5324) /* SRAMÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_RCB_PPE_COM_CLK_ST_REG             (DSAF_SUB_BASE + 0x5328) /* RCB PPE¹«¹²Ê±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_TIMER_CLK_ST_REG                   (DSAF_SUB_BASE + 0x532C) /* TIMERÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SLLC_CLK_ST_REG                    (DSAF_SUB_BASE + 0x5330) /* SLLC1Ê±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_XBAR_RESET_ST_REG                  (DSAF_SUB_BASE + 0x5A00) /* DSAFÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_NT_RESET_ST_REG                    (DSAF_SUB_BASE + 0x5A04) /* NTÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_XGE_RESET_ST_REG                   (DSAF_SUB_BASE + 0x5A08) /* XGEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_GE_RESET_ST0_REG                   (DSAF_SUB_BASE + 0x5A0C) /* GEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷0 */
-#define DSAF_SUB_SC_GE_RESET_ST1_REG                   (DSAF_SUB_BASE + 0x5A10) /* GEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷1 */
-#define DSAF_SUB_SC_PPE_RESET_ST_REG                   (DSAF_SUB_BASE + 0x5A24) /* PPEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_ROCEE_RESET_ST_REG                 (DSAF_SUB_BASE + 0x5A28) /* ROCEEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_CPU_RESET_ST_REG                   (DSAF_SUB_BASE + 0x5A2C) /* CPUÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SAS_RESET_ST_REG                   (DSAF_SUB_BASE + 0x5A30) /* SASÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SLLC_TSVRX_RESET_ST_REG            (DSAF_SUB_BASE + 0x5A34) /* ÎªSLLC TSVRXÍ¨µÀÈí¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_ITS_RESET_ST_REG                   (DSAF_SUB_BASE + 0x5A38) /* ITSÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SRAM_RESET_ST_REG                  (DSAF_SUB_BASE + 0x5A40) /* SRAMÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_RCB_PPE_COM_RESET_ST_REG           (DSAF_SUB_BASE + 0x5A44) /* RCB PPE¹«¹²Èí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_TIMER_RESET_ST_REG                 (DSAF_SUB_BASE + 0x5A4C) /* TIMER¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SLLC_RESET_ST_REG                  (DSAF_SUB_BASE + 0x5A50) /* SLLC1¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_SRAM_ST0_REG                       (DSAF_SUB_BASE + 0x6000) /* sram×´Ì¬¼Ä´æÆ÷0 */
-#define DSAF_SUB_SC_SRAM_ST1_REG                       (DSAF_SUB_BASE + 0x6004) /* sram×´Ì¬¼Ä´æÆ÷1 */
-#define DSAF_SUB_SC_SRAM_ST2_REG                       (DSAF_SUB_BASE + 0x6008) /* sram×´Ì¬¼Ä´æÆ÷2 */
-#define DSAF_SUB_SC_SRAM_ST3_REG                       (DSAF_SUB_BASE + 0x600C) /* sram×´Ì¬¼Ä´æÆ÷3 */
-#define DSAF_SUB_SC_SRAM_ST4_REG                       (DSAF_SUB_BASE + 0x6010) /* sram×´Ì¬¼Ä´æÆ÷4 */
-#define DSAF_SUB_SC_SRAM_ST5_REG                       (DSAF_SUB_BASE + 0x6014) /* sram×´Ì¬¼Ä´æÆ÷5 */
+#define DSAF_SUB_SC_TCAM_MBIST_EN_REG                  (DSAF_SUB_BASE + 0x2300) /* DSAF??TCAM MBIST????Ê¹?Ü¡? */
+#define DSAF_SUB_SC_HILINK2_LRSTB_MUX_CTRL_REG         (DSAF_SUB_BASE + 0x2340) /* HILINK2 lrstb[7:0]??MUXÑ¡?????? */
+#define DSAF_SUB_SC_HILINK2_MACRO_SS_REFCLK_REG        (DSAF_SUB_BASE + 0x2400) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK2_MACRO_CS_REFCLK_DIRSEL_REG (DSAF_SUB_BASE + 0x2404) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK2_MACRO_LIFECLK2DIG_SEL_REG  (DSAF_SUB_BASE + 0x2408) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK2_MACRO_CORE_CLK_SELEXT_REG  (DSAF_SUB_BASE + 0x240C) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK2_MACRO_CORE_CLK_SEL_REG     (DSAF_SUB_BASE + 0x2410) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK2_MACRO_CTRL_BUS_MODE_REG    (DSAF_SUB_BASE + 0x2414) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK2_MACRO_MACROPWRDB_REG       (DSAF_SUB_BASE + 0x2418) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK2_MACRO_GRSTB_REG            (DSAF_SUB_BASE + 0x241C) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK2_MACRO_BIT_SLIP_REG         (DSAF_SUB_BASE + 0x2420) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK2_MACRO_LRSTB_REG            (DSAF_SUB_BASE + 0x2424) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK3_MACRO_SS_REFCLK_REG        (DSAF_SUB_BASE + 0x2500) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK3_MACRO_CS_REFCLK_DIRSEL_REG (DSAF_SUB_BASE + 0x2504) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK3_MACRO_LIFECLK2DIG_SEL_REG  (DSAF_SUB_BASE + 0x2508) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK3_MACRO_CORE_CLK_SELEXT_REG  (DSAF_SUB_BASE + 0x250C) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK3_MACRO_CORE_CLK_SEL_REG     (DSAF_SUB_BASE + 0x2510) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK3_MACRO_CTRL_BUS_MODE_REG    (DSAF_SUB_BASE + 0x2514) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK3_MACRO_MACROPWRDB_REG       (DSAF_SUB_BASE + 0x2518) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK3_MACRO_GRSTB_REG            (DSAF_SUB_BASE + 0x251C) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK3_MACRO_BIT_SLIP_REG         (DSAF_SUB_BASE + 0x2520) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK3_MACRO_LRSTB_REG            (DSAF_SUB_BASE + 0x2524) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK4_MACRO_SS_REFCLK_REG        (DSAF_SUB_BASE + 0x2600) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK4_MACRO_CS_REFCLK_DIRSEL_REG (DSAF_SUB_BASE + 0x2604) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK4_MACRO_LIFECLK2DIG_SEL_REG  (DSAF_SUB_BASE + 0x2608) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK4_MACRO_CORE_CLK_SELEXT_REG  (DSAF_SUB_BASE + 0x260C) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK4_MACRO_CORE_CLK_SEL_REG     (DSAF_SUB_BASE + 0x2610) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK4_MACRO_CTRL_BUS_MODE_REG    (DSAF_SUB_BASE + 0x2614) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK4_MACRO_MACROPWRDB_REG       (DSAF_SUB_BASE + 0x2618) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK4_MACRO_GRSTB_REG            (DSAF_SUB_BASE + 0x261C) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK4_MACRO_BIT_SLIP_REG         (DSAF_SUB_BASE + 0x2620) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_HILINK4_MACRO_LRSTB_REG            (DSAF_SUB_BASE + 0x2624) /* HILINK???Ã¼Ä´??? */
+#define DSAF_SUB_SC_M3_I_ADDR_H_REG                    (DSAF_SUB_BASE + 0x2E00) /* M3Ö¸??Í¨?À¸?32Î»??Ö·?????Ä´??? */
+#define DSAF_SUB_SC_M3_D_ADDR_H_REG                    (DSAF_SUB_BASE + 0x2E04) /* M3????Í¨?À¸?32Î»??Ö·?????Ä´??? */
+#define DSAF_SUB_SC_M3_S_ADDR_H_REG                    (DSAF_SUB_BASE + 0x2E08) /* M3????Í¨?À¸?32Î»??Ö·?????Ä´??? */
+#define DSAF_SUB_SC_SMMU_MEM_CTRL0_REG                 (DSAF_SUB_BASE + 0x3000) /* smmu mem???Æ¼Ä´???0 */
+#define DSAF_SUB_SC_SMMU_MEM_CTRL1_REG                 (DSAF_SUB_BASE + 0x3004) /* smmu mem???Æ¼Ä´???1 */
+#define DSAF_SUB_SC_SMMU_MEM_CTRL2_REG                 (DSAF_SUB_BASE + 0x3008) /* smmu mem???Æ¼Ä´???2 */
+#define DSAF_SUB_SC_SLLC1_MEM_CTRL_REG                 (DSAF_SUB_BASE + 0x3010) /* sllc1 mem???Æ¼Ä´??? */
+#define DSAF_SUB_SC_SRAM_MEM_CTRL_REG                  (DSAF_SUB_BASE + 0x3020) /* sram mem???Æ¼Ä´??? */
+#define DSAF_SUB_SC_ROCEE_MEM_CTRL0_REG                (DSAF_SUB_BASE + 0x3030) /* rocee mem???Æ¼Ä´???0 */
+#define DSAF_SUB_SC_ROCEE_MEM_CTRL1_REG                (DSAF_SUB_BASE + 0x3034) /* rocee mem???Æ¼Ä´???1 */
+#define DSAF_SUB_SC_XGE_MEM_CTRL0_REG                  (DSAF_SUB_BASE + 0x3040) /* xge mem???Æ¼Ä´???0 */
+#define DSAF_SUB_SC_XGE_MEM_CTRL1_REG                  (DSAF_SUB_BASE + 0x3044) /* xge mem???Æ¼Ä´???1 */
+#define DSAF_SUB_SC_SAS_MEM_CTRL_REG                   (DSAF_SUB_BASE + 0x3050) /* sas mem???Æ¼Ä´???0 */
+#define DSAF_SUB_SC_GE_MEM_CTRL_REG                    (DSAF_SUB_BASE + 0x3060) /* ge mem???Æ¼Ä´??? */
+#define DSAF_SUB_SC_XBAR_MEM_CTRL0_REG                 (DSAF_SUB_BASE + 0x3070) /* xbar mem???Æ¼Ä´???0 */
+#define DSAF_SUB_SC_XBAR_MEM_CTRL1_REG                 (DSAF_SUB_BASE + 0x3074) /* xbar mem???Æ¼Ä´???1 */
+#define DSAF_SUB_SC_RCB_MEM_CTRL0_REG                  (DSAF_SUB_BASE + 0x3080) /* rcb mem???Æ¼Ä´???0 */
+#define DSAF_SUB_SC_RCB_MEM_CTRL1_REG                  (DSAF_SUB_BASE + 0x3084) /* rcb mem???Æ¼Ä´???1 */
+#define DSAF_SUB_SC_DSAF_CLK_ST_REG                    (DSAF_SUB_BASE + 0x5300) /* DSAFÊ±??×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_NT_CLK_ST_REG                      (DSAF_SUB_BASE + 0x5304) /* NTÊ±??×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_XGE_CLK_ST_REG                     (DSAF_SUB_BASE + 0x5308) /* XGEÊ±??×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_GE_CLK_ST_REG                      (DSAF_SUB_BASE + 0x530C) /* GEÊ±??×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_PPE_CLK_ST_REG                     (DSAF_SUB_BASE + 0x5310) /* PPEÊ±??×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_ROCEE_CLK_ST_REG                   (DSAF_SUB_BASE + 0x5314) /* ROCEEÊ±??×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_CPU_CLK_ST_REG                     (DSAF_SUB_BASE + 0x5318) /* CPUÊ±??×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_SAS_CLK_ST_REG                     (DSAF_SUB_BASE + 0x531C) /* SASÊ±???Å¿??Åº?×´Ì¬ */
+#define DSAF_SUB_SC_ITS_CLK_ST_REG                     (DSAF_SUB_BASE + 0x5320) /* ITSÊ±??×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_SRAM_CLK_ST_REG                    (DSAF_SUB_BASE + 0x5324) /* SRAMÊ±??×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_RCB_PPE_COM_CLK_ST_REG             (DSAF_SUB_BASE + 0x5328) /* RCB PPE????Ê±??×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_TIMER_CLK_ST_REG                   (DSAF_SUB_BASE + 0x532C) /* TIMERÊ±??×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_SLLC_CLK_ST_REG                    (DSAF_SUB_BASE + 0x5330) /* SLLC1Ê±??×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_XBAR_RESET_ST_REG                  (DSAF_SUB_BASE + 0x5A00) /* DSAF?í¸´Î»????×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_NT_RESET_ST_REG                    (DSAF_SUB_BASE + 0x5A04) /* NT?í¸´Î»????×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_XGE_RESET_ST_REG                   (DSAF_SUB_BASE + 0x5A08) /* XGE?í¸´Î»????×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_GE_RESET_ST0_REG                   (DSAF_SUB_BASE + 0x5A0C) /* GE?í¸´Î»????×´Ì¬?Ä´???0 */
+#define DSAF_SUB_SC_GE_RESET_ST1_REG                   (DSAF_SUB_BASE + 0x5A10) /* GE?í¸´Î»????×´Ì¬?Ä´???1 */
+#define DSAF_SUB_SC_PPE_RESET_ST_REG                   (DSAF_SUB_BASE + 0x5A24) /* PPE?í¸´Î»????×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_ROCEE_RESET_ST_REG                 (DSAF_SUB_BASE + 0x5A28) /* ROCEE?í¸´Î»????×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_CPU_RESET_ST_REG                   (DSAF_SUB_BASE + 0x5A2C) /* CPU?í¸´Î»????×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_SAS_RESET_ST_REG                   (DSAF_SUB_BASE + 0x5A30) /* SAS?í¸´Î»????×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_SLLC_TSVRX_RESET_ST_REG            (DSAF_SUB_BASE + 0x5A34) /* ÎªSLLC TSVRXÍ¨???í¸´Î»×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_ITS_RESET_ST_REG                   (DSAF_SUB_BASE + 0x5A38) /* ITS?í¸´Î»????×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_SRAM_RESET_ST_REG                  (DSAF_SUB_BASE + 0x5A40) /* SRAM?í¸´Î»????×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_RCB_PPE_COM_RESET_ST_REG           (DSAF_SUB_BASE + 0x5A44) /* RCB PPE?????í¸´Î»????×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_TIMER_RESET_ST_REG                 (DSAF_SUB_BASE + 0x5A4C) /* TIMER??Î»×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_SLLC_RESET_ST_REG                  (DSAF_SUB_BASE + 0x5A50) /* SLLC1??Î»×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_SRAM_ST0_REG                       (DSAF_SUB_BASE + 0x6000) /* sram×´Ì¬?Ä´???0 */
+#define DSAF_SUB_SC_SRAM_ST1_REG                       (DSAF_SUB_BASE + 0x6004) /* sram×´Ì¬?Ä´???1 */
+#define DSAF_SUB_SC_SRAM_ST2_REG                       (DSAF_SUB_BASE + 0x6008) /* sram×´Ì¬?Ä´???2 */
+#define DSAF_SUB_SC_SRAM_ST3_REG                       (DSAF_SUB_BASE + 0x600C) /* sram×´Ì¬?Ä´???3 */
+#define DSAF_SUB_SC_SRAM_ST4_REG                       (DSAF_SUB_BASE + 0x6010) /* sram×´Ì¬?Ä´???4 */
+#define DSAF_SUB_SC_SRAM_ST5_REG                       (DSAF_SUB_BASE + 0x6014) /* sram×´Ì¬?Ä´???5 */
 #define DSAF_SUB_SC_M3_STAT_REG                        (DSAF_SUB_BASE + 0x6100)
-#define DSAF_SUB_SC_TCAM_MBIST_ST_REG                  (DSAF_SUB_BASE + 0x6300) /* DSAFÖÐTCAM MBIST²âÊÔ½á¹û×´Ì¬ */
-#define DSAF_SUB_SC_GE_ST_REG                          (DSAF_SUB_BASE + 0x6380) /* DSAFÖÐGEµÄ¹¤×÷×´Ì¬Ö¸Ê¾ */
-#define DSAF_SUB_SC_XGE_ST_REG                         (DSAF_SUB_BASE + 0x6390) /* DSAFÖÐXGEµÄ¹¤×÷×´Ì¬Ö¸Ê¾ */
-#define DSAF_SUB_SC_HILINK2_MACRO_PLLOUTOFLOCK_REG     (DSAF_SUB_BASE + 0x6400) /* HILINK×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK2_MACRO_PRBS_ERR_REG         (DSAF_SUB_BASE + 0x6404) /* HILINK×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK2_MACRO_LOS_REG              (DSAF_SUB_BASE + 0x6408) /* HILINK×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_MACRO_PLLOUTOFLOCK_REG     (DSAF_SUB_BASE + 0x6500) /* HILINK×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_MACRO_PRBS_ERR_REG         (DSAF_SUB_BASE + 0x6504) /* HILINK×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK3_MACRO_LOS_REG              (DSAF_SUB_BASE + 0x6508) /* HILINK×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK4_MACRO_PLLOUTOFLOCK_REG     (DSAF_SUB_BASE + 0x6600) /* HILINK×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK4_MACRO_PRBS_ERR_REG         (DSAF_SUB_BASE + 0x6604) /* HILINK×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_HILINK4_MACRO_LOS_REG              (DSAF_SUB_BASE + 0x6608) /* HILINK×´Ì¬¼Ä´æÆ÷ */
-#define DSAF_SUB_SC_ECO_RSV0_REG                       (DSAF_SUB_BASE + 0x8000) /* ECO ¼Ä´æÆ÷0 */
-#define DSAF_SUB_SC_ECO_RSV1_REG                       (DSAF_SUB_BASE + 0x8004) /* ECO ¼Ä´æÆ÷1 */
-#define DSAF_SUB_SC_ECO_RSV2_REG                       (DSAF_SUB_BASE + 0x8008) /* ECO ¼Ä´æÆ÷2 */
+#define DSAF_SUB_SC_TCAM_MBIST_ST_REG                  (DSAF_SUB_BASE + 0x6300) /* DSAF??TCAM MBIST???Ô½???×´Ì¬ */
+#define DSAF_SUB_SC_GE_ST_REG                          (DSAF_SUB_BASE + 0x6380) /* DSAF??GE?Ä¹???×´Ì¬Ö¸Ê¾ */
+#define DSAF_SUB_SC_XGE_ST_REG                         (DSAF_SUB_BASE + 0x6390) /* DSAF??XGE?Ä¹???×´Ì¬Ö¸Ê¾ */
+#define DSAF_SUB_SC_HILINK2_MACRO_PLLOUTOFLOCK_REG     (DSAF_SUB_BASE + 0x6400) /* HILINK×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_HILINK2_MACRO_PRBS_ERR_REG         (DSAF_SUB_BASE + 0x6404) /* HILINK×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_HILINK2_MACRO_LOS_REG              (DSAF_SUB_BASE + 0x6408) /* HILINK×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_HILINK3_MACRO_PLLOUTOFLOCK_REG     (DSAF_SUB_BASE + 0x6500) /* HILINK×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_HILINK3_MACRO_PRBS_ERR_REG         (DSAF_SUB_BASE + 0x6504) /* HILINK×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_HILINK3_MACRO_LOS_REG              (DSAF_SUB_BASE + 0x6508) /* HILINK×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_HILINK4_MACRO_PLLOUTOFLOCK_REG     (DSAF_SUB_BASE + 0x6600) /* HILINK×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_HILINK4_MACRO_PRBS_ERR_REG         (DSAF_SUB_BASE + 0x6604) /* HILINK×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_HILINK4_MACRO_LOS_REG              (DSAF_SUB_BASE + 0x6608) /* HILINK×´Ì¬?Ä´??? */
+#define DSAF_SUB_SC_ECO_RSV0_REG                       (DSAF_SUB_BASE + 0x8000) /* ECO ?Ä´???0 */
+#define DSAF_SUB_SC_ECO_RSV1_REG                       (DSAF_SUB_BASE + 0x8004) /* ECO ?Ä´???1 */
+#define DSAF_SUB_SC_ECO_RSV2_REG                       (DSAF_SUB_BASE + 0x8008) /* ECO ?Ä´???2 */
 
 
 #if(ENDNESS == ENDNESS_BIG)
 
 /* Define the union U_SC_NT_SRAM_CLK_SEL_U */
-/* Node TableÄ£¿éTCAM±ímemoryÊ±ÖÓ¿ØÖÆ¼Ä´æÆ÷ */
+/* Node TableÄ£??TCAM??memoryÊ±?Ó¿??Æ¼Ä´??? */
 /* 0x100 */
 typedef union tagScNtSramClkSel
 {
@@ -283,7 +276,7 @@ typedef union tagScNtSramClkSel
 } SC_NT_SRAM_CLK_SEL_U;
 
 /* Define the union U_SC_HILINK3_CRG_CTRL0_U */
-/* ÅäÖÃHILINK CRG */
+/* ????HILINK CRG */
 /* 0x180 */
 typedef union tagScHilink3CrgCtrl0
 {
@@ -300,7 +293,7 @@ typedef union tagScHilink3CrgCtrl0
 } SC_HILINK3_CRG_CTRL0_U;
 
 /* Define the union U_SC_HILINK3_CRG_CTRL1_U */
-/* ÅäÖÃHILINK CRG */
+/* ????HILINK CRG */
 /* 0x184 */
 typedef union tagScHilink3CrgCtrl1
 {
@@ -317,7 +310,7 @@ typedef union tagScHilink3CrgCtrl1
 } SC_HILINK3_CRG_CTRL1_U;
 
 /* Define the union U_SC_HILINK3_CRG_CTRL2_U */
-/* ÅäÖÃHILINK CRG */
+/* ????HILINK CRG */
 /* 0x188 */
 typedef union tagScHilink3CrgCtrl2
 {
@@ -334,7 +327,7 @@ typedef union tagScHilink3CrgCtrl2
 } SC_HILINK3_CRG_CTRL2_U;
 
 /* Define the union U_SC_HILINK3_CRG_CTRL3_U */
-/* ÅäÖÃHILINK CRG */
+/* ????HILINK CRG */
 /* 0x18C */
 typedef union tagScHilink3CrgCtrl3
 {
@@ -351,7 +344,7 @@ typedef union tagScHilink3CrgCtrl3
 } SC_HILINK3_CRG_CTRL3_U;
 
 /* Define the union U_SC_HILINK4_CRG_CTRL0_U */
-/* ÅäÖÃHILINK CRG */
+/* ????HILINK CRG */
 /* 0x190 */
 typedef union tagScHilink4CrgCtrl0
 {
@@ -368,7 +361,7 @@ typedef union tagScHilink4CrgCtrl0
 } SC_HILINK4_CRG_CTRL0_U;
 
 /* Define the union U_SC_HILINK4_CRG_CTRL1_U */
-/* ÅäÖÃHILINK CRG */
+/* ????HILINK CRG */
 /* 0x194 */
 typedef union tagScHilink4CrgCtrl1
 {
@@ -385,7 +378,7 @@ typedef union tagScHilink4CrgCtrl1
 } SC_HILINK4_CRG_CTRL1_U;
 
 /* Define the union U_SC_DSAF_CLK_EN_U */
-/* DSAFÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* DSAFÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x300 */
 typedef union tagScDsafClkEn
 {
@@ -412,7 +405,7 @@ typedef union tagScDsafClkEn
 } SC_DSAF_CLK_EN_U;
 
 /* Define the union U_SC_DSAF_CLK_DIS_U */
-/* DSAFÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* DSAFÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x304 */
 typedef union tagScDsafClkDis
 {
@@ -439,7 +432,7 @@ typedef union tagScDsafClkDis
 } SC_DSAF_CLK_DIS_U;
 
 /* Define the union U_SC_NT_CLK_EN_U */
-/* NTÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* NTÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x308 */
 typedef union tagScNtClkEn
 {
@@ -456,7 +449,7 @@ typedef union tagScNtClkEn
 } SC_NT_CLK_EN_U;
 
 /* Define the union U_SC_NT_CLK_DIS_U */
-/* NTÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* NTÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x30C */
 typedef union tagScNtClkDis
 {
@@ -473,7 +466,7 @@ typedef union tagScNtClkDis
 } SC_NT_CLK_DIS_U;
 
 /* Define the union U_SC_XGE_CLK_EN_U */
-/* XGEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* XGEÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x310 */
 typedef union tagScXgeClkEn
 {
@@ -502,7 +495,7 @@ typedef union tagScXgeClkEn
 } SC_XGE_CLK_EN_U;
 
 /* Define the union U_SC_XGE_CLK_DIS_U */
-/* XGEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* XGEÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x314 */
 typedef union tagScXgeClkDis
 {
@@ -531,7 +524,7 @@ typedef union tagScXgeClkDis
 } SC_XGE_CLK_DIS_U;
 
 /* Define the union U_SC_GE_CLK_EN_U */
-/* GEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* GEÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x318 */
 typedef union tagScGeClkEn
 {
@@ -578,7 +571,7 @@ typedef union tagScGeClkEn
 } SC_GE_CLK_EN_U;
 
 /* Define the union U_SC_GE_CLK_DIS_U */
-/* GEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* GEÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x31C */
 typedef union tagScGeClkDis
 {
@@ -625,7 +618,7 @@ typedef union tagScGeClkDis
 } SC_GE_CLK_DIS_U;
 
 /* Define the union U_SC_PPE_CLK_EN_U */
-/* PPEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* PPEÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x320 */
 typedef union tagScPpeClkEn
 {
@@ -649,7 +642,7 @@ typedef union tagScPpeClkEn
 } SC_PPE_CLK_EN_U;
 
 /* Define the union U_SC_PPE_CLK_DIS_U */
-/* PPEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* PPEÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x324 */
 typedef union tagScPpeClkDis
 {
@@ -673,7 +666,7 @@ typedef union tagScPpeClkDis
 } SC_PPE_CLK_DIS_U;
 
 /* Define the union U_SC_ROCEE_CLK_EN_U */
-/* ROCEEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* ROCEEÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x328 */
 typedef union tagScRoceeClkEn
 {
@@ -695,7 +688,7 @@ typedef union tagScRoceeClkEn
 } SC_ROCEE_CLK_EN_U;
 
 /* Define the union U_SC_ROCEE_CLK_DIS_U */
-/* ROCEEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* ROCEEÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x32C */
 typedef union tagScRoceeClkDis
 {
@@ -717,7 +710,7 @@ typedef union tagScRoceeClkDis
 } SC_ROCEE_CLK_DIS_U;
 
 /* Define the union U_SC_CPU_CLK_EN_U */
-/* CPUÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* CPUÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x330 */
 typedef union tagScCpuClkEn
 {
@@ -734,7 +727,7 @@ typedef union tagScCpuClkEn
 } SC_CPU_CLK_EN_U;
 
 /* Define the union U_SC_CPU_CLK_DIS_U */
-/* CPUÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* CPUÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x334 */
 typedef union tagScCpuClkDis
 {
@@ -751,7 +744,7 @@ typedef union tagScCpuClkDis
 } SC_CPU_CLK_DIS_U;
 
 /* Define the union U_SC_SAS_CLK_EN_U */
-/* SASÊ±ÖÓÃÅ¿ØÐÅºÅ */
+/* SASÊ±???Å¿??Åº? */
 /* 0x338 */
 typedef union tagScSasClkEn
 {
@@ -787,7 +780,7 @@ typedef union tagScSasClkEn
 } SC_SAS_CLK_EN_U;
 
 /* Define the union U_SC_SAS_CLK_DIS_U */
-/* SASÊ±ÖÓÃÅ¿ØÐÅºÅ */
+/* SASÊ±???Å¿??Åº? */
 /* 0x33C */
 typedef union tagScSasClkDis
 {
@@ -823,7 +816,7 @@ typedef union tagScSasClkDis
 } SC_SAS_CLK_DIS_U;
 
 /* Define the union U_SC_ITS_CLK_EN_U */
-/* itsÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* itsÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x340 */
 typedef union tagScItsClkEn
 {
@@ -840,7 +833,7 @@ typedef union tagScItsClkEn
 } SC_ITS_CLK_EN_U;
 
 /* Define the union U_SC_ITS_CLK_DIS_U */
-/* itsÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* itsÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x344 */
 typedef union tagScItsClkDis
 {
@@ -857,7 +850,7 @@ typedef union tagScItsClkDis
 } SC_ITS_CLK_DIS_U;
 
 /* Define the union U_SC_SRAM_CLK_EN_U */
-/* SRAMÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* SRAMÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x348 */
 typedef union tagScSramClkEn
 {
@@ -874,7 +867,7 @@ typedef union tagScSramClkEn
 } SC_SRAM_CLK_EN_U;
 
 /* Define the union U_SC_SRAM_CLK_DIS_U */
-/* SRAMÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* SRAMÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x34C */
 typedef union tagScSramClkDis
 {
@@ -891,7 +884,7 @@ typedef union tagScSramClkDis
 } SC_SRAM_CLK_DIS_U;
 
 /* Define the union U_SC_RCB_PPE_COM_CLK_EN_U */
-/* RCB PPE¹«¹²Ê±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* RCB PPE????Ê±??Ê¹?Ü¼Ä´??? */
 /* 0x350 */
 typedef union tagScRcbPpeComClkEn
 {
@@ -908,7 +901,7 @@ typedef union tagScRcbPpeComClkEn
 } SC_RCB_PPE_COM_CLK_EN_U;
 
 /* Define the union U_SC_RCB_PPE_COM_CLK_DIS_U */
-/* RCB PPE¹«¹²Ê±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* RCB PPE????Ê±?Ó½?Ö¹?Ä´??? */
 /* 0x354 */
 typedef union tagScRcbPpeComClkDis
 {
@@ -925,7 +918,7 @@ typedef union tagScRcbPpeComClkDis
 } SC_RCB_PPE_COM_CLK_DIS_U;
 
 /* Define the union U_SC_TIMER_CLK_EN_U */
-/* TIMERÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* TIMERÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x358 */
 typedef union tagScTimerClkEn
 {
@@ -942,7 +935,7 @@ typedef union tagScTimerClkEn
 } SC_TIMER_CLK_EN_U;
 
 /* Define the union U_SC_TIMER_CLK_DIS_U */
-/* TIMERÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* TIMERÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x35C */
 typedef union tagScTimerClkDis
 {
@@ -959,7 +952,7 @@ typedef union tagScTimerClkDis
 } SC_TIMER_CLK_DIS_U;
 
 /* Define the union U_SC_SLLC_CLK_EN_U */
-/* SLLC1Ê±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* SLLC1Ê±??Ê¹?Ü¼Ä´??? */
 /* 0x360 */
 typedef union tagScSllcClkEn
 {
@@ -976,7 +969,7 @@ typedef union tagScSllcClkEn
 } SC_SLLC_CLK_EN_U;
 
 /* Define the union U_SC_SLLC_CLK_DIS_U */
-/* SLLC1Ê±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* SLLC1Ê±?Ó½?Ö¹?Ä´??? */
 /* 0x364 */
 typedef union tagScSllcClkDis
 {
@@ -993,7 +986,7 @@ typedef union tagScSllcClkDis
 } SC_SLLC_CLK_DIS_U;
 
 /* Define the union U_SC_XBAR_RESET_REQ_U */
-/* XBARÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* XBAR?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA00 */
 typedef union tagScXbarResetReq
 {
@@ -1010,7 +1003,7 @@ typedef union tagScXbarResetReq
 } SC_XBAR_RESET_REQ_U;
 
 /* Define the union U_SC_XBAR_RESET_DREQ_U */
-/* XBARÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* XBAR?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA04 */
 typedef union tagScXbarResetDreq
 {
@@ -1027,7 +1020,7 @@ typedef union tagScXbarResetDreq
 } SC_XBAR_RESET_DREQ_U;
 
 /* Define the union U_SC_NT_RESET_REQ_U */
-/* NTÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* NT?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA08 */
 typedef union tagScNtResetReq
 {
@@ -1044,7 +1037,7 @@ typedef union tagScNtResetReq
 } SC_NT_RESET_REQ_U;
 
 /* Define the union U_SC_NT_RESET_DREQ_U */
-/* NTÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* NT?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA0C */
 typedef union tagScNtResetDreq
 {
@@ -1061,7 +1054,7 @@ typedef union tagScNtResetDreq
 } SC_NT_RESET_DREQ_U;
 
 /* Define the union U_SC_XGE_RESET_REQ_U */
-/* XGEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* XGE?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA10 */
 typedef union tagScXgeResetReq
 {
@@ -1108,7 +1101,7 @@ typedef union tagScXgeResetReq
 } SC_XGE_RESET_REQ_U;
 
 /* Define the union U_SC_XGE_RESET_DREQ_U */
-/* XGEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* XGE?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA14 */
 typedef union tagScXgeResetDreq
 {
@@ -1155,7 +1148,7 @@ typedef union tagScXgeResetDreq
 } SC_XGE_RESET_DREQ_U;
 
 /* Define the union U_SC_GE_RESET_REQ0_U */
-/* GEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷0 */
+/* GE?í¸´Î»???????Æ¼Ä´???0 */
 /* 0xA18 */
 typedef union tagScGeResetReq0
 {
@@ -1201,7 +1194,7 @@ typedef union tagScGeResetReq0
 } SC_GE_RESET_REQ0_U;
 
 /* Define the union U_SC_GE_RESET_DREQ0_U */
-/* GEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷0 */
+/* GE?í¸´Î»È¥???????Æ¼Ä´???0 */
 /* 0xA1C */
 typedef union tagScGeResetDreq0
 {
@@ -1247,7 +1240,7 @@ typedef union tagScGeResetDreq0
 } SC_GE_RESET_DREQ0_U;
 
 /* Define the union U_SC_GE_RESET_REQ1_U */
-/* GEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷1 */
+/* GE?í¸´Î»???????Æ¼Ä´???1 */
 /* 0xA20 */
 typedef union tagScGeResetReq1
 {
@@ -1281,7 +1274,7 @@ typedef union tagScGeResetReq1
 } SC_GE_RESET_REQ1_U;
 
 /* Define the union U_SC_GE_RESET_DREQ1_U */
-/* GEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷1 */
+/* GE?í¸´Î»È¥???????Æ¼Ä´???1 */
 /* 0xA24 */
 typedef union tagScGeResetDreq1
 {
@@ -1315,7 +1308,7 @@ typedef union tagScGeResetDreq1
 } SC_GE_RESET_DREQ1_U;
 
 /* Define the union U_SC_PPE_RESET_REQ_U */
-/* PPEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PPE?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA48 */
 typedef union tagScPpeResetReq
 {
@@ -1341,7 +1334,7 @@ typedef union tagScPpeResetReq
 } SC_PPE_RESET_REQ_U;
 
 /* Define the union U_SC_PPE_RESET_DREQ_U */
-/* PPEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PPE?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA4C */
 typedef union tagScPpeResetDreq
 {
@@ -1367,7 +1360,7 @@ typedef union tagScPpeResetDreq
 } SC_PPE_RESET_DREQ_U;
 
 /* Define the union U_SC_ROCEE_RESET_REQ_U */
-/* ROCEEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ROCEE?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA50 */
 typedef union tagScRoceeResetReq
 {
@@ -1384,7 +1377,7 @@ typedef union tagScRoceeResetReq
 } SC_ROCEE_RESET_REQ_U;
 
 /* Define the union U_SC_ROCEE_RESET_DREQ_U */
-/* ROCEEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ROCEE?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA54 */
 typedef union tagScRoceeResetDreq
 {
@@ -1401,7 +1394,7 @@ typedef union tagScRoceeResetDreq
 } SC_ROCEE_RESET_DREQ_U;
 
 /* Define the union U_SC_CPU_RESET_REQ_U */
-/* CPUÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* CPU?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA58 */
 typedef union tagScCpuResetReq
 {
@@ -1418,7 +1411,7 @@ typedef union tagScCpuResetReq
 } SC_CPU_RESET_REQ_U;
 
 /* Define the union U_SC_CPU_RESET_DREQ_U */
-/* CPUÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* CPU?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA5C */
 typedef union tagScCpuResetDreq
 {
@@ -1435,7 +1428,7 @@ typedef union tagScCpuResetDreq
 } SC_CPU_RESET_DREQ_U;
 
 /* Define the union U_SC_SAS_RESET_REQ_U */
-/* SASÈí¸´Î»ÇëÇó */
+/* SAS?í¸´Î»???? */
 /* 0xA60 */
 typedef union tagScSasResetReq
 {
@@ -1470,7 +1463,7 @@ typedef union tagScSasResetReq
 } SC_SAS_RESET_REQ_U;
 
 /* Define the union U_SC_SAS_RESET_DREQ_U */
-/* SAS³·ÏúÈí¸´Î»ÇëÇó */
+/* SAS?????í¸´Î»???? */
 /* 0xA64 */
 typedef union tagScSasResetDreq
 {
@@ -1505,7 +1498,7 @@ typedef union tagScSasResetDreq
 } SC_SAS_RESET_DREQ_U;
 
 /* Define the union U_SC_SLLC_TSVRX_RESET_REQ_U */
-/* SLLC TSVRXÍ¨µÀÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SLLC TSVRXÍ¨???í¸´Î»???????Æ¼Ä´??? */
 /* 0xA68 */
 typedef union tagScSllcTsvrxResetReq
 {
@@ -1525,7 +1518,7 @@ typedef union tagScSllcTsvrxResetReq
 } SC_SLLC_TSVRX_RESET_REQ_U;
 
 /* Define the union U_SC_SLLC_TSVRX_RESET_DREQ_U */
-/* SLLC TSVRXÍ¨µÀÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SLLC TSVRXÍ¨???í¸´Î»???????Æ¼Ä´??? */
 /* 0xA6C */
 typedef union tagScSllcTsvrxResetDreq
 {
@@ -1545,7 +1538,7 @@ typedef union tagScSllcTsvrxResetDreq
 } SC_SLLC_TSVRX_RESET_DREQ_U;
 
 /* Define the union U_SC_ITS_RESET_REQ_U */
-/* ITSÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ITS?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA70 */
 typedef union tagScItsResetReq
 {
@@ -1562,7 +1555,7 @@ typedef union tagScItsResetReq
 } SC_ITS_RESET_REQ_U;
 
 /* Define the union U_SC_ITS_RESET_DREQ_U */
-/* ITSÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ITS?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA74 */
 typedef union tagScItsResetDreq
 {
@@ -1579,7 +1572,7 @@ typedef union tagScItsResetDreq
 } SC_ITS_RESET_DREQ_U;
 
 /* Define the union U_SC_SRAM_RESET_REQ_U */
-/* SRAMÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SRAM?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA80 */
 typedef union tagScSramResetReq
 {
@@ -1596,7 +1589,7 @@ typedef union tagScSramResetReq
 } SC_SRAM_RESET_REQ_U;
 
 /* Define the union U_SC_SRAM_RESET_DREQ_U */
-/* SRAMÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SRAM?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA84 */
 typedef union tagScSramResetDreq
 {
@@ -1613,7 +1606,7 @@ typedef union tagScSramResetDreq
 } SC_SRAM_RESET_DREQ_U;
 
 /* Define the union U_SC_RCB_PPE_COM_RESET_REQ_U */
-/* RCB PPE¹«¹²Èí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RCB PPE?????í¸´Î»???????Æ¼Ä´??? */
 /* 0xA88 */
 typedef union tagScRcbPpeComResetReq
 {
@@ -1630,7 +1623,7 @@ typedef union tagScRcbPpeComResetReq
 } SC_RCB_PPE_COM_RESET_REQ_U;
 
 /* Define the union U_SC_RCB_PPE_COM_RESET_DREQ_U */
-/* RCB PPE¹«¹²Èí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RCB PPE?????í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA8C */
 typedef union tagScRcbPpeComResetDreq
 {
@@ -1647,7 +1640,7 @@ typedef union tagScRcbPpeComResetDreq
 } SC_RCB_PPE_COM_RESET_DREQ_U;
 
 /* Define the union U_SC_TIMER_RESET_REQ_U */
-/* TIMERÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* TIMER?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA98 */
 typedef union tagScTimerResetReq
 {
@@ -1664,7 +1657,7 @@ typedef union tagScTimerResetReq
 } SC_TIMER_RESET_REQ_U;
 
 /* Define the union U_SC_TIMER_RESET_DREQ_U */
-/* TIMERÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* TIMER?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA9C */
 typedef union tagScTimerResetDreq
 {
@@ -1681,7 +1674,7 @@ typedef union tagScTimerResetDreq
 } SC_TIMER_RESET_DREQ_U;
 
 /* Define the union U_SC_SLLC_RESET_REQ_U */
-/* SLLC1Èí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SLLC1?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAA0 */
 typedef union tagScSllcResetReq
 {
@@ -1698,7 +1691,7 @@ typedef union tagScSllcResetReq
 } SC_SLLC_RESET_REQ_U;
 
 /* Define the union U_SC_SLLC_RESET_DREQ_U */
-/* SLLC1Èí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SLLC1?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAA4 */
 typedef union tagScSllcResetDreq
 {
@@ -1715,7 +1708,7 @@ typedef union tagScSllcResetDreq
 } SC_SLLC_RESET_DREQ_U;
 
 /* Define the union U_SC_DISPATCH_DAW_EN_U */
-/* dispatch daw enÅäÖÃ */
+/* dispatch daw en???? */
 /* 0x1000 */
 typedef union tagScDispatchDawEn
 {
@@ -1732,7 +1725,7 @@ typedef union tagScDispatchDawEn
 } SC_DISPATCH_DAW_EN_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY0_U */
-/* dispatch dawÅäÖÃÕóÁÐ0 */
+/* dispatch daw????????0 */
 /* 0x1004 */
 typedef union tagScDispatchDawArray0
 {
@@ -1752,7 +1745,7 @@ typedef union tagScDispatchDawArray0
 } SC_DISPATCH_DAW_ARRAY0_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY1_U */
-/* dispatch dawÅäÖÃÕóÁÐ1 */
+/* dispatch daw????????1 */
 /* 0x1008 */
 typedef union tagScDispatchDawArray1
 {
@@ -1772,7 +1765,7 @@ typedef union tagScDispatchDawArray1
 } SC_DISPATCH_DAW_ARRAY1_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY2_U */
-/* dispatch dawÅäÖÃÕóÁÐ2 */
+/* dispatch daw????????2 */
 /* 0x100C */
 typedef union tagScDispatchDawArray2
 {
@@ -1792,7 +1785,7 @@ typedef union tagScDispatchDawArray2
 } SC_DISPATCH_DAW_ARRAY2_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY3_U */
-/* dispatch dawÅäÖÃÕóÁÐ3 */
+/* dispatch daw????????3 */
 /* 0x1010 */
 typedef union tagScDispatchDawArray3
 {
@@ -1812,7 +1805,7 @@ typedef union tagScDispatchDawArray3
 } SC_DISPATCH_DAW_ARRAY3_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY4_U */
-/* dispatch dawÅäÖÃÕóÁÐ4 */
+/* dispatch daw????????4 */
 /* 0x1014 */
 typedef union tagScDispatchDawArray4
 {
@@ -1832,7 +1825,7 @@ typedef union tagScDispatchDawArray4
 } SC_DISPATCH_DAW_ARRAY4_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY5_U */
-/* dispatch dawÅäÖÃÕóÁÐ5 */
+/* dispatch daw????????5 */
 /* 0x1018 */
 typedef union tagScDispatchDawArray5
 {
@@ -1852,7 +1845,7 @@ typedef union tagScDispatchDawArray5
 } SC_DISPATCH_DAW_ARRAY5_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY6_U */
-/* dispatch dawÅäÖÃÕóÁÐ6 */
+/* dispatch daw????????6 */
 /* 0x101C */
 typedef union tagScDispatchDawArray6
 {
@@ -1872,7 +1865,7 @@ typedef union tagScDispatchDawArray6
 } SC_DISPATCH_DAW_ARRAY6_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY7_U */
-/* dispatch dawÅäÖÃÕóÁÐ7 */
+/* dispatch daw????????7 */
 /* 0x1020 */
 typedef union tagScDispatchDawArray7
 {
@@ -1892,7 +1885,7 @@ typedef union tagScDispatchDawArray7
 } SC_DISPATCH_DAW_ARRAY7_U;
 
 /* Define the union U_SC_DISPATCH_RETRY_CONTROL_U */
-/* dispatch retry¿ØÖÆ¼Ä´æÆ÷ */
+/* dispatch retry???Æ¼Ä´??? */
 /* 0x1030 */
 typedef union tagScDispatchRetryControl
 {
@@ -1910,7 +1903,7 @@ typedef union tagScDispatchRetryControl
 } SC_DISPATCH_RETRY_CONTROL_U;
 
 /* Define the union U_SC_DISPATCH_INTMASK_U */
-/* dispatchµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
+/* dispatch???Ð¶??Á±Î¼Ä´??? */
 /* 0x1100 */
 typedef union tagScDispatchIntmask
 {
@@ -1927,7 +1920,7 @@ typedef union tagScDispatchIntmask
 } SC_DISPATCH_INTMASK_U;
 
 /* Define the union U_SC_DISPATCH_RAWINT_U */
-/* dispatchµÄÔ­Ê¼ÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
+/* dispatch??Ô­Ê¼?Ð¶?×´Ì¬?Ä´??? */
 /* 0x1104 */
 typedef union tagScDispatchRawint
 {
@@ -1944,7 +1937,7 @@ typedef union tagScDispatchRawint
 } SC_DISPATCH_RAWINT_U;
 
 /* Define the union U_SC_DISPATCH_INTSTAT_U */
-/* dispatchµÄÆÁ±ÎºóµÄÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
+/* dispatch???Á±Îº????Ð¶?×´Ì¬?Ä´??? */
 /* 0x1108 */
 typedef union tagScDispatchIntstat
 {
@@ -1961,7 +1954,7 @@ typedef union tagScDispatchIntstat
 } SC_DISPATCH_INTSTAT_U;
 
 /* Define the union U_SC_DISPATCH_INTCLR_U */
-/* dispatchµÄÖÐ¶ÏÇå³ý¼Ä´æÆ÷ */
+/* dispatch???Ð¶??????Ä´??? */
 /* 0x110C */
 typedef union tagScDispatchIntclr
 {
@@ -1978,7 +1971,7 @@ typedef union tagScDispatchIntclr
 } SC_DISPATCH_INTCLR_U;
 
 /* Define the union U_SC_DISPATCH_ERRSTAT_U */
-/* dispatchµÄERR×´Ì¬¼Ä´æÆ÷ */
+/* dispatch??ERR×´Ì¬?Ä´??? */
 /* 0x1110 */
 typedef union tagScDispatchErrstat
 {
@@ -1996,7 +1989,7 @@ typedef union tagScDispatchErrstat
 } SC_DISPATCH_ERRSTAT_U;
 
 /* Define the union U_SC_REMAP_CTRL_U */
-/* subsysµÄÆô¶¯Remap¼Ä´æÆ÷ */
+/* subsys??????Remap?Ä´??? */
 /* 0x1200 */
 typedef union tagScRemapCtrl
 {
@@ -2013,7 +2006,7 @@ typedef union tagScRemapCtrl
 } SC_REMAP_CTRL_U;
 
 /* Define the union U_SC_SRAM_CTRL0_U */
-/* sram¿ØÖÆ¼Ä´æÆ÷0 */
+/* sram???Æ¼Ä´???0 */
 /* 0x2030 */
 typedef union tagScSramCtrl0
 {
@@ -2036,7 +2029,7 @@ typedef union tagScSramCtrl0
 } SC_SRAM_CTRL0_U;
 
 /* Define the union U_SC_M3_CTRL_U */
-/* M3¿ØÖÆ¼Ä´æÆ÷ */
+/* M3???Æ¼Ä´??? */
 /* 0x2040 */
 typedef union tagScM3Ctrl
 {
@@ -2058,7 +2051,7 @@ typedef union tagScM3Ctrl
 } SC_M3_CTRL_U;
 
 /* Define the union U_SC_REMAP_SRAM_ADDR_CTRL_U */
-/* M3 remapµ½sramµÄµØÖ·ÅäÖÃ */
+/* M3 remap??sram?Äµ?Ö·???? */
 /* 0x2050 */
 typedef union tagScRemapSramAddrCtrl
 {
@@ -2075,7 +2068,7 @@ typedef union tagScRemapSramAddrCtrl
 } SC_REMAP_SRAM_ADDR_CTRL_U;
 
 /* Define the union U_SC_LIGHT_MODULE_DETECT_EN_U */
-/* ¹âÄ£¿éSDÐÅºÅ¼ì²âÊ¹ÄÜ¼Ä´æÆ÷ */
+/* ??Ä£??SD?ÅºÅ¼???Ê¹?Ü¼Ä´??? */
 /* 0x2060 */
 typedef union tagScLightModuleDetectEn
 {
@@ -2097,7 +2090,7 @@ typedef union tagScLightModuleDetectEn
 } SC_LIGHT_MODULE_DETECT_EN_U;
 
 /* Define the union U_SC_TIMER_CLKEN_CTRL_U */
-/* TIMERµÄclkenÉú³É¿ØÖÆ¼Ä´æÆ÷ */
+/* TIMER??clken???É¿??Æ¼Ä´??? */
 /* 0x2070 */
 typedef union tagScTimerClkenCtrl
 {
@@ -2115,7 +2108,7 @@ typedef union tagScTimerClkenCtrl
 } SC_TIMER_CLKEN_CTRL_U;
 
 /* Define the union U_SC_VMID_CTRL0_U */
-/* M3 VMIDÅäÖÃ */
+/* M3 VMID???? */
 /* 0x20E0 */
 typedef union tagScVmidCtrl0
 {
@@ -2134,7 +2127,7 @@ typedef union tagScVmidCtrl0
 } SC_VMID_CTRL0_U;
 
 /* Define the union U_SC_ROCEE_VMID_U */
-/* ROCEE VMIDÅäÖÃ */
+/* ROCEE VMID???? */
 /* 0x20E4 */
 typedef union tagScRoceeVmid
 {
@@ -2151,7 +2144,7 @@ typedef union tagScRoceeVmid
 } SC_ROCEE_VMID_U;
 
 /* Define the union U_SC_ITS_M3_INT_MUX_SEL_U */
-/* ¶ÔÖÐ¶ÏËÍµ½ITS»¹ÊÇM3£¬×öMUXÑ¡Ôñ */
+/* ???Ð¶??Íµ?ITS????M3????MUXÑ¡?? */
 /* 0x21F0 */
 typedef union tagScItsM3IntMuxSel
 {
@@ -2189,7 +2182,7 @@ typedef union tagScFteMuxSel
 } SC_FTE_MUX_SEL_U;
 
 /* Define the union U_SC_TCAM_MBIST_EN_U */
-/* DSAFÖÐTCAM MBISTÆô¶¯Ê¹ÄÜ¡£ */
+/* DSAF??TCAM MBIST????Ê¹?Ü¡? */
 /* 0x2300 */
 typedef union tagScTcamMbistEn
 {
@@ -2206,7 +2199,7 @@ typedef union tagScTcamMbistEn
 } SC_TCAM_MBIST_EN_U;
 
 /* Define the union U_SC_HILINK2_LRSTB_MUX_CTRL_U */
-/* HILINK2 lrstb[7:0]µÄMUXÑ¡Ôñ¿ØÖÆ */
+/* HILINK2 lrstb[7:0]??MUXÑ¡?????? */
 /* 0x2340 */
 typedef union tagScHilink2LrstbMuxCtrl
 {
@@ -2223,7 +2216,7 @@ typedef union tagScHilink2LrstbMuxCtrl
 } SC_HILINK2_LRSTB_MUX_CTRL_U;
 
 /* Define the union U_SC_HILINK2_MACRO_SS_REFCLK_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2400 */
 typedef union tagScHilink2MacroSsRefclk
 {
@@ -2247,7 +2240,7 @@ typedef union tagScHilink2MacroSsRefclk
 } SC_HILINK2_MACRO_SS_REFCLK_U;
 
 /* Define the union U_SC_HILINK2_MACRO_CS_REFCLK_DIRSEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2404 */
 typedef union tagScHilink2MacroCsRefclkDirsel
 {
@@ -2273,7 +2266,7 @@ typedef union tagScHilink2MacroCsRefclkDirsel
 } SC_HILINK2_MACRO_CS_REFCLK_DIRSEL_U;
 
 /* Define the union U_SC_HILINK2_MACRO_LIFECLK2DIG_SEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2408 */
 typedef union tagScHilink2MacroLifeclk2digSel
 {
@@ -2290,7 +2283,7 @@ typedef union tagScHilink2MacroLifeclk2digSel
 } SC_HILINK2_MACRO_LIFECLK2DIG_SEL_U;
 
 /* Define the union U_SC_HILINK2_MACRO_CORE_CLK_SELEXT_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x240C */
 typedef union tagScHilink2MacroCoreClkSelext
 {
@@ -2307,7 +2300,7 @@ typedef union tagScHilink2MacroCoreClkSelext
 } SC_HILINK2_MACRO_CORE_CLK_SELEXT_U;
 
 /* Define the union U_SC_HILINK2_MACRO_CORE_CLK_SEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2410 */
 typedef union tagScHilink2MacroCoreClkSel
 {
@@ -2324,7 +2317,7 @@ typedef union tagScHilink2MacroCoreClkSel
 } SC_HILINK2_MACRO_CORE_CLK_SEL_U;
 
 /* Define the union U_SC_HILINK2_MACRO_CTRL_BUS_MODE_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2414 */
 typedef union tagScHilink2MacroCtrlBusMode
 {
@@ -2341,7 +2334,7 @@ typedef union tagScHilink2MacroCtrlBusMode
 } SC_HILINK2_MACRO_CTRL_BUS_MODE_U;
 
 /* Define the union U_SC_HILINK2_MACRO_MACROPWRDB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2418 */
 typedef union tagScHilink2MacroMacropwrdb
 {
@@ -2358,7 +2351,7 @@ typedef union tagScHilink2MacroMacropwrdb
 } SC_HILINK2_MACRO_MACROPWRDB_U;
 
 /* Define the union U_SC_HILINK2_MACRO_GRSTB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x241C */
 typedef union tagScHilink2MacroGrstb
 {
@@ -2375,7 +2368,7 @@ typedef union tagScHilink2MacroGrstb
 } SC_HILINK2_MACRO_GRSTB_U;
 
 /* Define the union U_SC_HILINK2_MACRO_BIT_SLIP_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2420 */
 typedef union tagScHilink2MacroBitSlip
 {
@@ -2392,7 +2385,7 @@ typedef union tagScHilink2MacroBitSlip
 } SC_HILINK2_MACRO_BIT_SLIP_U;
 
 /* Define the union U_SC_HILINK2_MACRO_LRSTB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2424 */
 typedef union tagScHilink2MacroLrstb
 {
@@ -2409,7 +2402,7 @@ typedef union tagScHilink2MacroLrstb
 } SC_HILINK2_MACRO_LRSTB_U;
 
 /* Define the union U_SC_HILINK3_MACRO_SS_REFCLK_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2500 */
 typedef union tagScHilink3MacroSsRefclk
 {
@@ -2433,7 +2426,7 @@ typedef union tagScHilink3MacroSsRefclk
 } SC_HILINK3_MACRO_SS_REFCLK_U;
 
 /* Define the union U_SC_HILINK3_MACRO_CS_REFCLK_DIRSEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2504 */
 typedef union tagScHilink3MacroCsRefclkDirsel
 {
@@ -2459,7 +2452,7 @@ typedef union tagScHilink3MacroCsRefclkDirsel
 } SC_HILINK3_MACRO_CS_REFCLK_DIRSEL_U;
 
 /* Define the union U_SC_HILINK3_MACRO_LIFECLK2DIG_SEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2508 */
 typedef union tagScHilink3MacroLifeclk2digSel
 {
@@ -2476,7 +2469,7 @@ typedef union tagScHilink3MacroLifeclk2digSel
 } SC_HILINK3_MACRO_LIFECLK2DIG_SEL_U;
 
 /* Define the union U_SC_HILINK3_MACRO_CORE_CLK_SELEXT_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x250C */
 typedef union tagScHilink3MacroCoreClkSelext
 {
@@ -2493,7 +2486,7 @@ typedef union tagScHilink3MacroCoreClkSelext
 } SC_HILINK3_MACRO_CORE_CLK_SELEXT_U;
 
 /* Define the union U_SC_HILINK3_MACRO_CORE_CLK_SEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2510 */
 typedef union tagScHilink3MacroCoreClkSel
 {
@@ -2510,7 +2503,7 @@ typedef union tagScHilink3MacroCoreClkSel
 } SC_HILINK3_MACRO_CORE_CLK_SEL_U;
 
 /* Define the union U_SC_HILINK3_MACRO_CTRL_BUS_MODE_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2514 */
 typedef union tagScHilink3MacroCtrlBusMode
 {
@@ -2527,7 +2520,7 @@ typedef union tagScHilink3MacroCtrlBusMode
 } SC_HILINK3_MACRO_CTRL_BUS_MODE_U;
 
 /* Define the union U_SC_HILINK3_MACRO_MACROPWRDB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2518 */
 typedef union tagScHilink3MacroMacropwrdb
 {
@@ -2544,7 +2537,7 @@ typedef union tagScHilink3MacroMacropwrdb
 } SC_HILINK3_MACRO_MACROPWRDB_U;
 
 /* Define the union U_SC_HILINK3_MACRO_GRSTB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x251C */
 typedef union tagScHilink3MacroGrstb
 {
@@ -2561,7 +2554,7 @@ typedef union tagScHilink3MacroGrstb
 } SC_HILINK3_MACRO_GRSTB_U;
 
 /* Define the union U_SC_HILINK3_MACRO_BIT_SLIP_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2520 */
 typedef union tagScHilink3MacroBitSlip
 {
@@ -2578,7 +2571,7 @@ typedef union tagScHilink3MacroBitSlip
 } SC_HILINK3_MACRO_BIT_SLIP_U;
 
 /* Define the union U_SC_HILINK3_MACRO_LRSTB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2524 */
 typedef union tagScHilink3MacroLrstb
 {
@@ -2595,7 +2588,7 @@ typedef union tagScHilink3MacroLrstb
 } SC_HILINK3_MACRO_LRSTB_U;
 
 /* Define the union U_SC_HILINK4_MACRO_SS_REFCLK_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2600 */
 typedef union tagScHilink4MacroSsRefclk
 {
@@ -2619,7 +2612,7 @@ typedef union tagScHilink4MacroSsRefclk
 } SC_HILINK4_MACRO_SS_REFCLK_U;
 
 /* Define the union U_SC_HILINK4_MACRO_CS_REFCLK_DIRSEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2604 */
 typedef union tagScHilink4MacroCsRefclkDirsel
 {
@@ -2645,7 +2638,7 @@ typedef union tagScHilink4MacroCsRefclkDirsel
 } SC_HILINK4_MACRO_CS_REFCLK_DIRSEL_U;
 
 /* Define the union U_SC_HILINK4_MACRO_LIFECLK2DIG_SEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2608 */
 typedef union tagScHilink4MacroLifeclk2digSel
 {
@@ -2662,7 +2655,7 @@ typedef union tagScHilink4MacroLifeclk2digSel
 } SC_HILINK4_MACRO_LIFECLK2DIG_SEL_U;
 
 /* Define the union U_SC_HILINK4_MACRO_CORE_CLK_SELEXT_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x260C */
 typedef union tagScHilink4MacroCoreClkSelext
 {
@@ -2679,7 +2672,7 @@ typedef union tagScHilink4MacroCoreClkSelext
 } SC_HILINK4_MACRO_CORE_CLK_SELEXT_U;
 
 /* Define the union U_SC_HILINK4_MACRO_CORE_CLK_SEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2610 */
 typedef union tagScHilink4MacroCoreClkSel
 {
@@ -2696,7 +2689,7 @@ typedef union tagScHilink4MacroCoreClkSel
 } SC_HILINK4_MACRO_CORE_CLK_SEL_U;
 
 /* Define the union U_SC_HILINK4_MACRO_CTRL_BUS_MODE_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2614 */
 typedef union tagScHilink4MacroCtrlBusMode
 {
@@ -2713,7 +2706,7 @@ typedef union tagScHilink4MacroCtrlBusMode
 } SC_HILINK4_MACRO_CTRL_BUS_MODE_U;
 
 /* Define the union U_SC_HILINK4_MACRO_MACROPWRDB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2618 */
 typedef union tagScHilink4MacroMacropwrdb
 {
@@ -2730,7 +2723,7 @@ typedef union tagScHilink4MacroMacropwrdb
 } SC_HILINK4_MACRO_MACROPWRDB_U;
 
 /* Define the union U_SC_HILINK4_MACRO_GRSTB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x261C */
 typedef union tagScHilink4MacroGrstb
 {
@@ -2747,7 +2740,7 @@ typedef union tagScHilink4MacroGrstb
 } SC_HILINK4_MACRO_GRSTB_U;
 
 /* Define the union U_SC_HILINK4_MACRO_BIT_SLIP_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2620 */
 typedef union tagScHilink4MacroBitSlip
 {
@@ -2764,7 +2757,7 @@ typedef union tagScHilink4MacroBitSlip
 } SC_HILINK4_MACRO_BIT_SLIP_U;
 
 /* Define the union U_SC_HILINK4_MACRO_LRSTB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2624 */
 typedef union tagScHilink4MacroLrstb
 {
@@ -2781,7 +2774,7 @@ typedef union tagScHilink4MacroLrstb
 } SC_HILINK4_MACRO_LRSTB_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL0_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* smmu mem???Æ¼Ä´???0 */
 /* 0x3000 */
 typedef union tagScSmmuMemCtrl0
 {
@@ -2798,7 +2791,7 @@ typedef union tagScSmmuMemCtrl0
 } SC_SMMU_MEM_CTRL0_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL1_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* smmu mem???Æ¼Ä´???1 */
 /* 0x3004 */
 typedef union tagScSmmuMemCtrl1
 {
@@ -2815,7 +2808,7 @@ typedef union tagScSmmuMemCtrl1
 } SC_SMMU_MEM_CTRL1_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL2_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷2 */
+/* smmu mem???Æ¼Ä´???2 */
 /* 0x3008 */
 typedef union tagScSmmuMemCtrl2
 {
@@ -2832,7 +2825,7 @@ typedef union tagScSmmuMemCtrl2
 } SC_SMMU_MEM_CTRL2_U;
 
 /* Define the union U_SC_SLLC1_MEM_CTRL_U */
-/* sllc1 mem¿ØÖÆ¼Ä´æÆ÷ */
+/* sllc1 mem???Æ¼Ä´??? */
 /* 0x3010 */
 typedef union tagScSllc1MemCtrl
 {
@@ -2849,7 +2842,7 @@ typedef union tagScSllc1MemCtrl
 } SC_SLLC1_MEM_CTRL_U;
 
 /* Define the union U_SC_SRAM_MEM_CTRL_U */
-/* sram mem¿ØÖÆ¼Ä´æÆ÷ */
+/* sram mem???Æ¼Ä´??? */
 /* 0x3020 */
 typedef union tagScSramMemCtrl
 {
@@ -2866,7 +2859,7 @@ typedef union tagScSramMemCtrl
 } SC_SRAM_MEM_CTRL_U;
 
 /* Define the union U_SC_ROCEE_MEM_CTRL0_U */
-/* rocee mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* rocee mem???Æ¼Ä´???0 */
 /* 0x3030 */
 typedef union tagScRoceeMemCtrl0
 {
@@ -2883,7 +2876,7 @@ typedef union tagScRoceeMemCtrl0
 } SC_ROCEE_MEM_CTRL0_U;
 
 /* Define the union U_SC_ROCEE_MEM_CTRL1_U */
-/* rocee mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* rocee mem???Æ¼Ä´???1 */
 /* 0x3034 */
 typedef union tagScRoceeMemCtrl1
 {
@@ -2900,7 +2893,7 @@ typedef union tagScRoceeMemCtrl1
 } SC_ROCEE_MEM_CTRL1_U;
 
 /* Define the union U_SC_XGE_MEM_CTRL0_U */
-/* xge mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* xge mem???Æ¼Ä´???0 */
 /* 0x3040 */
 typedef union tagScXgeMemCtrl0
 {
@@ -2917,7 +2910,7 @@ typedef union tagScXgeMemCtrl0
 } SC_XGE_MEM_CTRL0_U;
 
 /* Define the union U_SC_XGE_MEM_CTRL1_U */
-/* xge mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* xge mem???Æ¼Ä´???1 */
 /* 0x3044 */
 typedef union tagScXgeMemCtrl1
 {
@@ -2934,7 +2927,7 @@ typedef union tagScXgeMemCtrl1
 } SC_XGE_MEM_CTRL1_U;
 
 /* Define the union U_SC_SAS_MEM_CTRL_U */
-/* sas mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* sas mem???Æ¼Ä´???0 */
 /* 0x3050 */
 typedef union tagScSasMemCtrl
 {
@@ -2951,7 +2944,7 @@ typedef union tagScSasMemCtrl
 } SC_SAS_MEM_CTRL_U;
 
 /* Define the union U_SC_GE_MEM_CTRL_U */
-/* ge mem¿ØÖÆ¼Ä´æÆ÷ */
+/* ge mem???Æ¼Ä´??? */
 /* 0x3060 */
 typedef union tagScGeMemCtrl
 {
@@ -2968,7 +2961,7 @@ typedef union tagScGeMemCtrl
 } SC_GE_MEM_CTRL_U;
 
 /* Define the union U_SC_XBAR_MEM_CTRL0_U */
-/* xbar mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* xbar mem???Æ¼Ä´???0 */
 /* 0x3070 */
 typedef union tagScXbarMemCtrl0
 {
@@ -2985,7 +2978,7 @@ typedef union tagScXbarMemCtrl0
 } SC_XBAR_MEM_CTRL0_U;
 
 /* Define the union U_SC_XBAR_MEM_CTRL1_U */
-/* xbar mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* xbar mem???Æ¼Ä´???1 */
 /* 0x3074 */
 typedef union tagScXbarMemCtrl1
 {
@@ -3002,7 +2995,7 @@ typedef union tagScXbarMemCtrl1
 } SC_XBAR_MEM_CTRL1_U;
 
 /* Define the union U_SC_RCB_MEM_CTRL0_U */
-/* rcb mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* rcb mem???Æ¼Ä´???0 */
 /* 0x3080 */
 typedef union tagScRcbMemCtrl0
 {
@@ -3019,7 +3012,7 @@ typedef union tagScRcbMemCtrl0
 } SC_RCB_MEM_CTRL0_U;
 
 /* Define the union U_SC_RCB_MEM_CTRL1_U */
-/* rcb mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* rcb mem???Æ¼Ä´???1 */
 /* 0x3084 */
 typedef union tagScRcbMemCtrl1
 {
@@ -3036,7 +3029,7 @@ typedef union tagScRcbMemCtrl1
 } SC_RCB_MEM_CTRL1_U;
 
 /* Define the union U_SC_DSAF_CLK_ST_U */
-/* DSAFÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* DSAFÊ±??×´Ì¬?Ä´??? */
 /* 0x5300 */
 typedef union tagScDsafClkSt
 {
@@ -3063,7 +3056,7 @@ typedef union tagScDsafClkSt
 } SC_DSAF_CLK_ST_U;
 
 /* Define the union U_SC_NT_CLK_ST_U */
-/* NTÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* NTÊ±??×´Ì¬?Ä´??? */
 /* 0x5304 */
 typedef union tagScNtClkSt
 {
@@ -3080,7 +3073,7 @@ typedef union tagScNtClkSt
 } SC_NT_CLK_ST_U;
 
 /* Define the union U_SC_XGE_CLK_ST_U */
-/* XGEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* XGEÊ±??×´Ì¬?Ä´??? */
 /* 0x5308 */
 typedef union tagScXgeClkSt
 {
@@ -3109,7 +3102,7 @@ typedef union tagScXgeClkSt
 } SC_XGE_CLK_ST_U;
 
 /* Define the union U_SC_GE_CLK_ST_U */
-/* GEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* GEÊ±??×´Ì¬?Ä´??? */
 /* 0x530C */
 typedef union tagScGeClkSt
 {
@@ -3156,7 +3149,7 @@ typedef union tagScGeClkSt
 } SC_GE_CLK_ST_U;
 
 /* Define the union U_SC_PPE_CLK_ST_U */
-/* PPEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* PPEÊ±??×´Ì¬?Ä´??? */
 /* 0x5310 */
 typedef union tagScPpeClkSt
 {
@@ -3180,7 +3173,7 @@ typedef union tagScPpeClkSt
 } SC_PPE_CLK_ST_U;
 
 /* Define the union U_SC_ROCEE_CLK_ST_U */
-/* ROCEEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* ROCEEÊ±??×´Ì¬?Ä´??? */
 /* 0x5314 */
 typedef union tagScRoceeClkSt
 {
@@ -3202,7 +3195,7 @@ typedef union tagScRoceeClkSt
 } SC_ROCEE_CLK_ST_U;
 
 /* Define the union U_SC_CPU_CLK_ST_U */
-/* CPUÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* CPUÊ±??×´Ì¬?Ä´??? */
 /* 0x5318 */
 typedef union tagScCpuClkSt
 {
@@ -3219,7 +3212,7 @@ typedef union tagScCpuClkSt
 } SC_CPU_CLK_ST_U;
 
 /* Define the union U_SC_SAS_CLK_ST_U */
-/* SASÊ±ÖÓÃÅ¿ØÐÅºÅ×´Ì¬ */
+/* SASÊ±???Å¿??Åº?×´Ì¬ */
 /* 0x531C */
 typedef union tagScSasClkSt
 {
@@ -3255,7 +3248,7 @@ typedef union tagScSasClkSt
 } SC_SAS_CLK_ST_U;
 
 /* Define the union U_SC_ITS_CLK_ST_U */
-/* ITSÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* ITSÊ±??×´Ì¬?Ä´??? */
 /* 0x5320 */
 typedef union tagScItsClkSt
 {
@@ -3272,7 +3265,7 @@ typedef union tagScItsClkSt
 } SC_ITS_CLK_ST_U;
 
 /* Define the union U_SC_SRAM_CLK_ST_U */
-/* SRAMÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SRAMÊ±??×´Ì¬?Ä´??? */
 /* 0x5324 */
 typedef union tagScSramClkSt
 {
@@ -3289,7 +3282,7 @@ typedef union tagScSramClkSt
 } SC_SRAM_CLK_ST_U;
 
 /* Define the union U_SC_RCB_PPE_COM_CLK_ST_U */
-/* RCB PPE¹«¹²Ê±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* RCB PPE????Ê±??×´Ì¬?Ä´??? */
 /* 0x5328 */
 typedef union tagScRcbPpeComClkSt
 {
@@ -3306,7 +3299,7 @@ typedef union tagScRcbPpeComClkSt
 } SC_RCB_PPE_COM_CLK_ST_U;
 
 /* Define the union U_SC_TIMER_CLK_ST_U */
-/* TIMERÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* TIMERÊ±??×´Ì¬?Ä´??? */
 /* 0x532C */
 typedef union tagScTimerClkSt
 {
@@ -3323,7 +3316,7 @@ typedef union tagScTimerClkSt
 } SC_TIMER_CLK_ST_U;
 
 /* Define the union U_SC_SLLC_CLK_ST_U */
-/* SLLC1Ê±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SLLC1Ê±??×´Ì¬?Ä´??? */
 /* 0x5330 */
 typedef union tagScSllcClkSt
 {
@@ -3340,7 +3333,7 @@ typedef union tagScSllcClkSt
 } SC_SLLC_CLK_ST_U;
 
 /* Define the union U_SC_XBAR_RESET_ST_U */
-/* DSAFÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* DSAF?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A00 */
 typedef union tagScXbarResetSt
 {
@@ -3357,7 +3350,7 @@ typedef union tagScXbarResetSt
 } SC_XBAR_RESET_ST_U;
 
 /* Define the union U_SC_NT_RESET_ST_U */
-/* NTÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* NT?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A04 */
 typedef union tagScNtResetSt
 {
@@ -3374,7 +3367,7 @@ typedef union tagScNtResetSt
 } SC_NT_RESET_ST_U;
 
 /* Define the union U_SC_XGE_RESET_ST_U */
-/* XGEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* XGE?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A08 */
 typedef union tagScXgeResetSt
 {
@@ -3421,7 +3414,7 @@ typedef union tagScXgeResetSt
 } SC_XGE_RESET_ST_U;
 
 /* Define the union U_SC_GE_RESET_ST0_U */
-/* GEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷0 */
+/* GE?í¸´Î»????×´Ì¬?Ä´???0 */
 /* 0x5A0C */
 typedef union tagScGeResetSt0
 {
@@ -3467,7 +3460,7 @@ typedef union tagScGeResetSt0
 } SC_GE_RESET_ST0_U;
 
 /* Define the union U_SC_GE_RESET_ST1_U */
-/* GEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷1 */
+/* GE?í¸´Î»????×´Ì¬?Ä´???1 */
 /* 0x5A10 */
 typedef union tagScGeResetSt1
 {
@@ -3501,7 +3494,7 @@ typedef union tagScGeResetSt1
 } SC_GE_RESET_ST1_U;
 
 /* Define the union U_SC_PPE_RESET_ST_U */
-/* PPEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* PPE?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A24 */
 typedef union tagScPpeResetSt
 {
@@ -3527,7 +3520,7 @@ typedef union tagScPpeResetSt
 } SC_PPE_RESET_ST_U;
 
 /* Define the union U_SC_ROCEE_RESET_ST_U */
-/* ROCEEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* ROCEE?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A28 */
 typedef union tagScRoceeResetSt
 {
@@ -3544,7 +3537,7 @@ typedef union tagScRoceeResetSt
 } SC_ROCEE_RESET_ST_U;
 
 /* Define the union U_SC_CPU_RESET_ST_U */
-/* CPUÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* CPU?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A2C */
 typedef union tagScCpuResetSt
 {
@@ -3561,7 +3554,7 @@ typedef union tagScCpuResetSt
 } SC_CPU_RESET_ST_U;
 
 /* Define the union U_SC_SAS_RESET_ST_U */
-/* SASÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* SAS?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A30 */
 typedef union tagScSasResetSt
 {
@@ -3596,7 +3589,7 @@ typedef union tagScSasResetSt
 } SC_SAS_RESET_ST_U;
 
 /* Define the union U_SC_SLLC_TSVRX_RESET_ST_U */
-/* ÎªSLLC TSVRXÍ¨µÀÈí¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* ÎªSLLC TSVRXÍ¨???í¸´Î»×´Ì¬?Ä´??? */
 /* 0x5A34 */
 typedef union tagScSllcTsvrxResetSt
 {
@@ -3616,7 +3609,7 @@ typedef union tagScSllcTsvrxResetSt
 } SC_SLLC_TSVRX_RESET_ST_U;
 
 /* Define the union U_SC_ITS_RESET_ST_U */
-/* ITSÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* ITS?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A38 */
 typedef union tagScItsResetSt
 {
@@ -3633,7 +3626,7 @@ typedef union tagScItsResetSt
 } SC_ITS_RESET_ST_U;
 
 /* Define the union U_SC_SRAM_RESET_ST_U */
-/* SRAMÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* SRAM?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A40 */
 typedef union tagScSramResetSt
 {
@@ -3650,7 +3643,7 @@ typedef union tagScSramResetSt
 } SC_SRAM_RESET_ST_U;
 
 /* Define the union U_SC_RCB_PPE_COM_RESET_ST_U */
-/* RCB PPE¹«¹²Èí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* RCB PPE?????í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A44 */
 typedef union tagScRcbPpeComResetSt
 {
@@ -3667,7 +3660,7 @@ typedef union tagScRcbPpeComResetSt
 } SC_RCB_PPE_COM_RESET_ST_U;
 
 /* Define the union U_SC_TIMER_RESET_ST_U */
-/* TIMER¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* TIMER??Î»×´Ì¬?Ä´??? */
 /* 0x5A4C */
 typedef union tagScTimerResetSt
 {
@@ -3684,7 +3677,7 @@ typedef union tagScTimerResetSt
 } SC_TIMER_RESET_ST_U;
 
 /* Define the union U_SC_SLLC_RESET_ST_U */
-/* SLLC1¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SLLC1??Î»×´Ì¬?Ä´??? */
 /* 0x5A50 */
 typedef union tagScSllcResetSt
 {
@@ -3701,7 +3694,7 @@ typedef union tagScSllcResetSt
 } SC_SLLC_RESET_ST_U;
 
 /* Define the union U_SC_SRAM_ST0_U */
-/* sram×´Ì¬¼Ä´æÆ÷0 */
+/* sram×´Ì¬?Ä´???0 */
 /* 0x6000 */
 typedef union tagScSramSt0
 {
@@ -3720,7 +3713,7 @@ typedef union tagScSramSt0
 } SC_SRAM_ST0_U;
 
 /* Define the union U_SC_SRAM_ST3_U */
-/* sram×´Ì¬¼Ä´æÆ÷3 */
+/* sram×´Ì¬?Ä´???3 */
 /* 0x600C */
 typedef union tagScSramSt3
 {
@@ -3737,7 +3730,7 @@ typedef union tagScSramSt3
 } SC_SRAM_ST3_U;
 
 /* Define the union U_SC_SRAM_ST4_U */
-/* sram×´Ì¬¼Ä´æÆ÷4 */
+/* sram×´Ì¬?Ä´???4 */
 /* 0x6010 */
 typedef union tagScSramSt4
 {
@@ -3754,7 +3747,7 @@ typedef union tagScSramSt4
 } SC_SRAM_ST4_U;
 
 /* Define the union U_SC_SRAM_ST5_U */
-/* sram×´Ì¬¼Ä´æÆ÷5 */
+/* sram×´Ì¬?Ä´???5 */
 /* 0x6014 */
 typedef union tagScSramSt5
 {
@@ -3794,7 +3787,7 @@ typedef union tagScM3Stat
 } SC_M3_STAT_U;
 
 /* Define the union U_SC_TCAM_MBIST_ST_U */
-/* DSAFÖÐTCAM MBIST²âÊÔ½á¹û×´Ì¬ */
+/* DSAF??TCAM MBIST???Ô½???×´Ì¬ */
 /* 0x6300 */
 typedef union tagScTcamMbistSt
 {
@@ -3813,7 +3806,7 @@ typedef union tagScTcamMbistSt
 } SC_TCAM_MBIST_ST_U;
 
 /* Define the union U_SC_GE_ST_U */
-/* DSAFÖÐGEµÄ¹¤×÷×´Ì¬Ö¸Ê¾ */
+/* DSAF??GE?Ä¹???×´Ì¬Ö¸Ê¾ */
 /* 0x6380 */
 typedef union tagScGeSt
 {
@@ -3837,7 +3830,7 @@ typedef union tagScGeSt
 } SC_GE_ST_U;
 
 /* Define the union U_SC_XGE_ST_U */
-/* DSAFÖÐXGEµÄ¹¤×÷×´Ì¬Ö¸Ê¾ */
+/* DSAF??XGE?Ä¹???×´Ì¬Ö¸Ê¾ */
 /* 0x6390 */
 typedef union tagScXgeSt
 {
@@ -3859,7 +3852,7 @@ typedef union tagScXgeSt
 } SC_XGE_ST_U;
 
 /* Define the union U_SC_HILINK2_MACRO_PLLOUTOFLOCK_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6400 */
 typedef union tagScHilink2MacroPlloutoflock
 {
@@ -3876,7 +3869,7 @@ typedef union tagScHilink2MacroPlloutoflock
 } SC_HILINK2_MACRO_PLLOUTOFLOCK_U;
 
 /* Define the union U_SC_HILINK2_MACRO_PRBS_ERR_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6404 */
 typedef union tagScHilink2MacroPrbsErr
 {
@@ -3893,7 +3886,7 @@ typedef union tagScHilink2MacroPrbsErr
 } SC_HILINK2_MACRO_PRBS_ERR_U;
 
 /* Define the union U_SC_HILINK2_MACRO_LOS_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6408 */
 typedef union tagScHilink2MacroLos
 {
@@ -3910,7 +3903,7 @@ typedef union tagScHilink2MacroLos
 } SC_HILINK2_MACRO_LOS_U;
 
 /* Define the union U_SC_HILINK3_MACRO_PLLOUTOFLOCK_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6500 */
 typedef union tagScHilink3MacroPlloutoflock
 {
@@ -3927,7 +3920,7 @@ typedef union tagScHilink3MacroPlloutoflock
 } SC_HILINK3_MACRO_PLLOUTOFLOCK_U;
 
 /* Define the union U_SC_HILINK3_MACRO_PRBS_ERR_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6504 */
 typedef union tagScHilink3MacroPrbsErr
 {
@@ -3944,7 +3937,7 @@ typedef union tagScHilink3MacroPrbsErr
 } SC_HILINK3_MACRO_PRBS_ERR_U;
 
 /* Define the union U_SC_HILINK3_MACRO_LOS_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6508 */
 typedef union tagScHilink3MacroLos
 {
@@ -3961,7 +3954,7 @@ typedef union tagScHilink3MacroLos
 } SC_HILINK3_MACRO_LOS_U;
 
 /* Define the union U_SC_HILINK4_MACRO_PLLOUTOFLOCK_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6600 */
 typedef union tagScHilink4MacroPlloutoflock
 {
@@ -3978,7 +3971,7 @@ typedef union tagScHilink4MacroPlloutoflock
 } SC_HILINK4_MACRO_PLLOUTOFLOCK_U;
 
 /* Define the union U_SC_HILINK4_MACRO_PRBS_ERR_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6604 */
 typedef union tagScHilink4MacroPrbsErr
 {
@@ -3995,7 +3988,7 @@ typedef union tagScHilink4MacroPrbsErr
 } SC_HILINK4_MACRO_PRBS_ERR_U;
 
 /* Define the union U_SC_HILINK4_MACRO_LOS_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6608 */
 typedef union tagScHilink4MacroLos
 {
@@ -4014,7 +4007,7 @@ typedef union tagScHilink4MacroLos
 #else
 
 /* Define the union U_SC_NT_SRAM_CLK_SEL_U */
-/* Node TableÄ£¿éTCAM±ímemoryÊ±ÖÓ¿ØÖÆ¼Ä´æÆ÷ */
+/* Node TableÄ£??TCAM??memoryÊ±?Ó¿??Æ¼Ä´??? */
 /* 0x100 */
 typedef union tagScNtSramClkSel
 {
@@ -4031,7 +4024,7 @@ typedef union tagScNtSramClkSel
 } SC_NT_SRAM_CLK_SEL_U;
 
 /* Define the union U_SC_HILINK3_CRG_CTRL0_U */
-/* ÅäÖÃHILINK CRG */
+/* ????HILINK CRG */
 /* 0x180 */
 typedef union tagScHilink3CrgCtrl0
 {
@@ -4048,7 +4041,7 @@ typedef union tagScHilink3CrgCtrl0
 } SC_HILINK3_CRG_CTRL0_U;
 
 /* Define the union U_SC_HILINK3_CRG_CTRL1_U */
-/* ÅäÖÃHILINK CRG */
+/* ????HILINK CRG */
 /* 0x184 */
 typedef union tagScHilink3CrgCtrl1
 {
@@ -4065,7 +4058,7 @@ typedef union tagScHilink3CrgCtrl1
 } SC_HILINK3_CRG_CTRL1_U;
 
 /* Define the union U_SC_HILINK3_CRG_CTRL2_U */
-/* ÅäÖÃHILINK CRG */
+/* ????HILINK CRG */
 /* 0x188 */
 typedef union tagScHilink3CrgCtrl2
 {
@@ -4082,7 +4075,7 @@ typedef union tagScHilink3CrgCtrl2
 } SC_HILINK3_CRG_CTRL2_U;
 
 /* Define the union U_SC_HILINK3_CRG_CTRL3_U */
-/* ÅäÖÃHILINK CRG */
+/* ????HILINK CRG */
 /* 0x18C */
 typedef union tagScHilink3CrgCtrl3
 {
@@ -4099,7 +4092,7 @@ typedef union tagScHilink3CrgCtrl3
 } SC_HILINK3_CRG_CTRL3_U;
 
 /* Define the union U_SC_HILINK4_CRG_CTRL0_U */
-/* ÅäÖÃHILINK CRG */
+/* ????HILINK CRG */
 /* 0x190 */
 typedef union tagScHilink4CrgCtrl0
 {
@@ -4116,7 +4109,7 @@ typedef union tagScHilink4CrgCtrl0
 } SC_HILINK4_CRG_CTRL0_U;
 
 /* Define the union U_SC_HILINK4_CRG_CTRL1_U */
-/* ÅäÖÃHILINK CRG */
+/* ????HILINK CRG */
 /* 0x194 */
 typedef union tagScHilink4CrgCtrl1
 {
@@ -4133,7 +4126,7 @@ typedef union tagScHilink4CrgCtrl1
 } SC_HILINK4_CRG_CTRL1_U;
 
 /* Define the union U_SC_DSAF_CLK_EN_U */
-/* DSAFÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* DSAFÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x300 */
 typedef union tagScDsafClkEn
 {
@@ -4160,7 +4153,7 @@ typedef union tagScDsafClkEn
 } SC_DSAF_CLK_EN_U;
 
 /* Define the union U_SC_DSAF_CLK_DIS_U */
-/* DSAFÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* DSAFÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x304 */
 typedef union tagScDsafClkDis
 {
@@ -4187,7 +4180,7 @@ typedef union tagScDsafClkDis
 } SC_DSAF_CLK_DIS_U;
 
 /* Define the union U_SC_NT_CLK_EN_U */
-/* NTÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* NTÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x308 */
 typedef union tagScNtClkEn
 {
@@ -4204,7 +4197,7 @@ typedef union tagScNtClkEn
 } SC_NT_CLK_EN_U;
 
 /* Define the union U_SC_NT_CLK_DIS_U */
-/* NTÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* NTÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x30C */
 typedef union tagScNtClkDis
 {
@@ -4221,7 +4214,7 @@ typedef union tagScNtClkDis
 } SC_NT_CLK_DIS_U;
 
 /* Define the union U_SC_XGE_CLK_EN_U */
-/* XGEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* XGEÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x310 */
 typedef union tagScXgeClkEn
 {
@@ -4250,7 +4243,7 @@ typedef union tagScXgeClkEn
 } SC_XGE_CLK_EN_U;
 
 /* Define the union U_SC_XGE_CLK_DIS_U */
-/* XGEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* XGEÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x314 */
 typedef union tagScXgeClkDis
 {
@@ -4279,7 +4272,7 @@ typedef union tagScXgeClkDis
 } SC_XGE_CLK_DIS_U;
 
 /* Define the union U_SC_GE_CLK_EN_U */
-/* GEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* GEÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x318 */
 typedef union tagScGeClkEn
 {
@@ -4326,7 +4319,7 @@ typedef union tagScGeClkEn
 } SC_GE_CLK_EN_U;
 
 /* Define the union U_SC_GE_CLK_DIS_U */
-/* GEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* GEÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x31C */
 typedef union tagScGeClkDis
 {
@@ -4373,7 +4366,7 @@ typedef union tagScGeClkDis
 } SC_GE_CLK_DIS_U;
 
 /* Define the union U_SC_PPE_CLK_EN_U */
-/* PPEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* PPEÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x320 */
 typedef union tagScPpeClkEn
 {
@@ -4397,7 +4390,7 @@ typedef union tagScPpeClkEn
 } SC_PPE_CLK_EN_U;
 
 /* Define the union U_SC_PPE_CLK_DIS_U */
-/* PPEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* PPEÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x324 */
 typedef union tagScPpeClkDis
 {
@@ -4421,7 +4414,7 @@ typedef union tagScPpeClkDis
 } SC_PPE_CLK_DIS_U;
 
 /* Define the union U_SC_ROCEE_CLK_EN_U */
-/* ROCEEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* ROCEEÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x328 */
 typedef union tagScRoceeClkEn
 {
@@ -4443,7 +4436,7 @@ typedef union tagScRoceeClkEn
 } SC_ROCEE_CLK_EN_U;
 
 /* Define the union U_SC_ROCEE_CLK_DIS_U */
-/* ROCEEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* ROCEEÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x32C */
 typedef union tagScRoceeClkDis
 {
@@ -4465,7 +4458,7 @@ typedef union tagScRoceeClkDis
 } SC_ROCEE_CLK_DIS_U;
 
 /* Define the union U_SC_CPU_CLK_EN_U */
-/* CPUÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* CPUÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x330 */
 typedef union tagScCpuClkEn
 {
@@ -4482,7 +4475,7 @@ typedef union tagScCpuClkEn
 } SC_CPU_CLK_EN_U;
 
 /* Define the union U_SC_CPU_CLK_DIS_U */
-/* CPUÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* CPUÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x334 */
 typedef union tagScCpuClkDis
 {
@@ -4499,7 +4492,7 @@ typedef union tagScCpuClkDis
 } SC_CPU_CLK_DIS_U;
 
 /* Define the union U_SC_SAS_CLK_EN_U */
-/* SASÊ±ÖÓÃÅ¿ØÐÅºÅ */
+/* SASÊ±???Å¿??Åº? */
 /* 0x338 */
 typedef union tagScSasClkEn
 {
@@ -4535,7 +4528,7 @@ typedef union tagScSasClkEn
 } SC_SAS_CLK_EN_U;
 
 /* Define the union U_SC_SAS_CLK_DIS_U */
-/* SASÊ±ÖÓÃÅ¿ØÐÅºÅ */
+/* SASÊ±???Å¿??Åº? */
 /* 0x33C */
 typedef union tagScSasClkDis
 {
@@ -4571,7 +4564,7 @@ typedef union tagScSasClkDis
 } SC_SAS_CLK_DIS_U;
 
 /* Define the union U_SC_ITS_CLK_EN_U */
-/* itsÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* itsÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x340 */
 typedef union tagScItsClkEn
 {
@@ -4588,7 +4581,7 @@ typedef union tagScItsClkEn
 } SC_ITS_CLK_EN_U;
 
 /* Define the union U_SC_ITS_CLK_DIS_U */
-/* itsÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* itsÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x344 */
 typedef union tagScItsClkDis
 {
@@ -4605,7 +4598,7 @@ typedef union tagScItsClkDis
 } SC_ITS_CLK_DIS_U;
 
 /* Define the union U_SC_SRAM_CLK_EN_U */
-/* SRAMÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* SRAMÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x348 */
 typedef union tagScSramClkEn
 {
@@ -4622,7 +4615,7 @@ typedef union tagScSramClkEn
 } SC_SRAM_CLK_EN_U;
 
 /* Define the union U_SC_SRAM_CLK_DIS_U */
-/* SRAMÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* SRAMÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x34C */
 typedef union tagScSramClkDis
 {
@@ -4639,7 +4632,7 @@ typedef union tagScSramClkDis
 } SC_SRAM_CLK_DIS_U;
 
 /* Define the union U_SC_RCB_PPE_COM_CLK_EN_U */
-/* RCB PPE¹«¹²Ê±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* RCB PPE????Ê±??Ê¹?Ü¼Ä´??? */
 /* 0x350 */
 typedef union tagScRcbPpeComClkEn
 {
@@ -4656,7 +4649,7 @@ typedef union tagScRcbPpeComClkEn
 } SC_RCB_PPE_COM_CLK_EN_U;
 
 /* Define the union U_SC_RCB_PPE_COM_CLK_DIS_U */
-/* RCB PPE¹«¹²Ê±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* RCB PPE????Ê±?Ó½?Ö¹?Ä´??? */
 /* 0x354 */
 typedef union tagScRcbPpeComClkDis
 {
@@ -4673,7 +4666,7 @@ typedef union tagScRcbPpeComClkDis
 } SC_RCB_PPE_COM_CLK_DIS_U;
 
 /* Define the union U_SC_TIMER_CLK_EN_U */
-/* TIMERÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* TIMERÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x358 */
 typedef union tagScTimerClkEn
 {
@@ -4690,7 +4683,7 @@ typedef union tagScTimerClkEn
 } SC_TIMER_CLK_EN_U;
 
 /* Define the union U_SC_TIMER_CLK_DIS_U */
-/* TIMERÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* TIMERÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x35C */
 typedef union tagScTimerClkDis
 {
@@ -4707,7 +4700,7 @@ typedef union tagScTimerClkDis
 } SC_TIMER_CLK_DIS_U;
 
 /* Define the union U_SC_SLLC_CLK_EN_U */
-/* SLLC1Ê±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* SLLC1Ê±??Ê¹?Ü¼Ä´??? */
 /* 0x360 */
 typedef union tagScSllcClkEn
 {
@@ -4724,7 +4717,7 @@ typedef union tagScSllcClkEn
 } SC_SLLC_CLK_EN_U;
 
 /* Define the union U_SC_SLLC_CLK_DIS_U */
-/* SLLC1Ê±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* SLLC1Ê±?Ó½?Ö¹?Ä´??? */
 /* 0x364 */
 typedef union tagScSllcClkDis
 {
@@ -4741,7 +4734,7 @@ typedef union tagScSllcClkDis
 } SC_SLLC_CLK_DIS_U;
 
 /* Define the union U_SC_XBAR_RESET_REQ_U */
-/* XBARÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* XBAR?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA00 */
 typedef union tagScXbarResetReq
 {
@@ -4758,7 +4751,7 @@ typedef union tagScXbarResetReq
 } SC_XBAR_RESET_REQ_U;
 
 /* Define the union U_SC_XBAR_RESET_DREQ_U */
-/* XBARÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* XBAR?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA04 */
 typedef union tagScXbarResetDreq
 {
@@ -4775,7 +4768,7 @@ typedef union tagScXbarResetDreq
 } SC_XBAR_RESET_DREQ_U;
 
 /* Define the union U_SC_NT_RESET_REQ_U */
-/* NTÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* NT?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA08 */
 typedef union tagScNtResetReq
 {
@@ -4792,7 +4785,7 @@ typedef union tagScNtResetReq
 } SC_NT_RESET_REQ_U;
 
 /* Define the union U_SC_NT_RESET_DREQ_U */
-/* NTÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* NT?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA0C */
 typedef union tagScNtResetDreq
 {
@@ -4809,7 +4802,7 @@ typedef union tagScNtResetDreq
 } SC_NT_RESET_DREQ_U;
 
 /* Define the union U_SC_XGE_RESET_REQ_U */
-/* XGEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* XGE?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA10 */
 typedef union tagScXgeResetReq
 {
@@ -4856,7 +4849,7 @@ typedef union tagScXgeResetReq
 } SC_XGE_RESET_REQ_U;
 
 /* Define the union U_SC_XGE_RESET_DREQ_U */
-/* XGEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* XGE?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA14 */
 typedef union tagScXgeResetDreq
 {
@@ -4903,7 +4896,7 @@ typedef union tagScXgeResetDreq
 } SC_XGE_RESET_DREQ_U;
 
 /* Define the union U_SC_GE_RESET_REQ0_U */
-/* GEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷0 */
+/* GE?í¸´Î»???????Æ¼Ä´???0 */
 /* 0xA18 */
 typedef union tagScGeResetReq0
 {
@@ -4949,7 +4942,7 @@ typedef union tagScGeResetReq0
 } SC_GE_RESET_REQ0_U;
 
 /* Define the union U_SC_GE_RESET_DREQ0_U */
-/* GEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷0 */
+/* GE?í¸´Î»È¥???????Æ¼Ä´???0 */
 /* 0xA1C */
 typedef union tagScGeResetDreq0
 {
@@ -4995,7 +4988,7 @@ typedef union tagScGeResetDreq0
 } SC_GE_RESET_DREQ0_U;
 
 /* Define the union U_SC_GE_RESET_REQ1_U */
-/* GEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷1 */
+/* GE?í¸´Î»???????Æ¼Ä´???1 */
 /* 0xA20 */
 typedef union tagScGeResetReq1
 {
@@ -5029,7 +5022,7 @@ typedef union tagScGeResetReq1
 } SC_GE_RESET_REQ1_U;
 
 /* Define the union U_SC_GE_RESET_DREQ1_U */
-/* GEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷1 */
+/* GE?í¸´Î»È¥???????Æ¼Ä´???1 */
 /* 0xA24 */
 typedef union tagScGeResetDreq1
 {
@@ -5063,7 +5056,7 @@ typedef union tagScGeResetDreq1
 } SC_GE_RESET_DREQ1_U;
 
 /* Define the union U_SC_PPE_RESET_REQ_U */
-/* PPEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PPE?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA48 */
 typedef union tagScPpeResetReq
 {
@@ -5089,7 +5082,7 @@ typedef union tagScPpeResetReq
 } SC_PPE_RESET_REQ_U;
 
 /* Define the union U_SC_PPE_RESET_DREQ_U */
-/* PPEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PPE?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA4C */
 typedef union tagScPpeResetDreq
 {
@@ -5115,7 +5108,7 @@ typedef union tagScPpeResetDreq
 } SC_PPE_RESET_DREQ_U;
 
 /* Define the union U_SC_ROCEE_RESET_REQ_U */
-/* ROCEEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ROCEE?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA50 */
 typedef union tagScRoceeResetReq
 {
@@ -5132,7 +5125,7 @@ typedef union tagScRoceeResetReq
 } SC_ROCEE_RESET_REQ_U;
 
 /* Define the union U_SC_ROCEE_RESET_DREQ_U */
-/* ROCEEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ROCEE?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA54 */
 typedef union tagScRoceeResetDreq
 {
@@ -5149,7 +5142,7 @@ typedef union tagScRoceeResetDreq
 } SC_ROCEE_RESET_DREQ_U;
 
 /* Define the union U_SC_CPU_RESET_REQ_U */
-/* CPUÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* CPU?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA58 */
 typedef union tagScCpuResetReq
 {
@@ -5166,7 +5159,7 @@ typedef union tagScCpuResetReq
 } SC_CPU_RESET_REQ_U;
 
 /* Define the union U_SC_CPU_RESET_DREQ_U */
-/* CPUÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* CPU?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA5C */
 typedef union tagScCpuResetDreq
 {
@@ -5183,7 +5176,7 @@ typedef union tagScCpuResetDreq
 } SC_CPU_RESET_DREQ_U;
 
 /* Define the union U_SC_SAS_RESET_REQ_U */
-/* SASÈí¸´Î»ÇëÇó */
+/* SAS?í¸´Î»???? */
 /* 0xA60 */
 typedef union tagScSasResetReq
 {
@@ -5218,7 +5211,7 @@ typedef union tagScSasResetReq
 } SC_SAS_RESET_REQ_U;
 
 /* Define the union U_SC_SAS_RESET_DREQ_U */
-/* SAS³·ÏúÈí¸´Î»ÇëÇó */
+/* SAS?????í¸´Î»???? */
 /* 0xA64 */
 typedef union tagScSasResetDreq
 {
@@ -5253,7 +5246,7 @@ typedef union tagScSasResetDreq
 } SC_SAS_RESET_DREQ_U;
 
 /* Define the union U_SC_SLLC_TSVRX_RESET_REQ_U */
-/* SLLC TSVRXÍ¨µÀÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SLLC TSVRXÍ¨???í¸´Î»???????Æ¼Ä´??? */
 /* 0xA68 */
 typedef union tagScSllcTsvrxResetReq
 {
@@ -5273,7 +5266,7 @@ typedef union tagScSllcTsvrxResetReq
 } SC_SLLC_TSVRX_RESET_REQ_U;
 
 /* Define the union U_SC_SLLC_TSVRX_RESET_DREQ_U */
-/* SLLC TSVRXÍ¨µÀÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SLLC TSVRXÍ¨???í¸´Î»???????Æ¼Ä´??? */
 /* 0xA6C */
 typedef union tagScSllcTsvrxResetDreq
 {
@@ -5293,7 +5286,7 @@ typedef union tagScSllcTsvrxResetDreq
 } SC_SLLC_TSVRX_RESET_DREQ_U;
 
 /* Define the union U_SC_ITS_RESET_REQ_U */
-/* ITSÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ITS?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA70 */
 typedef union tagScItsResetReq
 {
@@ -5310,7 +5303,7 @@ typedef union tagScItsResetReq
 } SC_ITS_RESET_REQ_U;
 
 /* Define the union U_SC_ITS_RESET_DREQ_U */
-/* ITSÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ITS?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA74 */
 typedef union tagScItsResetDreq
 {
@@ -5327,7 +5320,7 @@ typedef union tagScItsResetDreq
 } SC_ITS_RESET_DREQ_U;
 
 /* Define the union U_SC_SRAM_RESET_REQ_U */
-/* SRAMÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SRAM?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA80 */
 typedef union tagScSramResetReq
 {
@@ -5344,7 +5337,7 @@ typedef union tagScSramResetReq
 } SC_SRAM_RESET_REQ_U;
 
 /* Define the union U_SC_SRAM_RESET_DREQ_U */
-/* SRAMÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SRAM?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA84 */
 typedef union tagScSramResetDreq
 {
@@ -5361,7 +5354,7 @@ typedef union tagScSramResetDreq
 } SC_SRAM_RESET_DREQ_U;
 
 /* Define the union U_SC_RCB_PPE_COM_RESET_REQ_U */
-/* RCB PPE¹«¹²Èí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RCB PPE?????í¸´Î»???????Æ¼Ä´??? */
 /* 0xA88 */
 typedef union tagScRcbPpeComResetReq
 {
@@ -5378,7 +5371,7 @@ typedef union tagScRcbPpeComResetReq
 } SC_RCB_PPE_COM_RESET_REQ_U;
 
 /* Define the union U_SC_RCB_PPE_COM_RESET_DREQ_U */
-/* RCB PPE¹«¹²Èí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RCB PPE?????í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA8C */
 typedef union tagScRcbPpeComResetDreq
 {
@@ -5395,7 +5388,7 @@ typedef union tagScRcbPpeComResetDreq
 } SC_RCB_PPE_COM_RESET_DREQ_U;
 
 /* Define the union U_SC_TIMER_RESET_REQ_U */
-/* TIMERÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* TIMER?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA98 */
 typedef union tagScTimerResetReq
 {
@@ -5412,7 +5405,7 @@ typedef union tagScTimerResetReq
 } SC_TIMER_RESET_REQ_U;
 
 /* Define the union U_SC_TIMER_RESET_DREQ_U */
-/* TIMERÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* TIMER?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA9C */
 typedef union tagScTimerResetDreq
 {
@@ -5429,7 +5422,7 @@ typedef union tagScTimerResetDreq
 } SC_TIMER_RESET_DREQ_U;
 
 /* Define the union U_SC_SLLC_RESET_REQ_U */
-/* SLLC1Èí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SLLC1?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAA0 */
 typedef union tagScSllcResetReq
 {
@@ -5446,7 +5439,7 @@ typedef union tagScSllcResetReq
 } SC_SLLC_RESET_REQ_U;
 
 /* Define the union U_SC_SLLC_RESET_DREQ_U */
-/* SLLC1Èí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SLLC1?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAA4 */
 typedef union tagScSllcResetDreq
 {
@@ -5463,7 +5456,7 @@ typedef union tagScSllcResetDreq
 } SC_SLLC_RESET_DREQ_U;
 
 /* Define the union U_SC_DISPATCH_DAW_EN_U */
-/* dispatch daw enÅäÖÃ */
+/* dispatch daw en???? */
 /* 0x1000 */
 typedef union tagScDispatchDawEn
 {
@@ -5480,7 +5473,7 @@ typedef union tagScDispatchDawEn
 } SC_DISPATCH_DAW_EN_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY0_U */
-/* dispatch dawÅäÖÃÕóÁÐ0 */
+/* dispatch daw????????0 */
 /* 0x1004 */
 typedef union tagScDispatchDawArray0
 {
@@ -5500,7 +5493,7 @@ typedef union tagScDispatchDawArray0
 } SC_DISPATCH_DAW_ARRAY0_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY1_U */
-/* dispatch dawÅäÖÃÕóÁÐ1 */
+/* dispatch daw????????1 */
 /* 0x1008 */
 typedef union tagScDispatchDawArray1
 {
@@ -5520,7 +5513,7 @@ typedef union tagScDispatchDawArray1
 } SC_DISPATCH_DAW_ARRAY1_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY2_U */
-/* dispatch dawÅäÖÃÕóÁÐ2 */
+/* dispatch daw????????2 */
 /* 0x100C */
 typedef union tagScDispatchDawArray2
 {
@@ -5540,7 +5533,7 @@ typedef union tagScDispatchDawArray2
 } SC_DISPATCH_DAW_ARRAY2_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY3_U */
-/* dispatch dawÅäÖÃÕóÁÐ3 */
+/* dispatch daw????????3 */
 /* 0x1010 */
 typedef union tagScDispatchDawArray3
 {
@@ -5560,7 +5553,7 @@ typedef union tagScDispatchDawArray3
 } SC_DISPATCH_DAW_ARRAY3_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY4_U */
-/* dispatch dawÅäÖÃÕóÁÐ4 */
+/* dispatch daw????????4 */
 /* 0x1014 */
 typedef union tagScDispatchDawArray4
 {
@@ -5580,7 +5573,7 @@ typedef union tagScDispatchDawArray4
 } SC_DISPATCH_DAW_ARRAY4_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY5_U */
-/* dispatch dawÅäÖÃÕóÁÐ5 */
+/* dispatch daw????????5 */
 /* 0x1018 */
 typedef union tagScDispatchDawArray5
 {
@@ -5600,7 +5593,7 @@ typedef union tagScDispatchDawArray5
 } SC_DISPATCH_DAW_ARRAY5_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY6_U */
-/* dispatch dawÅäÖÃÕóÁÐ6 */
+/* dispatch daw????????6 */
 /* 0x101C */
 typedef union tagScDispatchDawArray6
 {
@@ -5620,7 +5613,7 @@ typedef union tagScDispatchDawArray6
 } SC_DISPATCH_DAW_ARRAY6_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY7_U */
-/* dispatch dawÅäÖÃÕóÁÐ7 */
+/* dispatch daw????????7 */
 /* 0x1020 */
 typedef union tagScDispatchDawArray7
 {
@@ -5640,7 +5633,7 @@ typedef union tagScDispatchDawArray7
 } SC_DISPATCH_DAW_ARRAY7_U;
 
 /* Define the union U_SC_DISPATCH_RETRY_CONTROL_U */
-/* dispatch retry¿ØÖÆ¼Ä´æÆ÷ */
+/* dispatch retry???Æ¼Ä´??? */
 /* 0x1030 */
 typedef union tagScDispatchRetryControl
 {
@@ -5658,7 +5651,7 @@ typedef union tagScDispatchRetryControl
 } SC_DISPATCH_RETRY_CONTROL_U;
 
 /* Define the union U_SC_DISPATCH_INTMASK_U */
-/* dispatchµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
+/* dispatch???Ð¶??Á±Î¼Ä´??? */
 /* 0x1100 */
 typedef union tagScDispatchIntmask
 {
@@ -5675,7 +5668,7 @@ typedef union tagScDispatchIntmask
 } SC_DISPATCH_INTMASK_U;
 
 /* Define the union U_SC_DISPATCH_RAWINT_U */
-/* dispatchµÄÔ­Ê¼ÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
+/* dispatch??Ô­Ê¼?Ð¶?×´Ì¬?Ä´??? */
 /* 0x1104 */
 typedef union tagScDispatchRawint
 {
@@ -5692,7 +5685,7 @@ typedef union tagScDispatchRawint
 } SC_DISPATCH_RAWINT_U;
 
 /* Define the union U_SC_DISPATCH_INTSTAT_U */
-/* dispatchµÄÆÁ±ÎºóµÄÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
+/* dispatch???Á±Îº????Ð¶?×´Ì¬?Ä´??? */
 /* 0x1108 */
 typedef union tagScDispatchIntstat
 {
@@ -5709,7 +5702,7 @@ typedef union tagScDispatchIntstat
 } SC_DISPATCH_INTSTAT_U;
 
 /* Define the union U_SC_DISPATCH_INTCLR_U */
-/* dispatchµÄÖÐ¶ÏÇå³ý¼Ä´æÆ÷ */
+/* dispatch???Ð¶??????Ä´??? */
 /* 0x110C */
 typedef union tagScDispatchIntclr
 {
@@ -5726,7 +5719,7 @@ typedef union tagScDispatchIntclr
 } SC_DISPATCH_INTCLR_U;
 
 /* Define the union U_SC_DISPATCH_ERRSTAT_U */
-/* dispatchµÄERR×´Ì¬¼Ä´æÆ÷ */
+/* dispatch??ERR×´Ì¬?Ä´??? */
 /* 0x1110 */
 typedef union tagScDispatchErrstat
 {
@@ -5744,7 +5737,7 @@ typedef union tagScDispatchErrstat
 } SC_DISPATCH_ERRSTAT_U;
 
 /* Define the union U_SC_REMAP_CTRL_U */
-/* subsysµÄÆô¶¯Remap¼Ä´æÆ÷ */
+/* subsys??????Remap?Ä´??? */
 /* 0x1200 */
 typedef union tagScRemapCtrl
 {
@@ -5761,7 +5754,7 @@ typedef union tagScRemapCtrl
 } SC_REMAP_CTRL_U;
 
 /* Define the union U_SC_SRAM_CTRL0_U */
-/* sram¿ØÖÆ¼Ä´æÆ÷0 */
+/* sram???Æ¼Ä´???0 */
 /* 0x2030 */
 typedef union tagScSramCtrl0
 {
@@ -5784,7 +5777,7 @@ typedef union tagScSramCtrl0
 } SC_SRAM_CTRL0_U;
 
 /* Define the union U_SC_M3_CTRL_U */
-/* M3¿ØÖÆ¼Ä´æÆ÷ */
+/* M3???Æ¼Ä´??? */
 /* 0x2040 */
 typedef union tagScM3Ctrl
 {
@@ -5806,7 +5799,7 @@ typedef union tagScM3Ctrl
 } SC_M3_CTRL_U;
 
 /* Define the union U_SC_REMAP_SRAM_ADDR_CTRL_U */
-/* M3 remapµ½sramµÄµØÖ·ÅäÖÃ */
+/* M3 remap??sram?Äµ?Ö·???? */
 /* 0x2050 */
 typedef union tagScRemapSramAddrCtrl
 {
@@ -5823,7 +5816,7 @@ typedef union tagScRemapSramAddrCtrl
 } SC_REMAP_SRAM_ADDR_CTRL_U;
 
 /* Define the union U_SC_LIGHT_MODULE_DETECT_EN_U */
-/* ¹âÄ£¿éSDÐÅºÅ¼ì²âÊ¹ÄÜ¼Ä´æÆ÷ */
+/* ??Ä£??SD?ÅºÅ¼???Ê¹?Ü¼Ä´??? */
 /* 0x2060 */
 typedef union tagScLightModuleDetectEn
 {
@@ -5845,7 +5838,7 @@ typedef union tagScLightModuleDetectEn
 } SC_LIGHT_MODULE_DETECT_EN_U;
 
 /* Define the union U_SC_TIMER_CLKEN_CTRL_U */
-/* TIMERµÄclkenÉú³É¿ØÖÆ¼Ä´æÆ÷ */
+/* TIMER??clken???É¿??Æ¼Ä´??? */
 /* 0x2070 */
 typedef union tagScTimerClkenCtrl
 {
@@ -5863,7 +5856,7 @@ typedef union tagScTimerClkenCtrl
 } SC_TIMER_CLKEN_CTRL_U;
 
 /* Define the union U_SC_VMID_CTRL0_U */
-/* M3 VMIDÅäÖÃ */
+/* M3 VMID???? */
 /* 0x20E0 */
 typedef union tagScVmidCtrl0
 {
@@ -5882,7 +5875,7 @@ typedef union tagScVmidCtrl0
 } SC_VMID_CTRL0_U;
 
 /* Define the union U_SC_ROCEE_VMID_U */
-/* ROCEE VMIDÅäÖÃ */
+/* ROCEE VMID???? */
 /* 0x20E4 */
 typedef union tagScRoceeVmid
 {
@@ -5899,7 +5892,7 @@ typedef union tagScRoceeVmid
 } SC_ROCEE_VMID_U;
 
 /* Define the union U_SC_ITS_M3_INT_MUX_SEL_U */
-/* ¶ÔÖÐ¶ÏËÍµ½ITS»¹ÊÇM3£¬×öMUXÑ¡Ôñ */
+/* ???Ð¶??Íµ?ITS????M3????MUXÑ¡?? */
 /* 0x21F0 */
 typedef union tagScItsM3IntMuxSel
 {
@@ -5937,7 +5930,7 @@ typedef union tagScFteMuxSel
 } SC_FTE_MUX_SEL_U;
 
 /* Define the union U_SC_TCAM_MBIST_EN_U */
-/* DSAFÖÐTCAM MBISTÆô¶¯Ê¹ÄÜ¡£ */
+/* DSAF??TCAM MBIST????Ê¹?Ü¡? */
 /* 0x2300 */
 typedef union tagScTcamMbistEn
 {
@@ -5954,7 +5947,7 @@ typedef union tagScTcamMbistEn
 } SC_TCAM_MBIST_EN_U;
 
 /* Define the union U_SC_HILINK2_LRSTB_MUX_CTRL_U */
-/* HILINK2 lrstb[7:0]µÄMUXÑ¡Ôñ¿ØÖÆ */
+/* HILINK2 lrstb[7:0]??MUXÑ¡?????? */
 /* 0x2340 */
 typedef union tagScHilink2LrstbMuxCtrl
 {
@@ -5971,7 +5964,7 @@ typedef union tagScHilink2LrstbMuxCtrl
 } SC_HILINK2_LRSTB_MUX_CTRL_U;
 
 /* Define the union U_SC_HILINK2_MACRO_SS_REFCLK_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2400 */
 typedef union tagScHilink2MacroSsRefclk
 {
@@ -5995,7 +5988,7 @@ typedef union tagScHilink2MacroSsRefclk
 } SC_HILINK2_MACRO_SS_REFCLK_U;
 
 /* Define the union U_SC_HILINK2_MACRO_CS_REFCLK_DIRSEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2404 */
 typedef union tagScHilink2MacroCsRefclkDirsel
 {
@@ -6021,7 +6014,7 @@ typedef union tagScHilink2MacroCsRefclkDirsel
 } SC_HILINK2_MACRO_CS_REFCLK_DIRSEL_U;
 
 /* Define the union U_SC_HILINK2_MACRO_LIFECLK2DIG_SEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2408 */
 typedef union tagScHilink2MacroLifeclk2digSel
 {
@@ -6038,7 +6031,7 @@ typedef union tagScHilink2MacroLifeclk2digSel
 } SC_HILINK2_MACRO_LIFECLK2DIG_SEL_U;
 
 /* Define the union U_SC_HILINK2_MACRO_CORE_CLK_SELEXT_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x240C */
 typedef union tagScHilink2MacroCoreClkSelext
 {
@@ -6055,7 +6048,7 @@ typedef union tagScHilink2MacroCoreClkSelext
 } SC_HILINK2_MACRO_CORE_CLK_SELEXT_U;
 
 /* Define the union U_SC_HILINK2_MACRO_CORE_CLK_SEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2410 */
 typedef union tagScHilink2MacroCoreClkSel
 {
@@ -6072,7 +6065,7 @@ typedef union tagScHilink2MacroCoreClkSel
 } SC_HILINK2_MACRO_CORE_CLK_SEL_U;
 
 /* Define the union U_SC_HILINK2_MACRO_CTRL_BUS_MODE_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2414 */
 typedef union tagScHilink2MacroCtrlBusMode
 {
@@ -6089,7 +6082,7 @@ typedef union tagScHilink2MacroCtrlBusMode
 } SC_HILINK2_MACRO_CTRL_BUS_MODE_U;
 
 /* Define the union U_SC_HILINK2_MACRO_MACROPWRDB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2418 */
 typedef union tagScHilink2MacroMacropwrdb
 {
@@ -6106,7 +6099,7 @@ typedef union tagScHilink2MacroMacropwrdb
 } SC_HILINK2_MACRO_MACROPWRDB_U;
 
 /* Define the union U_SC_HILINK2_MACRO_GRSTB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x241C */
 typedef union tagScHilink2MacroGrstb
 {
@@ -6123,7 +6116,7 @@ typedef union tagScHilink2MacroGrstb
 } SC_HILINK2_MACRO_GRSTB_U;
 
 /* Define the union U_SC_HILINK2_MACRO_BIT_SLIP_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2420 */
 typedef union tagScHilink2MacroBitSlip
 {
@@ -6140,7 +6133,7 @@ typedef union tagScHilink2MacroBitSlip
 } SC_HILINK2_MACRO_BIT_SLIP_U;
 
 /* Define the union U_SC_HILINK2_MACRO_LRSTB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2424 */
 typedef union tagScHilink2MacroLrstb
 {
@@ -6157,7 +6150,7 @@ typedef union tagScHilink2MacroLrstb
 } SC_HILINK2_MACRO_LRSTB_U;
 
 /* Define the union U_SC_HILINK3_MACRO_SS_REFCLK_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2500 */
 typedef union tagScHilink3MacroSsRefclk
 {
@@ -6181,7 +6174,7 @@ typedef union tagScHilink3MacroSsRefclk
 } SC_HILINK3_MACRO_SS_REFCLK_U;
 
 /* Define the union U_SC_HILINK3_MACRO_CS_REFCLK_DIRSEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2504 */
 typedef union tagScHilink3MacroCsRefclkDirsel
 {
@@ -6207,7 +6200,7 @@ typedef union tagScHilink3MacroCsRefclkDirsel
 } SC_HILINK3_MACRO_CS_REFCLK_DIRSEL_U;
 
 /* Define the union U_SC_HILINK3_MACRO_LIFECLK2DIG_SEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2508 */
 typedef union tagScHilink3MacroLifeclk2digSel
 {
@@ -6224,7 +6217,7 @@ typedef union tagScHilink3MacroLifeclk2digSel
 } SC_HILINK3_MACRO_LIFECLK2DIG_SEL_U;
 
 /* Define the union U_SC_HILINK3_MACRO_CORE_CLK_SELEXT_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x250C */
 typedef union tagScHilink3MacroCoreClkSelext
 {
@@ -6241,7 +6234,7 @@ typedef union tagScHilink3MacroCoreClkSelext
 } SC_HILINK3_MACRO_CORE_CLK_SELEXT_U;
 
 /* Define the union U_SC_HILINK3_MACRO_CORE_CLK_SEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2510 */
 typedef union tagScHilink3MacroCoreClkSel
 {
@@ -6258,7 +6251,7 @@ typedef union tagScHilink3MacroCoreClkSel
 } SC_HILINK3_MACRO_CORE_CLK_SEL_U;
 
 /* Define the union U_SC_HILINK3_MACRO_CTRL_BUS_MODE_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2514 */
 typedef union tagScHilink3MacroCtrlBusMode
 {
@@ -6275,7 +6268,7 @@ typedef union tagScHilink3MacroCtrlBusMode
 } SC_HILINK3_MACRO_CTRL_BUS_MODE_U;
 
 /* Define the union U_SC_HILINK3_MACRO_MACROPWRDB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2518 */
 typedef union tagScHilink3MacroMacropwrdb
 {
@@ -6292,7 +6285,7 @@ typedef union tagScHilink3MacroMacropwrdb
 } SC_HILINK3_MACRO_MACROPWRDB_U;
 
 /* Define the union U_SC_HILINK3_MACRO_GRSTB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x251C */
 typedef union tagScHilink3MacroGrstb
 {
@@ -6309,7 +6302,7 @@ typedef union tagScHilink3MacroGrstb
 } SC_HILINK3_MACRO_GRSTB_U;
 
 /* Define the union U_SC_HILINK3_MACRO_BIT_SLIP_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2520 */
 typedef union tagScHilink3MacroBitSlip
 {
@@ -6326,7 +6319,7 @@ typedef union tagScHilink3MacroBitSlip
 } SC_HILINK3_MACRO_BIT_SLIP_U;
 
 /* Define the union U_SC_HILINK3_MACRO_LRSTB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2524 */
 typedef union tagScHilink3MacroLrstb
 {
@@ -6343,7 +6336,7 @@ typedef union tagScHilink3MacroLrstb
 } SC_HILINK3_MACRO_LRSTB_U;
 
 /* Define the union U_SC_HILINK4_MACRO_SS_REFCLK_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2600 */
 typedef union tagScHilink4MacroSsRefclk
 {
@@ -6367,7 +6360,7 @@ typedef union tagScHilink4MacroSsRefclk
 } SC_HILINK4_MACRO_SS_REFCLK_U;
 
 /* Define the union U_SC_HILINK4_MACRO_CS_REFCLK_DIRSEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2604 */
 typedef union tagScHilink4MacroCsRefclkDirsel
 {
@@ -6393,7 +6386,7 @@ typedef union tagScHilink4MacroCsRefclkDirsel
 } SC_HILINK4_MACRO_CS_REFCLK_DIRSEL_U;
 
 /* Define the union U_SC_HILINK4_MACRO_LIFECLK2DIG_SEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2608 */
 typedef union tagScHilink4MacroLifeclk2digSel
 {
@@ -6410,7 +6403,7 @@ typedef union tagScHilink4MacroLifeclk2digSel
 } SC_HILINK4_MACRO_LIFECLK2DIG_SEL_U;
 
 /* Define the union U_SC_HILINK4_MACRO_CORE_CLK_SELEXT_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x260C */
 typedef union tagScHilink4MacroCoreClkSelext
 {
@@ -6427,7 +6420,7 @@ typedef union tagScHilink4MacroCoreClkSelext
 } SC_HILINK4_MACRO_CORE_CLK_SELEXT_U;
 
 /* Define the union U_SC_HILINK4_MACRO_CORE_CLK_SEL_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2610 */
 typedef union tagScHilink4MacroCoreClkSel
 {
@@ -6444,7 +6437,7 @@ typedef union tagScHilink4MacroCoreClkSel
 } SC_HILINK4_MACRO_CORE_CLK_SEL_U;
 
 /* Define the union U_SC_HILINK4_MACRO_CTRL_BUS_MODE_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2614 */
 typedef union tagScHilink4MacroCtrlBusMode
 {
@@ -6461,7 +6454,7 @@ typedef union tagScHilink4MacroCtrlBusMode
 } SC_HILINK4_MACRO_CTRL_BUS_MODE_U;
 
 /* Define the union U_SC_HILINK4_MACRO_MACROPWRDB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2618 */
 typedef union tagScHilink4MacroMacropwrdb
 {
@@ -6478,7 +6471,7 @@ typedef union tagScHilink4MacroMacropwrdb
 } SC_HILINK4_MACRO_MACROPWRDB_U;
 
 /* Define the union U_SC_HILINK4_MACRO_GRSTB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x261C */
 typedef union tagScHilink4MacroGrstb
 {
@@ -6495,7 +6488,7 @@ typedef union tagScHilink4MacroGrstb
 } SC_HILINK4_MACRO_GRSTB_U;
 
 /* Define the union U_SC_HILINK4_MACRO_BIT_SLIP_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2620 */
 typedef union tagScHilink4MacroBitSlip
 {
@@ -6512,7 +6505,7 @@ typedef union tagScHilink4MacroBitSlip
 } SC_HILINK4_MACRO_BIT_SLIP_U;
 
 /* Define the union U_SC_HILINK4_MACRO_LRSTB_U */
-/* HILINKÅäÖÃ¼Ä´æÆ÷ */
+/* HILINK???Ã¼Ä´??? */
 /* 0x2624 */
 typedef union tagScHilink4MacroLrstb
 {
@@ -6529,7 +6522,7 @@ typedef union tagScHilink4MacroLrstb
 } SC_HILINK4_MACRO_LRSTB_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL0_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* smmu mem???Æ¼Ä´???0 */
 /* 0x3000 */
 typedef union tagScSmmuMemCtrl0
 {
@@ -6546,7 +6539,7 @@ typedef union tagScSmmuMemCtrl0
 } SC_SMMU_MEM_CTRL0_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL1_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* smmu mem???Æ¼Ä´???1 */
 /* 0x3004 */
 typedef union tagScSmmuMemCtrl1
 {
@@ -6563,7 +6556,7 @@ typedef union tagScSmmuMemCtrl1
 } SC_SMMU_MEM_CTRL1_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL2_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷2 */
+/* smmu mem???Æ¼Ä´???2 */
 /* 0x3008 */
 typedef union tagScSmmuMemCtrl2
 {
@@ -6580,7 +6573,7 @@ typedef union tagScSmmuMemCtrl2
 } SC_SMMU_MEM_CTRL2_U;
 
 /* Define the union U_SC_SLLC1_MEM_CTRL_U */
-/* sllc1 mem¿ØÖÆ¼Ä´æÆ÷ */
+/* sllc1 mem???Æ¼Ä´??? */
 /* 0x3010 */
 typedef union tagScSllc1MemCtrl
 {
@@ -6597,7 +6590,7 @@ typedef union tagScSllc1MemCtrl
 } SC_SLLC1_MEM_CTRL_U;
 
 /* Define the union U_SC_SRAM_MEM_CTRL_U */
-/* sram mem¿ØÖÆ¼Ä´æÆ÷ */
+/* sram mem???Æ¼Ä´??? */
 /* 0x3020 */
 typedef union tagScSramMemCtrl
 {
@@ -6614,7 +6607,7 @@ typedef union tagScSramMemCtrl
 } SC_SRAM_MEM_CTRL_U;
 
 /* Define the union U_SC_ROCEE_MEM_CTRL0_U */
-/* rocee mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* rocee mem???Æ¼Ä´???0 */
 /* 0x3030 */
 typedef union tagScRoceeMemCtrl0
 {
@@ -6631,7 +6624,7 @@ typedef union tagScRoceeMemCtrl0
 } SC_ROCEE_MEM_CTRL0_U;
 
 /* Define the union U_SC_ROCEE_MEM_CTRL1_U */
-/* rocee mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* rocee mem???Æ¼Ä´???1 */
 /* 0x3034 */
 typedef union tagScRoceeMemCtrl1
 {
@@ -6648,7 +6641,7 @@ typedef union tagScRoceeMemCtrl1
 } SC_ROCEE_MEM_CTRL1_U;
 
 /* Define the union U_SC_XGE_MEM_CTRL0_U */
-/* xge mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* xge mem???Æ¼Ä´???0 */
 /* 0x3040 */
 typedef union tagScXgeMemCtrl0
 {
@@ -6665,7 +6658,7 @@ typedef union tagScXgeMemCtrl0
 } SC_XGE_MEM_CTRL0_U;
 
 /* Define the union U_SC_XGE_MEM_CTRL1_U */
-/* xge mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* xge mem???Æ¼Ä´???1 */
 /* 0x3044 */
 typedef union tagScXgeMemCtrl1
 {
@@ -6682,7 +6675,7 @@ typedef union tagScXgeMemCtrl1
 } SC_XGE_MEM_CTRL1_U;
 
 /* Define the union U_SC_SAS_MEM_CTRL_U */
-/* sas mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* sas mem???Æ¼Ä´???0 */
 /* 0x3050 */
 typedef union tagScSasMemCtrl
 {
@@ -6699,7 +6692,7 @@ typedef union tagScSasMemCtrl
 } SC_SAS_MEM_CTRL_U;
 
 /* Define the union U_SC_GE_MEM_CTRL_U */
-/* ge mem¿ØÖÆ¼Ä´æÆ÷ */
+/* ge mem???Æ¼Ä´??? */
 /* 0x3060 */
 typedef union tagScGeMemCtrl
 {
@@ -6716,7 +6709,7 @@ typedef union tagScGeMemCtrl
 } SC_GE_MEM_CTRL_U;
 
 /* Define the union U_SC_XBAR_MEM_CTRL0_U */
-/* xbar mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* xbar mem???Æ¼Ä´???0 */
 /* 0x3070 */
 typedef union tagScXbarMemCtrl0
 {
@@ -6733,7 +6726,7 @@ typedef union tagScXbarMemCtrl0
 } SC_XBAR_MEM_CTRL0_U;
 
 /* Define the union U_SC_XBAR_MEM_CTRL1_U */
-/* xbar mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* xbar mem???Æ¼Ä´???1 */
 /* 0x3074 */
 typedef union tagScXbarMemCtrl1
 {
@@ -6750,7 +6743,7 @@ typedef union tagScXbarMemCtrl1
 } SC_XBAR_MEM_CTRL1_U;
 
 /* Define the union U_SC_RCB_MEM_CTRL0_U */
-/* rcb mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* rcb mem???Æ¼Ä´???0 */
 /* 0x3080 */
 typedef union tagScRcbMemCtrl0
 {
@@ -6767,7 +6760,7 @@ typedef union tagScRcbMemCtrl0
 } SC_RCB_MEM_CTRL0_U;
 
 /* Define the union U_SC_RCB_MEM_CTRL1_U */
-/* rcb mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* rcb mem???Æ¼Ä´???1 */
 /* 0x3084 */
 typedef union tagScRcbMemCtrl1
 {
@@ -6784,7 +6777,7 @@ typedef union tagScRcbMemCtrl1
 } SC_RCB_MEM_CTRL1_U;
 
 /* Define the union U_SC_DSAF_CLK_ST_U */
-/* DSAFÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* DSAFÊ±??×´Ì¬?Ä´??? */
 /* 0x5300 */
 typedef union tagScDsafClkSt
 {
@@ -6811,7 +6804,7 @@ typedef union tagScDsafClkSt
 } SC_DSAF_CLK_ST_U;
 
 /* Define the union U_SC_NT_CLK_ST_U */
-/* NTÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* NTÊ±??×´Ì¬?Ä´??? */
 /* 0x5304 */
 typedef union tagScNtClkSt
 {
@@ -6828,7 +6821,7 @@ typedef union tagScNtClkSt
 } SC_NT_CLK_ST_U;
 
 /* Define the union U_SC_XGE_CLK_ST_U */
-/* XGEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* XGEÊ±??×´Ì¬?Ä´??? */
 /* 0x5308 */
 typedef union tagScXgeClkSt
 {
@@ -6857,7 +6850,7 @@ typedef union tagScXgeClkSt
 } SC_XGE_CLK_ST_U;
 
 /* Define the union U_SC_GE_CLK_ST_U */
-/* GEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* GEÊ±??×´Ì¬?Ä´??? */
 /* 0x530C */
 typedef union tagScGeClkSt
 {
@@ -6904,7 +6897,7 @@ typedef union tagScGeClkSt
 } SC_GE_CLK_ST_U;
 
 /* Define the union U_SC_PPE_CLK_ST_U */
-/* PPEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* PPEÊ±??×´Ì¬?Ä´??? */
 /* 0x5310 */
 typedef union tagScPpeClkSt
 {
@@ -6928,7 +6921,7 @@ typedef union tagScPpeClkSt
 } SC_PPE_CLK_ST_U;
 
 /* Define the union U_SC_ROCEE_CLK_ST_U */
-/* ROCEEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* ROCEEÊ±??×´Ì¬?Ä´??? */
 /* 0x5314 */
 typedef union tagScRoceeClkSt
 {
@@ -6950,7 +6943,7 @@ typedef union tagScRoceeClkSt
 } SC_ROCEE_CLK_ST_U;
 
 /* Define the union U_SC_CPU_CLK_ST_U */
-/* CPUÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* CPUÊ±??×´Ì¬?Ä´??? */
 /* 0x5318 */
 typedef union tagScCpuClkSt
 {
@@ -6967,7 +6960,7 @@ typedef union tagScCpuClkSt
 } SC_CPU_CLK_ST_U;
 
 /* Define the union U_SC_SAS_CLK_ST_U */
-/* SASÊ±ÖÓÃÅ¿ØÐÅºÅ×´Ì¬ */
+/* SASÊ±???Å¿??Åº?×´Ì¬ */
 /* 0x531C */
 typedef union tagScSasClkSt
 {
@@ -7003,7 +6996,7 @@ typedef union tagScSasClkSt
 } SC_SAS_CLK_ST_U;
 
 /* Define the union U_SC_ITS_CLK_ST_U */
-/* ITSÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* ITSÊ±??×´Ì¬?Ä´??? */
 /* 0x5320 */
 typedef union tagScItsClkSt
 {
@@ -7020,7 +7013,7 @@ typedef union tagScItsClkSt
 } SC_ITS_CLK_ST_U;
 
 /* Define the union U_SC_SRAM_CLK_ST_U */
-/* SRAMÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SRAMÊ±??×´Ì¬?Ä´??? */
 /* 0x5324 */
 typedef union tagScSramClkSt
 {
@@ -7037,7 +7030,7 @@ typedef union tagScSramClkSt
 } SC_SRAM_CLK_ST_U;
 
 /* Define the union U_SC_RCB_PPE_COM_CLK_ST_U */
-/* RCB PPE¹«¹²Ê±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* RCB PPE????Ê±??×´Ì¬?Ä´??? */
 /* 0x5328 */
 typedef union tagScRcbPpeComClkSt
 {
@@ -7054,7 +7047,7 @@ typedef union tagScRcbPpeComClkSt
 } SC_RCB_PPE_COM_CLK_ST_U;
 
 /* Define the union U_SC_TIMER_CLK_ST_U */
-/* TIMERÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* TIMERÊ±??×´Ì¬?Ä´??? */
 /* 0x532C */
 typedef union tagScTimerClkSt
 {
@@ -7071,7 +7064,7 @@ typedef union tagScTimerClkSt
 } SC_TIMER_CLK_ST_U;
 
 /* Define the union U_SC_SLLC_CLK_ST_U */
-/* SLLC1Ê±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SLLC1Ê±??×´Ì¬?Ä´??? */
 /* 0x5330 */
 typedef union tagScSllcClkSt
 {
@@ -7088,7 +7081,7 @@ typedef union tagScSllcClkSt
 } SC_SLLC_CLK_ST_U;
 
 /* Define the union U_SC_XBAR_RESET_ST_U */
-/* DSAFÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* DSAF?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A00 */
 typedef union tagScXbarResetSt
 {
@@ -7105,7 +7098,7 @@ typedef union tagScXbarResetSt
 } SC_XBAR_RESET_ST_U;
 
 /* Define the union U_SC_NT_RESET_ST_U */
-/* NTÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* NT?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A04 */
 typedef union tagScNtResetSt
 {
@@ -7122,7 +7115,7 @@ typedef union tagScNtResetSt
 } SC_NT_RESET_ST_U;
 
 /* Define the union U_SC_XGE_RESET_ST_U */
-/* XGEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* XGE?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A08 */
 typedef union tagScXgeResetSt
 {
@@ -7169,7 +7162,7 @@ typedef union tagScXgeResetSt
 } SC_XGE_RESET_ST_U;
 
 /* Define the union U_SC_GE_RESET_ST0_U */
-/* GEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷0 */
+/* GE?í¸´Î»????×´Ì¬?Ä´???0 */
 /* 0x5A0C */
 typedef union tagScGeResetSt0
 {
@@ -7215,7 +7208,7 @@ typedef union tagScGeResetSt0
 } SC_GE_RESET_ST0_U;
 
 /* Define the union U_SC_GE_RESET_ST1_U */
-/* GEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷1 */
+/* GE?í¸´Î»????×´Ì¬?Ä´???1 */
 /* 0x5A10 */
 typedef union tagScGeResetSt1
 {
@@ -7249,7 +7242,7 @@ typedef union tagScGeResetSt1
 } SC_GE_RESET_ST1_U;
 
 /* Define the union U_SC_PPE_RESET_ST_U */
-/* PPEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* PPE?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A24 */
 typedef union tagScPpeResetSt
 {
@@ -7275,7 +7268,7 @@ typedef union tagScPpeResetSt
 } SC_PPE_RESET_ST_U;
 
 /* Define the union U_SC_ROCEE_RESET_ST_U */
-/* ROCEEÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* ROCEE?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A28 */
 typedef union tagScRoceeResetSt
 {
@@ -7292,7 +7285,7 @@ typedef union tagScRoceeResetSt
 } SC_ROCEE_RESET_ST_U;
 
 /* Define the union U_SC_CPU_RESET_ST_U */
-/* CPUÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* CPU?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A2C */
 typedef union tagScCpuResetSt
 {
@@ -7309,7 +7302,7 @@ typedef union tagScCpuResetSt
 } SC_CPU_RESET_ST_U;
 
 /* Define the union U_SC_SAS_RESET_ST_U */
-/* SASÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* SAS?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A30 */
 typedef union tagScSasResetSt
 {
@@ -7344,7 +7337,7 @@ typedef union tagScSasResetSt
 } SC_SAS_RESET_ST_U;
 
 /* Define the union U_SC_SLLC_TSVRX_RESET_ST_U */
-/* ÎªSLLC TSVRXÍ¨µÀÈí¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* ÎªSLLC TSVRXÍ¨???í¸´Î»×´Ì¬?Ä´??? */
 /* 0x5A34 */
 typedef union tagScSllcTsvrxResetSt
 {
@@ -7364,7 +7357,7 @@ typedef union tagScSllcTsvrxResetSt
 } SC_SLLC_TSVRX_RESET_ST_U;
 
 /* Define the union U_SC_ITS_RESET_ST_U */
-/* ITSÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* ITS?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A38 */
 typedef union tagScItsResetSt
 {
@@ -7381,7 +7374,7 @@ typedef union tagScItsResetSt
 } SC_ITS_RESET_ST_U;
 
 /* Define the union U_SC_SRAM_RESET_ST_U */
-/* SRAMÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* SRAM?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A40 */
 typedef union tagScSramResetSt
 {
@@ -7398,7 +7391,7 @@ typedef union tagScSramResetSt
 } SC_SRAM_RESET_ST_U;
 
 /* Define the union U_SC_RCB_PPE_COM_RESET_ST_U */
-/* RCB PPE¹«¹²Èí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* RCB PPE?????í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A44 */
 typedef union tagScRcbPpeComResetSt
 {
@@ -7415,7 +7408,7 @@ typedef union tagScRcbPpeComResetSt
 } SC_RCB_PPE_COM_RESET_ST_U;
 
 /* Define the union U_SC_TIMER_RESET_ST_U */
-/* TIMER¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* TIMER??Î»×´Ì¬?Ä´??? */
 /* 0x5A4C */
 typedef union tagScTimerResetSt
 {
@@ -7432,7 +7425,7 @@ typedef union tagScTimerResetSt
 } SC_TIMER_RESET_ST_U;
 
 /* Define the union U_SC_SLLC_RESET_ST_U */
-/* SLLC1¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SLLC1??Î»×´Ì¬?Ä´??? */
 /* 0x5A50 */
 typedef union tagScSllcResetSt
 {
@@ -7449,7 +7442,7 @@ typedef union tagScSllcResetSt
 } SC_SLLC_RESET_ST_U;
 
 /* Define the union U_SC_SRAM_ST0_U */
-/* sram×´Ì¬¼Ä´æÆ÷0 */
+/* sram×´Ì¬?Ä´???0 */
 /* 0x6000 */
 typedef union tagScSramSt0
 {
@@ -7468,7 +7461,7 @@ typedef union tagScSramSt0
 } SC_SRAM_ST0_U;
 
 /* Define the union U_SC_SRAM_ST3_U */
-/* sram×´Ì¬¼Ä´æÆ÷3 */
+/* sram×´Ì¬?Ä´???3 */
 /* 0x600C */
 typedef union tagScSramSt3
 {
@@ -7485,7 +7478,7 @@ typedef union tagScSramSt3
 } SC_SRAM_ST3_U;
 
 /* Define the union U_SC_SRAM_ST4_U */
-/* sram×´Ì¬¼Ä´æÆ÷4 */
+/* sram×´Ì¬?Ä´???4 */
 /* 0x6010 */
 typedef union tagScSramSt4
 {
@@ -7502,7 +7495,7 @@ typedef union tagScSramSt4
 } SC_SRAM_ST4_U;
 
 /* Define the union U_SC_SRAM_ST5_U */
-/* sram×´Ì¬¼Ä´æÆ÷5 */
+/* sram×´Ì¬?Ä´???5 */
 /* 0x6014 */
 typedef union tagScSramSt5
 {
@@ -7542,7 +7535,7 @@ typedef union tagScM3Stat
 } SC_M3_STAT_U;
 
 /* Define the union U_SC_TCAM_MBIST_ST_U */
-/* DSAFÖÐTCAM MBIST²âÊÔ½á¹û×´Ì¬ */
+/* DSAF??TCAM MBIST???Ô½???×´Ì¬ */
 /* 0x6300 */
 typedef union tagScTcamMbistSt
 {
@@ -7561,7 +7554,7 @@ typedef union tagScTcamMbistSt
 } SC_TCAM_MBIST_ST_U;
 
 /* Define the union U_SC_GE_ST_U */
-/* DSAFÖÐGEµÄ¹¤×÷×´Ì¬Ö¸Ê¾ */
+/* DSAF??GE?Ä¹???×´Ì¬Ö¸Ê¾ */
 /* 0x6380 */
 typedef union tagScGeSt
 {
@@ -7585,7 +7578,7 @@ typedef union tagScGeSt
 } SC_GE_ST_U;
 
 /* Define the union U_SC_XGE_ST_U */
-/* DSAFÖÐXGEµÄ¹¤×÷×´Ì¬Ö¸Ê¾ */
+/* DSAF??XGE?Ä¹???×´Ì¬Ö¸Ê¾ */
 /* 0x6390 */
 typedef union tagScXgeSt
 {
@@ -7607,7 +7600,7 @@ typedef union tagScXgeSt
 } SC_XGE_ST_U;
 
 /* Define the union U_SC_HILINK2_MACRO_PLLOUTOFLOCK_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6400 */
 typedef union tagScHilink2MacroPlloutoflock
 {
@@ -7624,7 +7617,7 @@ typedef union tagScHilink2MacroPlloutoflock
 } SC_HILINK2_MACRO_PLLOUTOFLOCK_U;
 
 /* Define the union U_SC_HILINK2_MACRO_PRBS_ERR_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6404 */
 typedef union tagScHilink2MacroPrbsErr
 {
@@ -7641,7 +7634,7 @@ typedef union tagScHilink2MacroPrbsErr
 } SC_HILINK2_MACRO_PRBS_ERR_U;
 
 /* Define the union U_SC_HILINK2_MACRO_LOS_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6408 */
 typedef union tagScHilink2MacroLos
 {
@@ -7658,7 +7651,7 @@ typedef union tagScHilink2MacroLos
 } SC_HILINK2_MACRO_LOS_U;
 
 /* Define the union U_SC_HILINK3_MACRO_PLLOUTOFLOCK_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6500 */
 typedef union tagScHilink3MacroPlloutoflock
 {
@@ -7675,7 +7668,7 @@ typedef union tagScHilink3MacroPlloutoflock
 } SC_HILINK3_MACRO_PLLOUTOFLOCK_U;
 
 /* Define the union U_SC_HILINK3_MACRO_PRBS_ERR_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6504 */
 typedef union tagScHilink3MacroPrbsErr
 {
@@ -7692,7 +7685,7 @@ typedef union tagScHilink3MacroPrbsErr
 } SC_HILINK3_MACRO_PRBS_ERR_U;
 
 /* Define the union U_SC_HILINK3_MACRO_LOS_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6508 */
 typedef union tagScHilink3MacroLos
 {
@@ -7709,7 +7702,7 @@ typedef union tagScHilink3MacroLos
 } SC_HILINK3_MACRO_LOS_U;
 
 /* Define the union U_SC_HILINK4_MACRO_PLLOUTOFLOCK_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6600 */
 typedef union tagScHilink4MacroPlloutoflock
 {
@@ -7726,7 +7719,7 @@ typedef union tagScHilink4MacroPlloutoflock
 } SC_HILINK4_MACRO_PLLOUTOFLOCK_U;
 
 /* Define the union U_SC_HILINK4_MACRO_PRBS_ERR_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6604 */
 typedef union tagScHilink4MacroPrbsErr
 {
@@ -7743,7 +7736,7 @@ typedef union tagScHilink4MacroPrbsErr
 } SC_HILINK4_MACRO_PRBS_ERR_U;
 
 /* Define the union U_SC_HILINK4_MACRO_LOS_U */
-/* HILINK×´Ì¬¼Ä´æÆ÷ */
+/* HILINK×´Ì¬?Ä´??? */
 /* 0x6608 */
 typedef union tagScHilink4MacroLos
 {

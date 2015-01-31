@@ -1,10 +1,3 @@
-/*--------------------------------------------------------------------------------------------------------------------------*/
-/*!!Warning: This is a key information asset of Huawei Tech Co.,Ltd														 */
-/*CODEMARK:kOyQZYzjDpyGdBAEC2GaWuVy7vy/wDnq7gJfHBOj2pBXFF9pJtpDLt9sw5WJiMsUkN5d7jr7
-aK5J3kmlnl+vpQIjFDOn3HlYdNfd+O2Mso0Wn8OrHjkJn4/rA05FKgT2JMPJkXZ1ZyV4aAJ6
-v59wfTdmmW1lpew9jFMPkqw+y7uUX7KIxXxZdg6VP3raNKR0kDz+Vr7WsVcjvgY25lxd4htn
-gcqD80lhlKSAFyPAZnzduMs/17bj91E3Kkw6y+u8bhaDwZ588c6wregkZtNlaw==*/
-/*--------------------------------------------------------------------------------------------------------------------------*/
 /*******************************************************************************
 
   Hisilicon network interface controller driver

@@ -1,26 +1,19 @@
-/*--------------------------------------------------------------------------------------------------------------------------*/
-/*!!Warning: This is a key information asset of Huawei Tech Co.,Ltd                                                         */
-/*CODEMARK:kOyQZYzjDpyGdBAEC2GaWuVy7vy/wDnq7gJfHBOj2pBXFF9pJtpDLt9sw5WJiMsUkN5d7jr7
-aK5J3kmlnl+vpaISWHqOHbuE99WnZz8Urp0KNb0WWl+qRa4EjbbH6IvvJ8uAZ7aN4Vd0NGho
-uLjlYiRWhPCX+uYNGv9feR+PgmQNYQK7GaKvd4ZrFgH+7G28htvuod4u1/PyYXa3H6iWz+VH
-MsAbVyR+AEFa2mPFrgpwHSGRfaZ3JLcpZdR8VS2HzW0Z8mfutK646XoP7TQGtA==*/
-/*--------------------------------------------------------------------------------------------------------------------------*/
 /******************************************************************************
 
-                  °æÈ¨ËùÓÐ (C), 2011-2021, »ªÎª¼¼ÊõÓÐÏÞ¹«Ë¾
+                  ??È¨???? (C), 2011-2021, ??Îª???????Þ¹?Ë¾
 
  ******************************************************************************
-  ÎÄ ¼þ Ãû   : sre_crs9.h
-  °æ ±¾ ºÅ   : ³õ¸å
-  ×÷    Õß   : z00176027
-  Éú³ÉÈÕÆÚ   : 2013Äê10ÔÂ17ÈÕ
-  ×î½üÐÞ¸Ä   :
-  ¹¦ÄÜÃèÊö   : p660×ÓÏµÍ³9 ¸´Î»¼°½â¸´Î»Ïà¹ØÍ·ÎÄ¼þ
-  º¯ÊýÁÐ±í   :
-  ÐÞ¸ÄÀúÊ·   :
-  1.ÈÕ    ÆÚ   : 2013Äê10ÔÂ17ÈÕ
-    ×÷    Õß   : z00176027
-    ÐÞ¸ÄÄÚÈÝ   : ´´½¨ÎÄ¼þ
+  ?? ?? ??   : sre_crs9.h
+  ?? ?? ??   : ????
+  ??    ??   : z00176027
+  ????????   : 2013??10??17??
+  ?????Þ¸?   :
+  ????????   : p660??ÏµÍ³9 ??Î»???â¸´Î»????Í·?Ä¼?
+  ?????Ð±?   :
+  ?Þ¸???Ê·   :
+  1.??    ??   : 2013??10??17??
+    ??    ??   : z00176027
+    ?Þ¸?????   : ?????Ä¼?
 
 ******************************************************************************/
 #ifndef __C_SRE_SUB_ALG_H__
@@ -37,34 +30,34 @@ MsAbVyR+AEFa2mPFrgpwHSGRfaZ3JLcpZdR8VS2HzW0Z8mfutK646XoP7TQGtA==*/
 
 
 /*----------------------------------------------*
- * Íâ²¿±äÁ¿ËµÃ÷                                 *
+ * ?â²¿??Á¿Ëµ??                                 *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * Íâ²¿º¯ÊýÔ­ÐÍËµÃ÷                             *
+ * ?â²¿????Ô­??Ëµ??                             *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * ÄÚ²¿º¯ÊýÔ­ÐÍËµÃ÷                             *
+ * ?Ú²?????Ô­??Ëµ??                             *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * È«¾Ö±äÁ¿                                     *
+ * È«?Ö±?Á¿                                     *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * Ä£¿é¼¶±äÁ¿                                   *
+ * Ä£?é¼¶??Á¿                                   *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * ³£Á¿¶¨Òå                                     *
+ * ??Á¿????                                     *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * ºê¶¨Òå                                       *
+ * ?ê¶¨??                                       *
  *----------------------------------------------*/
 
-/* alg_hccs_subctrl Ä£¿é¼Ä´æÆ÷»ùµØÖ· */
+/* alg_hccs_subctrl Ä£???Ä´???????Ö· */
 #define ALG_SUB_BASE                              (0xD0000000)
 #define ALG_SUB_BASE_SIZE                         (0x10000)
 
@@ -73,158 +66,158 @@ MsAbVyR+AEFa2mPFrgpwHSGRfaZ3JLcpZdR8VS2HzW0Z8mfutK646XoP7TQGtA==*/
 /*                      PHOSPHOR ALG_SUB Registers' Definitions                            */
 /******************************************************************************/
 
-#define ALG_SUB_SC_PLLFCTRL0_REG               (ALG_SUB_BASE + 0x0)    /* PLL0¿ØÖÆ¼Ä´æÆ÷0¡£ */                                                            
-#define ALG_SUB_SC_PLLFCTRL1_REG               (ALG_SUB_BASE + 0x4)    /* PLL0¿ØÖÆ¼Ä´æÆ÷1¡£ */                                                            
-#define ALG_SUB_SC_PLLFCTRL2_REG               (ALG_SUB_BASE + 0x8)    /* PLL1¿ØÖÆ¼Ä´æÆ÷0¡£ */                                                            
-#define ALG_SUB_SC_PLLFCTRL3_REG               (ALG_SUB_BASE + 0xC)    /* PLL1¿ØÖÆ¼Ä´æÆ÷1¡£ */                                                            
-#define ALG_SUB_SC_PLLFCTRL4_REG               (ALG_SUB_BASE + 0x10)   /* PLL2¿ØÖÆ¼Ä´æÆ÷0¡£ */                                                            
-#define ALG_SUB_SC_PLLFCTRL5_REG               (ALG_SUB_BASE + 0x14)   /* PLL2¿ØÖÆ¼Ä´æÆ÷1¡£ */                                                            
-#define ALG_SUB_SC_PLLFCTRL6_REG               (ALG_SUB_BASE + 0x18)   /* PLL3¿ØÖÆ¼Ä´æÆ÷0¡£ */                                                            
-#define ALG_SUB_SC_PLLFCTRL7_REG               (ALG_SUB_BASE + 0x1C)   /* PLL3¿ØÖÆ¼Ä´æÆ÷1¡£ */                                                            
-#define ALG_SUB_SC_PLL_CLK_BYPASS0_REG         (ALG_SUB_BASE + 0x20)   /* PLLÏà¹Ø¹¤×÷Ê±ÖÓÑ¡Ôñ¡£ */                                           
-#define ALG_SUB_SC_PLLFCTRL8_REG               (ALG_SUB_BASE + 0x24)   /* pll4¿ØÖÆ¼Ä´æÆ÷0¡£ */                                                            
-#define ALG_SUB_SC_PLLFCTRL9_REG               (ALG_SUB_BASE + 0x28)   /* pll4¿ØÖÆ¼Ä´æÆ÷1¡£ */                                                            
-#define ALG_SUB_SC_PLL_CLK_BYPASS1_REG         (ALG_SUB_BASE + 0x2C)   /* PLLÏà¹Ø¹¤×÷Ê±ÖÓÑ¡Ôñ¡£ */                                           
-#define ALG_SUB_SC_GPIO_DB_CTRL_REG            (ALG_SUB_BASE + 0x100)  /* ÅäÖÃgpip dbÊ±ÖÓÑ¡Ôñ */                                                          
-#define ALG_SUB_SC_SFC_CLK_CTRL_REG            (ALG_SUB_BASE + 0x104)  /* ÅäÖÃSFCÊ±ÖÓÑ¡Ôñ */                                                              
-#define ALG_SUB_SC_ALL_SCAN_CTRL_REG           (ALG_SUB_BASE + 0x150)  /* ALL SCAN¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define ALG_SUB_SC_SYSRST_CTRL_REG             (ALG_SUB_BASE + 0x200)  /* ÏµÍ³Èí¸´Î»¿ØÖÆ¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_ITS_CLK_EN_REG              (ALG_SUB_BASE + 0x318)  /* ITSÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_ITS_CLK_DIS_REG             (ALG_SUB_BASE + 0x31C)  /* ITSÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_PA_CLK_EN_REG               (ALG_SUB_BASE + 0x358)  /* PAÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                              
-#define ALG_SUB_SC_PA_CLK_DIS_REG              (ALG_SUB_BASE + 0x35C)  /* PAÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                              
-#define ALG_SUB_SC_HLLC_CLK_EN_REG             (ALG_SUB_BASE + 0x360)  /* HLLCÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                            
-#define ALG_SUB_SC_HLLC_CLK_DIS_REG            (ALG_SUB_BASE + 0x364)  /* HLLCÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                            
-#define ALG_SUB_SC_REF_CLK_EN_REG              (ALG_SUB_BASE + 0x370)  /* refÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_REF_CLK_DIS_REG             (ALG_SUB_BASE + 0x374)  /* refÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_GPIO_DB_CLK_EN_REG          (ALG_SUB_BASE + 0x378)  /* gpio_dbÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                         
-#define ALG_SUB_SC_GPIO_DB_CLK_DIS_REG         (ALG_SUB_BASE + 0x37C)  /* gpio_dbÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                         
-#define ALG_SUB_SC_DJTAG_CLK_EN_REG            (ALG_SUB_BASE + 0x380)  /* djtagÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                           
-#define ALG_SUB_SC_DJTAG_CLK_DIS_REG           (ALG_SUB_BASE + 0x384)  /* djtagÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                           
-#define ALG_SUB_SC_HLLC_RXTX_CLK_EN_REG        (ALG_SUB_BASE + 0x390)  /* hllc rxtxÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                       
-#define ALG_SUB_SC_HLLC_RXTX_CLK_DIS_REG       (ALG_SUB_BASE + 0x394)  /* hllc rxtxÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                       
-#define ALG_SUB_SC_RSA_CLK_EN_REG              (ALG_SUB_BASE + 0x3A0)  /* RSAÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_RSA_CLK_DIS_REG             (ALG_SUB_BASE + 0x3A4)  /* RSAÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_RDE_CLK_EN_REG              (ALG_SUB_BASE + 0x3A8)  /* RDEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_RDE_CLK_DIS_REG             (ALG_SUB_BASE + 0x3AC)  /* RDEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_RNG_CLK_EN_REG              (ALG_SUB_BASE + 0x3B0)  /* RNGÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_RNG_CLK_DIS_REG             (ALG_SUB_BASE + 0x3B4)  /* RNGÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_SEC_CLK_EN_REG              (ALG_SUB_BASE + 0x3B8)  /* SECÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_SEC_CLK_DIS_REG             (ALG_SUB_BASE + 0x3BC)  /* SECÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_ITS_RESET_REQ_REG           (ALG_SUB_BASE + 0xA18)  /* ITSÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define ALG_SUB_SC_ITS_RESET_DREQ_REG          (ALG_SUB_BASE + 0xA1C)  /* ITSÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define ALG_SUB_SC_HILINK_PCS_RESET_REQ_REG    (ALG_SUB_BASE + 0xA58)  /* HILINK PCSÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_HILINK_PCS_RESET_DREQ_REG   (ALG_SUB_BASE + 0xA5C)  /* HILINK PCSÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                  
-#define ALG_SUB_SC_HLLC_RXTX_RESET_REQ_REG     (ALG_SUB_BASE + 0xA60)  /* hllc rxtxÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                    
-#define ALG_SUB_SC_HLLC_RXTX_RESET_DREQ_REG    (ALG_SUB_BASE + 0xA64)  /* hllc rxtxÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_PA_RESET_REQ_REG            (ALG_SUB_BASE + 0xA78)  /* PAÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                           
-#define ALG_SUB_SC_PA_RESET_DREQ_REG           (ALG_SUB_BASE + 0xA7C)  /* PAÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define ALG_SUB_SC_HLLC_RESET_REQ_REG          (ALG_SUB_BASE + 0xA80)  /* HLLCÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define ALG_SUB_SC_HLLC_RESET_DREQ_REG         (ALG_SUB_BASE + 0xA84)  /* HLLCÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                        
-#define ALG_SUB_SC_DJTAG_RESET_REQ_REG         (ALG_SUB_BASE + 0xA90)  /* DJTAGÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                        
-#define ALG_SUB_SC_DJTAG_RESET_DREQ_REG        (ALG_SUB_BASE + 0xA94)  /* DJTAGÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                       
-#define ALG_SUB_SC_RSA_RESET_REQ_REG           (ALG_SUB_BASE + 0xA98)  /* RSAÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define ALG_SUB_SC_RSA_RESET_DREQ_REG          (ALG_SUB_BASE + 0xA9C)  /* RSAÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define ALG_SUB_SC_RDE_RESET_REQ_REG           (ALG_SUB_BASE + 0xAA0)  /* RDEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define ALG_SUB_SC_RDE_RESET_DREQ_REG          (ALG_SUB_BASE + 0xAA4)  /* RDEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define ALG_SUB_SC_SEC_RESET_REQ_REG           (ALG_SUB_BASE + 0xAA8)  /* SECÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define ALG_SUB_SC_SEC_RESET_DREQ_REG          (ALG_SUB_BASE + 0xAAC)  /* SECÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define ALG_SUB_SC_RNG_RESET_REQ_REG           (ALG_SUB_BASE + 0xAB0)  /* RNGÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define ALG_SUB_SC_RNG_RESET_DREQ_REG          (ALG_SUB_BASE + 0xAB4)  /* RNGÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define ALG_SUB_SC_SEC_BUILD_RESET_REQ_REG     (ALG_SUB_BASE + 0xAB8)  /* SEC BUILDÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                    
-#define ALG_SUB_SC_SEC_BUILD_RESET_DREQ_REG    (ALG_SUB_BASE + 0xABC)  /* SEC BUILDÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_PCS_LOCAL_RESET_REQ_REG     (ALG_SUB_BASE + 0xAC0)  /* PCS LOCALÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                    
-#define ALG_SUB_SC_PCS_LOCAL_RESET_DREQ_REG    (ALG_SUB_BASE + 0xAC4)  /* PCS LOCALÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_DISPATCH_DAW_EN_REG         (ALG_SUB_BASE + 0x1000) /* dispatch daw enÅäÖÃ */                                                      
-#define ALG_SUB_SC_DISPATCH_DAW_ARRAY0_REG     (ALG_SUB_BASE + 0x1004) /* dispatch dawÅäÖÃÕóÁÐ0 */                                                      
-#define ALG_SUB_SC_DISPATCH_DAW_ARRAY1_REG     (ALG_SUB_BASE + 0x1008) /* dispatch dawÅäÖÃÕóÁÐ1 */                                                      
-#define ALG_SUB_SC_DISPATCH_DAW_ARRAY2_REG     (ALG_SUB_BASE + 0x100C) /* dispatch dawÅäÖÃÕóÁÐ2 */                                                      
-#define ALG_SUB_SC_DISPATCH_DAW_ARRAY3_REG     (ALG_SUB_BASE + 0x1010) /* dispatch dawÅäÖÃÕóÁÐ3 */                                                      
-#define ALG_SUB_SC_DISPATCH_DAW_ARRAY4_REG     (ALG_SUB_BASE + 0x1014) /* dispatch dawÅäÖÃÕóÁÐ4 */                                                      
-#define ALG_SUB_SC_DISPATCH_DAW_ARRAY5_REG     (ALG_SUB_BASE + 0x1018) /* dispatch dawÅäÖÃÕóÁÐ5 */                                                      
-#define ALG_SUB_SC_DISPATCH_DAW_ARRAY6_REG     (ALG_SUB_BASE + 0x101C) /* dispatch dawÅäÖÃÕóÁÐ6 */                                                      
-#define ALG_SUB_SC_DISPATCH_DAW_ARRAY7_REG     (ALG_SUB_BASE + 0x1020) /* dispatch dawÅäÖÃÕóÁÐ7 */                                                      
-#define ALG_SUB_SC_DISPATCH_RETRY_CONTROL_REG  (ALG_SUB_BASE + 0x1030) /* dispatch retry¿ØÖÆ¼Ä´æÆ÷ */                                                    
-#define ALG_SUB_SC_DISPATCH_INTMASK_REG        (ALG_SUB_BASE + 0x1100) /* dispatchµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */                                                       
-#define ALG_SUB_SC_DISPATCH_RAWINT_REG         (ALG_SUB_BASE + 0x1104) /* dispatchµÄÔ­Ê¼ÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */                                                     
-#define ALG_SUB_SC_DISPATCH_INTSTAT_REG        (ALG_SUB_BASE + 0x1108) /* dispatchµÄÆÁ±ÎºóµÄÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_DISPATCH_INTCLR_REG         (ALG_SUB_BASE + 0x110C) /* dispatchµÄÖÐ¶ÏÇå³ý¼Ä´æÆ÷ */                                                       
-#define ALG_SUB_SC_DISPATCH_ERRSTAT_REG        (ALG_SUB_BASE + 0x1110) /* dispatchµÄERR×´Ì¬¼Ä´æÆ÷ */                                                      
-#define ALG_SUB_SC_DISPATCH_REMAP_CTRL_REG     (ALG_SUB_BASE + 0x1200) /* subsysµÄÆô¶¯Remap¼Ä´æÆ÷ */                                                      
-#define ALG_SUB_SC_TSENSOR_CTRL0_REG           (ALG_SUB_BASE + 0x20D0) /* TSENSOR¿ØÖÆ¼Ä´æÆ÷0 */                                                          
-#define ALG_SUB_SC_TSENSOR_CTRL1_REG           (ALG_SUB_BASE + 0x20D4) /* TSENSOR¿ØÖÆ¼Ä´æÆ÷1 */                                                          
-#define ALG_SUB_SC_BOOTROM_CTRL_REG            (ALG_SUB_BASE + 0x20F0) /* BOOTROM¿ØÖÆ¼Ä´æÆ÷ */                                                           
-#define ALG_SUB_SC_FTE_MUX_CTRL_REG            (ALG_SUB_BASE + 0x2200) /* FTE¸´ÓÃÑ¡Ôñ¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_RSA_ADDR_H_REG              (ALG_SUB_BASE + 0x2E00) /* RSA¸ß20Î»µØÖ·²¹³ä¼Ä´æÆ÷ */                                                         
-#define ALG_SUB_SC_SMMU_MEM_CTRL0_REG          (ALG_SUB_BASE + 0x3000) /* smmu mem¿ØÖÆ¼Ä´æÆ÷0 */                                                         
-#define ALG_SUB_SC_SMMU_MEM_CTRL1_REG          (ALG_SUB_BASE + 0x3004) /* smmu mem¿ØÖÆ¼Ä´æÆ÷1 */                                                         
-#define ALG_SUB_SC_SMMU_MEM_CTRL2_REG          (ALG_SUB_BASE + 0x3008) /* smmu mem¿ØÖÆ¼Ä´æÆ÷2 */                                                         
-#define ALG_SUB_SC_RSA_MEM_CTRL_REG            (ALG_SUB_BASE + 0x3030) /* rsa mem¿ØÖÆ¼Ä´æÆ÷ */                                                           
-#define ALG_SUB_SC_HLLC_MEM_CTRL_REG           (ALG_SUB_BASE + 0x3040) /* hllc mem¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define ALG_SUB_SC_PA_MEM_CTRL0_REG            (ALG_SUB_BASE + 0x3050) /* pa mem¿ØÖÆ¼Ä´æÆ÷0 */                                                           
-#define ALG_SUB_SC_PA_MEM_CTRL1_REG            (ALG_SUB_BASE + 0x3054) /* pa mem¿ØÖÆ¼Ä´æÆ÷1 */                                                           
-#define ALG_SUB_SC_RDE_MEM_CTRL_REG            (ALG_SUB_BASE + 0x3060) /* rde mem¿ØÖÆ¼Ä´æÆ÷ */                                                           
-#define ALG_SUB_SC_SEC_MEM_CTRL_REG            (ALG_SUB_BASE + 0x3070) /* sec mem¿ØÖÆ¼Ä´æÆ÷ */                                                           
-#define ALG_SUB_SC_PLL_LOCK_ST_REG             (ALG_SUB_BASE + 0x5000) /* PLLËø¶¨×´Ì¬¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_ITS_CLK_ST_REG              (ALG_SUB_BASE + 0x530C) /* ITSÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_PA_CLK_ST_REG               (ALG_SUB_BASE + 0x532C) /* PAÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */                                                              
-#define ALG_SUB_SC_HLLC_CLK_ST_REG             (ALG_SUB_BASE + 0x5330) /* HLLCÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */                                                            
-#define ALG_SUB_SC_REF_CLK_ST_REG              (ALG_SUB_BASE + 0x5338) /* refÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_GPIO_DB_CLK_ST_REG          (ALG_SUB_BASE + 0x533C) /* gpio_dbÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */                                                         
-#define ALG_SUB_SC_DJTAG_CLK_ST_REG            (ALG_SUB_BASE + 0x5340) /* djtagÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */                                                           
-#define ALG_SUB_SC_HLLC_RXTX_CLK_ST_REG        (ALG_SUB_BASE + 0x5348) /* hllc rxtxÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */                                                       
-#define ALG_SUB_SC_RSA_CLK_ST_REG              (ALG_SUB_BASE + 0x5350) /* RSAÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_RDE_CLK_ST_REG              (ALG_SUB_BASE + 0x5354) /* RDEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_RNG_CLK_ST_REG              (ALG_SUB_BASE + 0x5358) /* RNGÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_SEC_CLK_ST_REG              (ALG_SUB_BASE + 0x535C) /* SECÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_ITS_RESET_ST_REG            (ALG_SUB_BASE + 0x5A0C) /* ITS¸´Î»×´Ì¬¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_HILINK_PCS_RESET_ST_REG     (ALG_SUB_BASE + 0x5A2C) /* HILINK_PCS¸´Î»×´Ì¬¼Ä´æÆ÷ */                                                      
-#define ALG_SUB_SC_HLLC_RXTX_RESET_ST_REG      (ALG_SUB_BASE + 0x5A30) /* hllc rxtx¸´Î»×´Ì¬¼Ä´æÆ÷ */                                                       
-#define ALG_SUB_SC_PA_RESET_ST_REG             (ALG_SUB_BASE + 0x5A3C) /* PA¸´Î»×´Ì¬¼Ä´æÆ÷ */                                                              
-#define ALG_SUB_SC_HLLC_RESET_ST_REG           (ALG_SUB_BASE + 0x5A40) /* HLLC¸´Î»×´Ì¬¼Ä´æÆ÷ */                                                            
-#define ALG_SUB_SC_DJTAG_RESET_ST_REG          (ALG_SUB_BASE + 0x5A48) /* DJTAG¸´Î»×´Ì¬¼Ä´æÆ÷ */                                                           
-#define ALG_SUB_SC_RSA_RESET_ST_REG            (ALG_SUB_BASE + 0x5A4C) /* RSA¸´Î»×´Ì¬¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_RDE_RESET_ST_REG            (ALG_SUB_BASE + 0x5A50) /* RDE¸´Î»×´Ì¬¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_SEC_RESET_ST_REG            (ALG_SUB_BASE + 0x5A54) /* SEC¸´Î»×´Ì¬¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_RNG_RESET_ST_REG            (ALG_SUB_BASE + 0x5A58) /* RNG¸´Î»×´Ì¬¼Ä´æÆ÷ */                                                             
-#define ALG_SUB_SC_SEC_BUILD_RESET_ST_REG      (ALG_SUB_BASE + 0x5A5C) /* SEC BUILD¸´Î»×´Ì¬¼Ä´æÆ÷ */                                                       
-#define ALG_SUB_SC_PCS_LOCAL_RESET_ST_REG      (ALG_SUB_BASE + 0x5A60) /* PCS LOCALÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */                                                    
-#define ALG_SUB_SC_TSENSOR_ST_REG              (ALG_SUB_BASE + 0x6040) /* TSENSOR×´Ì¬¼Ä´æÆ÷ */                                                           
-#define ALG_SUB_SC_DJTAG_INT_REG               (ALG_SUB_BASE + 0x6600) /* DJTAG MasterÄÚ×´Ì¬»ú³¬Ê±ÖÐ¶ÏÔ´¼Ä´æÆ÷ */                                               
-#define ALG_SUB_SC_DBG_AUTH_CTRL_REG           (ALG_SUB_BASE + 0x6700) /* °²È«µÈ¼¶ÊÚÈ¨¿ØÖÆ¼Ä´æÆ÷¡££¨×¢Òâ£º1£¬´Ë¼Ä´æÆ÷¿Õ¼ä±ØÐëÊÇ°²È«·ÃÎÊ²ÅÄÜ³É¹¦£»2£¬Ä¬ÈÏ¾ùÊÇ´ò¿ªµ÷ÊÔÄ£Ê½£¬ÓÐÂ©¶´£¬ÔÚÕý³£¹¤×÷Ê±Çë³õÊ¼»¯¹Ø±Õµ÷ÊÔ¹¦ÄÜ£© */ 
-#define ALG_SUB_SC_DJTAG_MSTR_EN_REG           (ALG_SUB_BASE + 0x6800) /* SC_DJTAG_MSTR_ENÎªDJTAG MasterÊ¹ÄÜ¿ØÖÆ */                                      
-#define ALG_SUB_SC_DJTAG_MSTR_START_EN_REG     (ALG_SUB_BASE + 0x6804) /* SC_DJTAG_MSTR_START_ENÎªDJTAG Master·ÃÎÊchainÁ´µÄstartÊ¹ÄÜ */                    
-#define ALG_SUB_SC_DJTAG_SEC_ACC_EN_REG        (ALG_SUB_BASE + 0x6808) /* DJTAG·ÃÎÊ¸÷Ä£¿éÄÚ°²È«ÊÀ½ç¼Ä´æÆ÷µÄ°²È«·ÃÎÊ¿ØÖÆÊ¹ÄÜ¡££¨×¢Òâ£º1£¬´Ë¼Ä´æÆ÷¿Õ¼ä±ØÐëÊÇ°²È«·ÃÎÊ²ÅÄÜ³É¹¦¡££© */                  
-#define ALG_SUB_SC_DJTAG_DEBUG_MODULE_SEL_REG  (ALG_SUB_BASE + 0x680C) /* SC_DJTAG_DEBUG_MODULE_SELÎªDJTAG MasterÅäÖÃ·ÃÎÊÄ£¿é¼Ä´æÆ÷ */                        
-#define ALG_SUB_SC_DJTAG_MSTR_WR_REG           (ALG_SUB_BASE + 0x6810) /* SC_DJTAG_MSTR_WRÎªDJTAG MasterµÄ¶ÁÐ´¿ØÖÆÐÅºÅ */                                   
-#define ALG_SUB_SC_DJTAG_CHAIN_UNIT_CFG_EN_REG (ALG_SUB_BASE + 0x6814) /* SC_DJTAG_CHAIN_UNIT_CFG_ENÎªDJTAG MasterµÄchainÁ´ÉÏµ¥ÔªµÄ·ÃÎÊÊ¹ÄÜ */                 
-#define ALG_SUB_SC_DJTAG_MSTR_ADDR_REG         (ALG_SUB_BASE + 0x6818) /* SC_DJTAG_MSTR_ADDRÎªDJTAG MasterÅäÖÃ·ÃÎÊÄ£¿éµÄÆ«ÒÆµØÖ·¼Ä´æÆ÷ */                          
-#define ALG_SUB_SC_DJTAG_MSTR_DATA_REG         (ALG_SUB_BASE + 0x681C) /* SC_DJTAG_MSTR_DATAÎªDJTAG MasterµÄÐ´Êý¾Ý */                                    
-#define ALG_SUB_SC_DJTAG_TMOUT_REG             (ALG_SUB_BASE + 0x6820) /* SC_DJTAG_TMOUTÎªIDIEÖÐDJTAG MasterµÄ×´Ì¬»ú³¬Ê±ãÐÖµ */                               
-#define ALG_SUB_SC_TDRE_OP_ADDR_REG            (ALG_SUB_BASE + 0x6824) /* SC_TDRE_OP_ADDRÎªDJTAG MasterÅäÖÃTDREÄ£¿éµÄÆ«ÒÆµØÖ·¼Ä´æÆ÷ºÍ²Ù×÷ÀàÐÍ¼Ä´æÆ÷ */                   
-#define ALG_SUB_SC_TDRE_WDATA_REG              (ALG_SUB_BASE + 0x6828) /* SC_TDRE_WDATAÎªDJTAG MasterµÄÐ´TDREÊý¾Ý */                                     
-#define ALG_SUB_SC_TDRE_REPAIR_EN_REG          (ALG_SUB_BASE + 0x682C) /* SC_TDRE_REPAIR_ENÎªDJTAG MasterµÄTDRE REPAIRÊ¹ÄÜ */                           
-#define ALG_SUB_SC_ECO_RSV0_REG                (ALG_SUB_BASE + 0x8000) /* ECO ¼Ä´æÆ÷0 */                                                               
-#define ALG_SUB_SC_ECO_RSV1_REG                (ALG_SUB_BASE + 0x8004) /* ECO ¼Ä´æÆ÷1 */                                                               
-#define ALG_SUB_SC_ECO_RSV2_REG                (ALG_SUB_BASE + 0x8008) /* ECO ¼Ä´æÆ÷2 */                                                               
-#define ALG_SUB_SC_DJTAG_RD_DATA0_REG          (ALG_SUB_BASE + 0xE800) /* DJTAGÉ¨ÃèÁ´ÉÏµÚÒ»¸öÄ£¿é¶ÁÊý¾Ý¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_DJTAG_RD_DATA1_REG          (ALG_SUB_BASE + 0xE804) /* DJTAGÉ¨ÃèÁ´ÉÏµÚ¶þ¸öÄ£¿é¶ÁÊý¾Ý¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_DJTAG_RD_DATA2_REG          (ALG_SUB_BASE + 0xE808) /* DJTAGÉ¨ÃèÁ´ÉÏµÚÈý¸öÄ£¿é¶ÁÊý¾Ý¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_DJTAG_RD_DATA3_REG          (ALG_SUB_BASE + 0xE80C) /* DJTAGÉ¨ÃèÁ´ÉÏµÚËÄ¸öÄ£¿é¶ÁÊý¾Ý¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_DJTAG_RD_DATA4_REG          (ALG_SUB_BASE + 0xE810) /* DJTAGÉ¨ÃèÁ´ÉÏµÚÎå¸öÄ£¿é¶ÁÊý¾Ý¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_DJTAG_RD_DATA5_REG          (ALG_SUB_BASE + 0xE814) /* DJTAGÉ¨ÃèÁ´ÉÏµÚÁù¸öÄ£¿é¶ÁÊý¾Ý¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_DJTAG_RD_DATA6_REG          (ALG_SUB_BASE + 0xE818) /* DJTAGÉ¨ÃèÁ´ÉÏµÚÆß¸öÄ£¿é¶ÁÊý¾Ý¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_DJTAG_RD_DATA7_REG          (ALG_SUB_BASE + 0xE81C) /* DJTAGÉ¨ÃèÁ´ÉÏµÚ°Ë¸öÄ£¿é¶ÁÊý¾Ý¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_DJTAG_RD_DATA8_REG          (ALG_SUB_BASE + 0xE820) /* DJTAGÉ¨ÃèÁ´ÉÏµÚ¾Å¸öÄ£¿é¶ÁÊý¾Ý¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_DJTAG_RD_DATA9_REG          (ALG_SUB_BASE + 0xE824) /* DJTAGÉ¨ÃèÁ´ÉÏµÚÊ®¸öÄ£¿é¶ÁÊý¾Ý¼Ä´æÆ÷ */                                                   
-#define ALG_SUB_SC_DJTAG_OP_ST_REG             (ALG_SUB_BASE + 0xE828) /* DJTAG·ÃÎÊ×´Ì¬¼Ä´æÆ÷ */                                                           
-#define ALG_SUB_SC_TDRE_RDATA1_REG             (ALG_SUB_BASE + 0xE82C) /* DJTAG·ÃÎÊTDREÄ£¿éµÄ¶ÁÊý¾Ý¸ß32bit */                                                
-#define ALG_SUB_SC_TDRE_RDATA0_REG             (ALG_SUB_BASE + 0xE830) /* DJTAG·ÃÎÊTDREÄ£¿éµÄ¶ÁÊý¾ÝµÍ32bit */                                                
+#define ALG_SUB_SC_PLLFCTRL0_REG               (ALG_SUB_BASE + 0x0)    /* PLL0???Æ¼Ä´???0?? */                                                            
+#define ALG_SUB_SC_PLLFCTRL1_REG               (ALG_SUB_BASE + 0x4)    /* PLL0???Æ¼Ä´???1?? */                                                            
+#define ALG_SUB_SC_PLLFCTRL2_REG               (ALG_SUB_BASE + 0x8)    /* PLL1???Æ¼Ä´???0?? */                                                            
+#define ALG_SUB_SC_PLLFCTRL3_REG               (ALG_SUB_BASE + 0xC)    /* PLL1???Æ¼Ä´???1?? */                                                            
+#define ALG_SUB_SC_PLLFCTRL4_REG               (ALG_SUB_BASE + 0x10)   /* PLL2???Æ¼Ä´???0?? */                                                            
+#define ALG_SUB_SC_PLLFCTRL5_REG               (ALG_SUB_BASE + 0x14)   /* PLL2???Æ¼Ä´???1?? */                                                            
+#define ALG_SUB_SC_PLLFCTRL6_REG               (ALG_SUB_BASE + 0x18)   /* PLL3???Æ¼Ä´???0?? */                                                            
+#define ALG_SUB_SC_PLLFCTRL7_REG               (ALG_SUB_BASE + 0x1C)   /* PLL3???Æ¼Ä´???1?? */                                                            
+#define ALG_SUB_SC_PLL_CLK_BYPASS0_REG         (ALG_SUB_BASE + 0x20)   /* PLL???Ø¹???Ê±??Ñ¡???? */                                           
+#define ALG_SUB_SC_PLLFCTRL8_REG               (ALG_SUB_BASE + 0x24)   /* pll4???Æ¼Ä´???0?? */                                                            
+#define ALG_SUB_SC_PLLFCTRL9_REG               (ALG_SUB_BASE + 0x28)   /* pll4???Æ¼Ä´???1?? */                                                            
+#define ALG_SUB_SC_PLL_CLK_BYPASS1_REG         (ALG_SUB_BASE + 0x2C)   /* PLL???Ø¹???Ê±??Ñ¡???? */                                           
+#define ALG_SUB_SC_GPIO_DB_CTRL_REG            (ALG_SUB_BASE + 0x100)  /* ????gpip dbÊ±??Ñ¡?? */                                                          
+#define ALG_SUB_SC_SFC_CLK_CTRL_REG            (ALG_SUB_BASE + 0x104)  /* ????SFCÊ±??Ñ¡?? */                                                              
+#define ALG_SUB_SC_ALL_SCAN_CTRL_REG           (ALG_SUB_BASE + 0x150)  /* ALL SCAN???Æ¼Ä´??? */                                                          
+#define ALG_SUB_SC_SYSRST_CTRL_REG             (ALG_SUB_BASE + 0x200)  /* ÏµÍ³?í¸´Î»???Æ¼Ä´??? */                                                             
+#define ALG_SUB_SC_ITS_CLK_EN_REG              (ALG_SUB_BASE + 0x318)  /* ITSÊ±??Ê¹?Ü¼Ä´??? */                                                             
+#define ALG_SUB_SC_ITS_CLK_DIS_REG             (ALG_SUB_BASE + 0x31C)  /* ITSÊ±?Ó½?Ö¹?Ä´??? */                                                             
+#define ALG_SUB_SC_PA_CLK_EN_REG               (ALG_SUB_BASE + 0x358)  /* PAÊ±??Ê¹?Ü¼Ä´??? */                                                              
+#define ALG_SUB_SC_PA_CLK_DIS_REG              (ALG_SUB_BASE + 0x35C)  /* PAÊ±?Ó½?Ö¹?Ä´??? */                                                              
+#define ALG_SUB_SC_HLLC_CLK_EN_REG             (ALG_SUB_BASE + 0x360)  /* HLLCÊ±??Ê¹?Ü¼Ä´??? */                                                            
+#define ALG_SUB_SC_HLLC_CLK_DIS_REG            (ALG_SUB_BASE + 0x364)  /* HLLCÊ±?Ó½?Ö¹?Ä´??? */                                                            
+#define ALG_SUB_SC_REF_CLK_EN_REG              (ALG_SUB_BASE + 0x370)  /* refÊ±??Ê¹?Ü¼Ä´??? */                                                             
+#define ALG_SUB_SC_REF_CLK_DIS_REG             (ALG_SUB_BASE + 0x374)  /* refÊ±?Ó½?Ö¹?Ä´??? */                                                             
+#define ALG_SUB_SC_GPIO_DB_CLK_EN_REG          (ALG_SUB_BASE + 0x378)  /* gpio_dbÊ±??Ê¹?Ü¼Ä´??? */                                                         
+#define ALG_SUB_SC_GPIO_DB_CLK_DIS_REG         (ALG_SUB_BASE + 0x37C)  /* gpio_dbÊ±?Ó½?Ö¹?Ä´??? */                                                         
+#define ALG_SUB_SC_DJTAG_CLK_EN_REG            (ALG_SUB_BASE + 0x380)  /* djtagÊ±??Ê¹?Ü¼Ä´??? */                                                           
+#define ALG_SUB_SC_DJTAG_CLK_DIS_REG           (ALG_SUB_BASE + 0x384)  /* djtagÊ±?Ó½?Ö¹?Ä´??? */                                                           
+#define ALG_SUB_SC_HLLC_RXTX_CLK_EN_REG        (ALG_SUB_BASE + 0x390)  /* hllc rxtxÊ±??Ê¹?Ü¼Ä´??? */                                                       
+#define ALG_SUB_SC_HLLC_RXTX_CLK_DIS_REG       (ALG_SUB_BASE + 0x394)  /* hllc rxtxÊ±?Ó½?Ö¹?Ä´??? */                                                       
+#define ALG_SUB_SC_RSA_CLK_EN_REG              (ALG_SUB_BASE + 0x3A0)  /* RSAÊ±??Ê¹?Ü¼Ä´??? */                                                             
+#define ALG_SUB_SC_RSA_CLK_DIS_REG             (ALG_SUB_BASE + 0x3A4)  /* RSAÊ±?Ó½?Ö¹?Ä´??? */                                                             
+#define ALG_SUB_SC_RDE_CLK_EN_REG              (ALG_SUB_BASE + 0x3A8)  /* RDEÊ±??Ê¹?Ü¼Ä´??? */                                                             
+#define ALG_SUB_SC_RDE_CLK_DIS_REG             (ALG_SUB_BASE + 0x3AC)  /* RDEÊ±?Ó½?Ö¹?Ä´??? */                                                             
+#define ALG_SUB_SC_RNG_CLK_EN_REG              (ALG_SUB_BASE + 0x3B0)  /* RNGÊ±??Ê¹?Ü¼Ä´??? */                                                             
+#define ALG_SUB_SC_RNG_CLK_DIS_REG             (ALG_SUB_BASE + 0x3B4)  /* RNGÊ±?Ó½?Ö¹?Ä´??? */                                                             
+#define ALG_SUB_SC_SEC_CLK_EN_REG              (ALG_SUB_BASE + 0x3B8)  /* SECÊ±??Ê¹?Ü¼Ä´??? */                                                             
+#define ALG_SUB_SC_SEC_CLK_DIS_REG             (ALG_SUB_BASE + 0x3BC)  /* SECÊ±?Ó½?Ö¹?Ä´??? */                                                             
+#define ALG_SUB_SC_ITS_RESET_REQ_REG           (ALG_SUB_BASE + 0xA18)  /* ITS?í¸´Î»???????Æ¼Ä´??? */                                                          
+#define ALG_SUB_SC_ITS_RESET_DREQ_REG          (ALG_SUB_BASE + 0xA1C)  /* ITS?í¸´Î»È¥???????Æ¼Ä´??? */                                                         
+#define ALG_SUB_SC_HILINK_PCS_RESET_REQ_REG    (ALG_SUB_BASE + 0xA58)  /* HILINK PCS?í¸´Î»???????Æ¼Ä´??? */                                                   
+#define ALG_SUB_SC_HILINK_PCS_RESET_DREQ_REG   (ALG_SUB_BASE + 0xA5C)  /* HILINK PCS?í¸´Î»È¥???????Æ¼Ä´??? */                                                  
+#define ALG_SUB_SC_HLLC_RXTX_RESET_REQ_REG     (ALG_SUB_BASE + 0xA60)  /* hllc rxtx?í¸´Î»???????Æ¼Ä´??? */                                                    
+#define ALG_SUB_SC_HLLC_RXTX_RESET_DREQ_REG    (ALG_SUB_BASE + 0xA64)  /* hllc rxtx?í¸´Î»È¥???????Æ¼Ä´??? */                                                   
+#define ALG_SUB_SC_PA_RESET_REQ_REG            (ALG_SUB_BASE + 0xA78)  /* PA?í¸´Î»???????Æ¼Ä´??? */                                                           
+#define ALG_SUB_SC_PA_RESET_DREQ_REG           (ALG_SUB_BASE + 0xA7C)  /* PA?í¸´Î»È¥???????Æ¼Ä´??? */                                                          
+#define ALG_SUB_SC_HLLC_RESET_REQ_REG          (ALG_SUB_BASE + 0xA80)  /* HLLC?í¸´Î»???????Æ¼Ä´??? */                                                         
+#define ALG_SUB_SC_HLLC_RESET_DREQ_REG         (ALG_SUB_BASE + 0xA84)  /* HLLC?í¸´Î»È¥???????Æ¼Ä´??? */                                                        
+#define ALG_SUB_SC_DJTAG_RESET_REQ_REG         (ALG_SUB_BASE + 0xA90)  /* DJTAG?í¸´Î»???????Æ¼Ä´??? */                                                        
+#define ALG_SUB_SC_DJTAG_RESET_DREQ_REG        (ALG_SUB_BASE + 0xA94)  /* DJTAG?í¸´Î»È¥???????Æ¼Ä´??? */                                                       
+#define ALG_SUB_SC_RSA_RESET_REQ_REG           (ALG_SUB_BASE + 0xA98)  /* RSA?í¸´Î»???????Æ¼Ä´??? */                                                          
+#define ALG_SUB_SC_RSA_RESET_DREQ_REG          (ALG_SUB_BASE + 0xA9C)  /* RSA?í¸´Î»È¥???????Æ¼Ä´??? */                                                         
+#define ALG_SUB_SC_RDE_RESET_REQ_REG           (ALG_SUB_BASE + 0xAA0)  /* RDE?í¸´Î»???????Æ¼Ä´??? */                                                          
+#define ALG_SUB_SC_RDE_RESET_DREQ_REG          (ALG_SUB_BASE + 0xAA4)  /* RDE?í¸´Î»È¥???????Æ¼Ä´??? */                                                         
+#define ALG_SUB_SC_SEC_RESET_REQ_REG           (ALG_SUB_BASE + 0xAA8)  /* SEC?í¸´Î»???????Æ¼Ä´??? */                                                          
+#define ALG_SUB_SC_SEC_RESET_DREQ_REG          (ALG_SUB_BASE + 0xAAC)  /* SEC?í¸´Î»È¥???????Æ¼Ä´??? */                                                         
+#define ALG_SUB_SC_RNG_RESET_REQ_REG           (ALG_SUB_BASE + 0xAB0)  /* RNG?í¸´Î»???????Æ¼Ä´??? */                                                          
+#define ALG_SUB_SC_RNG_RESET_DREQ_REG          (ALG_SUB_BASE + 0xAB4)  /* RNG?í¸´Î»È¥???????Æ¼Ä´??? */                                                         
+#define ALG_SUB_SC_SEC_BUILD_RESET_REQ_REG     (ALG_SUB_BASE + 0xAB8)  /* SEC BUILD?í¸´Î»???????Æ¼Ä´??? */                                                    
+#define ALG_SUB_SC_SEC_BUILD_RESET_DREQ_REG    (ALG_SUB_BASE + 0xABC)  /* SEC BUILD?í¸´Î»È¥???????Æ¼Ä´??? */                                                   
+#define ALG_SUB_SC_PCS_LOCAL_RESET_REQ_REG     (ALG_SUB_BASE + 0xAC0)  /* PCS LOCAL?í¸´Î»???????Æ¼Ä´??? */                                                    
+#define ALG_SUB_SC_PCS_LOCAL_RESET_DREQ_REG    (ALG_SUB_BASE + 0xAC4)  /* PCS LOCAL?í¸´Î»È¥???????Æ¼Ä´??? */                                                   
+#define ALG_SUB_SC_DISPATCH_DAW_EN_REG         (ALG_SUB_BASE + 0x1000) /* dispatch daw en???? */                                                      
+#define ALG_SUB_SC_DISPATCH_DAW_ARRAY0_REG     (ALG_SUB_BASE + 0x1004) /* dispatch daw????????0 */                                                      
+#define ALG_SUB_SC_DISPATCH_DAW_ARRAY1_REG     (ALG_SUB_BASE + 0x1008) /* dispatch daw????????1 */                                                      
+#define ALG_SUB_SC_DISPATCH_DAW_ARRAY2_REG     (ALG_SUB_BASE + 0x100C) /* dispatch daw????????2 */                                                      
+#define ALG_SUB_SC_DISPATCH_DAW_ARRAY3_REG     (ALG_SUB_BASE + 0x1010) /* dispatch daw????????3 */                                                      
+#define ALG_SUB_SC_DISPATCH_DAW_ARRAY4_REG     (ALG_SUB_BASE + 0x1014) /* dispatch daw????????4 */                                                      
+#define ALG_SUB_SC_DISPATCH_DAW_ARRAY5_REG     (ALG_SUB_BASE + 0x1018) /* dispatch daw????????5 */                                                      
+#define ALG_SUB_SC_DISPATCH_DAW_ARRAY6_REG     (ALG_SUB_BASE + 0x101C) /* dispatch daw????????6 */                                                      
+#define ALG_SUB_SC_DISPATCH_DAW_ARRAY7_REG     (ALG_SUB_BASE + 0x1020) /* dispatch daw????????7 */                                                      
+#define ALG_SUB_SC_DISPATCH_RETRY_CONTROL_REG  (ALG_SUB_BASE + 0x1030) /* dispatch retry???Æ¼Ä´??? */                                                    
+#define ALG_SUB_SC_DISPATCH_INTMASK_REG        (ALG_SUB_BASE + 0x1100) /* dispatch???Ð¶??Á±Î¼Ä´??? */                                                       
+#define ALG_SUB_SC_DISPATCH_RAWINT_REG         (ALG_SUB_BASE + 0x1104) /* dispatch??Ô­Ê¼?Ð¶?×´Ì¬?Ä´??? */                                                     
+#define ALG_SUB_SC_DISPATCH_INTSTAT_REG        (ALG_SUB_BASE + 0x1108) /* dispatch???Á±Îº????Ð¶?×´Ì¬?Ä´??? */                                                   
+#define ALG_SUB_SC_DISPATCH_INTCLR_REG         (ALG_SUB_BASE + 0x110C) /* dispatch???Ð¶??????Ä´??? */                                                       
+#define ALG_SUB_SC_DISPATCH_ERRSTAT_REG        (ALG_SUB_BASE + 0x1110) /* dispatch??ERR×´Ì¬?Ä´??? */                                                      
+#define ALG_SUB_SC_DISPATCH_REMAP_CTRL_REG     (ALG_SUB_BASE + 0x1200) /* subsys??????Remap?Ä´??? */                                                      
+#define ALG_SUB_SC_TSENSOR_CTRL0_REG           (ALG_SUB_BASE + 0x20D0) /* TSENSOR???Æ¼Ä´???0 */                                                          
+#define ALG_SUB_SC_TSENSOR_CTRL1_REG           (ALG_SUB_BASE + 0x20D4) /* TSENSOR???Æ¼Ä´???1 */                                                          
+#define ALG_SUB_SC_BOOTROM_CTRL_REG            (ALG_SUB_BASE + 0x20F0) /* BOOTROM???Æ¼Ä´??? */                                                           
+#define ALG_SUB_SC_FTE_MUX_CTRL_REG            (ALG_SUB_BASE + 0x2200) /* FTE????Ñ¡???Ä´??? */                                                             
+#define ALG_SUB_SC_RSA_ADDR_H_REG              (ALG_SUB_BASE + 0x2E00) /* RSA??20Î»??Ö·?????Ä´??? */                                                         
+#define ALG_SUB_SC_SMMU_MEM_CTRL0_REG          (ALG_SUB_BASE + 0x3000) /* smmu mem???Æ¼Ä´???0 */                                                         
+#define ALG_SUB_SC_SMMU_MEM_CTRL1_REG          (ALG_SUB_BASE + 0x3004) /* smmu mem???Æ¼Ä´???1 */                                                         
+#define ALG_SUB_SC_SMMU_MEM_CTRL2_REG          (ALG_SUB_BASE + 0x3008) /* smmu mem???Æ¼Ä´???2 */                                                         
+#define ALG_SUB_SC_RSA_MEM_CTRL_REG            (ALG_SUB_BASE + 0x3030) /* rsa mem???Æ¼Ä´??? */                                                           
+#define ALG_SUB_SC_HLLC_MEM_CTRL_REG           (ALG_SUB_BASE + 0x3040) /* hllc mem???Æ¼Ä´??? */                                                          
+#define ALG_SUB_SC_PA_MEM_CTRL0_REG            (ALG_SUB_BASE + 0x3050) /* pa mem???Æ¼Ä´???0 */                                                           
+#define ALG_SUB_SC_PA_MEM_CTRL1_REG            (ALG_SUB_BASE + 0x3054) /* pa mem???Æ¼Ä´???1 */                                                           
+#define ALG_SUB_SC_RDE_MEM_CTRL_REG            (ALG_SUB_BASE + 0x3060) /* rde mem???Æ¼Ä´??? */                                                           
+#define ALG_SUB_SC_SEC_MEM_CTRL_REG            (ALG_SUB_BASE + 0x3070) /* sec mem???Æ¼Ä´??? */                                                           
+#define ALG_SUB_SC_PLL_LOCK_ST_REG             (ALG_SUB_BASE + 0x5000) /* PLL????×´Ì¬?Ä´??? */                                                             
+#define ALG_SUB_SC_ITS_CLK_ST_REG              (ALG_SUB_BASE + 0x530C) /* ITSÊ±??×´Ì¬?Ä´??? */                                                             
+#define ALG_SUB_SC_PA_CLK_ST_REG               (ALG_SUB_BASE + 0x532C) /* PAÊ±??×´Ì¬?Ä´??? */                                                              
+#define ALG_SUB_SC_HLLC_CLK_ST_REG             (ALG_SUB_BASE + 0x5330) /* HLLCÊ±??×´Ì¬?Ä´??? */                                                            
+#define ALG_SUB_SC_REF_CLK_ST_REG              (ALG_SUB_BASE + 0x5338) /* refÊ±??×´Ì¬?Ä´??? */                                                             
+#define ALG_SUB_SC_GPIO_DB_CLK_ST_REG          (ALG_SUB_BASE + 0x533C) /* gpio_dbÊ±??×´Ì¬?Ä´??? */                                                         
+#define ALG_SUB_SC_DJTAG_CLK_ST_REG            (ALG_SUB_BASE + 0x5340) /* djtagÊ±??×´Ì¬?Ä´??? */                                                           
+#define ALG_SUB_SC_HLLC_RXTX_CLK_ST_REG        (ALG_SUB_BASE + 0x5348) /* hllc rxtxÊ±??×´Ì¬?Ä´??? */                                                       
+#define ALG_SUB_SC_RSA_CLK_ST_REG              (ALG_SUB_BASE + 0x5350) /* RSAÊ±??×´Ì¬?Ä´??? */                                                             
+#define ALG_SUB_SC_RDE_CLK_ST_REG              (ALG_SUB_BASE + 0x5354) /* RDEÊ±??×´Ì¬?Ä´??? */                                                             
+#define ALG_SUB_SC_RNG_CLK_ST_REG              (ALG_SUB_BASE + 0x5358) /* RNGÊ±??×´Ì¬?Ä´??? */                                                             
+#define ALG_SUB_SC_SEC_CLK_ST_REG              (ALG_SUB_BASE + 0x535C) /* SECÊ±??×´Ì¬?Ä´??? */                                                             
+#define ALG_SUB_SC_ITS_RESET_ST_REG            (ALG_SUB_BASE + 0x5A0C) /* ITS??Î»×´Ì¬?Ä´??? */                                                             
+#define ALG_SUB_SC_HILINK_PCS_RESET_ST_REG     (ALG_SUB_BASE + 0x5A2C) /* HILINK_PCS??Î»×´Ì¬?Ä´??? */                                                      
+#define ALG_SUB_SC_HLLC_RXTX_RESET_ST_REG      (ALG_SUB_BASE + 0x5A30) /* hllc rxtx??Î»×´Ì¬?Ä´??? */                                                       
+#define ALG_SUB_SC_PA_RESET_ST_REG             (ALG_SUB_BASE + 0x5A3C) /* PA??Î»×´Ì¬?Ä´??? */                                                              
+#define ALG_SUB_SC_HLLC_RESET_ST_REG           (ALG_SUB_BASE + 0x5A40) /* HLLC??Î»×´Ì¬?Ä´??? */                                                            
+#define ALG_SUB_SC_DJTAG_RESET_ST_REG          (ALG_SUB_BASE + 0x5A48) /* DJTAG??Î»×´Ì¬?Ä´??? */                                                           
+#define ALG_SUB_SC_RSA_RESET_ST_REG            (ALG_SUB_BASE + 0x5A4C) /* RSA??Î»×´Ì¬?Ä´??? */                                                             
+#define ALG_SUB_SC_RDE_RESET_ST_REG            (ALG_SUB_BASE + 0x5A50) /* RDE??Î»×´Ì¬?Ä´??? */                                                             
+#define ALG_SUB_SC_SEC_RESET_ST_REG            (ALG_SUB_BASE + 0x5A54) /* SEC??Î»×´Ì¬?Ä´??? */                                                             
+#define ALG_SUB_SC_RNG_RESET_ST_REG            (ALG_SUB_BASE + 0x5A58) /* RNG??Î»×´Ì¬?Ä´??? */                                                             
+#define ALG_SUB_SC_SEC_BUILD_RESET_ST_REG      (ALG_SUB_BASE + 0x5A5C) /* SEC BUILD??Î»×´Ì¬?Ä´??? */                                                       
+#define ALG_SUB_SC_PCS_LOCAL_RESET_ST_REG      (ALG_SUB_BASE + 0x5A60) /* PCS LOCAL?í¸´Î»????×´Ì¬?Ä´??? */                                                    
+#define ALG_SUB_SC_TSENSOR_ST_REG              (ALG_SUB_BASE + 0x6040) /* TSENSOR×´Ì¬?Ä´??? */                                                           
+#define ALG_SUB_SC_DJTAG_INT_REG               (ALG_SUB_BASE + 0x6600) /* DJTAG Master??×´Ì¬????Ê±?Ð¶?Ô´?Ä´??? */                                               
+#define ALG_SUB_SC_DBG_AUTH_CTRL_REG           (ALG_SUB_BASE + 0x6700) /* ??È«?È¼???È¨???Æ¼Ä´??÷¡££?×¢?â£º1???Ë¼Ä´????Õ¼??????Ç°?È«???Ê²??Ü³É¹???2??Ä¬?Ï¾??Ç´ò¿ªµ???Ä£Ê½????Â©??????????????Ê±????Ê¼???Ø±Õµ??Ô¹??Ü£? */ 
+#define ALG_SUB_SC_DJTAG_MSTR_EN_REG           (ALG_SUB_BASE + 0x6800) /* SC_DJTAG_MSTR_ENÎªDJTAG MasterÊ¹?Ü¿??? */                                      
+#define ALG_SUB_SC_DJTAG_MSTR_START_EN_REG     (ALG_SUB_BASE + 0x6804) /* SC_DJTAG_MSTR_START_ENÎªDJTAG Master????chainÁ´??startÊ¹?? */                    
+#define ALG_SUB_SC_DJTAG_SEC_ACC_EN_REG        (ALG_SUB_BASE + 0x6808) /* DJTAG???Ê¸?Ä£???Ú°?È«?À½??Ä´????Ä°?È«???Ê¿???Ê¹?Ü¡???×¢?â£º1???Ë¼Ä´????Õ¼??????Ç°?È«???Ê²??Ü³É¹????? */                  
+#define ALG_SUB_SC_DJTAG_DEBUG_MODULE_SEL_REG  (ALG_SUB_BASE + 0x680C) /* SC_DJTAG_DEBUG_MODULE_SELÎªDJTAG Master???Ã·???Ä£???Ä´??? */                        
+#define ALG_SUB_SC_DJTAG_MSTR_WR_REG           (ALG_SUB_BASE + 0x6810) /* SC_DJTAG_MSTR_WRÎªDJTAG Master?Ä¶?Ð´?????Åº? */                                   
+#define ALG_SUB_SC_DJTAG_CHAIN_UNIT_CFG_EN_REG (ALG_SUB_BASE + 0x6814) /* SC_DJTAG_CHAIN_UNIT_CFG_ENÎªDJTAG Master??chainÁ´?Ïµ?Ôª?Ä·???Ê¹?? */                 
+#define ALG_SUB_SC_DJTAG_MSTR_ADDR_REG         (ALG_SUB_BASE + 0x6818) /* SC_DJTAG_MSTR_ADDRÎªDJTAG Master???Ã·???Ä£????Æ«?Æµ?Ö·?Ä´??? */                          
+#define ALG_SUB_SC_DJTAG_MSTR_DATA_REG         (ALG_SUB_BASE + 0x681C) /* SC_DJTAG_MSTR_DATAÎªDJTAG Master??Ð´???? */                                    
+#define ALG_SUB_SC_DJTAG_TMOUT_REG             (ALG_SUB_BASE + 0x6820) /* SC_DJTAG_TMOUTÎªIDIE??DJTAG Master??×´Ì¬????Ê±??Öµ */                               
+#define ALG_SUB_SC_TDRE_OP_ADDR_REG            (ALG_SUB_BASE + 0x6824) /* SC_TDRE_OP_ADDRÎªDJTAG Master????TDREÄ£????Æ«?Æµ?Ö·?Ä´????Í²??????Í¼Ä´??? */                   
+#define ALG_SUB_SC_TDRE_WDATA_REG              (ALG_SUB_BASE + 0x6828) /* SC_TDRE_WDATAÎªDJTAG Master??Ð´TDRE???? */                                     
+#define ALG_SUB_SC_TDRE_REPAIR_EN_REG          (ALG_SUB_BASE + 0x682C) /* SC_TDRE_REPAIR_ENÎªDJTAG Master??TDRE REPAIRÊ¹?? */                           
+#define ALG_SUB_SC_ECO_RSV0_REG                (ALG_SUB_BASE + 0x8000) /* ECO ?Ä´???0 */                                                               
+#define ALG_SUB_SC_ECO_RSV1_REG                (ALG_SUB_BASE + 0x8004) /* ECO ?Ä´???1 */                                                               
+#define ALG_SUB_SC_ECO_RSV2_REG                (ALG_SUB_BASE + 0x8008) /* ECO ?Ä´???2 */                                                               
+#define ALG_SUB_SC_DJTAG_RD_DATA0_REG          (ALG_SUB_BASE + 0xE800) /* DJTAGÉ¨??Á´?Ïµ?Ò»??Ä£???????Ý¼Ä´??? */                                                   
+#define ALG_SUB_SC_DJTAG_RD_DATA1_REG          (ALG_SUB_BASE + 0xE804) /* DJTAGÉ¨??Á´?ÏµÚ¶???Ä£???????Ý¼Ä´??? */                                                   
+#define ALG_SUB_SC_DJTAG_RD_DATA2_REG          (ALG_SUB_BASE + 0xE808) /* DJTAGÉ¨??Á´?Ïµ?????Ä£???????Ý¼Ä´??? */                                                   
+#define ALG_SUB_SC_DJTAG_RD_DATA3_REG          (ALG_SUB_BASE + 0xE80C) /* DJTAGÉ¨??Á´?Ïµ??Ä¸?Ä£???????Ý¼Ä´??? */                                                   
+#define ALG_SUB_SC_DJTAG_RD_DATA4_REG          (ALG_SUB_BASE + 0xE810) /* DJTAGÉ¨??Á´?Ïµ?????Ä£???????Ý¼Ä´??? */                                                   
+#define ALG_SUB_SC_DJTAG_RD_DATA5_REG          (ALG_SUB_BASE + 0xE814) /* DJTAGÉ¨??Á´?Ïµ?????Ä£???????Ý¼Ä´??? */                                                   
+#define ALG_SUB_SC_DJTAG_RD_DATA6_REG          (ALG_SUB_BASE + 0xE818) /* DJTAGÉ¨??Á´?Ïµ??ß¸?Ä£???????Ý¼Ä´??? */                                                   
+#define ALG_SUB_SC_DJTAG_RD_DATA7_REG          (ALG_SUB_BASE + 0xE81C) /* DJTAGÉ¨??Á´?ÏµÚ°Ë¸?Ä£???????Ý¼Ä´??? */                                                   
+#define ALG_SUB_SC_DJTAG_RD_DATA8_REG          (ALG_SUB_BASE + 0xE820) /* DJTAGÉ¨??Á´?ÏµÚ¾Å¸?Ä£???????Ý¼Ä´??? */                                                   
+#define ALG_SUB_SC_DJTAG_RD_DATA9_REG          (ALG_SUB_BASE + 0xE824) /* DJTAGÉ¨??Á´?Ïµ?Ê®??Ä£???????Ý¼Ä´??? */                                                   
+#define ALG_SUB_SC_DJTAG_OP_ST_REG             (ALG_SUB_BASE + 0xE828) /* DJTAG????×´Ì¬?Ä´??? */                                                           
+#define ALG_SUB_SC_TDRE_RDATA1_REG             (ALG_SUB_BASE + 0xE82C) /* DJTAG????TDREÄ£???Ä¶????Ý¸?32bit */                                                
+#define ALG_SUB_SC_TDRE_RDATA0_REG             (ALG_SUB_BASE + 0xE830) /* DJTAG????TDREÄ£???Ä¶????Ýµ?32bit */                                                
 
 
 #if(ENDNESS == ENDNESS_BIG)
 /* Define the union U_SC_PLLFCTRL0_U */
-/* PLL0¿ØÖÆ¼Ä´æÆ÷0¡£ */
+/* PLL0???Æ¼Ä´???0?? */
 /* 0x0 */
 typedef union tagScPllfctrl0
 {
@@ -251,7 +244,7 @@ typedef union tagScPllfctrl0
 } SC_PLLFCTRL0_U;
 
 /* Define the union U_SC_PLLFCTRL1_U */
-/* PLL0¿ØÖÆ¼Ä´æÆ÷1¡£ */
+/* PLL0???Æ¼Ä´???1?? */
 /* 0x4 */
 typedef union tagScPllfctrl1
 {
@@ -268,7 +261,7 @@ typedef union tagScPllfctrl1
 } SC_PLLFCTRL1_U;
 
 /* Define the union U_SC_PLLFCTRL2_U */
-/* PLL1¿ØÖÆ¼Ä´æÆ÷0¡£ */
+/* PLL1???Æ¼Ä´???0?? */
 /* 0x8 */
 typedef union tagScPllfctrl2
 {
@@ -295,7 +288,7 @@ typedef union tagScPllfctrl2
 } SC_PLLFCTRL2_U;
 
 /* Define the union U_SC_PLLFCTRL3_U */
-/* PLL1¿ØÖÆ¼Ä´æÆ÷1¡£ */
+/* PLL1???Æ¼Ä´???1?? */
 /* 0xC */
 typedef union tagScPllfctrl3
 {
@@ -312,7 +305,7 @@ typedef union tagScPllfctrl3
 } SC_PLLFCTRL3_U;
 
 /* Define the union U_SC_PLLFCTRL4_U */
-/* PLL2¿ØÖÆ¼Ä´æÆ÷0¡£ */
+/* PLL2???Æ¼Ä´???0?? */
 /* 0x10 */
 typedef union tagScPllfctrl4
 {
@@ -339,7 +332,7 @@ typedef union tagScPllfctrl4
 } SC_PLLFCTRL4_U;
 
 /* Define the union U_SC_PLLFCTRL5_U */
-/* PLL2¿ØÖÆ¼Ä´æÆ÷1¡£ */
+/* PLL2???Æ¼Ä´???1?? */
 /* 0x14 */
 typedef union tagScPllfctrl5
 {
@@ -356,7 +349,7 @@ typedef union tagScPllfctrl5
 } SC_PLLFCTRL5_U;
 
 /* Define the union U_SC_PLLFCTRL6_U */
-/* PLL3¿ØÖÆ¼Ä´æÆ÷0¡£ */
+/* PLL3???Æ¼Ä´???0?? */
 /* 0x18 */
 typedef union tagScPllfctrl6
 {
@@ -383,7 +376,7 @@ typedef union tagScPllfctrl6
 } SC_PLLFCTRL6_U;
 
 /* Define the union U_SC_PLLFCTRL7_U */
-/* PLL3¿ØÖÆ¼Ä´æÆ÷1¡£ */
+/* PLL3???Æ¼Ä´???1?? */
 /* 0x1C */
 typedef union tagScPllfctrl7
 {
@@ -400,7 +393,7 @@ typedef union tagScPllfctrl7
 } SC_PLLFCTRL7_U;
 
 /* Define the union U_SC_PLL_CLK_BYPASS_U */
-/* PLLÏà¹Ø¹¤×÷Ê±ÖÓÑ¡Ôñ¡£ */
+/* PLL???Ø¹???Ê±??Ñ¡???? */
 /* 0x20 */
 typedef union tagScPllClkBypass0
 {
@@ -422,7 +415,7 @@ typedef union tagScPllClkBypass0
 } SC_PLL_CLK_BYPASS0_U;
 
 /* Define the union U_SC_PLLFCTRL8_U */
-/* pll4¿ØÖÆ¼Ä´æÆ÷0¡£ */
+/* pll4???Æ¼Ä´???0?? */
 /* 0x24 */
 typedef union tagScPllfctrl8
 {
@@ -449,7 +442,7 @@ typedef union tagScPllfctrl8
 } SC_PLLFCTRL8_U;
 
 /* Define the union U_SC_PLLFCTRL9_U */
-/* pll4¿ØÖÆ¼Ä´æÆ÷1¡£ */
+/* pll4???Æ¼Ä´???1?? */
 /* 0x28 */
 typedef union tagScPllfctrl9
 {
@@ -466,7 +459,7 @@ typedef union tagScPllfctrl9
 } SC_PLLFCTRL9_U;
 
 /* Define the union U_SC_PLL_CLK_BYPASS1_U */
-/* PLLÏà¹Ø¹¤×÷Ê±ÖÓÑ¡Ôñ¡£ */
+/* PLL???Ø¹???Ê±??Ñ¡???? */
 /* 0x2C */
 typedef union tagScPllClkBypass1
 {
@@ -487,7 +480,7 @@ typedef union tagScPllClkBypass1
 } SC_PLL_CLK_BYPASS1_U;
 
 /* Define the union U_SC_GPIO_DB_CTRL_U */
-/* ÅäÖÃgpip dbÊ±ÖÓÑ¡Ôñ */
+/* ????gpip dbÊ±??Ñ¡?? */
 /* 0x100 */
 typedef union tagScGpioDbCtrl
 {
@@ -504,7 +497,7 @@ typedef union tagScGpioDbCtrl
 } SC_GPIO_DB_CTRL_U;
 
 /* Define the union U_SC_SFC_CLK_CTRL_U */
-/* ÅäÖÃSFCÊ±ÖÓÑ¡Ôñ */
+/* ????SFCÊ±??Ñ¡?? */
 /* 0x104 */
 typedef union tagScSfcClkCtrl
 {
@@ -521,7 +514,7 @@ typedef union tagScSfcClkCtrl
 } SC_SFC_CLK_CTRL_U;
 
 /* Define the union U_SC_ALL_SCAN_CTRL_U */
-/* ALL SCAN¿ØÖÆ¼Ä´æÆ÷ */
+/* ALL SCAN???Æ¼Ä´??? */
 /* 0x150 */
 typedef union tagScAllScanCtrl
 {
@@ -538,7 +531,7 @@ typedef union tagScAllScanCtrl
 } SC_ALL_SCAN_CTRL_U;
 
 /* Define the union U_SC_ITS_CLK_EN_U */
-/* ITSÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* ITSÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x318 */
 typedef union tagScItsClkEn
 {
@@ -555,7 +548,7 @@ typedef union tagScItsClkEn
 } SC_ITS_CLK_EN_U;
 
 /* Define the union U_SC_ITS_CLK_DIS_U */
-/* ITSÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* ITSÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x31C */
 typedef union tagScItsClkDis
 {
@@ -572,7 +565,7 @@ typedef union tagScItsClkDis
 } SC_ITS_CLK_DIS_U;
 
 /* Define the union U_SC_PA_CLK_EN_U */
-/* PAÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* PAÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x358 */
 typedef union tagScPaClkEn
 {
@@ -589,7 +582,7 @@ typedef union tagScPaClkEn
 } SC_PA_CLK_EN_U;
 
 /* Define the union U_SC_PA_CLK_DIS_U */
-/* PAÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* PAÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x35C */
 typedef union tagScPaClkDis
 {
@@ -606,7 +599,7 @@ typedef union tagScPaClkDis
 } SC_PA_CLK_DIS_U;
 
 /* Define the union U_SC_HLLC_CLK_EN_U */
-/* HLLCÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* HLLCÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x360 */
 typedef union tagScHllcClkEn
 {
@@ -623,7 +616,7 @@ typedef union tagScHllcClkEn
 } SC_HLLC_CLK_EN_U;
 
 /* Define the union U_SC_HLLC_CLK_DIS_U */
-/* HLLCÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* HLLCÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x364 */
 typedef union tagScHllcClkDis
 {
@@ -640,7 +633,7 @@ typedef union tagScHllcClkDis
 } SC_HLLC_CLK_DIS_U;
 
 /* Define the union U_SC_REF_CLK_EN_U */
-/* refÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* refÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x370 */
 typedef union tagScRefClkEn
 {
@@ -657,7 +650,7 @@ typedef union tagScRefClkEn
 } SC_REF_CLK_EN_U;
 
 /* Define the union U_SC_REF_CLK_DIS_U */
-/* refÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* refÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x374 */
 typedef union tagScRefClkDis
 {
@@ -674,7 +667,7 @@ typedef union tagScRefClkDis
 } SC_REF_CLK_DIS_U;
 
 /* Define the union U_SC_GPIO_DB_CLK_EN_U */
-/* gpio_dbÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* gpio_dbÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x378 */
 typedef union tagScGpioDbClkEn
 {
@@ -691,7 +684,7 @@ typedef union tagScGpioDbClkEn
 } SC_GPIO_DB_CLK_EN_U;
 
 /* Define the union U_SC_GPIO_DB_CLK_DIS_U */
-/* gpio_dbÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* gpio_dbÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x37C */
 typedef union tagScGpioDbClkDis
 {
@@ -708,7 +701,7 @@ typedef union tagScGpioDbClkDis
 } SC_GPIO_DB_CLK_DIS_U;
 
 /* Define the union U_SC_DJTAG_CLK_EN_U */
-/* djtagÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* djtagÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x380 */
 typedef union tagScDjtagClkEn
 {
@@ -725,7 +718,7 @@ typedef union tagScDjtagClkEn
 } SC_DJTAG_CLK_EN_U;
 
 /* Define the union U_SC_DJTAG_CLK_DIS_U */
-/* djtagÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* djtagÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x384 */
 typedef union tagScDjtagClkDis
 {
@@ -742,7 +735,7 @@ typedef union tagScDjtagClkDis
 } SC_DJTAG_CLK_DIS_U;
 
 /* Define the union U_SC_HLLC_RXTX_CLK_EN_U */
-/* hllc rxtxÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* hllc rxtxÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x390 */
 typedef union tagScHllcRxtxClkEn
 {
@@ -774,7 +767,7 @@ typedef union tagScHllcRxtxClkEn
 } SC_HLLC_RXTX_CLK_EN_U;
 
 /* Define the union U_SC_HLLC_RXTX_CLK_DIS_U */
-/* hllc rxtxÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* hllc rxtxÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x394 */
 typedef union tagScHllcRxtxClkDis
 {
@@ -806,7 +799,7 @@ typedef union tagScHllcRxtxClkDis
 } SC_HLLC_RXTX_CLK_DIS_U;
 
 /* Define the union U_SC_RSA_CLK_EN_U */
-/* RSAÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* RSAÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x3A0 */
 typedef union tagScRsaClkEn
 {
@@ -823,7 +816,7 @@ typedef union tagScRsaClkEn
 } SC_RSA_CLK_EN_U;
 
 /* Define the union U_SC_RSA_CLK_DIS_U */
-/* RSAÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* RSAÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x3A4 */
 typedef union tagScRsaClkDis
 {
@@ -840,7 +833,7 @@ typedef union tagScRsaClkDis
 } SC_RSA_CLK_DIS_U;
 
 /* Define the union U_SC_RDE_CLK_EN_U */
-/* RDEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* RDEÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x3A8 */
 typedef union tagScRdeClkEn
 {
@@ -857,7 +850,7 @@ typedef union tagScRdeClkEn
 } SC_RDE_CLK_EN_U;
 
 /* Define the union U_SC_RDE_CLK_DIS_U */
-/* RDEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* RDEÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x3AC */
 typedef union tagScRdeClkDis
 {
@@ -874,7 +867,7 @@ typedef union tagScRdeClkDis
 } SC_RDE_CLK_DIS_U;
 
 /* Define the union U_SC_RNG_CLK_EN_U */
-/* RNGÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* RNGÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x3B0 */
 typedef union tagScRngClkEn
 {
@@ -891,7 +884,7 @@ typedef union tagScRngClkEn
 } SC_RNG_CLK_EN_U;
 
 /* Define the union U_SC_RNG_CLK_DIS_U */
-/* RNGÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* RNGÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x3B4 */
 typedef union tagScRngClkDis
 {
@@ -908,7 +901,7 @@ typedef union tagScRngClkDis
 } SC_RNG_CLK_DIS_U;
 
 /* Define the union U_SC_SEC_CLK_EN_U */
-/* SECÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* SECÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x3B8 */
 typedef union tagScSecClkEn
 {
@@ -927,7 +920,7 @@ typedef union tagScSecClkEn
 } SC_SEC_CLK_EN_U;
 
 /* Define the union U_SC_SEC_CLK_DIS_U */
-/* SECÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* SECÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x3BC */
 typedef union tagScSecClkDis
 {
@@ -946,7 +939,7 @@ typedef union tagScSecClkDis
 } SC_SEC_CLK_DIS_U;
 
 /* Define the union U_SC_ITS_RESET_REQ_U */
-/* ITSÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ITS?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA18 */
 typedef union tagScItsResetReq
 {
@@ -963,7 +956,7 @@ typedef union tagScItsResetReq
 } SC_ITS_RESET_REQ_U;
 
 /* Define the union U_SC_ITS_RESET_DREQ_U */
-/* ITSÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ITS?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA1C */
 typedef union tagScItsResetDreq
 {
@@ -980,7 +973,7 @@ typedef union tagScItsResetDreq
 } SC_ITS_RESET_DREQ_U;
 
 /* Define the union U_SC_HILINK_PCS_RESET_REQ_U */
-/* HILINK PCSÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* HILINK PCS?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA58 */
 typedef union tagScHilinkPcsResetReq
 {
@@ -1004,7 +997,7 @@ typedef union tagScHilinkPcsResetReq
 } SC_HILINK_PCS_RESET_REQ_U;
 
 /* Define the union U_SC_HILINK_PCS_RESET_DREQ_U */
-/* HILINK PCSÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* HILINK PCS?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA5C */
 typedef union tagScHilinkPcsResetDreq
 {
@@ -1028,7 +1021,7 @@ typedef union tagScHilinkPcsResetDreq
 } SC_HILINK_PCS_RESET_DREQ_U;
 
 /* Define the union U_SC_HLLC_RXTX_RESET_REQ_U */
-/* hllc rxtxÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* hllc rxtx?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA60 */
 typedef union tagScHllcRxtxResetReq
 {
@@ -1060,7 +1053,7 @@ typedef union tagScHllcRxtxResetReq
 } SC_HLLC_RXTX_RESET_REQ_U;
 
 /* Define the union U_SC_HLLC_RXTX_RESET_DREQ_U */
-/* hllc rxtxÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* hllc rxtx?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA64 */
 typedef union tagScHllcRxtxResetDreq
 {
@@ -1092,7 +1085,7 @@ typedef union tagScHllcRxtxResetDreq
 } SC_HLLC_RXTX_RESET_DREQ_U;
 
 /* Define the union U_SC_PA_RESET_REQ_U */
-/* PAÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PA?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA78 */
 typedef union tagScPaResetReq
 {
@@ -1109,7 +1102,7 @@ typedef union tagScPaResetReq
 } SC_PA_RESET_REQ_U;
 
 /* Define the union U_SC_PA_RESET_DREQ_U */
-/* PAÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PA?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA7C */
 typedef union tagScPaResetDreq
 {
@@ -1126,7 +1119,7 @@ typedef union tagScPaResetDreq
 } SC_PA_RESET_DREQ_U;
 
 /* Define the union U_SC_HLLC_RESET_REQ_U */
-/* HLLCÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* HLLC?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA80 */
 typedef union tagScHllcResetReq
 {
@@ -1143,7 +1136,7 @@ typedef union tagScHllcResetReq
 } SC_HLLC_RESET_REQ_U;
 
 /* Define the union U_SC_HLLC_RESET_DREQ_U */
-/* HLLCÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* HLLC?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA84 */
 typedef union tagScHllcResetDreq
 {
@@ -1160,7 +1153,7 @@ typedef union tagScHllcResetDreq
 } SC_HLLC_RESET_DREQ_U;
 
 /* Define the union U_SC_DJTAG_RESET_REQ_U */
-/* DJTAGÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* DJTAG?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA90 */
 typedef union tagScDjtagResetReq
 {
@@ -1177,7 +1170,7 @@ typedef union tagScDjtagResetReq
 } SC_DJTAG_RESET_REQ_U;
 
 /* Define the union U_SC_DJTAG_RESET_DREQ_U */
-/* DJTAGÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* DJTAG?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA94 */
 typedef union tagScDjtagResetDreq
 {
@@ -1194,7 +1187,7 @@ typedef union tagScDjtagResetDreq
 } SC_DJTAG_RESET_DREQ_U;
 
 /* Define the union U_SC_RSA_RESET_REQ_U */
-/* RSAÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RSA?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA98 */
 typedef union tagScRsaResetReq
 {
@@ -1211,7 +1204,7 @@ typedef union tagScRsaResetReq
 } SC_RSA_RESET_REQ_U;
 
 /* Define the union U_SC_RSA_RESET_DREQ_U */
-/* RSAÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RSA?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA9C */
 typedef union tagScRsaResetDreq
 {
@@ -1228,7 +1221,7 @@ typedef union tagScRsaResetDreq
 } SC_RSA_RESET_DREQ_U;
 
 /* Define the union U_SC_RDE_RESET_REQ_U */
-/* RDEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RDE?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAA0 */
 typedef union tagScRdeResetReq
 {
@@ -1245,7 +1238,7 @@ typedef union tagScRdeResetReq
 } SC_RDE_RESET_REQ_U;
 
 /* Define the union U_SC_RDE_RESET_DREQ_U */
-/* RDEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RDE?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAA4 */
 typedef union tagScRdeResetDreq
 {
@@ -1262,7 +1255,7 @@ typedef union tagScRdeResetDreq
 } SC_RDE_RESET_DREQ_U;
 
 /* Define the union U_SC_SEC_RESET_REQ_U */
-/* SECÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAA8 */
 typedef union tagScSecResetReq
 {
@@ -1279,7 +1272,7 @@ typedef union tagScSecResetReq
 } SC_SEC_RESET_REQ_U;
 
 /* Define the union U_SC_SEC_RESET_DREQ_U */
-/* SECÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAAC */
 typedef union tagScSecResetDreq
 {
@@ -1296,7 +1289,7 @@ typedef union tagScSecResetDreq
 } SC_SEC_RESET_DREQ_U;
 
 /* Define the union U_SC_RNG_RESET_REQ_U */
-/* RNGÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RNG?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAB0 */
 typedef union tagScRngResetReq
 {
@@ -1313,7 +1306,7 @@ typedef union tagScRngResetReq
 } SC_RNG_RESET_REQ_U;
 
 /* Define the union U_SC_RNG_RESET_DREQ_U */
-/* RNGÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RNG?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAB4 */
 typedef union tagScRngResetDreq
 {
@@ -1330,7 +1323,7 @@ typedef union tagScRngResetDreq
 } SC_RNG_RESET_DREQ_U;
 
 /* Define the union U_SC_SEC_BUILD_RESET_REQ_U */
-/* SEC BUILDÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC BUILD?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAB8 */
 typedef union tagScSecBuildResetReq
 {
@@ -1367,7 +1360,7 @@ typedef union tagScSecBuildResetReq
 } SC_SEC_BUILD_RESET_REQ_U;
 
 /* Define the union U_SC_SEC_BUILD_RESET_DREQ_U */
-/* SEC BUILDÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC BUILD?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xABC */
 typedef union tagScSecBuildResetDreq
 {
@@ -1404,7 +1397,7 @@ typedef union tagScSecBuildResetDreq
 } SC_SEC_BUILD_RESET_DREQ_U;
 
 /* Define the union U_SC_PCS_LOCAL_RESET_REQ_U */
-/* PCS LOCALÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PCS LOCAL?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAC0 */
 typedef union tagScPcsLocalResetReq
 {
@@ -1421,7 +1414,7 @@ typedef union tagScPcsLocalResetReq
 } SC_PCS_LOCAL_RESET_REQ_U;
 
 /* Define the union U_SC_PCS_LOCAL_RESET_DREQ_U */
-/* PCS LOCALÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PCS LOCAL?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAC4 */
 typedef union tagScPcsLocalResetDreq
 {
@@ -1438,7 +1431,7 @@ typedef union tagScPcsLocalResetDreq
 } SC_PCS_LOCAL_RESET_DREQ_U;
 
 /* Define the union U_SC_DISPATCH_DAW_EN_U */
-/* dispatch daw enÅäÖÃ */
+/* dispatch daw en???? */
 /* 0x1000 */
 typedef union tagScDispatchDawEn
 {
@@ -1455,7 +1448,7 @@ typedef union tagScDispatchDawEn
 } SC_DISPATCH_DAW_EN_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY0_U */
-/* dispatch dawÅäÖÃÕóÁÐ0 */
+/* dispatch daw????????0 */
 /* 0x1004 */
 typedef union tagScDispatchDawArray0
 {
@@ -1475,7 +1468,7 @@ typedef union tagScDispatchDawArray0
 } SC_DISPATCH_DAW_ARRAY0_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY1_U */
-/* dispatch dawÅäÖÃÕóÁÐ1 */
+/* dispatch daw????????1 */
 /* 0x1008 */
 typedef union tagScDispatchDawArray1
 {
@@ -1495,7 +1488,7 @@ typedef union tagScDispatchDawArray1
 } SC_DISPATCH_DAW_ARRAY1_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY2_U */
-/* dispatch dawÅäÖÃÕóÁÐ2 */
+/* dispatch daw????????2 */
 /* 0x100C */
 typedef union tagScDispatchDawArray2
 {
@@ -1515,7 +1508,7 @@ typedef union tagScDispatchDawArray2
 } SC_DISPATCH_DAW_ARRAY2_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY3_U */
-/* dispatch dawÅäÖÃÕóÁÐ3 */
+/* dispatch daw????????3 */
 /* 0x1010 */
 typedef union tagScDispatchDawArray3
 {
@@ -1535,7 +1528,7 @@ typedef union tagScDispatchDawArray3
 } SC_DISPATCH_DAW_ARRAY3_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY4_U */
-/* dispatch dawÅäÖÃÕóÁÐ4 */
+/* dispatch daw????????4 */
 /* 0x1014 */
 typedef union tagScDispatchDawArray4
 {
@@ -1555,7 +1548,7 @@ typedef union tagScDispatchDawArray4
 } SC_DISPATCH_DAW_ARRAY4_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY5_U */
-/* dispatch dawÅäÖÃÕóÁÐ5 */
+/* dispatch daw????????5 */
 /* 0x1018 */
 typedef union tagScDispatchDawArray5
 {
@@ -1575,7 +1568,7 @@ typedef union tagScDispatchDawArray5
 } SC_DISPATCH_DAW_ARRAY5_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY6_U */
-/* dispatch dawÅäÖÃÕóÁÐ6 */
+/* dispatch daw????????6 */
 /* 0x101C */
 typedef union tagScDispatchDawArray6
 {
@@ -1595,7 +1588,7 @@ typedef union tagScDispatchDawArray6
 } SC_DISPATCH_DAW_ARRAY6_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY7_U */
-/* dispatch dawÅäÖÃÕóÁÐ7 */
+/* dispatch daw????????7 */
 /* 0x1020 */
 typedef union tagScDispatchDawArray7
 {
@@ -1615,7 +1608,7 @@ typedef union tagScDispatchDawArray7
 } SC_DISPATCH_DAW_ARRAY7_U;
 
 /* Define the union U_SC_DISPATCH_RETRY_CONTROL_U */
-/* dispatch retry¿ØÖÆ¼Ä´æÆ÷ */
+/* dispatch retry???Æ¼Ä´??? */
 /* 0x1030 */
 typedef union tagScDispatchRetryControl
 {
@@ -1633,7 +1626,7 @@ typedef union tagScDispatchRetryControl
 } SC_DISPATCH_RETRY_CONTROL_U;
 
 /* Define the union U_SC_DISPATCH_INTMASK_U */
-/* dispatchµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
+/* dispatch???Ð¶??Á±Î¼Ä´??? */
 /* 0x1100 */
 typedef union tagScDispatchIntmask
 {
@@ -1650,7 +1643,7 @@ typedef union tagScDispatchIntmask
 } SC_DISPATCH_INTMASK_U;
 
 /* Define the union U_SC_DISPATCH_RAWINT_U */
-/* dispatchµÄÔ­Ê¼ÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
+/* dispatch??Ô­Ê¼?Ð¶?×´Ì¬?Ä´??? */
 /* 0x1104 */
 typedef union tagScDispatchRawint
 {
@@ -1667,7 +1660,7 @@ typedef union tagScDispatchRawint
 } SC_DISPATCH_RAWINT_U;
 
 /* Define the union U_SC_DISPATCH_INTSTAT_U */
-/* dispatchµÄÆÁ±ÎºóµÄÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
+/* dispatch???Á±Îº????Ð¶?×´Ì¬?Ä´??? */
 /* 0x1108 */
 typedef union tagScDispatchIntstat
 {
@@ -1684,7 +1677,7 @@ typedef union tagScDispatchIntstat
 } SC_DISPATCH_INTSTAT_U;
 
 /* Define the union U_SC_DISPATCH_INTCLR_U */
-/* dispatchµÄÖÐ¶ÏÇå³ý¼Ä´æÆ÷ */
+/* dispatch???Ð¶??????Ä´??? */
 /* 0x110C */
 typedef union tagScDispatchIntclr
 {
@@ -1701,7 +1694,7 @@ typedef union tagScDispatchIntclr
 } SC_DISPATCH_INTCLR_U;
 
 /* Define the union U_SC_DISPATCH_ERRSTAT_U */
-/* dispatchµÄERR×´Ì¬¼Ä´æÆ÷ */
+/* dispatch??ERR×´Ì¬?Ä´??? */
 /* 0x1110 */
 typedef union tagScDispatchErrstat
 {
@@ -1719,7 +1712,7 @@ typedef union tagScDispatchErrstat
 } SC_DISPATCH_ERRSTAT_U;
 
 /* Define the union U_SC_DISPATCH_REMAP_CTRL_U */
-/* subsysµÄÆô¶¯Remap¼Ä´æÆ÷ */
+/* subsys??????Remap?Ä´??? */
 /* 0x1200 */
 typedef union tagScDispatchRemapCtrl
 {
@@ -1736,7 +1729,7 @@ typedef union tagScDispatchRemapCtrl
 } SC_DISPATCH_REMAP_CTRL_U;
 
 /* Define the union U_SC_TSENSOR_CTRL0_U */
-/* TSENSOR¿ØÖÆ¼Ä´æÆ÷0 */
+/* TSENSOR???Æ¼Ä´???0 */
 /* 0x20D0 */
 typedef union tagScTsensorCtrl0
 {
@@ -1755,7 +1748,7 @@ typedef union tagScTsensorCtrl0
 } SC_TSENSOR_CTRL0_U;
 
 /* Define the union U_SC_TSENSOR_CTRL1_U */
-/* TSENSOR¿ØÖÆ¼Ä´æÆ÷1 */
+/* TSENSOR???Æ¼Ä´???1 */
 /* 0x20D4 */
 typedef union tagScTsensorCtrl1
 {
@@ -1772,7 +1765,7 @@ typedef union tagScTsensorCtrl1
 } SC_TSENSOR_CTRL1_U;
 
 /* Define the union U_SC_BOOTROM_CTRL_U */
-/* BOOTROM¿ØÖÆ¼Ä´æÆ÷ */
+/* BOOTROM???Æ¼Ä´??? */
 /* 0x20F0 */
 typedef union tagScBootromCtrl
 {
@@ -1791,7 +1784,7 @@ typedef union tagScBootromCtrl
 } SC_BOOTROM_CTRL_U;
 
 /* Define the union U_SC_FTE_MUX_CTRL_U */
-/* FTE¸´ÓÃÑ¡Ôñ¼Ä´æÆ÷ */
+/* FTE????Ñ¡???Ä´??? */
 /* 0x2200 */
 typedef union tagScFteMuxCtrl
 {
@@ -1808,7 +1801,7 @@ typedef union tagScFteMuxCtrl
 } SC_FTE_MUX_CTRL_U;
 
 /* Define the union U_SC_RSA_ADDR_H_U */
-/* RSA¸ß20Î»µØÖ·²¹³ä¼Ä´æÆ÷ */
+/* RSA??20Î»??Ö·?????Ä´??? */
 /* 0x2E00 */
 typedef union tagScRsaAddrH
 {
@@ -1825,7 +1818,7 @@ typedef union tagScRsaAddrH
 } SC_RSA_ADDR_H_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL0_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* smmu mem???Æ¼Ä´???0 */
 /* 0x3000 */
 typedef union tagScSmmuMemCtrl0
 {
@@ -1842,7 +1835,7 @@ typedef union tagScSmmuMemCtrl0
 } SC_SMMU_MEM_CTRL0_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL1_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* smmu mem???Æ¼Ä´???1 */
 /* 0x3004 */
 typedef union tagScSmmuMemCtrl1
 {
@@ -1859,7 +1852,7 @@ typedef union tagScSmmuMemCtrl1
 } SC_SMMU_MEM_CTRL1_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL2_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷2 */
+/* smmu mem???Æ¼Ä´???2 */
 /* 0x3008 */
 typedef union tagScSmmuMemCtrl2
 {
@@ -1876,7 +1869,7 @@ typedef union tagScSmmuMemCtrl2
 } SC_SMMU_MEM_CTRL2_U;
 
 /* Define the union U_SC_RSA_MEM_CTRL_U */
-/* rsa mem¿ØÖÆ¼Ä´æÆ÷ */
+/* rsa mem???Æ¼Ä´??? */
 /* 0x3030 */
 typedef union tagScRsaMemCtrl
 {
@@ -1893,7 +1886,7 @@ typedef union tagScRsaMemCtrl
 } SC_RSA_MEM_CTRL_U;
 
 /* Define the union U_SC_HLLC_MEM_CTRL_U */
-/* hllc mem¿ØÖÆ¼Ä´æÆ÷ */
+/* hllc mem???Æ¼Ä´??? */
 /* 0x3040 */
 typedef union tagScHllcMemCtrl
 {
@@ -1910,7 +1903,7 @@ typedef union tagScHllcMemCtrl
 } SC_HLLC_MEM_CTRL_U;
 
 /* Define the union U_SC_PA_MEM_CTRL0_U */
-/* pa mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* pa mem???Æ¼Ä´???0 */
 /* 0x3050 */
 typedef union tagScPaMemCtrl0
 {
@@ -1927,7 +1920,7 @@ typedef union tagScPaMemCtrl0
 } SC_PA_MEM_CTRL0_U;
 
 /* Define the union U_SC_PA_MEM_CTRL1_U */
-/* pa mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* pa mem???Æ¼Ä´???1 */
 /* 0x3054 */
 typedef union tagScPaMemCtrl1
 {
@@ -1944,7 +1937,7 @@ typedef union tagScPaMemCtrl1
 } SC_PA_MEM_CTRL1_U;
 
 /* Define the union U_SC_RDE_MEM_CTRL_U */
-/* rde mem¿ØÖÆ¼Ä´æÆ÷ */
+/* rde mem???Æ¼Ä´??? */
 /* 0x3060 */
 typedef union tagScRdeMemCtrl
 {
@@ -1961,7 +1954,7 @@ typedef union tagScRdeMemCtrl
 } SC_RDE_MEM_CTRL_U;
 
 /* Define the union U_SC_SEC_MEM_CTRL_U */
-/* sec mem¿ØÖÆ¼Ä´æÆ÷ */
+/* sec mem???Æ¼Ä´??? */
 /* 0x3070 */
 typedef union tagScSecMemCtrl
 {
@@ -1978,7 +1971,7 @@ typedef union tagScSecMemCtrl
 } SC_SEC_MEM_CTRL_U;
 
 /* Define the union U_SC_PLL_LOCK_ST_U */
-/* PLLËø¶¨×´Ì¬¼Ä´æÆ÷ */
+/* PLL????×´Ì¬?Ä´??? */
 /* 0x5000 */
 typedef union tagScPllLockSt
 {
@@ -1999,7 +1992,7 @@ typedef union tagScPllLockSt
 } SC_PLL_LOCK_ST_U;
 
 /* Define the union U_SC_ITS_CLK_ST_U */
-/* ITSÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* ITSÊ±??×´Ì¬?Ä´??? */
 /* 0x530C */
 typedef union tagScItsClkSt
 {
@@ -2016,7 +2009,7 @@ typedef union tagScItsClkSt
 } SC_ITS_CLK_ST_U;
 
 /* Define the union U_SC_PA_CLK_ST_U */
-/* PAÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* PAÊ±??×´Ì¬?Ä´??? */
 /* 0x532C */
 typedef union tagScPaClkSt
 {
@@ -2033,7 +2026,7 @@ typedef union tagScPaClkSt
 } SC_PA_CLK_ST_U;
 
 /* Define the union U_SC_HLLC_CLK_ST_U */
-/* HLLCÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* HLLCÊ±??×´Ì¬?Ä´??? */
 /* 0x5330 */
 typedef union tagScHllcClkSt
 {
@@ -2050,7 +2043,7 @@ typedef union tagScHllcClkSt
 } SC_HLLC_CLK_ST_U;
 
 /* Define the union U_SC_REF_CLK_ST_U */
-/* refÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* refÊ±??×´Ì¬?Ä´??? */
 /* 0x5338 */
 typedef union tagScRefClkSt
 {
@@ -2067,7 +2060,7 @@ typedef union tagScRefClkSt
 } SC_REF_CLK_ST_U;
 
 /* Define the union U_SC_GPIO_DB_CLK_ST_U */
-/* gpio_dbÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* gpio_dbÊ±??×´Ì¬?Ä´??? */
 /* 0x533C */
 typedef union tagScGpioDbClkSt
 {
@@ -2084,7 +2077,7 @@ typedef union tagScGpioDbClkSt
 } SC_GPIO_DB_CLK_ST_U;
 
 /* Define the union U_SC_DJTAG_CLK_ST_U */
-/* djtagÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* djtagÊ±??×´Ì¬?Ä´??? */
 /* 0x5340 */
 typedef union tagScDjtagClkSt
 {
@@ -2101,7 +2094,7 @@ typedef union tagScDjtagClkSt
 } SC_DJTAG_CLK_ST_U;
 
 /* Define the union U_SC_HLLC_RXTX_CLK_ST_U */
-/* hllc rxtxÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* hllc rxtxÊ±??×´Ì¬?Ä´??? */
 /* 0x5348 */
 typedef union tagScHllcRxtxClkSt
 {
@@ -2133,7 +2126,7 @@ typedef union tagScHllcRxtxClkSt
 } SC_HLLC_RXTX_CLK_ST_U;
 
 /* Define the union U_SC_RSA_CLK_ST_U */
-/* RSAÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* RSAÊ±??×´Ì¬?Ä´??? */
 /* 0x5350 */
 typedef union tagScRsaClkSt
 {
@@ -2150,7 +2143,7 @@ typedef union tagScRsaClkSt
 } SC_RSA_CLK_ST_U;
 
 /* Define the union U_SC_RDE_CLK_ST_U */
-/* RDEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* RDEÊ±??×´Ì¬?Ä´??? */
 /* 0x5354 */
 typedef union tagScRdeClkSt
 {
@@ -2167,7 +2160,7 @@ typedef union tagScRdeClkSt
 } SC_RDE_CLK_ST_U;
 
 /* Define the union U_SC_RNG_CLK_ST_U */
-/* RNGÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* RNGÊ±??×´Ì¬?Ä´??? */
 /* 0x5358 */
 typedef union tagScRngClkSt
 {
@@ -2184,7 +2177,7 @@ typedef union tagScRngClkSt
 } SC_RNG_CLK_ST_U;
 
 /* Define the union U_SC_SEC_CLK_ST_U */
-/* SECÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SECÊ±??×´Ì¬?Ä´??? */
 /* 0x535C */
 typedef union tagScSecClkSt
 {
@@ -2203,7 +2196,7 @@ typedef union tagScSecClkSt
 } SC_SEC_CLK_ST_U;
 
 /* Define the union U_SC_ITS_RESET_ST_U */
-/* ITS¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* ITS??Î»×´Ì¬?Ä´??? */
 /* 0x5A0C */
 typedef union tagScItsResetSt
 {
@@ -2220,7 +2213,7 @@ typedef union tagScItsResetSt
 } SC_ITS_RESET_ST_U;
 
 /* Define the union U_SC_HILINK_PCS_RESET_ST_U */
-/* HILINK_PCS¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* HILINK_PCS??Î»×´Ì¬?Ä´??? */
 /* 0x5A2C */
 typedef union tagScHilinkPcsResetSt
 {
@@ -2244,7 +2237,7 @@ typedef union tagScHilinkPcsResetSt
 } SC_HILINK_PCS_RESET_ST_U;
 
 /* Define the union U_SC_HLLC_RXTX_RESET_ST_U */
-/* hllc rxtx¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* hllc rxtx??Î»×´Ì¬?Ä´??? */
 /* 0x5A30 */
 typedef union tagScHllcRxtxResetSt
 {
@@ -2276,7 +2269,7 @@ typedef union tagScHllcRxtxResetSt
 } SC_HLLC_RXTX_RESET_ST_U;
 
 /* Define the union U_SC_PA_RESET_ST_U */
-/* PA¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* PA??Î»×´Ì¬?Ä´??? */
 /* 0x5A3C */
 typedef union tagScPaResetSt
 {
@@ -2293,7 +2286,7 @@ typedef union tagScPaResetSt
 } SC_PA_RESET_ST_U;
 
 /* Define the union U_SC_HLLC_RESET_ST_U */
-/* HLLC¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* HLLC??Î»×´Ì¬?Ä´??? */
 /* 0x5A40 */
 typedef union tagScHllcResetSt
 {
@@ -2310,7 +2303,7 @@ typedef union tagScHllcResetSt
 } SC_HLLC_RESET_ST_U;
 
 /* Define the union U_SC_DJTAG_RESET_ST_U */
-/* DJTAG¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* DJTAG??Î»×´Ì¬?Ä´??? */
 /* 0x5A48 */
 typedef union tagScDjtagResetSt
 {
@@ -2327,7 +2320,7 @@ typedef union tagScDjtagResetSt
 } SC_DJTAG_RESET_ST_U;
 
 /* Define the union U_SC_RSA_RESET_ST_U */
-/* RSA¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* RSA??Î»×´Ì¬?Ä´??? */
 /* 0x5A4C */
 typedef union tagScRsaResetSt
 {
@@ -2344,7 +2337,7 @@ typedef union tagScRsaResetSt
 } SC_RSA_RESET_ST_U;
 
 /* Define the union U_SC_RDE_RESET_ST_U */
-/* RDE¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* RDE??Î»×´Ì¬?Ä´??? */
 /* 0x5A50 */
 typedef union tagScRdeResetSt
 {
@@ -2361,7 +2354,7 @@ typedef union tagScRdeResetSt
 } SC_RDE_RESET_ST_U;
 
 /* Define the union U_SC_SEC_RESET_ST_U */
-/* SEC¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SEC??Î»×´Ì¬?Ä´??? */
 /* 0x5A54 */
 typedef union tagScSecResetSt
 {
@@ -2378,7 +2371,7 @@ typedef union tagScSecResetSt
 } SC_SEC_RESET_ST_U;
 
 /* Define the union U_SC_RNG_RESET_ST_U */
-/* RNG¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* RNG??Î»×´Ì¬?Ä´??? */
 /* 0x5A58 */
 typedef union tagScRngResetSt
 {
@@ -2395,7 +2388,7 @@ typedef union tagScRngResetSt
 } SC_RNG_RESET_ST_U;
 
 /* Define the union U_SC_SEC_BUILD_RESET_ST_U */
-/* SEC BUILD¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SEC BUILD??Î»×´Ì¬?Ä´??? */
 /* 0x5A5C */
 typedef union tagScSecBuildResetSt
 {
@@ -2432,7 +2425,7 @@ typedef union tagScSecBuildResetSt
 } SC_SEC_BUILD_RESET_ST_U;
 
 /* Define the union U_SC_PCS_LOCAL_RESET_ST_U */
-/* PCS LOCALÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* PCS LOCAL?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A60 */
 typedef union tagScPcsLocalResetSt
 {
@@ -2449,7 +2442,7 @@ typedef union tagScPcsLocalResetSt
 } SC_PCS_LOCAL_RESET_ST_U;
 
 /* Define the union U_SC_TSENSOR_ST_U */
-/* TSENSOR×´Ì¬¼Ä´æÆ÷ */
+/* TSENSOR×´Ì¬?Ä´??? */
 /* 0x6040 */
 typedef union tagScTsensorSt
 {
@@ -2468,7 +2461,7 @@ typedef union tagScTsensorSt
 } SC_TSENSOR_ST_U;
 
 /* Define the union U_SC_DJTAG_INT_U */
-/* DJTAG MasterÄÚ×´Ì¬»ú³¬Ê±ÖÐ¶ÏÔ´¼Ä´æÆ÷ */
+/* DJTAG Master??×´Ì¬????Ê±?Ð¶?Ô´?Ä´??? */
 /* 0x6600 */
 typedef union tagScDjtagInt
 {
@@ -2485,8 +2478,8 @@ typedef union tagScDjtagInt
 } SC_DJTAG_INT_U;
 
 /* Define the union U_SC_DBG_AUTH_CTRL_U */
-/* °²È«µÈ¼¶ÊÚÈ¨¿ØÖÆ¼Ä´æÆ÷¡£
-£¨×¢Òâ£º1£¬´Ë¼Ä´æÆ÷¿Õ¼ä±ØÐëÊÇ°²È«·ÃÎÊ²ÅÄÜ³É¹¦£»2£¬Ä¬ÈÏ¾ùÊÇ´ò¿ªµ÷ÊÔÄ£Ê½£¬ÓÐÂ©¶´£¬ÔÚÕý³£¹¤×÷Ê±Çë³õÊ¼»¯¹Ø±Õµ÷ÊÔ¹¦ÄÜ£© */
+/* ??È«?È¼???È¨???Æ¼Ä´?????
+??×¢?â£º1???Ë¼Ä´????Õ¼??????Ç°?È«???Ê²??Ü³É¹???2??Ä¬?Ï¾??Ç´ò¿ªµ???Ä£Ê½????Â©??????????????Ê±????Ê¼???Ø±Õµ??Ô¹??Ü£? */
 /* 0x6700 */
 typedef union tagScDbgAuthCtrl
 {
@@ -2504,7 +2497,7 @@ typedef union tagScDbgAuthCtrl
 } SC_DBG_AUTH_CTRL_U;
 
 /* Define the union U_SC_DJTAG_MSTR_EN_U */
-/* SC_DJTAG_MSTR_ENÎªDJTAG MasterÊ¹ÄÜ¿ØÖÆ */
+/* SC_DJTAG_MSTR_ENÎªDJTAG MasterÊ¹?Ü¿??? */
 /* 0x6800 */
 typedef union tagScDjtagMstrEn
 {
@@ -2521,7 +2514,7 @@ typedef union tagScDjtagMstrEn
 } SC_DJTAG_MSTR_EN_U;
 
 /* Define the union U_SC_DJTAG_MSTR_START_EN_U */
-/* SC_DJTAG_MSTR_START_ENÎªDJTAG Master·ÃÎÊchainÁ´µÄstartÊ¹ÄÜ */
+/* SC_DJTAG_MSTR_START_ENÎªDJTAG Master????chainÁ´??startÊ¹?? */
 /* 0x6804 */
 typedef union tagScDjtagMstrStartEn
 {
@@ -2538,7 +2531,7 @@ typedef union tagScDjtagMstrStartEn
 } SC_DJTAG_MSTR_START_EN_U;
 
 /* Define the union U_SC_DJTAG_SEC_ACC_EN_U */
-/* DJTAG·ÃÎÊ¸÷Ä£¿éÄÚ°²È«ÊÀ½ç¼Ä´æÆ÷µÄ°²È«·ÃÎÊ¿ØÖÆÊ¹ÄÜ¡££¨×¢Òâ£º1£¬´Ë¼Ä´æÆ÷¿Õ¼ä±ØÐëÊÇ°²È«·ÃÎÊ²ÅÄÜ³É¹¦¡££© */
+/* DJTAG???Ê¸?Ä£???Ú°?È«?À½??Ä´????Ä°?È«???Ê¿???Ê¹?Ü¡???×¢?â£º1???Ë¼Ä´????Õ¼??????Ç°?È«???Ê²??Ü³É¹????? */
 /* 0x6808 */
 typedef union tagScDjtagSecAccEn
 {
@@ -2555,7 +2548,7 @@ typedef union tagScDjtagSecAccEn
 } SC_DJTAG_SEC_ACC_EN_U;
 
 /* Define the union U_SC_DJTAG_DEBUG_MODULE_SEL_U */
-/* SC_DJTAG_DEBUG_MODULE_SELÎªDJTAG MasterÅäÖÃ·ÃÎÊÄ£¿é¼Ä´æÆ÷ */
+/* SC_DJTAG_DEBUG_MODULE_SELÎªDJTAG Master???Ã·???Ä£???Ä´??? */
 /* 0x680C */
 typedef union tagScDjtagDebugModuleSel
 {
@@ -2572,7 +2565,7 @@ typedef union tagScDjtagDebugModuleSel
 } SC_DJTAG_DEBUG_MODULE_SEL_U;
 
 /* Define the union U_SC_DJTAG_MSTR_WR_U */
-/* SC_DJTAG_MSTR_WRÎªDJTAG MasterµÄ¶ÁÐ´¿ØÖÆÐÅºÅ */
+/* SC_DJTAG_MSTR_WRÎªDJTAG Master?Ä¶?Ð´?????Åº? */
 /* 0x6810 */
 typedef union tagScDjtagMstrWr
 {
@@ -2589,7 +2582,7 @@ typedef union tagScDjtagMstrWr
 } SC_DJTAG_MSTR_WR_U;
 
 /* Define the union U_SC_DJTAG_CHAIN_UNIT_CFG_EN_U */
-/* SC_DJTAG_CHAIN_UNIT_CFG_ENÎªDJTAG MasterµÄchainÁ´ÉÏµ¥ÔªµÄ·ÃÎÊÊ¹ÄÜ */
+/* SC_DJTAG_CHAIN_UNIT_CFG_ENÎªDJTAG Master??chainÁ´?Ïµ?Ôª?Ä·???Ê¹?? */
 /* 0x6814 */
 typedef union tagScDjtagChainUnitCfgEn
 {
@@ -2606,7 +2599,7 @@ typedef union tagScDjtagChainUnitCfgEn
 } SC_DJTAG_CHAIN_UNIT_CFG_EN_U;
 
 /* Define the union U_SC_DJTAG_MSTR_ADDR_U */
-/* SC_DJTAG_MSTR_ADDRÎªDJTAG MasterÅäÖÃ·ÃÎÊÄ£¿éµÄÆ«ÒÆµØÖ·¼Ä´æÆ÷ */
+/* SC_DJTAG_MSTR_ADDRÎªDJTAG Master???Ã·???Ä£????Æ«?Æµ?Ö·?Ä´??? */
 /* 0x6818 */
 typedef union tagScDjtagMstrAddr
 {
@@ -2623,7 +2616,7 @@ typedef union tagScDjtagMstrAddr
 } SC_DJTAG_MSTR_ADDR_U;
 
 /* Define the union U_SC_TDRE_OP_ADDR_U */
-/* SC_TDRE_OP_ADDRÎªDJTAG MasterÅäÖÃTDREÄ£¿éµÄÆ«ÒÆµØÖ·¼Ä´æÆ÷ºÍ²Ù×÷ÀàÐÍ¼Ä´æÆ÷ */
+/* SC_TDRE_OP_ADDRÎªDJTAG Master????TDREÄ£????Æ«?Æµ?Ö·?Ä´????Í²??????Í¼Ä´??? */
 /* 0x6824 */
 typedef union tagScTdreOpAddr
 {
@@ -2640,7 +2633,7 @@ typedef union tagScTdreOpAddr
 } SC_TDRE_OP_ADDR_U;
 
 /* Define the union U_SC_TDRE_REPAIR_EN_U */
-/* SC_TDRE_REPAIR_ENÎªDJTAG MasterµÄTDRE REPAIRÊ¹ÄÜ */
+/* SC_TDRE_REPAIR_ENÎªDJTAG Master??TDRE REPAIRÊ¹?? */
 /* 0x682C */
 typedef union tagScTdreRepairEn
 {
@@ -2657,7 +2650,7 @@ typedef union tagScTdreRepairEn
 } SC_TDRE_REPAIR_EN_U;
 
 /* Define the union U_SC_ECO_RSV0_U */
-/* ECO ¼Ä´æÆ÷0 */
+/* ECO ?Ä´???0 */
 /* 0x8000 */
 typedef union tagScEcoRsv0
 {
@@ -2674,7 +2667,7 @@ typedef union tagScEcoRsv0
 } SC_ECO_RSV0_U;
 
 /* Define the union U_SC_DJTAG_OP_ST_U */
-/* DJTAG·ÃÎÊ×´Ì¬¼Ä´æÆ÷ */
+/* DJTAG????×´Ì¬?Ä´??? */
 /* 0xE828 */
 typedef union tagScDjtagOpSt
 {
@@ -2696,7 +2689,7 @@ typedef union tagScDjtagOpSt
 
 #else
 /* Define the union U_SC_PLLFCTRL0_U */
-/* PLL0¿ØÖÆ¼Ä´æÆ÷0¡£ */
+/* PLL0???Æ¼Ä´???0?? */
 /* 0x0 */
 typedef union tagScPllfctrl0
 {
@@ -2723,7 +2716,7 @@ typedef union tagScPllfctrl0
 } SC_PLLFCTRL0_U;
 
 /* Define the union U_SC_PLLFCTRL1_U */
-/* PLL0¿ØÖÆ¼Ä´æÆ÷1¡£ */
+/* PLL0???Æ¼Ä´???1?? */
 /* 0x4 */
 typedef union tagScPllfctrl1
 {
@@ -2740,7 +2733,7 @@ typedef union tagScPllfctrl1
 } SC_PLLFCTRL1_U;
 
 /* Define the union U_SC_PLLFCTRL2_U */
-/* PLL1¿ØÖÆ¼Ä´æÆ÷0¡£ */
+/* PLL1???Æ¼Ä´???0?? */
 /* 0x8 */
 typedef union tagScPllfctrl2
 {
@@ -2767,7 +2760,7 @@ typedef union tagScPllfctrl2
 } SC_PLLFCTRL2_U;
 
 /* Define the union U_SC_PLLFCTRL3_U */
-/* PLL1¿ØÖÆ¼Ä´æÆ÷1¡£ */
+/* PLL1???Æ¼Ä´???1?? */
 /* 0xC */
 typedef union tagScPllfctrl3
 {
@@ -2784,7 +2777,7 @@ typedef union tagScPllfctrl3
 } SC_PLLFCTRL3_U;
 
 /* Define the union U_SC_PLLFCTRL4_U */
-/* PLL2¿ØÖÆ¼Ä´æÆ÷0¡£ */
+/* PLL2???Æ¼Ä´???0?? */
 /* 0x10 */
 typedef union tagScPllfctrl4
 {
@@ -2811,7 +2804,7 @@ typedef union tagScPllfctrl4
 } SC_PLLFCTRL4_U;
 
 /* Define the union U_SC_PLLFCTRL5_U */
-/* PLL2¿ØÖÆ¼Ä´æÆ÷1¡£ */
+/* PLL2???Æ¼Ä´???1?? */
 /* 0x14 */
 typedef union tagScPllfctrl5
 {
@@ -2828,7 +2821,7 @@ typedef union tagScPllfctrl5
 } SC_PLLFCTRL5_U;
 
 /* Define the union U_SC_PLLFCTRL6_U */
-/* PLL3¿ØÖÆ¼Ä´æÆ÷0¡£ */
+/* PLL3???Æ¼Ä´???0?? */
 /* 0x18 */
 typedef union tagScPllfctrl6
 {
@@ -2855,7 +2848,7 @@ typedef union tagScPllfctrl6
 } SC_PLLFCTRL6_U;
 
 /* Define the union U_SC_PLLFCTRL7_U */
-/* PLL3¿ØÖÆ¼Ä´æÆ÷1¡£ */
+/* PLL3???Æ¼Ä´???1?? */
 /* 0x1C */
 typedef union tagScPllfctrl7
 {
@@ -2872,7 +2865,7 @@ typedef union tagScPllfctrl7
 } SC_PLLFCTRL7_U;
 
 /* Define the union U_SC_PLL_CLK_BYPASS0_U */
-/* PLLÏà¹Ø¹¤×÷Ê±ÖÓÑ¡Ôñ¡£ */
+/* PLL???Ø¹???Ê±??Ñ¡???? */
 /* 0x20 */
 typedef union tagScPllClkBypass0
 {
@@ -2894,7 +2887,7 @@ typedef union tagScPllClkBypass0
 } SC_PLL_CLK_BYPASS0_U;
 
 /* Define the union U_SC_PLLFCTRL8_U */
-/* pll4¿ØÖÆ¼Ä´æÆ÷0¡£ */
+/* pll4???Æ¼Ä´???0?? */
 /* 0x24 */
 typedef union tagScPllfctrl8
 {
@@ -2921,7 +2914,7 @@ typedef union tagScPllfctrl8
 } SC_PLLFCTRL8_U;
 
 /* Define the union U_SC_PLLFCTRL9_U */
-/* pll4¿ØÖÆ¼Ä´æÆ÷1¡£ */
+/* pll4???Æ¼Ä´???1?? */
 /* 0x28 */
 typedef union tagScPllfctrl9
 {
@@ -2938,7 +2931,7 @@ typedef union tagScPllfctrl9
 } SC_PLLFCTRL9_U;
 
 /* Define the union U_SC_PLL_CLK_BYPASS1_U */
-/* PLLÏà¹Ø¹¤×÷Ê±ÖÓÑ¡Ôñ¡£ */
+/* PLL???Ø¹???Ê±??Ñ¡???? */
 /* 0x2C */
 typedef union tagScPllClkBypass1
 {
@@ -2959,7 +2952,7 @@ typedef union tagScPllClkBypass1
 } SC_PLL_CLK_BYPASS1_U;
 
 /* Define the union U_SC_GPIO_DB_CTRL_U */
-/* ÅäÖÃgpip dbÊ±ÖÓÑ¡Ôñ */
+/* ????gpip dbÊ±??Ñ¡?? */
 /* 0x100 */
 typedef union tagScGpioDbCtrl
 {
@@ -2976,7 +2969,7 @@ typedef union tagScGpioDbCtrl
 } SC_GPIO_DB_CTRL_U;
 
 /* Define the union U_SC_SFC_CLK_CTRL_U */
-/* ÅäÖÃSFCÊ±ÖÓÑ¡Ôñ */
+/* ????SFCÊ±??Ñ¡?? */
 /* 0x104 */
 typedef union tagScSfcClkCtrl
 {
@@ -2993,7 +2986,7 @@ typedef union tagScSfcClkCtrl
 } SC_SFC_CLK_CTRL_U;
 
 /* Define the union U_SC_ALL_SCAN_CTRL_U */
-/* ALL SCAN¿ØÖÆ¼Ä´æÆ÷ */
+/* ALL SCAN???Æ¼Ä´??? */
 /* 0x150 */
 typedef union tagScAllScanCtrl
 {
@@ -3010,7 +3003,7 @@ typedef union tagScAllScanCtrl
 } SC_ALL_SCAN_CTRL_U;
 
 /* Define the union U_SC_ITS_CLK_EN_U */
-/* ITSÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* ITSÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x318 */
 typedef union tagScItsClkEn
 {
@@ -3027,7 +3020,7 @@ typedef union tagScItsClkEn
 } SC_ITS_CLK_EN_U;
 
 /* Define the union U_SC_ITS_CLK_DIS_U */
-/* ITSÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* ITSÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x31C */
 typedef union tagScItsClkDis
 {
@@ -3044,7 +3037,7 @@ typedef union tagScItsClkDis
 } SC_ITS_CLK_DIS_U;
 
 /* Define the union U_SC_PA_CLK_EN_U */
-/* PAÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* PAÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x358 */
 typedef union tagScPaClkEn
 {
@@ -3061,7 +3054,7 @@ typedef union tagScPaClkEn
 } SC_PA_CLK_EN_U;
 
 /* Define the union U_SC_PA_CLK_DIS_U */
-/* PAÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* PAÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x35C */
 typedef union tagScPaClkDis
 {
@@ -3078,7 +3071,7 @@ typedef union tagScPaClkDis
 } SC_PA_CLK_DIS_U;
 
 /* Define the union U_SC_HLLC_CLK_EN_U */
-/* HLLCÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* HLLCÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x360 */
 typedef union tagScHllcClkEn
 {
@@ -3095,7 +3088,7 @@ typedef union tagScHllcClkEn
 } SC_HLLC_CLK_EN_U;
 
 /* Define the union U_SC_HLLC_CLK_DIS_U */
-/* HLLCÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* HLLCÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x364 */
 typedef union tagScHllcClkDis
 {
@@ -3112,7 +3105,7 @@ typedef union tagScHllcClkDis
 } SC_HLLC_CLK_DIS_U;
 
 /* Define the union U_SC_REF_CLK_EN_U */
-/* refÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* refÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x370 */
 typedef union tagScRefClkEn
 {
@@ -3129,7 +3122,7 @@ typedef union tagScRefClkEn
 } SC_REF_CLK_EN_U;
 
 /* Define the union U_SC_REF_CLK_DIS_U */
-/* refÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* refÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x374 */
 typedef union tagScRefClkDis
 {
@@ -3146,7 +3139,7 @@ typedef union tagScRefClkDis
 } SC_REF_CLK_DIS_U;
 
 /* Define the union U_SC_GPIO_DB_CLK_EN_U */
-/* gpio_dbÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* gpio_dbÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x378 */
 typedef union tagScGpioDbClkEn
 {
@@ -3163,7 +3156,7 @@ typedef union tagScGpioDbClkEn
 } SC_GPIO_DB_CLK_EN_U;
 
 /* Define the union U_SC_GPIO_DB_CLK_DIS_U */
-/* gpio_dbÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* gpio_dbÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x37C */
 typedef union tagScGpioDbClkDis
 {
@@ -3180,7 +3173,7 @@ typedef union tagScGpioDbClkDis
 } SC_GPIO_DB_CLK_DIS_U;
 
 /* Define the union U_SC_DJTAG_CLK_EN_U */
-/* djtagÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* djtagÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x380 */
 typedef union tagScDjtagClkEn
 {
@@ -3197,7 +3190,7 @@ typedef union tagScDjtagClkEn
 } SC_DJTAG_CLK_EN_U;
 
 /* Define the union U_SC_DJTAG_CLK_DIS_U */
-/* djtagÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* djtagÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x384 */
 typedef union tagScDjtagClkDis
 {
@@ -3214,7 +3207,7 @@ typedef union tagScDjtagClkDis
 } SC_DJTAG_CLK_DIS_U;
 
 /* Define the union U_SC_HLLC_RXTX_CLK_EN_U */
-/* hllc rxtxÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* hllc rxtxÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x390 */
 typedef union tagScHllcRxtxClkEn
 {
@@ -3246,7 +3239,7 @@ typedef union tagScHllcRxtxClkEn
 } SC_HLLC_RXTX_CLK_EN_U;
 
 /* Define the union U_SC_HLLC_RXTX_CLK_DIS_U */
-/* hllc rxtxÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* hllc rxtxÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x394 */
 typedef union tagScHllcRxtxClkDis
 {
@@ -3278,7 +3271,7 @@ typedef union tagScHllcRxtxClkDis
 } SC_HLLC_RXTX_CLK_DIS_U;
 
 /* Define the union U_SC_RSA_CLK_EN_U */
-/* RSAÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* RSAÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x3A0 */
 typedef union tagScRsaClkEn
 {
@@ -3295,7 +3288,7 @@ typedef union tagScRsaClkEn
 } SC_RSA_CLK_EN_U;
 
 /* Define the union U_SC_RSA_CLK_DIS_U */
-/* RSAÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* RSAÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x3A4 */
 typedef union tagScRsaClkDis
 {
@@ -3312,7 +3305,7 @@ typedef union tagScRsaClkDis
 } SC_RSA_CLK_DIS_U;
 
 /* Define the union U_SC_RDE_CLK_EN_U */
-/* RDEÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* RDEÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x3A8 */
 typedef union tagScRdeClkEn
 {
@@ -3329,7 +3322,7 @@ typedef union tagScRdeClkEn
 } SC_RDE_CLK_EN_U;
 
 /* Define the union U_SC_RDE_CLK_DIS_U */
-/* RDEÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* RDEÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x3AC */
 typedef union tagScRdeClkDis
 {
@@ -3346,7 +3339,7 @@ typedef union tagScRdeClkDis
 } SC_RDE_CLK_DIS_U;
 
 /* Define the union U_SC_RNG_CLK_EN_U */
-/* RNGÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* RNGÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x3B0 */
 typedef union tagScRngClkEn
 {
@@ -3363,7 +3356,7 @@ typedef union tagScRngClkEn
 } SC_RNG_CLK_EN_U;
 
 /* Define the union U_SC_RNG_CLK_DIS_U */
-/* RNGÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* RNGÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x3B4 */
 typedef union tagScRngClkDis
 {
@@ -3380,7 +3373,7 @@ typedef union tagScRngClkDis
 } SC_RNG_CLK_DIS_U;
 
 /* Define the union U_SC_SEC_CLK_EN_U */
-/* SECÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* SECÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x3B8 */
 typedef union tagScSecClkEn
 {
@@ -3399,7 +3392,7 @@ typedef union tagScSecClkEn
 } SC_SEC_CLK_EN_U;
 
 /* Define the union U_SC_SEC_CLK_DIS_U */
-/* SECÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* SECÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x3BC */
 typedef union tagScSecClkDis
 {
@@ -3418,7 +3411,7 @@ typedef union tagScSecClkDis
 } SC_SEC_CLK_DIS_U;
 
 /* Define the union U_SC_ITS_RESET_REQ_U */
-/* ITSÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ITS?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA18 */
 typedef union tagScItsResetReq
 {
@@ -3435,7 +3428,7 @@ typedef union tagScItsResetReq
 } SC_ITS_RESET_REQ_U;
 
 /* Define the union U_SC_ITS_RESET_DREQ_U */
-/* ITSÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ITS?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA1C */
 typedef union tagScItsResetDreq
 {
@@ -3452,7 +3445,7 @@ typedef union tagScItsResetDreq
 } SC_ITS_RESET_DREQ_U;
 
 /* Define the union U_SC_HILINK_PCS_RESET_REQ_U */
-/* HILINK PCSÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* HILINK PCS?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA58 */
 typedef union tagScHilinkPcsResetReq
 {
@@ -3476,7 +3469,7 @@ typedef union tagScHilinkPcsResetReq
 } SC_HILINK_PCS_RESET_REQ_U;
 
 /* Define the union U_SC_HILINK_PCS_RESET_DREQ_U */
-/* HILINK PCSÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* HILINK PCS?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA5C */
 typedef union tagScHilinkPcsResetDreq
 {
@@ -3500,7 +3493,7 @@ typedef union tagScHilinkPcsResetDreq
 } SC_HILINK_PCS_RESET_DREQ_U;
 
 /* Define the union U_SC_HLLC_RXTX_RESET_REQ_U */
-/* hllc rxtxÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* hllc rxtx?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA60 */
 typedef union tagScHllcRxtxResetReq
 {
@@ -3532,7 +3525,7 @@ typedef union tagScHllcRxtxResetReq
 } SC_HLLC_RXTX_RESET_REQ_U;
 
 /* Define the union U_SC_HLLC_RXTX_RESET_DREQ_U */
-/* hllc rxtxÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* hllc rxtx?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA64 */
 typedef union tagScHllcRxtxResetDreq
 {
@@ -3564,7 +3557,7 @@ typedef union tagScHllcRxtxResetDreq
 } SC_HLLC_RXTX_RESET_DREQ_U;
 
 /* Define the union U_SC_PA_RESET_REQ_U */
-/* PAÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PA?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA78 */
 typedef union tagScPaResetReq
 {
@@ -3581,7 +3574,7 @@ typedef union tagScPaResetReq
 } SC_PA_RESET_REQ_U;
 
 /* Define the union U_SC_PA_RESET_DREQ_U */
-/* PAÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PA?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA7C */
 typedef union tagScPaResetDreq
 {
@@ -3598,7 +3591,7 @@ typedef union tagScPaResetDreq
 } SC_PA_RESET_DREQ_U;
 
 /* Define the union U_SC_HLLC_RESET_REQ_U */
-/* HLLCÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* HLLC?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA80 */
 typedef union tagScHllcResetReq
 {
@@ -3615,7 +3608,7 @@ typedef union tagScHllcResetReq
 } SC_HLLC_RESET_REQ_U;
 
 /* Define the union U_SC_HLLC_RESET_DREQ_U */
-/* HLLCÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* HLLC?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA84 */
 typedef union tagScHllcResetDreq
 {
@@ -3632,7 +3625,7 @@ typedef union tagScHllcResetDreq
 } SC_HLLC_RESET_DREQ_U;
 
 /* Define the union U_SC_DJTAG_RESET_REQ_U */
-/* DJTAGÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* DJTAG?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA90 */
 typedef union tagScDjtagResetReq
 {
@@ -3649,7 +3642,7 @@ typedef union tagScDjtagResetReq
 } SC_DJTAG_RESET_REQ_U;
 
 /* Define the union U_SC_DJTAG_RESET_DREQ_U */
-/* DJTAGÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* DJTAG?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA94 */
 typedef union tagScDjtagResetDreq
 {
@@ -3666,7 +3659,7 @@ typedef union tagScDjtagResetDreq
 } SC_DJTAG_RESET_DREQ_U;
 
 /* Define the union U_SC_RSA_RESET_REQ_U */
-/* RSAÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RSA?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA98 */
 typedef union tagScRsaResetReq
 {
@@ -3683,7 +3676,7 @@ typedef union tagScRsaResetReq
 } SC_RSA_RESET_REQ_U;
 
 /* Define the union U_SC_RSA_RESET_DREQ_U */
-/* RSAÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RSA?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA9C */
 typedef union tagScRsaResetDreq
 {
@@ -3700,7 +3693,7 @@ typedef union tagScRsaResetDreq
 } SC_RSA_RESET_DREQ_U;
 
 /* Define the union U_SC_RDE_RESET_REQ_U */
-/* RDEÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RDE?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAA0 */
 typedef union tagScRdeResetReq
 {
@@ -3717,7 +3710,7 @@ typedef union tagScRdeResetReq
 } SC_RDE_RESET_REQ_U;
 
 /* Define the union U_SC_RDE_RESET_DREQ_U */
-/* RDEÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RDE?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAA4 */
 typedef union tagScRdeResetDreq
 {
@@ -3734,7 +3727,7 @@ typedef union tagScRdeResetDreq
 } SC_RDE_RESET_DREQ_U;
 
 /* Define the union U_SC_SEC_RESET_REQ_U */
-/* SECÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAA8 */
 typedef union tagScSecResetReq
 {
@@ -3751,7 +3744,7 @@ typedef union tagScSecResetReq
 } SC_SEC_RESET_REQ_U;
 
 /* Define the union U_SC_SEC_RESET_DREQ_U */
-/* SECÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAAC */
 typedef union tagScSecResetDreq
 {
@@ -3768,7 +3761,7 @@ typedef union tagScSecResetDreq
 } SC_SEC_RESET_DREQ_U;
 
 /* Define the union U_SC_RNG_RESET_REQ_U */
-/* RNGÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RNG?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAB0 */
 typedef union tagScRngResetReq
 {
@@ -3785,7 +3778,7 @@ typedef union tagScRngResetReq
 } SC_RNG_RESET_REQ_U;
 
 /* Define the union U_SC_RNG_RESET_DREQ_U */
-/* RNGÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* RNG?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAB4 */
 typedef union tagScRngResetDreq
 {
@@ -3802,7 +3795,7 @@ typedef union tagScRngResetDreq
 } SC_RNG_RESET_DREQ_U;
 
 /* Define the union U_SC_SEC_BUILD_RESET_REQ_U */
-/* SEC BUILDÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC BUILD?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAB8 */
 typedef union tagScSecBuildResetReq
 {
@@ -3839,7 +3832,7 @@ typedef union tagScSecBuildResetReq
 } SC_SEC_BUILD_RESET_REQ_U;
 
 /* Define the union U_SC_SEC_BUILD_RESET_DREQ_U */
-/* SEC BUILDÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC BUILD?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xABC */
 typedef union tagScSecBuildResetDreq
 {
@@ -3876,7 +3869,7 @@ typedef union tagScSecBuildResetDreq
 } SC_SEC_BUILD_RESET_DREQ_U;
 
 /* Define the union U_SC_PCS_LOCAL_RESET_REQ_U */
-/* PCS LOCALÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PCS LOCAL?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAC0 */
 typedef union tagScPcsLocalResetReq
 {
@@ -3893,7 +3886,7 @@ typedef union tagScPcsLocalResetReq
 } SC_PCS_LOCAL_RESET_REQ_U;
 
 /* Define the union U_SC_PCS_LOCAL_RESET_DREQ_U */
-/* PCS LOCALÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PCS LOCAL?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAC4 */
 typedef union tagScPcsLocalResetDreq
 {
@@ -3910,7 +3903,7 @@ typedef union tagScPcsLocalResetDreq
 } SC_PCS_LOCAL_RESET_DREQ_U;
 
 /* Define the union U_SC_DISPATCH_DAW_EN_U */
-/* dispatch daw enÅäÖÃ */
+/* dispatch daw en???? */
 /* 0x1000 */
 typedef union tagScDispatchDawEn
 {
@@ -3927,7 +3920,7 @@ typedef union tagScDispatchDawEn
 } SC_DISPATCH_DAW_EN_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY0_U */
-/* dispatch dawÅäÖÃÕóÁÐ0 */
+/* dispatch daw????????0 */
 /* 0x1004 */
 typedef union tagScDispatchDawArray0
 {
@@ -3947,7 +3940,7 @@ typedef union tagScDispatchDawArray0
 } SC_DISPATCH_DAW_ARRAY0_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY1_U */
-/* dispatch dawÅäÖÃÕóÁÐ1 */
+/* dispatch daw????????1 */
 /* 0x1008 */
 typedef union tagScDispatchDawArray1
 {
@@ -3967,7 +3960,7 @@ typedef union tagScDispatchDawArray1
 } SC_DISPATCH_DAW_ARRAY1_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY2_U */
-/* dispatch dawÅäÖÃÕóÁÐ2 */
+/* dispatch daw????????2 */
 /* 0x100C */
 typedef union tagScDispatchDawArray2
 {
@@ -3987,7 +3980,7 @@ typedef union tagScDispatchDawArray2
 } SC_DISPATCH_DAW_ARRAY2_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY3_U */
-/* dispatch dawÅäÖÃÕóÁÐ3 */
+/* dispatch daw????????3 */
 /* 0x1010 */
 typedef union tagScDispatchDawArray3
 {
@@ -4007,7 +4000,7 @@ typedef union tagScDispatchDawArray3
 } SC_DISPATCH_DAW_ARRAY3_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY4_U */
-/* dispatch dawÅäÖÃÕóÁÐ4 */
+/* dispatch daw????????4 */
 /* 0x1014 */
 typedef union tagScDispatchDawArray4
 {
@@ -4027,7 +4020,7 @@ typedef union tagScDispatchDawArray4
 } SC_DISPATCH_DAW_ARRAY4_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY5_U */
-/* dispatch dawÅäÖÃÕóÁÐ5 */
+/* dispatch daw????????5 */
 /* 0x1018 */
 typedef union tagScDispatchDawArray5
 {
@@ -4047,7 +4040,7 @@ typedef union tagScDispatchDawArray5
 } SC_DISPATCH_DAW_ARRAY5_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY6_U */
-/* dispatch dawÅäÖÃÕóÁÐ6 */
+/* dispatch daw????????6 */
 /* 0x101C */
 typedef union tagScDispatchDawArray6
 {
@@ -4067,7 +4060,7 @@ typedef union tagScDispatchDawArray6
 } SC_DISPATCH_DAW_ARRAY6_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY7_U */
-/* dispatch dawÅäÖÃÕóÁÐ7 */
+/* dispatch daw????????7 */
 /* 0x1020 */
 typedef union tagScDispatchDawArray7
 {
@@ -4087,7 +4080,7 @@ typedef union tagScDispatchDawArray7
 } SC_DISPATCH_DAW_ARRAY7_U;
 
 /* Define the union U_SC_DISPATCH_RETRY_CONTROL_U */
-/* dispatch retry¿ØÖÆ¼Ä´æÆ÷ */
+/* dispatch retry???Æ¼Ä´??? */
 /* 0x1030 */
 typedef union tagScDispatchRetryControl
 {
@@ -4105,7 +4098,7 @@ typedef union tagScDispatchRetryControl
 } SC_DISPATCH_RETRY_CONTROL_U;
 
 /* Define the union U_SC_DISPATCH_INTMASK_U */
-/* dispatchµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
+/* dispatch???Ð¶??Á±Î¼Ä´??? */
 /* 0x1100 */
 typedef union tagScDispatchIntmask
 {
@@ -4122,7 +4115,7 @@ typedef union tagScDispatchIntmask
 } SC_DISPATCH_INTMASK_U;
 
 /* Define the union U_SC_DISPATCH_RAWINT_U */
-/* dispatchµÄÔ­Ê¼ÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
+/* dispatch??Ô­Ê¼?Ð¶?×´Ì¬?Ä´??? */
 /* 0x1104 */
 typedef union tagScDispatchRawint
 {
@@ -4139,7 +4132,7 @@ typedef union tagScDispatchRawint
 } SC_DISPATCH_RAWINT_U;
 
 /* Define the union U_SC_DISPATCH_INTSTAT_U */
-/* dispatchµÄÆÁ±ÎºóµÄÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
+/* dispatch???Á±Îº????Ð¶?×´Ì¬?Ä´??? */
 /* 0x1108 */
 typedef union tagScDispatchIntstat
 {
@@ -4156,7 +4149,7 @@ typedef union tagScDispatchIntstat
 } SC_DISPATCH_INTSTAT_U;
 
 /* Define the union U_SC_DISPATCH_INTCLR_U */
-/* dispatchµÄÖÐ¶ÏÇå³ý¼Ä´æÆ÷ */
+/* dispatch???Ð¶??????Ä´??? */
 /* 0x110C */
 typedef union tagScDispatchIntclr
 {
@@ -4173,7 +4166,7 @@ typedef union tagScDispatchIntclr
 } SC_DISPATCH_INTCLR_U;
 
 /* Define the union U_SC_DISPATCH_ERRSTAT_U */
-/* dispatchµÄERR×´Ì¬¼Ä´æÆ÷ */
+/* dispatch??ERR×´Ì¬?Ä´??? */
 /* 0x1110 */
 typedef union tagScDispatchErrstat
 {
@@ -4191,7 +4184,7 @@ typedef union tagScDispatchErrstat
 } SC_DISPATCH_ERRSTAT_U;
 
 /* Define the union U_SC_DISPATCH_REMAP_CTRL_U */
-/* subsysµÄÆô¶¯Remap¼Ä´æÆ÷ */
+/* subsys??????Remap?Ä´??? */
 /* 0x1200 */
 typedef union tagScDispatchRemapCtrl
 {
@@ -4208,7 +4201,7 @@ typedef union tagScDispatchRemapCtrl
 } SC_DISPATCH_REMAP_CTRL_U;
 
 /* Define the union U_SC_TSENSOR_CTRL0_U */
-/* TSENSOR¿ØÖÆ¼Ä´æÆ÷0 */
+/* TSENSOR???Æ¼Ä´???0 */
 /* 0x20D0 */
 typedef union tagScTsensorCtrl0
 {
@@ -4227,7 +4220,7 @@ typedef union tagScTsensorCtrl0
 } SC_TSENSOR_CTRL0_U;
 
 /* Define the union U_SC_TSENSOR_CTRL1_U */
-/* TSENSOR¿ØÖÆ¼Ä´æÆ÷1 */
+/* TSENSOR???Æ¼Ä´???1 */
 /* 0x20D4 */
 typedef union tagScTsensorCtrl1
 {
@@ -4244,7 +4237,7 @@ typedef union tagScTsensorCtrl1
 } SC_TSENSOR_CTRL1_U;
 
 /* Define the union U_SC_BOOTROM_CTRL_U */
-/* BOOTROM¿ØÖÆ¼Ä´æÆ÷ */
+/* BOOTROM???Æ¼Ä´??? */
 /* 0x20F0 */
 typedef union tagScBootromCtrl
 {
@@ -4263,7 +4256,7 @@ typedef union tagScBootromCtrl
 } SC_BOOTROM_CTRL_U;
 
 /* Define the union U_SC_FTE_MUX_CTRL_U */
-/* FTE¸´ÓÃÑ¡Ôñ¼Ä´æÆ÷ */
+/* FTE????Ñ¡???Ä´??? */
 /* 0x2200 */
 typedef union tagScFteMuxCtrl
 {
@@ -4280,7 +4273,7 @@ typedef union tagScFteMuxCtrl
 } SC_FTE_MUX_CTRL_U;
 
 /* Define the union U_SC_RSA_ADDR_H_U */
-/* RSA¸ß20Î»µØÖ·²¹³ä¼Ä´æÆ÷ */
+/* RSA??20Î»??Ö·?????Ä´??? */
 /* 0x2E00 */
 typedef union tagScRsaAddrH
 {
@@ -4297,7 +4290,7 @@ typedef union tagScRsaAddrH
 } SC_RSA_ADDR_H_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL0_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* smmu mem???Æ¼Ä´???0 */
 /* 0x3000 */
 typedef union tagScSmmuMemCtrl0
 {
@@ -4314,7 +4307,7 @@ typedef union tagScSmmuMemCtrl0
 } SC_SMMU_MEM_CTRL0_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL1_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* smmu mem???Æ¼Ä´???1 */
 /* 0x3004 */
 typedef union tagScSmmuMemCtrl1
 {
@@ -4331,7 +4324,7 @@ typedef union tagScSmmuMemCtrl1
 } SC_SMMU_MEM_CTRL1_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL2_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷2 */
+/* smmu mem???Æ¼Ä´???2 */
 /* 0x3008 */
 typedef union tagScSmmuMemCtrl2
 {
@@ -4348,7 +4341,7 @@ typedef union tagScSmmuMemCtrl2
 } SC_SMMU_MEM_CTRL2_U;
 
 /* Define the union U_SC_RSA_MEM_CTRL_U */
-/* rsa mem¿ØÖÆ¼Ä´æÆ÷ */
+/* rsa mem???Æ¼Ä´??? */
 /* 0x3030 */
 typedef union tagScRsaMemCtrl
 {
@@ -4365,7 +4358,7 @@ typedef union tagScRsaMemCtrl
 } SC_RSA_MEM_CTRL_U;
 
 /* Define the union U_SC_HLLC_MEM_CTRL_U */
-/* hllc mem¿ØÖÆ¼Ä´æÆ÷ */
+/* hllc mem???Æ¼Ä´??? */
 /* 0x3040 */
 typedef union tagScHllcMemCtrl
 {
@@ -4382,7 +4375,7 @@ typedef union tagScHllcMemCtrl
 } SC_HLLC_MEM_CTRL_U;
 
 /* Define the union U_SC_PA_MEM_CTRL0_U */
-/* pa mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* pa mem???Æ¼Ä´???0 */
 /* 0x3050 */
 typedef union tagScPaMemCtrl0
 {
@@ -4399,7 +4392,7 @@ typedef union tagScPaMemCtrl0
 } SC_PA_MEM_CTRL0_U;
 
 /* Define the union U_SC_PA_MEM_CTRL1_U */
-/* pa mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* pa mem???Æ¼Ä´???1 */
 /* 0x3054 */
 typedef union tagScPaMemCtrl1
 {
@@ -4416,7 +4409,7 @@ typedef union tagScPaMemCtrl1
 } SC_PA_MEM_CTRL1_U;
 
 /* Define the union U_SC_RDE_MEM_CTRL_U */
-/* rde mem¿ØÖÆ¼Ä´æÆ÷ */
+/* rde mem???Æ¼Ä´??? */
 /* 0x3060 */
 typedef union tagScRdeMemCtrl
 {
@@ -4433,7 +4426,7 @@ typedef union tagScRdeMemCtrl
 } SC_RDE_MEM_CTRL_U;
 
 /* Define the union U_SC_SEC_MEM_CTRL_U */
-/* sec mem¿ØÖÆ¼Ä´æÆ÷ */
+/* sec mem???Æ¼Ä´??? */
 /* 0x3070 */
 typedef union tagScSecMemCtrl
 {
@@ -4450,7 +4443,7 @@ typedef union tagScSecMemCtrl
 } SC_SEC_MEM_CTRL_U;
 
 /* Define the union U_SC_PLL_LOCK_ST_U */
-/* PLLËø¶¨×´Ì¬¼Ä´æÆ÷ */
+/* PLL????×´Ì¬?Ä´??? */
 /* 0x5000 */
 typedef union tagScPllLockSt
 {
@@ -4471,7 +4464,7 @@ typedef union tagScPllLockSt
 } SC_PLL_LOCK_ST_U;
 
 /* Define the union U_SC_ITS_CLK_ST_U */
-/* ITSÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* ITSÊ±??×´Ì¬?Ä´??? */
 /* 0x530C */
 typedef union tagScItsClkSt
 {
@@ -4488,7 +4481,7 @@ typedef union tagScItsClkSt
 } SC_ITS_CLK_ST_U;
 
 /* Define the union U_SC_PA_CLK_ST_U */
-/* PAÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* PAÊ±??×´Ì¬?Ä´??? */
 /* 0x532C */
 typedef union tagScPaClkSt
 {
@@ -4505,7 +4498,7 @@ typedef union tagScPaClkSt
 } SC_PA_CLK_ST_U;
 
 /* Define the union U_SC_HLLC_CLK_ST_U */
-/* HLLCÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* HLLCÊ±??×´Ì¬?Ä´??? */
 /* 0x5330 */
 typedef union tagScHllcClkSt
 {
@@ -4522,7 +4515,7 @@ typedef union tagScHllcClkSt
 } SC_HLLC_CLK_ST_U;
 
 /* Define the union U_SC_REF_CLK_ST_U */
-/* refÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* refÊ±??×´Ì¬?Ä´??? */
 /* 0x5338 */
 typedef union tagScRefClkSt
 {
@@ -4539,7 +4532,7 @@ typedef union tagScRefClkSt
 } SC_REF_CLK_ST_U;
 
 /* Define the union U_SC_GPIO_DB_CLK_ST_U */
-/* gpio_dbÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* gpio_dbÊ±??×´Ì¬?Ä´??? */
 /* 0x533C */
 typedef union tagScGpioDbClkSt
 {
@@ -4556,7 +4549,7 @@ typedef union tagScGpioDbClkSt
 } SC_GPIO_DB_CLK_ST_U;
 
 /* Define the union U_SC_DJTAG_CLK_ST_U */
-/* djtagÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* djtagÊ±??×´Ì¬?Ä´??? */
 /* 0x5340 */
 typedef union tagScDjtagClkSt
 {
@@ -4573,7 +4566,7 @@ typedef union tagScDjtagClkSt
 } SC_DJTAG_CLK_ST_U;
 
 /* Define the union U_SC_HLLC_RXTX_CLK_ST_U */
-/* hllc rxtxÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* hllc rxtxÊ±??×´Ì¬?Ä´??? */
 /* 0x5348 */
 typedef union tagScHllcRxtxClkSt
 {
@@ -4605,7 +4598,7 @@ typedef union tagScHllcRxtxClkSt
 } SC_HLLC_RXTX_CLK_ST_U;
 
 /* Define the union U_SC_RSA_CLK_ST_U */
-/* RSAÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* RSAÊ±??×´Ì¬?Ä´??? */
 /* 0x5350 */
 typedef union tagScRsaClkSt
 {
@@ -4622,7 +4615,7 @@ typedef union tagScRsaClkSt
 } SC_RSA_CLK_ST_U;
 
 /* Define the union U_SC_RDE_CLK_ST_U */
-/* RDEÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* RDEÊ±??×´Ì¬?Ä´??? */
 /* 0x5354 */
 typedef union tagScRdeClkSt
 {
@@ -4639,7 +4632,7 @@ typedef union tagScRdeClkSt
 } SC_RDE_CLK_ST_U;
 
 /* Define the union U_SC_RNG_CLK_ST_U */
-/* RNGÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* RNGÊ±??×´Ì¬?Ä´??? */
 /* 0x5358 */
 typedef union tagScRngClkSt
 {
@@ -4656,7 +4649,7 @@ typedef union tagScRngClkSt
 } SC_RNG_CLK_ST_U;
 
 /* Define the union U_SC_SEC_CLK_ST_U */
-/* SECÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SECÊ±??×´Ì¬?Ä´??? */
 /* 0x535C */
 typedef union tagScSecClkSt
 {
@@ -4675,7 +4668,7 @@ typedef union tagScSecClkSt
 } SC_SEC_CLK_ST_U;
 
 /* Define the union U_SC_ITS_RESET_ST_U */
-/* ITS¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* ITS??Î»×´Ì¬?Ä´??? */
 /* 0x5A0C */
 typedef union tagScItsResetSt
 {
@@ -4692,7 +4685,7 @@ typedef union tagScItsResetSt
 } SC_ITS_RESET_ST_U;
 
 /* Define the union U_SC_HILINK_PCS_RESET_ST_U */
-/* HILINK_PCS¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* HILINK_PCS??Î»×´Ì¬?Ä´??? */
 /* 0x5A2C */
 typedef union tagScHilinkPcsResetSt
 {
@@ -4716,7 +4709,7 @@ typedef union tagScHilinkPcsResetSt
 } SC_HILINK_PCS_RESET_ST_U;
 
 /* Define the union U_SC_HLLC_RXTX_RESET_ST_U */
-/* hllc rxtx¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* hllc rxtx??Î»×´Ì¬?Ä´??? */
 /* 0x5A30 */
 typedef union tagScHllcRxtxResetSt
 {
@@ -4748,7 +4741,7 @@ typedef union tagScHllcRxtxResetSt
 } SC_HLLC_RXTX_RESET_ST_U;
 
 /* Define the union U_SC_PA_RESET_ST_U */
-/* PA¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* PA??Î»×´Ì¬?Ä´??? */
 /* 0x5A3C */
 typedef union tagScPaResetSt
 {
@@ -4765,7 +4758,7 @@ typedef union tagScPaResetSt
 } SC_PA_RESET_ST_U;
 
 /* Define the union U_SC_HLLC_RESET_ST_U */
-/* HLLC¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* HLLC??Î»×´Ì¬?Ä´??? */
 /* 0x5A40 */
 typedef union tagScHllcResetSt
 {
@@ -4782,7 +4775,7 @@ typedef union tagScHllcResetSt
 } SC_HLLC_RESET_ST_U;
 
 /* Define the union U_SC_DJTAG_RESET_ST_U */
-/* DJTAG¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* DJTAG??Î»×´Ì¬?Ä´??? */
 /* 0x5A48 */
 typedef union tagScDjtagResetSt
 {
@@ -4799,7 +4792,7 @@ typedef union tagScDjtagResetSt
 } SC_DJTAG_RESET_ST_U;
 
 /* Define the union U_SC_RSA_RESET_ST_U */
-/* RSA¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* RSA??Î»×´Ì¬?Ä´??? */
 /* 0x5A4C */
 typedef union tagScRsaResetSt
 {
@@ -4816,7 +4809,7 @@ typedef union tagScRsaResetSt
 } SC_RSA_RESET_ST_U;
 
 /* Define the union U_SC_RDE_RESET_ST_U */
-/* RDE¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* RDE??Î»×´Ì¬?Ä´??? */
 /* 0x5A50 */
 typedef union tagScRdeResetSt
 {
@@ -4833,7 +4826,7 @@ typedef union tagScRdeResetSt
 } SC_RDE_RESET_ST_U;
 
 /* Define the union U_SC_SEC_RESET_ST_U */
-/* SEC¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SEC??Î»×´Ì¬?Ä´??? */
 /* 0x5A54 */
 typedef union tagScSecResetSt
 {
@@ -4850,7 +4843,7 @@ typedef union tagScSecResetSt
 } SC_SEC_RESET_ST_U;
 
 /* Define the union U_SC_RNG_RESET_ST_U */
-/* RNG¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* RNG??Î»×´Ì¬?Ä´??? */
 /* 0x5A58 */
 typedef union tagScRngResetSt
 {
@@ -4867,7 +4860,7 @@ typedef union tagScRngResetSt
 } SC_RNG_RESET_ST_U;
 
 /* Define the union U_SC_SEC_BUILD_RESET_ST_U */
-/* SEC BUILD¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SEC BUILD??Î»×´Ì¬?Ä´??? */
 /* 0x5A5C */
 typedef union tagScSecBuildResetSt
 {
@@ -4904,7 +4897,7 @@ typedef union tagScSecBuildResetSt
 } SC_SEC_BUILD_RESET_ST_U;
 
 /* Define the union U_SC_PCS_LOCAL_RESET_ST_U */
-/* PCS LOCALÈí¸´Î»ÇëÇó×´Ì¬¼Ä´æÆ÷ */
+/* PCS LOCAL?í¸´Î»????×´Ì¬?Ä´??? */
 /* 0x5A60 */
 typedef union tagScPcsLocalResetSt
 {
@@ -4921,7 +4914,7 @@ typedef union tagScPcsLocalResetSt
 } SC_PCS_LOCAL_RESET_ST_U;
 
 /* Define the union U_SC_TSENSOR_ST_U */
-/* TSENSOR×´Ì¬¼Ä´æÆ÷ */
+/* TSENSOR×´Ì¬?Ä´??? */
 /* 0x6040 */
 typedef union tagScTsensorSt
 {
@@ -4940,7 +4933,7 @@ typedef union tagScTsensorSt
 } SC_TSENSOR_ST_U;
 
 /* Define the union U_SC_DJTAG_INT_U */
-/* DJTAG MasterÄÚ×´Ì¬»ú³¬Ê±ÖÐ¶ÏÔ´¼Ä´æÆ÷ */
+/* DJTAG Master??×´Ì¬????Ê±?Ð¶?Ô´?Ä´??? */
 /* 0x6600 */
 typedef union tagScDjtagInt
 {
@@ -4957,8 +4950,8 @@ typedef union tagScDjtagInt
 } SC_DJTAG_INT_U;
 
 /* Define the union U_SC_DBG_AUTH_CTRL_U */
-/* °²È«µÈ¼¶ÊÚÈ¨¿ØÖÆ¼Ä´æÆ÷¡£
-£¨×¢Òâ£º1£¬´Ë¼Ä´æÆ÷¿Õ¼ä±ØÐëÊÇ°²È«·ÃÎÊ²ÅÄÜ³É¹¦£»£© */
+/* ??È«?È¼???È¨???Æ¼Ä´?????
+??×¢?â£º1???Ë¼Ä´????Õ¼??????Ç°?È«???Ê²??Ü³É¹????? */
 /* 0x6700 */
 typedef union tagScDbgAuthCtrl
 {
@@ -4976,7 +4969,7 @@ typedef union tagScDbgAuthCtrl
 } SC_DBG_AUTH_CTRL_U;
 
 /* Define the union U_SC_DJTAG_MSTR_EN_U */
-/* SC_DJTAG_MSTR_ENÎªDJTAG MasterÊ¹ÄÜ¿ØÖÆ */
+/* SC_DJTAG_MSTR_ENÎªDJTAG MasterÊ¹?Ü¿??? */
 /* 0x6800 */
 typedef union tagScDjtagMstrEn
 {
@@ -4993,7 +4986,7 @@ typedef union tagScDjtagMstrEn
 } SC_DJTAG_MSTR_EN_U;
 
 /* Define the union U_SC_DJTAG_MSTR_START_EN_U */
-/* SC_DJTAG_MSTR_START_ENÎªDJTAG Master·ÃÎÊchainÁ´µÄstartÊ¹ÄÜ */
+/* SC_DJTAG_MSTR_START_ENÎªDJTAG Master????chainÁ´??startÊ¹?? */
 /* 0x6804 */
 typedef union tagScDjtagMstrStartEn
 {
@@ -5010,7 +5003,7 @@ typedef union tagScDjtagMstrStartEn
 } SC_DJTAG_MSTR_START_EN_U;
 
 /* Define the union U_SC_DJTAG_SEC_ACC_EN_U */
-/* DJTAG·ÃÎÊ¸÷Ä£¿éÄÚ°²È«ÊÀ½ç¼Ä´æÆ÷µÄ°²È«·ÃÎÊ¿ØÖÆÊ¹ÄÜ¡££¨×¢Òâ£º1£¬´Ë¼Ä´æÆ÷¿Õ¼ä±ØÐëÊÇ°²È«·ÃÎÊ²ÅÄÜ³É¹¦¡££© */
+/* DJTAG???Ê¸?Ä£???Ú°?È«?À½??Ä´????Ä°?È«???Ê¿???Ê¹?Ü¡???×¢?â£º1???Ë¼Ä´????Õ¼??????Ç°?È«???Ê²??Ü³É¹????? */
 /* 0x6808 */
 typedef union tagScDjtagSecAccEn
 {
@@ -5027,7 +5020,7 @@ typedef union tagScDjtagSecAccEn
 } SC_DJTAG_SEC_ACC_EN_U;
 
 /* Define the union U_SC_DJTAG_DEBUG_MODULE_SEL_U */
-/* SC_DJTAG_DEBUG_MODULE_SELÎªDJTAG MasterÅäÖÃ·ÃÎÊÄ£¿é¼Ä´æÆ÷ */
+/* SC_DJTAG_DEBUG_MODULE_SELÎªDJTAG Master???Ã·???Ä£???Ä´??? */
 /* 0x680C */
 typedef union tagScDjtagDebugModuleSel
 {
@@ -5044,7 +5037,7 @@ typedef union tagScDjtagDebugModuleSel
 } SC_DJTAG_DEBUG_MODULE_SEL_U;
 
 /* Define the union U_SC_DJTAG_MSTR_WR_U */
-/* SC_DJTAG_MSTR_WRÎªDJTAG MasterµÄ¶ÁÐ´¿ØÖÆÐÅºÅ */
+/* SC_DJTAG_MSTR_WRÎªDJTAG Master?Ä¶?Ð´?????Åº? */
 /* 0x6810 */
 typedef union tagScDjtagMstrWr
 {
@@ -5061,7 +5054,7 @@ typedef union tagScDjtagMstrWr
 } SC_DJTAG_MSTR_WR_U;
 
 /* Define the union U_SC_DJTAG_CHAIN_UNIT_CFG_EN_U */
-/* SC_DJTAG_CHAIN_UNIT_CFG_ENÎªDJTAG MasterµÄchainÁ´ÉÏµ¥ÔªµÄ·ÃÎÊÊ¹ÄÜ */
+/* SC_DJTAG_CHAIN_UNIT_CFG_ENÎªDJTAG Master??chainÁ´?Ïµ?Ôª?Ä·???Ê¹?? */
 /* 0x6814 */
 typedef union tagScDjtagChainUnitCfgEn
 {
@@ -5078,7 +5071,7 @@ typedef union tagScDjtagChainUnitCfgEn
 } SC_DJTAG_CHAIN_UNIT_CFG_EN_U;
 
 /* Define the union U_SC_DJTAG_MSTR_ADDR_U */
-/* SC_DJTAG_MSTR_ADDRÎªDJTAG MasterÅäÖÃ·ÃÎÊÄ£¿éµÄÆ«ÒÆµØÖ·¼Ä´æÆ÷ */
+/* SC_DJTAG_MSTR_ADDRÎªDJTAG Master???Ã·???Ä£????Æ«?Æµ?Ö·?Ä´??? */
 /* 0x6818 */
 typedef union tagScDjtagMstrAddr
 {
@@ -5095,7 +5088,7 @@ typedef union tagScDjtagMstrAddr
 } SC_DJTAG_MSTR_ADDR_U;
 
 /* Define the union U_SC_TDRE_OP_ADDR_U */
-/* SC_TDRE_OP_ADDRÎªDJTAG MasterÅäÖÃTDREÄ£¿éµÄÆ«ÒÆµØÖ·¼Ä´æÆ÷ºÍ²Ù×÷ÀàÐÍ¼Ä´æÆ÷ */
+/* SC_TDRE_OP_ADDRÎªDJTAG Master????TDREÄ£????Æ«?Æµ?Ö·?Ä´????Í²??????Í¼Ä´??? */
 /* 0x6824 */
 typedef union tagScTdreOpAddr
 {
@@ -5112,7 +5105,7 @@ typedef union tagScTdreOpAddr
 } SC_TDRE_OP_ADDR_U;
 
 /* Define the union U_SC_TDRE_REPAIR_EN_U */
-/* SC_TDRE_REPAIR_ENÎªDJTAG MasterµÄTDRE REPAIRÊ¹ÄÜ */
+/* SC_TDRE_REPAIR_ENÎªDJTAG Master??TDRE REPAIRÊ¹?? */
 /* 0x682C */
 typedef union tagScTdreRepairEn
 {
@@ -5129,7 +5122,7 @@ typedef union tagScTdreRepairEn
 } SC_TDRE_REPAIR_EN_U;
 
 /* Define the union U_SC_ECO_RSV0_U */
-/* ECO ¼Ä´æÆ÷0 */
+/* ECO ?Ä´???0 */
 /* 0x8000 */
 typedef union tagScEcoRsv0
 {
@@ -5146,7 +5139,7 @@ typedef union tagScEcoRsv0
 } SC_ECO_RSV0_U;
 
 /* Define the union U_SC_DJTAG_OP_ST_U */
-/* DJTAG·ÃÎÊ×´Ì¬¼Ä´æÆ÷ */
+/* DJTAG????×´Ì¬?Ä´??? */
 /* 0xE828 */
 typedef union tagScDjtagOpSt
 {

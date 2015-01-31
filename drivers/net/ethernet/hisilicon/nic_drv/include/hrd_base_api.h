@@ -1,21 +1,25 @@
-/******************************************************************************
+/*******************************************************************************
+  Copyright(c) 2014 - 2019 Huawei Corporation.
 
-                  °æÈ¨ËùÓÐ (C), 2001-2011, »ªÎª¼¼ÊõÓÐÏÞ¹«Ë¾
+  This program is free software; you can redistribute it and/or modify it
+  under the terms and conditions of the GNU General Public License,
+  version 2, as published by the Free Software Foundation.
 
- ******************************************************************************
-  ÎÄ ¼þ Ãû   : hrd_base_api.h
-  °æ ±¾ ºÅ   : ³õ¸å
-  ×÷    Õß   : w00146306
-  Éú³ÉÈÕÆÚ   : 2013Äê7ÔÂ2ÈÕ
-  ×î½üÐÞ¸Ä   :
-  ¹¦ÄÜÃèÊö   : ¶ÔÍâ»ù´¡Í·ÎÄ¼þ
-  º¯ÊýÁÐ±í   :
-  ÐÞ¸ÄÀúÊ·   :
-  1.ÈÕ    ÆÚ   : 2013Äê7ÔÂ2ÈÕ
-    ×÷    Õß   : w00146306
-    ÐÞ¸ÄÄÚÈÝ   : ´´½¨ÎÄ¼þ
+  This program is distributed in the hope it will be useful, but WITHOUT
+  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+  FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+  more details.
 
-******************************************************************************/
+  You should have received a copy of the GNU General Public License along with
+  this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
+
+  The full GNU General Public License is included in this distribution in
+  the file called "COPYING".
+
+  Contact Information:TBD
+
+*******************************************************************************/
 
 #ifndef _MC_BASE_API_H
 #define _MC_BASE_API_H
@@ -24,15 +28,15 @@
 #include "hrd_mod_common_api.h"
 
 /*----------------------------------------------*
- * Íâ²¿±äÁ¿ËµÃ÷                                 *
+ * ?â²¿??Á¿Ëµ??                                 *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * Íâ²¿º¯ÊýÔ­ÐÍËµÃ÷                             *
+ * ?â²¿????Ô­??Ëµ??                             *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * ºê¶¨Òå                                       *
+ * ?ê¶¨??                                       *
  *----------------------------------------------*/
 #define MCSS_MOD_NAME               "unibsp"
 
@@ -50,42 +54,42 @@
 #define MCSS_CACHE_LINE_SIZE    64UL
 
 #pragma pack(4)
-typedef struct tagMcssKernelStat  /* ±¾½á¹¹ÌåÒ»¶¨ÒªÓëÓÃ»§Ì¬¶ÔÓ¦ */
+typedef struct tagMcssKernelStat  /* ???á¹¹??Ò»??Òª???Ã»?Ì¬??Ó¦ */
 {
-    /* ¹Ø¼üÐÅÏ¢¼ÆÊý */
-    UINT64 ullOpenDevCnt[MCSS_DEVS_NUM];    /**<  ½ø³ÌÆô¶¯¼ÆÊý  */
-    UINT64 ullCloseDevCnt[MCSS_DEVS_NUM];   /**<  ½ø³Ì¹Ø±Õ¼ÆÊý  */
-    UINT64 ullSendSemCnt[MCSS_DEVS_NUM];    /**<  ·¢ËÍÐÅºÅ¼ÆÊý  */
-    UINT64 ullPouSentCnt[64];               /**<  POU·¢ËÍ¼ÆÊý   */
+    /* ?Ø¼???Ï¢???? */
+    UINT64 ullOpenDevCnt[MCSS_DEVS_NUM];    /**<  ?????ô¶¯¼???  */
+    UINT64 ullCloseDevCnt[MCSS_DEVS_NUM];   /**<  ???Ì¹Ø±Õ¼???  */
+    UINT64 ullSendSemCnt[MCSS_DEVS_NUM];    /**<  ?????ÅºÅ¼???  */
+    UINT64 ullPouSentCnt[64];               /**<  POU???Í¼???   */
 
-    /* ½ÓÊÕÕý³£¼ÆÊý */
-    UINT64 ullRecvPktOk;                    /**<  ½ÓÊÕ±¨ÎÄ³É¹¦Êý  */
-    UINT64 ullGeCnt;                        /**<  ±¨ÎÄÎªGE¼ÆÊý    */
-    UINT64 ullHdcpCnt;                      /**<  ±¨ÎÄÎªHDCP¼ÆÊý  */
-    UINT64 ullSendToGroupCnt;               /**<  ±¨ÎÄÎªSendToGroup¼ÆÊý  */
+    /* ???????????? */
+    UINT64 ullRecvPktOk;                    /**<  ???Õ±??Ä³É¹???  */
+    UINT64 ullGeCnt;                        /**<  ????ÎªGE????    */
+    UINT64 ullHdcpCnt;                      /**<  ????ÎªHDCP????  */
+    UINT64 ullSendToGroupCnt;               /**<  ????ÎªSendToGroup????  */
 
-    /* ´íÎó¼ÆÊý */
-    UINT64 ullRecvPktErr;                   /**<  ½ÓÊÕ±¨ÎÄÊ§°ÜÊý  */
-    UINT64 ullPoePacketNull;                /**<  ±¨ÎÄÎª¿Õ¼ÆÊý    */
-    UINT64 ullEnRingFailCnt;                /**<  ÈëringÊ§°Ü¼ÆÊý  */
-    UINT64 ullFreeBuffErr;                  /**<  ½ÓÊÕ±¨ÎÄÊÍ·ÅÄÚ´æ´íÎó */
+    /* ???????? */
+    UINT64 ullRecvPktErr;                   /**<  ???Õ±???Ê§????  */
+    UINT64 ullPoePacketNull;                /**<  ????Îª?Õ¼???    */
+    UINT64 ullEnRingFailCnt;                /**<  ??ringÊ§?Ü¼???  */
+    UINT64 ullFreeBuffErr;                  /**<  ???Õ±????Í·??Ú´????? */
 }MCSS_KERNEL_STAT_S;
 #pragma pack()
 
 /*----------------------------------------------*
- * ÄÚ²¿º¯ÊýÔ­ÐÍËµÃ÷                             *
+ * ?Ú²?????Ô­??Ëµ??                             *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * È«¾Ö±äÁ¿                                     *
+ * È«?Ö±?Á¿                                     *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * Ä£¿é¼¶±äÁ¿                                   *
+ * Ä£?é¼¶??Á¿                                   *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * ³£Á¿¶¨Òå                                     *
+ * ??Á¿????                                     *
  *----------------------------------------------*/
 
 #endif /*_MC_BASE_API_H*/

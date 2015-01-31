@@ -1,26 +1,19 @@
-/*--------------------------------------------------------------------------------------------------------------------------*/
-/*!!Warning: This is a key information asset of Huawei Tech Co.,Ltd                                                         */
-/*CODEMARK:kOyQZYzjDpyGdBAEC2GaWuVy7vy/wDnq7gJfHBOj2pBXFF9pJtpDLt9sw5WJiMsUkN5d7jr7
-aK5J3kmlnl+vpaISWHqOHbuE99WnZz8Urp0KNb0WWl+qRa4EjbbH6IvvJ8uAZ7aN4Vd0NGho
-uLjlYjzrCZjeceNi92LM42tGBRYFJBp1yStjH3m68LQINaOzzLW5Urhd5dGekhqTwGXT00tX
-EEVJwSfyVU1RjdeT1DF0a894++3eGa3aZ5jgfqQOZ9XvrskxBGMm/eLsCD2MmQ==*/
-/*--------------------------------------------------------------------------------------------------------------------------*/
 /******************************************************************************
 
-                  °æÈ¨ËùÓÐ (C), 2011-2021, »ªÎª¼¼ÊõÓÐÏÞ¹«Ë¾
+                  ??È¨???? (C), 2011-2021, ??Îª???????Þ¹?Ë¾
 
  ******************************************************************************
-  ÎÄ ¼þ Ãû   : sre_sub_m3.h
-  °æ ±¾ ºÅ   : ³õ¸å
-  ×÷    Õß   : z00176027
-  Éú³ÉÈÕÆÚ   : 2013Äê10ÔÂ17ÈÕ
-  ×î½üÐÞ¸Ä   :
-  ¹¦ÄÜÃèÊö   : p660 M3×ÓÏµÍ³ ¸´Î»¼°½â¸´Î»Ïà¹ØÍ·ÎÄ¼þ
-  º¯ÊýÁÐ±í   :
-  ÐÞ¸ÄÀúÊ·   :
-  1.ÈÕ    ÆÚ   : 2013Äê10ÔÂ17ÈÕ
-    ×÷    Õß   : z00176027
-    ÐÞ¸ÄÄÚÈÝ   : ´´½¨ÎÄ¼þ
+  ?? ?? ??   : sre_sub_m3.h
+  ?? ?? ??   : ????
+  ??    ??   : z00176027
+  ????????   : 2013??10??17??
+  ?????Þ¸?   :
+  ????????   : p660 M3??ÏµÍ³ ??Î»???â¸´Î»????Í·?Ä¼?
+  ?????Ð±?   :
+  ?Þ¸???Ê·   :
+  1.??    ??   : 2013??10??17??
+    ??    ??   : z00176027
+    ?Þ¸?????   : ?????Ä¼?
 
 ******************************************************************************/
 #ifndef __C_SRE_SUB_M3_H__
@@ -40,34 +33,34 @@ EEVJwSfyVU1RjdeT1DF0a894++3eGa3aZ5jgfqQOZ9XvrskxBGMm/eLsCD2MmQ==*/
 
 
 /*----------------------------------------------*
- * Íâ²¿±äÁ¿ËµÃ÷                                 *
+ * ?â²¿??Á¿Ëµ??                                 *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * Íâ²¿º¯ÊýÔ­ÐÍËµÃ÷                             *
+ * ?â²¿????Ô­??Ëµ??                             *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * ÄÚ²¿º¯ÊýÔ­ÐÍËµÃ÷                             *
+ * ?Ú²?????Ô­??Ëµ??                             *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * È«¾Ö±äÁ¿                                     *
+ * È«?Ö±?Á¿                                     *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * Ä£¿é¼¶±äÁ¿                                   *
+ * Ä£?é¼¶??Á¿                                   *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * ³£Á¿¶¨Òå                                     *
+ * ??Á¿????                                     *
  *----------------------------------------------*/
 
 /*----------------------------------------------*
- * ºê¶¨Òå                                       *
+ * ?ê¶¨??                                       *
  *----------------------------------------------*/  
 
-/* m3_subctrl Ä£¿é¼Ä´æÆ÷»ùµØÖ· */
+/* m3_subctrl Ä£???Ä´???????Ö· */
 #define M3_SUB_BASE                               (0xA0000000)
 #define M3_SUB_BASE_SIZE                          (0x10000)
 
@@ -75,206 +68,206 @@ EEVJwSfyVU1RjdeT1DF0a894++3eGa3aZ5jgfqQOZ9XvrskxBGMm/eLsCD2MmQ==*/
 /*                      PHOSPHOR M3_SUB Registers' Definitions                            */
 /******************************************************************************/
 
-#define M3_SUB_SC_WDG_CLK_EN_REG                 (M3_SUB_BASE + 0x300)  /* WDGÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_WDG_CLK_DIS_REG                (M3_SUB_BASE + 0x304)  /* WDGÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_TIMER_CLK_EN_REG               (M3_SUB_BASE + 0x308)  /* TIMERÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                           
-#define M3_SUB_SC_TIMER_CLK_DIS_REG              (M3_SUB_BASE + 0x30C)  /* TIMERÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                           
-#define M3_SUB_SC_UART_CLK_EN_REG                (M3_SUB_BASE + 0x310)  /* UARTÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                            
-#define M3_SUB_SC_UART_CLK_DIS_REG               (M3_SUB_BASE + 0x314)  /* UARTÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                            
-#define M3_SUB_SC_ITS_CLK_EN_REG                 (M3_SUB_BASE + 0x318)  /* ITSÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_ITS_CLK_DIS_REG                (M3_SUB_BASE + 0x31C)  /* ITSÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_IPCM_CLK_EN_REG                (M3_SUB_BASE + 0x320)  /* IPCMÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                            
-#define M3_SUB_SC_IPCM_CLK_DIS_REG               (M3_SUB_BASE + 0x324)  /* IPCMÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                            
-#define M3_SUB_SC_SRAM_CLK_EN_REG                (M3_SUB_BASE + 0x328)  /* SRAMÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                            
-#define M3_SUB_SC_SRAM_CLK_DIS_REG               (M3_SUB_BASE + 0x32C)  /* SRAMÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                            
-#define M3_SUB_SC_SFC_CLK_EN_REG                 (M3_SUB_BASE + 0x330)  /* SFCÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_SFC_CLK_DIS_REG                (M3_SUB_BASE + 0x334)  /* SFCÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_I2CM_CLK_EN_REG                (M3_SUB_BASE + 0x338)  /* I2CMÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                            
-#define M3_SUB_SC_I2CM_CLK_DIS_REG               (M3_SUB_BASE + 0x33C)  /* I2CMÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                            
-#define M3_SUB_SC_I2C_CLK_EN_REG                 (M3_SUB_BASE + 0x340)  /* I2CÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_I2C_CLK_DIS_REG                (M3_SUB_BASE + 0x344)  /* I2CÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_GPIO_CLK_EN_REG                (M3_SUB_BASE + 0x348)  /* GPIOÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                            
-#define M3_SUB_SC_GPIO_CLK_DIS_REG               (M3_SUB_BASE + 0x34C)  /* GPIOÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                            
-#define M3_SUB_SC_CPU_CLK_EN_REG                 (M3_SUB_BASE + 0x350)  /* M3 CPUÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                          
-#define M3_SUB_SC_CPU_CLK_DIS_REG                (M3_SUB_BASE + 0x354)  /* M3 CPUÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                          
-#define M3_SUB_SC_USB_CLK_EN_REG                 (M3_SUB_BASE + 0x368)  /* USBÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_USB_CLK_DIS_REG                (M3_SUB_BASE + 0x36C)  /* USBÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_SPI_CLK_EN_REG                 (M3_SUB_BASE + 0x388)  /* spiÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_SPI_CLK_DIS_REG                (M3_SUB_BASE + 0x38C)  /* spiÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_SEC_CLK_EN_REG                 (M3_SUB_BASE + 0x3B8)  /* SECÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_SEC_CLK_DIS_REG                (M3_SUB_BASE + 0x3BC)  /* SECÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */                                                             
-#define M3_SUB_SC_WDG_RESET_REQ_REG              (M3_SUB_BASE + 0xA00)  /* WDGÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define M3_SUB_SC_WDG_RESET_DREQ_REG             (M3_SUB_BASE + 0xA04)  /* WDGÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define M3_SUB_SC_TIMER_RESET_REQ_REG            (M3_SUB_BASE + 0xA08)  /* TIMERÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                        
-#define M3_SUB_SC_TIMER_RESET_DREQ_REG           (M3_SUB_BASE + 0xA0C)  /* TIMERÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                       
-#define M3_SUB_SC_UART_RESET_REQ_REG             (M3_SUB_BASE + 0xA10)  /* UARTÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define M3_SUB_SC_UART_RESET_DREQ_REG            (M3_SUB_BASE + 0xA14)  /* UARTÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                        
-#define M3_SUB_SC_ITS_RESET_REQ_REG              (M3_SUB_BASE + 0xA18)  /* ITSÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define M3_SUB_SC_ITS_RESET_DREQ_REG             (M3_SUB_BASE + 0xA1C)  /* ITSÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define M3_SUB_SC_IPCM_RESET_REQ_REG             (M3_SUB_BASE + 0xA20)  /* IPCMÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define M3_SUB_SC_IPCM_RESET_DREQ_REG            (M3_SUB_BASE + 0xA24)  /* IPCMÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                        
-#define M3_SUB_SC_SRAM_RESET_REQ_REG             (M3_SUB_BASE + 0xA28)  /* SRAMÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define M3_SUB_SC_SRAM_RESET_DREQ_REG            (M3_SUB_BASE + 0xA2C)  /* SRAMÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                        
-#define M3_SUB_SC_SFC_RESET_REQ_REG              (M3_SUB_BASE + 0xA30)  /* SFCÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define M3_SUB_SC_SFC_RESET_DREQ_REG             (M3_SUB_BASE + 0xA34)  /* SFCÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define M3_SUB_SC_I2CM_RESET_REQ_REG             (M3_SUB_BASE + 0xA38)  /* I2CMÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define M3_SUB_SC_I2CM_RESET_DREQ_REG            (M3_SUB_BASE + 0xA3C)  /* I2CMÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                        
-#define M3_SUB_SC_I2C_RESET_REQ_REG              (M3_SUB_BASE + 0xA40)  /* I2CÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define M3_SUB_SC_I2C_RESET_DREQ_REG             (M3_SUB_BASE + 0xA44)  /* I2CÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define M3_SUB_SC_GPIO_RESET_REQ_REG             (M3_SUB_BASE + 0xA48)  /* GPIOÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define M3_SUB_SC_GPIO_RESET_DREQ_REG            (M3_SUB_BASE + 0xA4C)  /* GPIOÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                        
-#define M3_SUB_SC_CPU_RESET_REQ_REG              (M3_SUB_BASE + 0xA50)  /* M3 CPUÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                       
-#define M3_SUB_SC_CPU_RESET_DREQ_REG             (M3_SUB_BASE + 0xA54)  /* M3 CPUÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                      
-#define M3_SUB_SC_USB_RESET_REQ_REG              (M3_SUB_BASE + 0xA88)  /* USBÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define M3_SUB_SC_USB_RESET_DREQ_REG             (M3_SUB_BASE + 0xA8C)  /* USBÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define M3_SUB_SC_SPI_RESET_REQ_REG              (M3_SUB_BASE + 0xA98)  /* SPIÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define M3_SUB_SC_SPI_RESET_DREQ_REG             (M3_SUB_BASE + 0xA9C)  /* SPIÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define M3_SUB_SC_SEC_RESET_REQ_REG              (M3_SUB_BASE + 0xAA8)  /* SECÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                          
-#define M3_SUB_SC_SEC_RESET_DREQ_REG             (M3_SUB_BASE + 0xAAC)  /* SECÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                         
-#define M3_SUB_SC_SEC_BUILD_RESET_REQ_REG        (M3_SUB_BASE + 0xAB8)  /* SEC BUILDÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                    
-#define M3_SUB_SC_SEC_BUILD_RESET_DREQ_REG       (M3_SUB_BASE + 0xABC)  /* SEC BUILDÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */                                                   
-#define M3_SUB_SC_PW_CTRL_RESET_REQ_REG      (M3_SUB_BASE + 0xAC0)  /* PW_CTRLÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define M3_SUB_SC_PW_CTRL_RESET_DREQ_REG     (M3_SUB_BASE + 0xAC4)  /* PW_CTRLÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
-#define M3_SUB_SC_DISPATCH_DAW_EN_REG        (M3_SUB_BASE + 0x1000) /* dispatch daw enÅäÖÃ */
-#define M3_SUB_SC_DISPATCH_DAW_ARRAY0_REG    (M3_SUB_BASE + 0x1004) /* dispatch dawÅäÖÃÕóÁÐ0 */
-#define M3_SUB_SC_DISPATCH_DAW_ARRAY1_REG    (M3_SUB_BASE + 0x1008) /* dispatch dawÅäÖÃÕóÁÐ1 */
-#define M3_SUB_SC_DISPATCH_DAW_ARRAY2_REG    (M3_SUB_BASE + 0x100C) /* dispatch dawÅäÖÃÕóÁÐ2 */
-#define M3_SUB_SC_DISPATCH_DAW_ARRAY3_REG    (M3_SUB_BASE + 0x1010) /* dispatch dawÅäÖÃÕóÁÐ3 */
-#define M3_SUB_SC_DISPATCH_DAW_ARRAY4_REG    (M3_SUB_BASE + 0x1014) /* dispatch dawÅäÖÃÕóÁÐ4 */
-#define M3_SUB_SC_DISPATCH_DAW_ARRAY5_REG    (M3_SUB_BASE + 0x1018) /* dispatch dawÅäÖÃÕóÁÐ5 */
-#define M3_SUB_SC_DISPATCH_DAW_ARRAY6_REG    (M3_SUB_BASE + 0x101C) /* dispatch dawÅäÖÃÕóÁÐ6 */
-#define M3_SUB_SC_DISPATCH_DAW_ARRAY7_REG    (M3_SUB_BASE + 0x1020) /* dispatch dawÅäÖÃÕóÁÐ7 */
-#define M3_SUB_SC_DISPATCH_RETRY_CONTROL_REG (M3_SUB_BASE + 0x1030) /* dispatch retry¿ØÖÆ¼Ä´æÆ÷ */
-#define M3_SUB_SC_DISPATCH_INTMASK_REG       (M3_SUB_BASE + 0x1100) /* dispatchµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
-#define M3_SUB_SC_DISPATCH_RAWINT_REG        (M3_SUB_BASE + 0x1104) /* dispatchµÄÔ­Ê¼ÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_DISPATCH_INTSTAT_REG       (M3_SUB_BASE + 0x1108) /* dispatchµÄÆÁ±ÎºóµÄÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_DISPATCH_INTCLR_REG        (M3_SUB_BASE + 0x110C) /* dispatchµÄÖÐ¶ÏÇå³ý¼Ä´æÆ÷ */
-#define M3_SUB_SC_DISPATCH_ERRSTAT_REG       (M3_SUB_BASE + 0x1110) /* dispatchµÄERR×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_REMAP_CTRL_REG             (M3_SUB_BASE + 0x1200) /* subsysµÄÆô¶¯Remap¼Ä´æÆ÷ */
-#define M3_SUB_SC_EXTINT_CTRL_REG            (M3_SUB_BASE + 0x2000) /* Íâ²¿ÖÐ¶Ï¼«ÐÔÅäÖÃ¼Ä´æÆ÷ */
-#define M3_SUB_SC_SPI_CTRL_REG               (M3_SUB_BASE + 0x2020) /* spi¿ØÖÆ¼Ä´æÆ÷ */
-#define M3_SUB_SC_I2C_CTRL_REG               (M3_SUB_BASE + 0x2024) /* i2c¿ØÖÆ¼Ä´æÆ÷ */
-#define M3_SUB_SC_SRAM_CTRL0_REG             (M3_SUB_BASE + 0x2030) /* sram¿ØÖÆ¼Ä´æÆ÷0 */
-#define M3_SUB_SC_SRAM_CTRL1_REG             (M3_SUB_BASE + 0x2034) /* sram¿ØÖÆ¼Ä´æÆ÷1£¨°²È«¼Ä´æÆ÷£© */
-#define M3_SUB_SC_SRAM_CTRL2_REG             (M3_SUB_BASE + 0x2038) /* sram¿ØÖÆ¼Ä´æÆ÷2£¨°²È«¼Ä´æÆ÷£© */
-#define M3_SUB_SC_SRAM_CTRL3_REG             (M3_SUB_BASE + 0x203C) /* sram¿ØÖÆ¼Ä´æÆ÷3£¨°²È«¼Ä´æÆ÷£© */
-#define M3_SUB_SC_TIMER_CLKEN_CTRL_REG       (M3_SUB_BASE + 0x2040) /* TIMERµÄclkenÉú³É¿ØÖÆ¼Ä´æÆ÷ */
-#define M3_SUB_SC_WDOG_CLKEN_CTRL_REG        (M3_SUB_BASE + 0x2050) /* WDOGµÄclkenÉú³É¿ØÖÆ¼Ä´æÆ÷ */
-#define M3_SUB_SC_USBHOST_CTRL0_REG          (M3_SUB_BASE + 0x2060) /* usbÅäÖÃ */
-#define M3_SUB_SC_ISO_EN_TSV_SLLC_SRST_REG   (M3_SUB_BASE + 0x2080) /* IDIE isolation CELLÊ¹ÄÜÐÅºÅ£»TSV_SLLC_IDIEÕûÌåÈí¸´Î»ÇëÇó¿ØÖÆ */
-#define M3_SUB_SC_USBPHY_CTRL0_REG           (M3_SUB_BASE + 0x20A0) /* USBPHY¿ØÖÆ¼Ä´æÆ÷0 */
-#define M3_SUB_SC_USBPHY_CTRL1_REG           (M3_SUB_BASE + 0x20A4) /* USBPHY¿ØÖÆ¼Ä´æÆ÷1 */
-#define M3_SUB_SC_M3_CTRL0_REG               (M3_SUB_BASE + 0x20B0) /* M3¿ØÖÆ¼Ä´æÆ÷0 */
-#define M3_SUB_SC_M3_CTRL1_REG               (M3_SUB_BASE + 0x20B4) /* M3¿ØÖÆ¼Ä´æÆ÷1 */
-#define M3_SUB_SC_VMID_CTRL0_REG             (M3_SUB_BASE + 0x20E0) /* m3 vmidÅäÖÃ */
-#define M3_SUB_SC_VMID_CTRL1_REG             (M3_SUB_BASE + 0x20E4) /* usb vmidÅäÖÃ */
-#define M3_SUB_SC_I2C_M_VMID_REG             (M3_SUB_BASE + 0x20E8) /* i2c_m vmidÅäÖÃ */
-#define M3_SUB_SC_M3_REMAP_ADDR_EN_REG       (M3_SUB_BASE + 0x2180) /* m3µØÖ·Ó³ÉäÊ¹ÄÜ */
-#define M3_SUB_SC_M3_REMAP_ADDR_0_SECURE_REG (M3_SUB_BASE + 0x2190) /* ÕâÒ»¼Ä´æÆ÷±£Áô²»ÓÃ */
-#define M3_SUB_SC_M3_REMAP_ADDR_0_REG        (M3_SUB_BASE + 0x2194) /* M3 remapµ½spi flashµÄ»ùµØÖ·ÅäÖÃ */
-#define M3_SUB_SC_M3_REMAP_ADDR_1_REG        (M3_SUB_BASE + 0x2198) /* M3 remapµ½sramµÄ»ùµØÖ·ÅäÖÃ */
-#define M3_SUB_SC_M3_REMAP_ADDR_2_REG        (M3_SUB_BASE + 0x219C) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_M3_REMAP_ADDR_3_REG        (M3_SUB_BASE + 0x21A0) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_M3_REMAP_ADDR_4_REG        (M3_SUB_BASE + 0x21A4) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_M3_REMAP_ADDR_5_REG        (M3_SUB_BASE + 0x21A8) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_M3_REMAP_ADDR_6_REG        (M3_SUB_BASE + 0x21AC) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_M3_REMAP_ADDR_7_REG        (M3_SUB_BASE + 0x21B0) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_M3_REMAP_ADDR_8_REG        (M3_SUB_BASE + 0x21B4) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_M3_REMAP_ADDR_9_REG        (M3_SUB_BASE + 0x21B8) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_M3_REMAP_ADDR_10_REG       (M3_SUB_BASE + 0x21BC) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_M3_REMAP_ADDR_11_REG       (M3_SUB_BASE + 0x21C0) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_M3_REMAP_ADDR_12_REG       (M3_SUB_BASE + 0x21C4) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_M3_REMAP_ADDR_13_REG       (M3_SUB_BASE + 0x21C8) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_M3_REMAP_ADDR_14_REG       (M3_SUB_BASE + 0x21CC) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_M3_REMAP_ADDR_15_REG       (M3_SUB_BASE + 0x21D0) /* M3µØÖ·ÖØÓ³Éä¼Ä´æÆ÷ */
-#define M3_SUB_SC_ITS_M3_INT_MUX_SEL_REG     (M3_SUB_BASE + 0x21F0) /* ¶ÔÖÐ¶ÏËÍµ½ITS»¹ÊÇM3£¬×öMUXÑ¡Ôñ */
-#define M3_SUB_SC_FTE_MUX_CTRL_REG           (M3_SUB_BASE + 0x2200) /* FTE¸´ÓÃÑ¡Ôñ¼Ä´æÆ÷ */
-#define M3_SUB_SC_PM_CTRL0_REG               (M3_SUB_BASE + 0x2380) /* PW_STAT_CTRLµÄ¿ØÖÆ¼Ä´æÆ÷ */
-#define M3_SUB_SC_PM_CTRL1_REG               (M3_SUB_BASE + 0x2384) /* PW_STAT_CTRLµÄ¿ØÖÆ¼Ä´æÆ÷ */
-#define M3_SUB_SC_PM_CTRL2_REG               (M3_SUB_BASE + 0x2388) /* PW_STAT_CTRLµÄ¿ØÖÆ¼Ä´æÆ÷ */
-#define M3_SUB_SC_PM_INT_REG                 (M3_SUB_BASE + 0x238C) /* PW_STAT_CTRLÄÚÖÐ¶ÏÔ´¼Ä´æÆ÷ */
-#define M3_SUB_SC_PM_INT_MASK_REG            (M3_SUB_BASE + 0x2390) /* PW_STAT_CTRLµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
-#define M3_SUB_SC_PM_CTRL3_REG               (M3_SUB_BASE + 0x2394) /* ¿ØÖÆ¹Ü½ÅPM_CTL */
-#define M3_SUB_SC_PM_ST_REG                  (M3_SUB_BASE + 0x2398) /* ÉÏµç¸´Î»Ö¸Ê¾×´Ì¬ÐÅºÅ */
-#define M3_SUB_SC_BISR_RE_REPAIR_EN_REG      (M3_SUB_BASE + 0x2D80) /* BISRµÄRE REPAIRÊ¹ÄÜ¼Ä´æÆ÷ */
-#define M3_SUB_SC_BISR_INT_REG               (M3_SUB_BASE + 0x2D90) /* BISR_TOP_IDIEµÄÖÐ¶ÏÔ´¼Ä´æÆ÷ */
-#define M3_SUB_SC_BISR_INT_MASK_REG          (M3_SUB_BASE + 0x2DA0) /* BISR_TOP_IDIEµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
-#define M3_SUB_SC_USB_EHCI_ADDR_H_REG        (M3_SUB_BASE + 0x2E0C) /* M3Ö¸ÁîÍ¨µÀ¸ß32Î»µØÖ·²¹³ä¼Ä´æÆ÷ */
-#define M3_SUB_SC_USB_OHCI_ADDR_H_REG        (M3_SUB_BASE + 0x2E10) /* M3Êý¾ÝÍ¨µÀ¸ß32Î»µØÖ·²¹³ä¼Ä´æÆ÷ */
-#define M3_SUB_SC_I2C_M_ADDR_H_REG           (M3_SUB_BASE + 0x2E14) /* M3ÍâÉèÍ¨µÀ¸ß32Î»µØÖ·²¹³ä¼Ä´æÆ÷ */
-#define M3_SUB_SC_SMMU_MEM_CTRL0_REG         (M3_SUB_BASE + 0x3000) /* smmu mem¿ØÖÆ¼Ä´æÆ÷0 */
-#define M3_SUB_SC_SMMU_MEM_CTRL1_REG         (M3_SUB_BASE + 0x3004) /* smmu mem¿ØÖÆ¼Ä´æÆ÷1 */
-#define M3_SUB_SC_SMMU_MEM_CTRL2_REG         (M3_SUB_BASE + 0x3008) /* smmu mem¿ØÖÆ¼Ä´æÆ÷2 */
-#define M3_SUB_SC_SRAM_MEM_CTRL_REG          (M3_SUB_BASE + 0x3020) /* sram mem¿ØÖÆ¼Ä´æÆ÷ */
-#define M3_SUB_SC_SFC_MEM_CTRL_REG           (M3_SUB_BASE + 0x3030) /* sfc mem¿ØÖÆ¼Ä´æÆ÷ */
-#define M3_SUB_SC_SEC_MEM_CTRL_REG           (M3_SUB_BASE + 0x3070) /* sec mem¿ØÖÆ¼Ä´æÆ÷ */
-#define M3_SUB_SC_WDG_CLK_ST_REG             (M3_SUB_BASE + 0x5300) /* WDGÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_TIMER_CLK_ST_REG           (M3_SUB_BASE + 0x5304) /* TIMERÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_UART_CLK_ST_REG            (M3_SUB_BASE + 0x5308) /* UARTÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_ITS_CLK_ST_REG             (M3_SUB_BASE + 0x530C) /* ITSÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_IPCM_CLK_ST_REG            (M3_SUB_BASE + 0x5310) /* IPCMÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_SRAM_CLK_ST_REG            (M3_SUB_BASE + 0x5314) /* SRAMÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_SFC_CLK_ST_REG             (M3_SUB_BASE + 0x5318) /* SFCÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_I2CM_CLK_ST_REG            (M3_SUB_BASE + 0x531C) /* I2CMÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_I2C_CLK_ST_REG             (M3_SUB_BASE + 0x5320) /* I2CÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_GPIO_CLK_ST_REG            (M3_SUB_BASE + 0x5324) /* GPIOÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_CPU_CLK_ST_REG             (M3_SUB_BASE + 0x5328) /* M3 CPUÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_USB_CLK_ST_REG             (M3_SUB_BASE + 0x5334) /* USBÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_SPI_CLK_ST_REG             (M3_SUB_BASE + 0x5344) /* SPIÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_SEC_CLK_ST_REG             (M3_SUB_BASE + 0x535C) /* SECÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_WDG_RESET_ST_REG           (M3_SUB_BASE + 0x5A00) /* WDG¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_TIMER_RESET_ST_REG         (M3_SUB_BASE + 0x5A04) /* TIMER¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_UART_RESET_ST_REG          (M3_SUB_BASE + 0x5A08) /* UART¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_ITS_RESET_ST_REG           (M3_SUB_BASE + 0x5A0C) /* ITS¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_IPCM_RESET_ST_REG          (M3_SUB_BASE + 0x5A10) /* IPCM¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_SRAM_RESET_ST_REG          (M3_SUB_BASE + 0x5A14) /* SRAM¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_SFC_RESET_ST_REG           (M3_SUB_BASE + 0x5A18) /* SFC¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_I2CM_RESET_ST_REG          (M3_SUB_BASE + 0x5A1C) /* I2CM¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_I2C_RESET_ST_REG           (M3_SUB_BASE + 0x5A20) /* I2C¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_GPIO_RESET_ST_REG          (M3_SUB_BASE + 0x5A24) /* GPIO¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_CPU_RESET_ST_REG           (M3_SUB_BASE + 0x5A28) /* M3 CPU¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_USB_RESET_ST_REG           (M3_SUB_BASE + 0x5A44) /* USB¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_SPI_RESET_ST_REG           (M3_SUB_BASE + 0x5A4C) /* SPI¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_SEC_RESET_ST_REG           (M3_SUB_BASE + 0x5A54) /* SEC¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_SEC_BUILD_RESET_ST_REG     (M3_SUB_BASE + 0x5A5C) /* SEC BUILD¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_PW_CTRL_RESET_ST_REG       (M3_SUB_BASE + 0x5A60) /* PW_CTRL¸´Î»×´Ì¬¼Ä´æÆ÷ */
-#define M3_SUB_SC_MBIST_CPUI_ENABLE_REG      (M3_SUB_BASE + 0x5C00) /* CPUÆô¶¯MBISTÑ¡ÔñÐÅºÅ£»Ð¾Æ¬µçÂ·²âÊÔÊ¹ÓÃ¡£ */
-#define M3_SUB_SC_MBIST_CPUI_RESET_N_REG     (M3_SUB_BASE + 0x5C04) /* CPUÆô¶¯MBIST¸´Î»ÐÅºÅ */
-#define M3_SUB_SC_MBIST_CPUI_DATAIN_REG      (M3_SUB_BASE + 0x5C08) /* CPUÆô¶¯MBIST£¬TMBµçÂ·Êý¾ÝºÍÖ¸ÁîÊäÈë½Ó¿Ú¼Ä´æÆ÷ */
-#define M3_SUB_SC_MBIST_CPUI_WRITE_EN_REG    (M3_SUB_BASE + 0x5C0C) /* DFT MBISTÄ£Ê½ÏÂTMBµçÂ·CPU2TAP½Ó¿ÚÅäÖÃ¼Ä´æÆ÷£»Ð¾Æ¬µçÂ·²âÊÔÊ¹ÓÃ¡£ */
-#define M3_SUB_SC_SRAM_ST0_REG               (M3_SUB_BASE + 0x6000) /* sram×´Ì¬¼Ä´æÆ÷0 */
-#define M3_SUB_SC_SRAM_ST1_REG               (M3_SUB_BASE + 0x6004) /* sram×´Ì¬¼Ä´æÆ÷1 */
-#define M3_SUB_SC_SRAM_ST2_REG               (M3_SUB_BASE + 0x6008) /* sram×´Ì¬¼Ä´æÆ÷2 */
-#define M3_SUB_SC_SRAM_ST3_REG               (M3_SUB_BASE + 0x600C) /* sram×´Ì¬¼Ä´æÆ÷3 */
-#define M3_SUB_SC_SRAM_ST4_REG               (M3_SUB_BASE + 0x6010) /* sram×´Ì¬¼Ä´æÆ÷4 */
-#define M3_SUB_SC_SRAM_ST5_REG               (M3_SUB_BASE + 0x6014) /* sram×´Ì¬¼Ä´æÆ÷5 */
+#define M3_SUB_SC_WDG_CLK_EN_REG                 (M3_SUB_BASE + 0x300)  /* WDGÊ±??Ê¹?Ü¼Ä´??? */                                                             
+#define M3_SUB_SC_WDG_CLK_DIS_REG                (M3_SUB_BASE + 0x304)  /* WDGÊ±?Ó½?Ö¹?Ä´??? */                                                             
+#define M3_SUB_SC_TIMER_CLK_EN_REG               (M3_SUB_BASE + 0x308)  /* TIMERÊ±??Ê¹?Ü¼Ä´??? */                                                           
+#define M3_SUB_SC_TIMER_CLK_DIS_REG              (M3_SUB_BASE + 0x30C)  /* TIMERÊ±?Ó½?Ö¹?Ä´??? */                                                           
+#define M3_SUB_SC_UART_CLK_EN_REG                (M3_SUB_BASE + 0x310)  /* UARTÊ±??Ê¹?Ü¼Ä´??? */                                                            
+#define M3_SUB_SC_UART_CLK_DIS_REG               (M3_SUB_BASE + 0x314)  /* UARTÊ±?Ó½?Ö¹?Ä´??? */                                                            
+#define M3_SUB_SC_ITS_CLK_EN_REG                 (M3_SUB_BASE + 0x318)  /* ITSÊ±??Ê¹?Ü¼Ä´??? */                                                             
+#define M3_SUB_SC_ITS_CLK_DIS_REG                (M3_SUB_BASE + 0x31C)  /* ITSÊ±?Ó½?Ö¹?Ä´??? */                                                             
+#define M3_SUB_SC_IPCM_CLK_EN_REG                (M3_SUB_BASE + 0x320)  /* IPCMÊ±??Ê¹?Ü¼Ä´??? */                                                            
+#define M3_SUB_SC_IPCM_CLK_DIS_REG               (M3_SUB_BASE + 0x324)  /* IPCMÊ±?Ó½?Ö¹?Ä´??? */                                                            
+#define M3_SUB_SC_SRAM_CLK_EN_REG                (M3_SUB_BASE + 0x328)  /* SRAMÊ±??Ê¹?Ü¼Ä´??? */                                                            
+#define M3_SUB_SC_SRAM_CLK_DIS_REG               (M3_SUB_BASE + 0x32C)  /* SRAMÊ±?Ó½?Ö¹?Ä´??? */                                                            
+#define M3_SUB_SC_SFC_CLK_EN_REG                 (M3_SUB_BASE + 0x330)  /* SFCÊ±??Ê¹?Ü¼Ä´??? */                                                             
+#define M3_SUB_SC_SFC_CLK_DIS_REG                (M3_SUB_BASE + 0x334)  /* SFCÊ±?Ó½?Ö¹?Ä´??? */                                                             
+#define M3_SUB_SC_I2CM_CLK_EN_REG                (M3_SUB_BASE + 0x338)  /* I2CMÊ±??Ê¹?Ü¼Ä´??? */                                                            
+#define M3_SUB_SC_I2CM_CLK_DIS_REG               (M3_SUB_BASE + 0x33C)  /* I2CMÊ±?Ó½?Ö¹?Ä´??? */                                                            
+#define M3_SUB_SC_I2C_CLK_EN_REG                 (M3_SUB_BASE + 0x340)  /* I2CÊ±??Ê¹?Ü¼Ä´??? */                                                             
+#define M3_SUB_SC_I2C_CLK_DIS_REG                (M3_SUB_BASE + 0x344)  /* I2CÊ±?Ó½?Ö¹?Ä´??? */                                                             
+#define M3_SUB_SC_GPIO_CLK_EN_REG                (M3_SUB_BASE + 0x348)  /* GPIOÊ±??Ê¹?Ü¼Ä´??? */                                                            
+#define M3_SUB_SC_GPIO_CLK_DIS_REG               (M3_SUB_BASE + 0x34C)  /* GPIOÊ±?Ó½?Ö¹?Ä´??? */                                                            
+#define M3_SUB_SC_CPU_CLK_EN_REG                 (M3_SUB_BASE + 0x350)  /* M3 CPUÊ±??Ê¹?Ü¼Ä´??? */                                                          
+#define M3_SUB_SC_CPU_CLK_DIS_REG                (M3_SUB_BASE + 0x354)  /* M3 CPUÊ±?Ó½?Ö¹?Ä´??? */                                                          
+#define M3_SUB_SC_USB_CLK_EN_REG                 (M3_SUB_BASE + 0x368)  /* USBÊ±??Ê¹?Ü¼Ä´??? */                                                             
+#define M3_SUB_SC_USB_CLK_DIS_REG                (M3_SUB_BASE + 0x36C)  /* USBÊ±?Ó½?Ö¹?Ä´??? */                                                             
+#define M3_SUB_SC_SPI_CLK_EN_REG                 (M3_SUB_BASE + 0x388)  /* spiÊ±??Ê¹?Ü¼Ä´??? */                                                             
+#define M3_SUB_SC_SPI_CLK_DIS_REG                (M3_SUB_BASE + 0x38C)  /* spiÊ±?Ó½?Ö¹?Ä´??? */                                                             
+#define M3_SUB_SC_SEC_CLK_EN_REG                 (M3_SUB_BASE + 0x3B8)  /* SECÊ±??Ê¹?Ü¼Ä´??? */                                                             
+#define M3_SUB_SC_SEC_CLK_DIS_REG                (M3_SUB_BASE + 0x3BC)  /* SECÊ±?Ó½?Ö¹?Ä´??? */                                                             
+#define M3_SUB_SC_WDG_RESET_REQ_REG              (M3_SUB_BASE + 0xA00)  /* WDG?í¸´Î»???????Æ¼Ä´??? */                                                          
+#define M3_SUB_SC_WDG_RESET_DREQ_REG             (M3_SUB_BASE + 0xA04)  /* WDG?í¸´Î»È¥???????Æ¼Ä´??? */                                                         
+#define M3_SUB_SC_TIMER_RESET_REQ_REG            (M3_SUB_BASE + 0xA08)  /* TIMER?í¸´Î»???????Æ¼Ä´??? */                                                        
+#define M3_SUB_SC_TIMER_RESET_DREQ_REG           (M3_SUB_BASE + 0xA0C)  /* TIMER?í¸´Î»È¥???????Æ¼Ä´??? */                                                       
+#define M3_SUB_SC_UART_RESET_REQ_REG             (M3_SUB_BASE + 0xA10)  /* UART?í¸´Î»???????Æ¼Ä´??? */                                                         
+#define M3_SUB_SC_UART_RESET_DREQ_REG            (M3_SUB_BASE + 0xA14)  /* UART?í¸´Î»È¥???????Æ¼Ä´??? */                                                        
+#define M3_SUB_SC_ITS_RESET_REQ_REG              (M3_SUB_BASE + 0xA18)  /* ITS?í¸´Î»???????Æ¼Ä´??? */                                                          
+#define M3_SUB_SC_ITS_RESET_DREQ_REG             (M3_SUB_BASE + 0xA1C)  /* ITS?í¸´Î»È¥???????Æ¼Ä´??? */                                                         
+#define M3_SUB_SC_IPCM_RESET_REQ_REG             (M3_SUB_BASE + 0xA20)  /* IPCM?í¸´Î»???????Æ¼Ä´??? */                                                         
+#define M3_SUB_SC_IPCM_RESET_DREQ_REG            (M3_SUB_BASE + 0xA24)  /* IPCM?í¸´Î»È¥???????Æ¼Ä´??? */                                                        
+#define M3_SUB_SC_SRAM_RESET_REQ_REG             (M3_SUB_BASE + 0xA28)  /* SRAM?í¸´Î»???????Æ¼Ä´??? */                                                         
+#define M3_SUB_SC_SRAM_RESET_DREQ_REG            (M3_SUB_BASE + 0xA2C)  /* SRAM?í¸´Î»È¥???????Æ¼Ä´??? */                                                        
+#define M3_SUB_SC_SFC_RESET_REQ_REG              (M3_SUB_BASE + 0xA30)  /* SFC?í¸´Î»???????Æ¼Ä´??? */                                                          
+#define M3_SUB_SC_SFC_RESET_DREQ_REG             (M3_SUB_BASE + 0xA34)  /* SFC?í¸´Î»È¥???????Æ¼Ä´??? */                                                         
+#define M3_SUB_SC_I2CM_RESET_REQ_REG             (M3_SUB_BASE + 0xA38)  /* I2CM?í¸´Î»???????Æ¼Ä´??? */                                                         
+#define M3_SUB_SC_I2CM_RESET_DREQ_REG            (M3_SUB_BASE + 0xA3C)  /* I2CM?í¸´Î»È¥???????Æ¼Ä´??? */                                                        
+#define M3_SUB_SC_I2C_RESET_REQ_REG              (M3_SUB_BASE + 0xA40)  /* I2C?í¸´Î»???????Æ¼Ä´??? */                                                          
+#define M3_SUB_SC_I2C_RESET_DREQ_REG             (M3_SUB_BASE + 0xA44)  /* I2C?í¸´Î»È¥???????Æ¼Ä´??? */                                                         
+#define M3_SUB_SC_GPIO_RESET_REQ_REG             (M3_SUB_BASE + 0xA48)  /* GPIO?í¸´Î»???????Æ¼Ä´??? */                                                         
+#define M3_SUB_SC_GPIO_RESET_DREQ_REG            (M3_SUB_BASE + 0xA4C)  /* GPIO?í¸´Î»È¥???????Æ¼Ä´??? */                                                        
+#define M3_SUB_SC_CPU_RESET_REQ_REG              (M3_SUB_BASE + 0xA50)  /* M3 CPU?í¸´Î»???????Æ¼Ä´??? */                                                       
+#define M3_SUB_SC_CPU_RESET_DREQ_REG             (M3_SUB_BASE + 0xA54)  /* M3 CPU?í¸´Î»È¥???????Æ¼Ä´??? */                                                      
+#define M3_SUB_SC_USB_RESET_REQ_REG              (M3_SUB_BASE + 0xA88)  /* USB?í¸´Î»???????Æ¼Ä´??? */                                                          
+#define M3_SUB_SC_USB_RESET_DREQ_REG             (M3_SUB_BASE + 0xA8C)  /* USB?í¸´Î»È¥???????Æ¼Ä´??? */                                                         
+#define M3_SUB_SC_SPI_RESET_REQ_REG              (M3_SUB_BASE + 0xA98)  /* SPI?í¸´Î»???????Æ¼Ä´??? */                                                          
+#define M3_SUB_SC_SPI_RESET_DREQ_REG             (M3_SUB_BASE + 0xA9C)  /* SPI?í¸´Î»È¥???????Æ¼Ä´??? */                                                         
+#define M3_SUB_SC_SEC_RESET_REQ_REG              (M3_SUB_BASE + 0xAA8)  /* SEC?í¸´Î»???????Æ¼Ä´??? */                                                          
+#define M3_SUB_SC_SEC_RESET_DREQ_REG             (M3_SUB_BASE + 0xAAC)  /* SEC?í¸´Î»È¥???????Æ¼Ä´??? */                                                         
+#define M3_SUB_SC_SEC_BUILD_RESET_REQ_REG        (M3_SUB_BASE + 0xAB8)  /* SEC BUILD?í¸´Î»???????Æ¼Ä´??? */                                                    
+#define M3_SUB_SC_SEC_BUILD_RESET_DREQ_REG       (M3_SUB_BASE + 0xABC)  /* SEC BUILD?í¸´Î»È¥???????Æ¼Ä´??? */                                                   
+#define M3_SUB_SC_PW_CTRL_RESET_REQ_REG      (M3_SUB_BASE + 0xAC0)  /* PW_CTRL?í¸´Î»???????Æ¼Ä´??? */
+#define M3_SUB_SC_PW_CTRL_RESET_DREQ_REG     (M3_SUB_BASE + 0xAC4)  /* PW_CTRL?í¸´Î»È¥???????Æ¼Ä´??? */
+#define M3_SUB_SC_DISPATCH_DAW_EN_REG        (M3_SUB_BASE + 0x1000) /* dispatch daw en???? */
+#define M3_SUB_SC_DISPATCH_DAW_ARRAY0_REG    (M3_SUB_BASE + 0x1004) /* dispatch daw????????0 */
+#define M3_SUB_SC_DISPATCH_DAW_ARRAY1_REG    (M3_SUB_BASE + 0x1008) /* dispatch daw????????1 */
+#define M3_SUB_SC_DISPATCH_DAW_ARRAY2_REG    (M3_SUB_BASE + 0x100C) /* dispatch daw????????2 */
+#define M3_SUB_SC_DISPATCH_DAW_ARRAY3_REG    (M3_SUB_BASE + 0x1010) /* dispatch daw????????3 */
+#define M3_SUB_SC_DISPATCH_DAW_ARRAY4_REG    (M3_SUB_BASE + 0x1014) /* dispatch daw????????4 */
+#define M3_SUB_SC_DISPATCH_DAW_ARRAY5_REG    (M3_SUB_BASE + 0x1018) /* dispatch daw????????5 */
+#define M3_SUB_SC_DISPATCH_DAW_ARRAY6_REG    (M3_SUB_BASE + 0x101C) /* dispatch daw????????6 */
+#define M3_SUB_SC_DISPATCH_DAW_ARRAY7_REG    (M3_SUB_BASE + 0x1020) /* dispatch daw????????7 */
+#define M3_SUB_SC_DISPATCH_RETRY_CONTROL_REG (M3_SUB_BASE + 0x1030) /* dispatch retry???Æ¼Ä´??? */
+#define M3_SUB_SC_DISPATCH_INTMASK_REG       (M3_SUB_BASE + 0x1100) /* dispatch???Ð¶??Á±Î¼Ä´??? */
+#define M3_SUB_SC_DISPATCH_RAWINT_REG        (M3_SUB_BASE + 0x1104) /* dispatch??Ô­Ê¼?Ð¶?×´Ì¬?Ä´??? */
+#define M3_SUB_SC_DISPATCH_INTSTAT_REG       (M3_SUB_BASE + 0x1108) /* dispatch???Á±Îº????Ð¶?×´Ì¬?Ä´??? */
+#define M3_SUB_SC_DISPATCH_INTCLR_REG        (M3_SUB_BASE + 0x110C) /* dispatch???Ð¶??????Ä´??? */
+#define M3_SUB_SC_DISPATCH_ERRSTAT_REG       (M3_SUB_BASE + 0x1110) /* dispatch??ERR×´Ì¬?Ä´??? */
+#define M3_SUB_SC_REMAP_CTRL_REG             (M3_SUB_BASE + 0x1200) /* subsys??????Remap?Ä´??? */
+#define M3_SUB_SC_EXTINT_CTRL_REG            (M3_SUB_BASE + 0x2000) /* ?â²¿?Ð¶Ï¼??????Ã¼Ä´??? */
+#define M3_SUB_SC_SPI_CTRL_REG               (M3_SUB_BASE + 0x2020) /* spi???Æ¼Ä´??? */
+#define M3_SUB_SC_I2C_CTRL_REG               (M3_SUB_BASE + 0x2024) /* i2c???Æ¼Ä´??? */
+#define M3_SUB_SC_SRAM_CTRL0_REG             (M3_SUB_BASE + 0x2030) /* sram???Æ¼Ä´???0 */
+#define M3_SUB_SC_SRAM_CTRL1_REG             (M3_SUB_BASE + 0x2034) /* sram???Æ¼Ä´???1????È«?Ä´????? */
+#define M3_SUB_SC_SRAM_CTRL2_REG             (M3_SUB_BASE + 0x2038) /* sram???Æ¼Ä´???2????È«?Ä´????? */
+#define M3_SUB_SC_SRAM_CTRL3_REG             (M3_SUB_BASE + 0x203C) /* sram???Æ¼Ä´???3????È«?Ä´????? */
+#define M3_SUB_SC_TIMER_CLKEN_CTRL_REG       (M3_SUB_BASE + 0x2040) /* TIMER??clken???É¿??Æ¼Ä´??? */
+#define M3_SUB_SC_WDOG_CLKEN_CTRL_REG        (M3_SUB_BASE + 0x2050) /* WDOG??clken???É¿??Æ¼Ä´??? */
+#define M3_SUB_SC_USBHOST_CTRL0_REG          (M3_SUB_BASE + 0x2060) /* usb???? */
+#define M3_SUB_SC_ISO_EN_TSV_SLLC_SRST_REG   (M3_SUB_BASE + 0x2080) /* IDIE isolation CELLÊ¹???ÅºÅ£?TSV_SLLC_IDIE?????í¸´Î»???????? */
+#define M3_SUB_SC_USBPHY_CTRL0_REG           (M3_SUB_BASE + 0x20A0) /* USBPHY???Æ¼Ä´???0 */
+#define M3_SUB_SC_USBPHY_CTRL1_REG           (M3_SUB_BASE + 0x20A4) /* USBPHY???Æ¼Ä´???1 */
+#define M3_SUB_SC_M3_CTRL0_REG               (M3_SUB_BASE + 0x20B0) /* M3???Æ¼Ä´???0 */
+#define M3_SUB_SC_M3_CTRL1_REG               (M3_SUB_BASE + 0x20B4) /* M3???Æ¼Ä´???1 */
+#define M3_SUB_SC_VMID_CTRL0_REG             (M3_SUB_BASE + 0x20E0) /* m3 vmid???? */
+#define M3_SUB_SC_VMID_CTRL1_REG             (M3_SUB_BASE + 0x20E4) /* usb vmid???? */
+#define M3_SUB_SC_I2C_M_VMID_REG             (M3_SUB_BASE + 0x20E8) /* i2c_m vmid???? */
+#define M3_SUB_SC_M3_REMAP_ADDR_EN_REG       (M3_SUB_BASE + 0x2180) /* m3??Ö·Ó³??Ê¹?? */
+#define M3_SUB_SC_M3_REMAP_ADDR_0_SECURE_REG (M3_SUB_BASE + 0x2190) /* ??Ò»?Ä´??????????? */
+#define M3_SUB_SC_M3_REMAP_ADDR_0_REG        (M3_SUB_BASE + 0x2194) /* M3 remap??spi flash?Ä»???Ö·???? */
+#define M3_SUB_SC_M3_REMAP_ADDR_1_REG        (M3_SUB_BASE + 0x2198) /* M3 remap??sram?Ä»???Ö·???? */
+#define M3_SUB_SC_M3_REMAP_ADDR_2_REG        (M3_SUB_BASE + 0x219C) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_M3_REMAP_ADDR_3_REG        (M3_SUB_BASE + 0x21A0) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_M3_REMAP_ADDR_4_REG        (M3_SUB_BASE + 0x21A4) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_M3_REMAP_ADDR_5_REG        (M3_SUB_BASE + 0x21A8) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_M3_REMAP_ADDR_6_REG        (M3_SUB_BASE + 0x21AC) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_M3_REMAP_ADDR_7_REG        (M3_SUB_BASE + 0x21B0) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_M3_REMAP_ADDR_8_REG        (M3_SUB_BASE + 0x21B4) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_M3_REMAP_ADDR_9_REG        (M3_SUB_BASE + 0x21B8) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_M3_REMAP_ADDR_10_REG       (M3_SUB_BASE + 0x21BC) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_M3_REMAP_ADDR_11_REG       (M3_SUB_BASE + 0x21C0) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_M3_REMAP_ADDR_12_REG       (M3_SUB_BASE + 0x21C4) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_M3_REMAP_ADDR_13_REG       (M3_SUB_BASE + 0x21C8) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_M3_REMAP_ADDR_14_REG       (M3_SUB_BASE + 0x21CC) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_M3_REMAP_ADDR_15_REG       (M3_SUB_BASE + 0x21D0) /* M3??Ö·??Ó³???Ä´??? */
+#define M3_SUB_SC_ITS_M3_INT_MUX_SEL_REG     (M3_SUB_BASE + 0x21F0) /* ???Ð¶??Íµ?ITS????M3????MUXÑ¡?? */
+#define M3_SUB_SC_FTE_MUX_CTRL_REG           (M3_SUB_BASE + 0x2200) /* FTE????Ñ¡???Ä´??? */
+#define M3_SUB_SC_PM_CTRL0_REG               (M3_SUB_BASE + 0x2380) /* PW_STAT_CTRL?Ä¿??Æ¼Ä´??? */
+#define M3_SUB_SC_PM_CTRL1_REG               (M3_SUB_BASE + 0x2384) /* PW_STAT_CTRL?Ä¿??Æ¼Ä´??? */
+#define M3_SUB_SC_PM_CTRL2_REG               (M3_SUB_BASE + 0x2388) /* PW_STAT_CTRL?Ä¿??Æ¼Ä´??? */
+#define M3_SUB_SC_PM_INT_REG                 (M3_SUB_BASE + 0x238C) /* PW_STAT_CTRL???Ð¶?Ô´?Ä´??? */
+#define M3_SUB_SC_PM_INT_MASK_REG            (M3_SUB_BASE + 0x2390) /* PW_STAT_CTRL???Ð¶??Á±Î¼Ä´??? */
+#define M3_SUB_SC_PM_CTRL3_REG               (M3_SUB_BASE + 0x2394) /* ???Æ¹Ü½?PM_CTL */
+#define M3_SUB_SC_PM_ST_REG                  (M3_SUB_BASE + 0x2398) /* ?Ïµç¸´Î»Ö¸Ê¾×´Ì¬?Åº? */
+#define M3_SUB_SC_BISR_RE_REPAIR_EN_REG      (M3_SUB_BASE + 0x2D80) /* BISR??RE REPAIRÊ¹?Ü¼Ä´??? */
+#define M3_SUB_SC_BISR_INT_REG               (M3_SUB_BASE + 0x2D90) /* BISR_TOP_IDIE???Ð¶?Ô´?Ä´??? */
+#define M3_SUB_SC_BISR_INT_MASK_REG          (M3_SUB_BASE + 0x2DA0) /* BISR_TOP_IDIE???Ð¶??Á±Î¼Ä´??? */
+#define M3_SUB_SC_USB_EHCI_ADDR_H_REG        (M3_SUB_BASE + 0x2E0C) /* M3Ö¸??Í¨?À¸?32Î»??Ö·?????Ä´??? */
+#define M3_SUB_SC_USB_OHCI_ADDR_H_REG        (M3_SUB_BASE + 0x2E10) /* M3????Í¨?À¸?32Î»??Ö·?????Ä´??? */
+#define M3_SUB_SC_I2C_M_ADDR_H_REG           (M3_SUB_BASE + 0x2E14) /* M3????Í¨?À¸?32Î»??Ö·?????Ä´??? */
+#define M3_SUB_SC_SMMU_MEM_CTRL0_REG         (M3_SUB_BASE + 0x3000) /* smmu mem???Æ¼Ä´???0 */
+#define M3_SUB_SC_SMMU_MEM_CTRL1_REG         (M3_SUB_BASE + 0x3004) /* smmu mem???Æ¼Ä´???1 */
+#define M3_SUB_SC_SMMU_MEM_CTRL2_REG         (M3_SUB_BASE + 0x3008) /* smmu mem???Æ¼Ä´???2 */
+#define M3_SUB_SC_SRAM_MEM_CTRL_REG          (M3_SUB_BASE + 0x3020) /* sram mem???Æ¼Ä´??? */
+#define M3_SUB_SC_SFC_MEM_CTRL_REG           (M3_SUB_BASE + 0x3030) /* sfc mem???Æ¼Ä´??? */
+#define M3_SUB_SC_SEC_MEM_CTRL_REG           (M3_SUB_BASE + 0x3070) /* sec mem???Æ¼Ä´??? */
+#define M3_SUB_SC_WDG_CLK_ST_REG             (M3_SUB_BASE + 0x5300) /* WDGÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_TIMER_CLK_ST_REG           (M3_SUB_BASE + 0x5304) /* TIMERÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_UART_CLK_ST_REG            (M3_SUB_BASE + 0x5308) /* UARTÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_ITS_CLK_ST_REG             (M3_SUB_BASE + 0x530C) /* ITSÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_IPCM_CLK_ST_REG            (M3_SUB_BASE + 0x5310) /* IPCMÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_SRAM_CLK_ST_REG            (M3_SUB_BASE + 0x5314) /* SRAMÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_SFC_CLK_ST_REG             (M3_SUB_BASE + 0x5318) /* SFCÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_I2CM_CLK_ST_REG            (M3_SUB_BASE + 0x531C) /* I2CMÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_I2C_CLK_ST_REG             (M3_SUB_BASE + 0x5320) /* I2CÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_GPIO_CLK_ST_REG            (M3_SUB_BASE + 0x5324) /* GPIOÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_CPU_CLK_ST_REG             (M3_SUB_BASE + 0x5328) /* M3 CPUÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_USB_CLK_ST_REG             (M3_SUB_BASE + 0x5334) /* USBÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_SPI_CLK_ST_REG             (M3_SUB_BASE + 0x5344) /* SPIÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_SEC_CLK_ST_REG             (M3_SUB_BASE + 0x535C) /* SECÊ±??×´Ì¬?Ä´??? */
+#define M3_SUB_SC_WDG_RESET_ST_REG           (M3_SUB_BASE + 0x5A00) /* WDG??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_TIMER_RESET_ST_REG         (M3_SUB_BASE + 0x5A04) /* TIMER??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_UART_RESET_ST_REG          (M3_SUB_BASE + 0x5A08) /* UART??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_ITS_RESET_ST_REG           (M3_SUB_BASE + 0x5A0C) /* ITS??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_IPCM_RESET_ST_REG          (M3_SUB_BASE + 0x5A10) /* IPCM??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_SRAM_RESET_ST_REG          (M3_SUB_BASE + 0x5A14) /* SRAM??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_SFC_RESET_ST_REG           (M3_SUB_BASE + 0x5A18) /* SFC??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_I2CM_RESET_ST_REG          (M3_SUB_BASE + 0x5A1C) /* I2CM??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_I2C_RESET_ST_REG           (M3_SUB_BASE + 0x5A20) /* I2C??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_GPIO_RESET_ST_REG          (M3_SUB_BASE + 0x5A24) /* GPIO??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_CPU_RESET_ST_REG           (M3_SUB_BASE + 0x5A28) /* M3 CPU??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_USB_RESET_ST_REG           (M3_SUB_BASE + 0x5A44) /* USB??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_SPI_RESET_ST_REG           (M3_SUB_BASE + 0x5A4C) /* SPI??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_SEC_RESET_ST_REG           (M3_SUB_BASE + 0x5A54) /* SEC??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_SEC_BUILD_RESET_ST_REG     (M3_SUB_BASE + 0x5A5C) /* SEC BUILD??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_PW_CTRL_RESET_ST_REG       (M3_SUB_BASE + 0x5A60) /* PW_CTRL??Î»×´Ì¬?Ä´??? */
+#define M3_SUB_SC_MBIST_CPUI_ENABLE_REG      (M3_SUB_BASE + 0x5C00) /* CPU????MBISTÑ¡???ÅºÅ£?Ð¾Æ¬??Â·????Ê¹?Ã¡? */
+#define M3_SUB_SC_MBIST_CPUI_RESET_N_REG     (M3_SUB_BASE + 0x5C04) /* CPU????MBIST??Î»?Åº? */
+#define M3_SUB_SC_MBIST_CPUI_DATAIN_REG      (M3_SUB_BASE + 0x5C08) /* CPU????MBIST??TMB??Â·???Ýº?Ö¸???????Ó¿Ú¼Ä´??? */
+#define M3_SUB_SC_MBIST_CPUI_WRITE_EN_REG    (M3_SUB_BASE + 0x5C0C) /* DFT MBISTÄ£Ê½??TMB??Â·CPU2TAP?Ó¿????Ã¼Ä´?????Ð¾Æ¬??Â·????Ê¹?Ã¡? */
+#define M3_SUB_SC_SRAM_ST0_REG               (M3_SUB_BASE + 0x6000) /* sram×´Ì¬?Ä´???0 */
+#define M3_SUB_SC_SRAM_ST1_REG               (M3_SUB_BASE + 0x6004) /* sram×´Ì¬?Ä´???1 */
+#define M3_SUB_SC_SRAM_ST2_REG               (M3_SUB_BASE + 0x6008) /* sram×´Ì¬?Ä´???2 */
+#define M3_SUB_SC_SRAM_ST3_REG               (M3_SUB_BASE + 0x600C) /* sram×´Ì¬?Ä´???3 */
+#define M3_SUB_SC_SRAM_ST4_REG               (M3_SUB_BASE + 0x6010) /* sram×´Ì¬?Ä´???4 */
+#define M3_SUB_SC_SRAM_ST5_REG               (M3_SUB_BASE + 0x6014) /* sram×´Ì¬?Ä´???5 */
 #define M3_SUB_SC_M3_STAT_REG                (M3_SUB_BASE + 0x6100)
-#define M3_SUB_SC_PM_ST0_REG                 (M3_SUB_BASE + 0x6380) /* PW_STAT_CTRLµÄÄÚ²¿×´Ì¬ */
-#define M3_SUB_SC_PM_ST1_REG                 (M3_SUB_BASE + 0x6384) /* À´×Ô¹Ü½ÅµÄPWRGD×´Ì¬ */
-#define M3_SUB_SC_PM_ST2_REG                 (M3_SUB_BASE + 0x6388) /* Êä³ö¸ø¹Ü½ÅµÄPWR_CTRL2~0 */
-#define M3_SUB_SC_PM_ST3_REG                 (M3_SUB_BASE + 0x638C) /* MEÏà¹Ø¹Ü½Å×´Ì¬ */
-#define M3_SUB_SC_DBG_AUTH_CTRL_REG          (M3_SUB_BASE + 0x6700) /* °²È«µÈ¼¶ÊÚÈ¨¿ØÖÆ¼Ä´æÆ÷¡££¨×¢Òâ£º1£¬´Ë¼Ä´æÆ÷¿Õ¼ä±ØÐëÊÇ°²È«·ÃÎÊ²ÅÄÜ³É¹¦£»2£¬Ä¬ÈÏ¾ùÊÇ´ò¿ªµ÷ÊÔÄ£Ê½£¬ÓÐÂ©¶´£¬ÔÚÕý³£¹¤×÷Ê±Çë³õÊ¼»¯¹Ø±Õµ÷ÊÔ¹¦ÄÜ£© */
-#define M3_SUB_SC_ECO_RSV0_REG               (M3_SUB_BASE + 0x8000) /* ECO ¼Ä´æÆ÷0 */
-#define M3_SUB_SC_ECO_RSV1_REG               (M3_SUB_BASE + 0x8004) /* ECO ¼Ä´æÆ÷1 */
-#define M3_SUB_SC_ECO_RSV2_REG               (M3_SUB_BASE + 0x8008) /* ECO ¼Ä´æÆ÷2 */
-#define M3_SUB_SC_MBIST_CPUI_DATAOUT_REG     (M3_SUB_BASE + 0xDC00) /* DFT MBISTÄ£Ê½ÏÂ¶ÁÊý¾Ý¼Ä´æÆ÷ */
-#define M3_SUB_SC_DIE_ID7_REG                (M3_SUB_BASE + 0xE004) /* DIE ID ¼Ä´æÆ÷bit[255:224]¡£ */
-#define M3_SUB_SC_DIE_ID6_REG                (M3_SUB_BASE + 0xE008) /* DIE ID ¼Ä´æÆ÷bit[223:192]¡£ */
-#define M3_SUB_SC_DIE_ID5_REG                (M3_SUB_BASE + 0xE00C) /* DIE ID ¼Ä´æÆ÷bit[191:160]¡£ */
-#define M3_SUB_SC_DIE_ID4_REG                (M3_SUB_BASE + 0xE010) /* DIE ID ¼Ä´æÆ÷bit[159:128]¡£ */
-#define M3_SUB_SC_DIE_ID3_REG                (M3_SUB_BASE + 0xE014) /* DIE ID ¼Ä´æÆ÷bit[127:96]¡£ */
-#define M3_SUB_SC_DIE_ID2_REG                (M3_SUB_BASE + 0xE018) /* DIE ID ¼Ä´æÆ÷bit[95:64]¡£ */
-#define M3_SUB_SC_DIE_ID1_REG                (M3_SUB_BASE + 0xE01C) /* DIE ID ¼Ä´æÆ÷bit[63:32]¡£ */
-#define M3_SUB_SC_DIE_ID0_REG                (M3_SUB_BASE + 0xE020) /* DIE ID ¼Ä´æÆ÷bit[31:0]¡£ */
-#define M3_SUB_SC_BOOT_CTRL_ST_REG           (M3_SUB_BASE + 0xE084) /* SC_BOOT_CTRL_ST±íÊ¾CPUÆô¶¯¿ØÖÆµÄPADºÍeFuseÐÅºÅ×´Ì¬ */
-#define M3_SUB_SC_EFUSE_RD_ADDR_REG          (M3_SUB_BASE + 0xE100) /* ¶ÁDIEIDÊ±ËùÓÃµØÖ·£¨°²È«¼Ä´æÆ÷£© */
-#define M3_SUB_SC_EFUSE_RD_DATA_REG          (M3_SUB_BASE + 0xE180) /* ¶ÁDIEIDÊ±µÃµ½µÄÊý¾Ý£¨°²È«¼Ä´æÆ÷£© */
+#define M3_SUB_SC_PM_ST0_REG                 (M3_SUB_BASE + 0x6380) /* PW_STAT_CTRL???Ú²?×´Ì¬ */
+#define M3_SUB_SC_PM_ST1_REG                 (M3_SUB_BASE + 0x6384) /* À´?Ô¹Ü½Åµ?PWRGD×´Ì¬ */
+#define M3_SUB_SC_PM_ST2_REG                 (M3_SUB_BASE + 0x6388) /* ???????Ü½Åµ?PWR_CTRL2~0 */
+#define M3_SUB_SC_PM_ST3_REG                 (M3_SUB_BASE + 0x638C) /* ME???Ø¹Ü½?×´Ì¬ */
+#define M3_SUB_SC_DBG_AUTH_CTRL_REG          (M3_SUB_BASE + 0x6700) /* ??È«?È¼???È¨???Æ¼Ä´??÷¡££?×¢?â£º1???Ë¼Ä´????Õ¼??????Ç°?È«???Ê²??Ü³É¹???2??Ä¬?Ï¾??Ç´ò¿ªµ???Ä£Ê½????Â©??????????????Ê±????Ê¼???Ø±Õµ??Ô¹??Ü£? */
+#define M3_SUB_SC_ECO_RSV0_REG               (M3_SUB_BASE + 0x8000) /* ECO ?Ä´???0 */
+#define M3_SUB_SC_ECO_RSV1_REG               (M3_SUB_BASE + 0x8004) /* ECO ?Ä´???1 */
+#define M3_SUB_SC_ECO_RSV2_REG               (M3_SUB_BASE + 0x8008) /* ECO ?Ä´???2 */
+#define M3_SUB_SC_MBIST_CPUI_DATAOUT_REG     (M3_SUB_BASE + 0xDC00) /* DFT MBISTÄ£Ê½?Â¶????Ý¼Ä´??? */
+#define M3_SUB_SC_DIE_ID7_REG                (M3_SUB_BASE + 0xE004) /* DIE ID ?Ä´???bit[255:224]?? */
+#define M3_SUB_SC_DIE_ID6_REG                (M3_SUB_BASE + 0xE008) /* DIE ID ?Ä´???bit[223:192]?? */
+#define M3_SUB_SC_DIE_ID5_REG                (M3_SUB_BASE + 0xE00C) /* DIE ID ?Ä´???bit[191:160]?? */
+#define M3_SUB_SC_DIE_ID4_REG                (M3_SUB_BASE + 0xE010) /* DIE ID ?Ä´???bit[159:128]?? */
+#define M3_SUB_SC_DIE_ID3_REG                (M3_SUB_BASE + 0xE014) /* DIE ID ?Ä´???bit[127:96]?? */
+#define M3_SUB_SC_DIE_ID2_REG                (M3_SUB_BASE + 0xE018) /* DIE ID ?Ä´???bit[95:64]?? */
+#define M3_SUB_SC_DIE_ID1_REG                (M3_SUB_BASE + 0xE01C) /* DIE ID ?Ä´???bit[63:32]?? */
+#define M3_SUB_SC_DIE_ID0_REG                (M3_SUB_BASE + 0xE020) /* DIE ID ?Ä´???bit[31:0]?? */
+#define M3_SUB_SC_BOOT_CTRL_ST_REG           (M3_SUB_BASE + 0xE084) /* SC_BOOT_CTRL_ST??Ê¾CPU?ô¶¯¿??Æµ?PAD??eFuse?Åº?×´Ì¬ */
+#define M3_SUB_SC_EFUSE_RD_ADDR_REG          (M3_SUB_BASE + 0xE100) /* ??DIEIDÊ±???Ãµ?Ö·????È«?Ä´????? */
+#define M3_SUB_SC_EFUSE_RD_DATA_REG          (M3_SUB_BASE + 0xE180) /* ??DIEIDÊ±?Ãµ??????Ý£???È«?Ä´????? */
 
 
 #if(ENDNESS == ENDNESS_BIG)
 
 /* Define the union U_SC_WDG_CLK_EN_U */
-/* WDGÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* WDGÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x300 */
 typedef union tagScWdgClkEn
 {
@@ -291,7 +284,7 @@ typedef union tagScWdgClkEn
 } SC_WDG_CLK_EN_U;
 
 /* Define the union U_SC_WDG_CLK_DIS_U */
-/* WDGÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* WDGÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x304 */
 typedef union tagScWdgClkDis
 {
@@ -308,7 +301,7 @@ typedef union tagScWdgClkDis
 } SC_WDG_CLK_DIS_U;
 
 /* Define the union U_SC_TIMER_CLK_EN_U */
-/* TIMERÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* TIMERÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x308 */
 typedef union tagScTimerClkEn
 {
@@ -325,7 +318,7 @@ typedef union tagScTimerClkEn
 } SC_TIMER_CLK_EN_U;
 
 /* Define the union U_SC_TIMER_CLK_DIS_U */
-/* TIMERÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* TIMERÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x30C */
 typedef union tagScTimerClkDis
 {
@@ -342,7 +335,7 @@ typedef union tagScTimerClkDis
 } SC_TIMER_CLK_DIS_U;
 
 /* Define the union U_SC_UART_CLK_EN_U */
-/* UARTÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* UARTÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x310 */
 typedef union tagScUartClkEn
 {
@@ -360,7 +353,7 @@ typedef union tagScUartClkEn
 } SC_UART_CLK_EN_U;
 
 /* Define the union U_SC_UART_CLK_DIS_U */
-/* UARTÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* UARTÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x314 */
 typedef union tagScUartClkDis
 {
@@ -378,7 +371,7 @@ typedef union tagScUartClkDis
 } SC_UART_CLK_DIS_U;
 
 /* Define the union U_SC_ITS_CLK_EN_U */
-/* ITSÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* ITSÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x318 */
 typedef union tagScItsClkEn
 {
@@ -395,7 +388,7 @@ typedef union tagScItsClkEn
 } SC_ITS_CLK_EN_U;
 
 /* Define the union U_SC_ITS_CLK_DIS_U */
-/* ITSÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* ITSÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x31C */
 typedef union tagScItsClkDis
 {
@@ -412,7 +405,7 @@ typedef union tagScItsClkDis
 } SC_ITS_CLK_DIS_U;
 
 /* Define the union U_SC_IPCM_CLK_EN_U */
-/* IPCMÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* IPCMÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x320 */
 typedef union tagScIpcmClkEn
 {
@@ -429,7 +422,7 @@ typedef union tagScIpcmClkEn
 } SC_IPCM_CLK_EN_U;
 
 /* Define the union U_SC_IPCM_CLK_DIS_U */
-/* IPCMÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* IPCMÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x324 */
 typedef union tagScIpcmClkDis
 {
@@ -446,7 +439,7 @@ typedef union tagScIpcmClkDis
 } SC_IPCM_CLK_DIS_U;
 
 /* Define the union U_SC_SRAM_CLK_EN_U */
-/* SRAMÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* SRAMÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x328 */
 typedef union tagScSramClkEn
 {
@@ -463,7 +456,7 @@ typedef union tagScSramClkEn
 } SC_SRAM_CLK_EN_U;
 
 /* Define the union U_SC_SRAM_CLK_DIS_U */
-/* SRAMÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* SRAMÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x32C */
 typedef union tagScSramClkDis
 {
@@ -480,7 +473,7 @@ typedef union tagScSramClkDis
 } SC_SRAM_CLK_DIS_U;
 
 /* Define the union U_SC_SFC_CLK_EN_U */
-/* SFCÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* SFCÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x330 */
 typedef union tagScSfcClkEn
 {
@@ -498,7 +491,7 @@ typedef union tagScSfcClkEn
 } SC_SFC_CLK_EN_U;
 
 /* Define the union U_SC_SFC_CLK_DIS_U */
-/* SFCÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* SFCÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x334 */
 typedef union tagScSfcClkDis
 {
@@ -516,7 +509,7 @@ typedef union tagScSfcClkDis
 } SC_SFC_CLK_DIS_U;
 
 /* Define the union U_SC_I2CM_CLK_EN_U */
-/* I2CMÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* I2CMÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x338 */
 typedef union tagScI2cmClkEn
 {
@@ -533,7 +526,7 @@ typedef union tagScI2cmClkEn
 } SC_I2CM_CLK_EN_U;
 
 /* Define the union U_SC_I2CM_CLK_DIS_U */
-/* I2CMÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* I2CMÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x33C */
 typedef union tagScI2cmClkDis
 {
@@ -550,7 +543,7 @@ typedef union tagScI2cmClkDis
 } SC_I2CM_CLK_DIS_U;
 
 /* Define the union U_SC_I2C_CLK_EN_U */
-/* I2CÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* I2CÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x340 */
 typedef union tagScI2cClkEn
 {
@@ -569,7 +562,7 @@ typedef union tagScI2cClkEn
 } SC_I2C_CLK_EN_U;
 
 /* Define the union U_SC_I2C_CLK_DIS_U */
-/* I2CÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* I2CÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x344 */
 typedef union tagScI2cClkDis
 {
@@ -588,7 +581,7 @@ typedef union tagScI2cClkDis
 } SC_I2C_CLK_DIS_U;
 
 /* Define the union U_SC_GPIO_CLK_EN_U */
-/* GPIOÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* GPIOÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x348 */
 typedef union tagScGpioClkEn
 {
@@ -609,7 +602,7 @@ typedef union tagScGpioClkEn
 } SC_GPIO_CLK_EN_U;
 
 /* Define the union U_SC_GPIO_CLK_DIS_U */
-/* GPIOÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* GPIOÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x34C */
 typedef union tagScGpioClkDis
 {
@@ -630,7 +623,7 @@ typedef union tagScGpioClkDis
 } SC_GPIO_CLK_DIS_U;
 
 /* Define the union U_SC_CPU_CLK_EN_U */
-/* M3 CPUÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* M3 CPUÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x350 */
 typedef union tagScCpuClkEn
 {
@@ -647,7 +640,7 @@ typedef union tagScCpuClkEn
 } SC_CPU_CLK_EN_U;
 
 /* Define the union U_SC_CPU_CLK_DIS_U */
-/* M3 CPUÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* M3 CPUÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x354 */
 typedef union tagScCpuClkDis
 {
@@ -664,7 +657,7 @@ typedef union tagScCpuClkDis
 } SC_CPU_CLK_DIS_U;
 
 /* Define the union U_SC_USB_CLK_EN_U */
-/* USBÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* USBÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x368 */
 typedef union tagScUsbClkEn
 {
@@ -684,7 +677,7 @@ typedef union tagScUsbClkEn
 } SC_USB_CLK_EN_U;
 
 /* Define the union U_SC_USB_CLK_DIS_U */
-/* USBÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* USBÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x36C */
 typedef union tagScUsbClkDis
 {
@@ -704,7 +697,7 @@ typedef union tagScUsbClkDis
 } SC_USB_CLK_DIS_U;
 
 /* Define the union U_SC_SPI_CLK_EN_U */
-/* spiÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* spiÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x388 */
 typedef union tagScSpiClkEn
 {
@@ -721,7 +714,7 @@ typedef union tagScSpiClkEn
 } SC_SPI_CLK_EN_U;
 
 /* Define the union U_SC_SPI_CLK_DIS_U */
-/* spiÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* spiÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x38C */
 typedef union tagScSpiClkDis
 {
@@ -738,7 +731,7 @@ typedef union tagScSpiClkDis
 } SC_SPI_CLK_DIS_U;
 
 /* Define the union U_SC_SEC_CLK_EN_U */
-/* SECÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* SECÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x3B8 */
 typedef union tagScSecClkEn
 {
@@ -757,7 +750,7 @@ typedef union tagScSecClkEn
 } SC_SEC_CLK_EN_U;
 
 /* Define the union U_SC_SEC_CLK_DIS_U */
-/* SECÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* SECÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x3BC */
 typedef union tagScSecClkDis
 {
@@ -776,7 +769,7 @@ typedef union tagScSecClkDis
 } SC_SEC_CLK_DIS_U;
 
 /* Define the union U_SC_WDG_RESET_REQ_U */
-/* WDGÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* WDG?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA00 */
 typedef union tagScWdgResetReq
 {
@@ -793,7 +786,7 @@ typedef union tagScWdgResetReq
 } SC_WDG_RESET_REQ_U;
 
 /* Define the union U_SC_WDG_RESET_DREQ_U */
-/* WDGÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* WDG?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA04 */
 typedef union tagScWdgResetDreq
 {
@@ -810,7 +803,7 @@ typedef union tagScWdgResetDreq
 } SC_WDG_RESET_DREQ_U;
 
 /* Define the union U_SC_TIMER_RESET_REQ_U */
-/* TIMERÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* TIMER?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA08 */
 typedef union tagScTimerResetReq
 {
@@ -827,7 +820,7 @@ typedef union tagScTimerResetReq
 } SC_TIMER_RESET_REQ_U;
 
 /* Define the union U_SC_TIMER_RESET_DREQ_U */
-/* TIMERÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* TIMER?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA0C */
 typedef union tagScTimerResetDreq
 {
@@ -844,7 +837,7 @@ typedef union tagScTimerResetDreq
 } SC_TIMER_RESET_DREQ_U;
 
 /* Define the union U_SC_UART_RESET_REQ_U */
-/* UARTÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* UART?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA10 */
 typedef union tagScUartResetReq
 {
@@ -862,7 +855,7 @@ typedef union tagScUartResetReq
 } SC_UART_RESET_REQ_U;
 
 /* Define the union U_SC_UART_RESET_DREQ_U */
-/* UARTÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* UART?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA14 */
 typedef union tagScUartResetDreq
 {
@@ -880,7 +873,7 @@ typedef union tagScUartResetDreq
 } SC_UART_RESET_DREQ_U;
 
 /* Define the union U_SC_ITS_RESET_REQ_U */
-/* ITSÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ITS?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA18 */
 typedef union tagScItsResetReq
 {
@@ -897,7 +890,7 @@ typedef union tagScItsResetReq
 } SC_ITS_RESET_REQ_U;
 
 /* Define the union U_SC_ITS_RESET_DREQ_U */
-/* ITSÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ITS?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA1C */
 typedef union tagScItsResetDreq
 {
@@ -914,7 +907,7 @@ typedef union tagScItsResetDreq
 } SC_ITS_RESET_DREQ_U;
 
 /* Define the union U_SC_IPCM_RESET_REQ_U */
-/* IPCMÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* IPCM?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA20 */
 typedef union tagScIpcmResetReq
 {
@@ -931,7 +924,7 @@ typedef union tagScIpcmResetReq
 } SC_IPCM_RESET_REQ_U;
 
 /* Define the union U_SC_IPCM_RESET_DREQ_U */
-/* IPCMÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* IPCM?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA24 */
 typedef union tagScIpcmResetDreq
 {
@@ -948,7 +941,7 @@ typedef union tagScIpcmResetDreq
 } SC_IPCM_RESET_DREQ_U;
 
 /* Define the union U_SC_SRAM_RESET_REQ_U */
-/* SRAMÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SRAM?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA28 */
 typedef union tagScSramResetReq
 {
@@ -965,7 +958,7 @@ typedef union tagScSramResetReq
 } SC_SRAM_RESET_REQ_U;
 
 /* Define the union U_SC_SRAM_RESET_DREQ_U */
-/* SRAMÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SRAM?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA2C */
 typedef union tagScSramResetDreq
 {
@@ -982,7 +975,7 @@ typedef union tagScSramResetDreq
 } SC_SRAM_RESET_DREQ_U;
 
 /* Define the union U_SC_SFC_RESET_REQ_U */
-/* SFCÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SFC?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA30 */
 typedef union tagScSfcResetReq
 {
@@ -1000,7 +993,7 @@ typedef union tagScSfcResetReq
 } SC_SFC_RESET_REQ_U;
 
 /* Define the union U_SC_SFC_RESET_DREQ_U */
-/* SFCÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SFC?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA34 */
 typedef union tagScSfcResetDreq
 {
@@ -1018,7 +1011,7 @@ typedef union tagScSfcResetDreq
 } SC_SFC_RESET_DREQ_U;
 
 /* Define the union U_SC_I2CM_RESET_REQ_U */
-/* I2CMÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* I2CM?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA38 */
 typedef union tagScI2cmResetReq
 {
@@ -1035,7 +1028,7 @@ typedef union tagScI2cmResetReq
 } SC_I2CM_RESET_REQ_U;
 
 /* Define the union U_SC_I2CM_RESET_DREQ_U */
-/* I2CMÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* I2CM?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA3C */
 typedef union tagScI2cmResetDreq
 {
@@ -1052,7 +1045,7 @@ typedef union tagScI2cmResetDreq
 } SC_I2CM_RESET_DREQ_U;
 
 /* Define the union U_SC_I2C_RESET_REQ_U */
-/* I2CÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* I2C?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA40 */
 typedef union tagScI2cResetReq
 {
@@ -1071,7 +1064,7 @@ typedef union tagScI2cResetReq
 } SC_I2C_RESET_REQ_U;
 
 /* Define the union U_SC_I2C_RESET_DREQ_U */
-/* I2CÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* I2C?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA44 */
 typedef union tagScI2cResetDreq
 {
@@ -1090,7 +1083,7 @@ typedef union tagScI2cResetDreq
 } SC_I2C_RESET_DREQ_U;
 
 /* Define the union U_SC_GPIO_RESET_REQ_U */
-/* GPIOÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* GPIO?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA48 */
 typedef union tagScGpioResetReq
 {
@@ -1111,7 +1104,7 @@ typedef union tagScGpioResetReq
 } SC_GPIO_RESET_REQ_U;
 
 /* Define the union U_SC_GPIO_RESET_DREQ_U */
-/* GPIOÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* GPIO?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA4C */
 typedef union tagScGpioResetDreq
 {
@@ -1132,7 +1125,7 @@ typedef union tagScGpioResetDreq
 } SC_GPIO_RESET_DREQ_U;
 
 /* Define the union U_SC_CPU_RESET_REQ_U */
-/* M3 CPUÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* M3 CPU?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA50 */
 typedef union tagScCpuResetReq
 {
@@ -1149,7 +1142,7 @@ typedef union tagScCpuResetReq
 } SC_CPU_RESET_REQ_U;
 
 /* Define the union U_SC_CPU_RESET_DREQ_U */
-/* M3 CPUÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* M3 CPU?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA54 */
 typedef union tagScCpuResetDreq
 {
@@ -1166,7 +1159,7 @@ typedef union tagScCpuResetDreq
 } SC_CPU_RESET_DREQ_U;
 
 /* Define the union U_SC_USB_RESET_REQ_U */
-/* USBÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* USB?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA88 */
 typedef union tagScUsbResetReq
 {
@@ -1187,7 +1180,7 @@ typedef union tagScUsbResetReq
 } SC_USB_RESET_REQ_U;
 
 /* Define the union U_SC_USB_RESET_DREQ_U */
-/* USBÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* USB?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA8C */
 typedef union tagScUsbResetDreq
 {
@@ -1208,7 +1201,7 @@ typedef union tagScUsbResetDreq
 } SC_USB_RESET_DREQ_U;
 
 /* Define the union U_SC_SPI_RESET_REQ_U */
-/* SPIÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SPI?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA98 */
 typedef union tagScSpiResetReq
 {
@@ -1225,7 +1218,7 @@ typedef union tagScSpiResetReq
 } SC_SPI_RESET_REQ_U;
 
 /* Define the union U_SC_SPI_RESET_DREQ_U */
-/* SPIÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SPI?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA9C */
 typedef union tagScSpiResetDreq
 {
@@ -1242,7 +1235,7 @@ typedef union tagScSpiResetDreq
 } SC_SPI_RESET_DREQ_U;
 
 /* Define the union U_SC_SEC_RESET_REQ_U */
-/* SECÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAA8 */
 typedef union tagScSecResetReq
 {
@@ -1259,7 +1252,7 @@ typedef union tagScSecResetReq
 } SC_SEC_RESET_REQ_U;
 
 /* Define the union U_SC_SEC_RESET_DREQ_U */
-/* SECÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAAC */
 typedef union tagScSecResetDreq
 {
@@ -1276,7 +1269,7 @@ typedef union tagScSecResetDreq
 } SC_SEC_RESET_DREQ_U;
 
 /* Define the union U_SC_SEC_BUILD_RESET_REQ_U */
-/* SEC BUILDÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC BUILD?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAB8 */
 typedef union tagScSecBuildResetReq
 {
@@ -1313,7 +1306,7 @@ typedef union tagScSecBuildResetReq
 } SC_SEC_BUILD_RESET_REQ_U;
 
 /* Define the union U_SC_SEC_BUILD_RESET_DREQ_U */
-/* SEC BUILDÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC BUILD?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xABC */
 typedef union tagScSecBuildResetDreq
 {
@@ -1350,7 +1343,7 @@ typedef union tagScSecBuildResetDreq
 } SC_SEC_BUILD_RESET_DREQ_U;
 
 /* Define the union U_SC_PW_CTRL_RESET_REQ_U */
-/* PW_CTRLÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PW_CTRL?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAC0 */
 typedef union tagScPwCtrlResetReq
 {
@@ -1367,7 +1360,7 @@ typedef union tagScPwCtrlResetReq
 } SC_PW_CTRL_RESET_REQ_U;
 
 /* Define the union U_SC_PW_CTRL_RESET_DREQ_U */
-/* PW_CTRLÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PW_CTRL?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAC4 */
 typedef union tagScPwCtrlResetDreq
 {
@@ -1384,7 +1377,7 @@ typedef union tagScPwCtrlResetDreq
 } SC_PW_CTRL_RESET_DREQ_U;
 
 /* Define the union U_SC_DISPATCH_DAW_EN_U */
-/* dispatch daw enÅäÖÃ */
+/* dispatch daw en???? */
 /* 0x1000 */
 typedef union tagScDispatchDawEn
 {
@@ -1401,7 +1394,7 @@ typedef union tagScDispatchDawEn
 } SC_DISPATCH_DAW_EN_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY0_U */
-/* dispatch dawÅäÖÃÕóÁÐ0 */
+/* dispatch daw????????0 */
 /* 0x1004 */
 typedef union tagScDispatchDawArray0
 {
@@ -1421,7 +1414,7 @@ typedef union tagScDispatchDawArray0
 } SC_DISPATCH_DAW_ARRAY0_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY1_U */
-/* dispatch dawÅäÖÃÕóÁÐ1 */
+/* dispatch daw????????1 */
 /* 0x1008 */
 typedef union tagScDispatchDawArray1
 {
@@ -1441,7 +1434,7 @@ typedef union tagScDispatchDawArray1
 } SC_DISPATCH_DAW_ARRAY1_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY2_U */
-/* dispatch dawÅäÖÃÕóÁÐ2 */
+/* dispatch daw????????2 */
 /* 0x100C */
 typedef union tagScDispatchDawArray2
 {
@@ -1461,7 +1454,7 @@ typedef union tagScDispatchDawArray2
 } SC_DISPATCH_DAW_ARRAY2_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY3_U */
-/* dispatch dawÅäÖÃÕóÁÐ3 */
+/* dispatch daw????????3 */
 /* 0x1010 */
 typedef union tagScDispatchDawArray3
 {
@@ -1481,7 +1474,7 @@ typedef union tagScDispatchDawArray3
 } SC_DISPATCH_DAW_ARRAY3_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY4_U */
-/* dispatch dawÅäÖÃÕóÁÐ4 */
+/* dispatch daw????????4 */
 /* 0x1014 */
 typedef union tagScDispatchDawArray4
 {
@@ -1501,7 +1494,7 @@ typedef union tagScDispatchDawArray4
 } SC_DISPATCH_DAW_ARRAY4_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY5_U */
-/* dispatch dawÅäÖÃÕóÁÐ5 */
+/* dispatch daw????????5 */
 /* 0x1018 */
 typedef union tagScDispatchDawArray5
 {
@@ -1521,7 +1514,7 @@ typedef union tagScDispatchDawArray5
 } SC_DISPATCH_DAW_ARRAY5_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY6_U */
-/* dispatch dawÅäÖÃÕóÁÐ6 */
+/* dispatch daw????????6 */
 /* 0x101C */
 typedef union tagScDispatchDawArray6
 {
@@ -1541,7 +1534,7 @@ typedef union tagScDispatchDawArray6
 } SC_DISPATCH_DAW_ARRAY6_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY7_U */
-/* dispatch dawÅäÖÃÕóÁÐ7 */
+/* dispatch daw????????7 */
 /* 0x1020 */
 typedef union tagScDispatchDawArray7
 {
@@ -1561,7 +1554,7 @@ typedef union tagScDispatchDawArray7
 } SC_DISPATCH_DAW_ARRAY7_U;
 
 /* Define the union U_SC_DISPATCH_RETRY_CONTROL_U */
-/* dispatch retry¿ØÖÆ¼Ä´æÆ÷ */
+/* dispatch retry???Æ¼Ä´??? */
 /* 0x1030 */
 typedef union tagScDispatchRetryControl
 {
@@ -1579,7 +1572,7 @@ typedef union tagScDispatchRetryControl
 } SC_DISPATCH_RETRY_CONTROL_U;
 
 /* Define the union U_SC_DISPATCH_INTMASK_U */
-/* dispatchµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
+/* dispatch???Ð¶??Á±Î¼Ä´??? */
 /* 0x1100 */
 typedef union tagScDispatchIntmask
 {
@@ -1596,7 +1589,7 @@ typedef union tagScDispatchIntmask
 } SC_DISPATCH_INTMASK_U;
 
 /* Define the union U_SC_DISPATCH_RAWINT_U */
-/* dispatchµÄÔ­Ê¼ÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
+/* dispatch??Ô­Ê¼?Ð¶?×´Ì¬?Ä´??? */
 /* 0x1104 */
 typedef union tagScDispatchRawint
 {
@@ -1613,7 +1606,7 @@ typedef union tagScDispatchRawint
 } SC_DISPATCH_RAWINT_U;
 
 /* Define the union U_SC_DISPATCH_INTSTAT_U */
-/* dispatchµÄÆÁ±ÎºóµÄÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
+/* dispatch???Á±Îº????Ð¶?×´Ì¬?Ä´??? */
 /* 0x1108 */
 typedef union tagScDispatchIntstat
 {
@@ -1630,7 +1623,7 @@ typedef union tagScDispatchIntstat
 } SC_DISPATCH_INTSTAT_U;
 
 /* Define the union U_SC_DISPATCH_INTCLR_U */
-/* dispatchµÄÖÐ¶ÏÇå³ý¼Ä´æÆ÷ */
+/* dispatch???Ð¶??????Ä´??? */
 /* 0x110C */
 typedef union tagScDispatchIntclr
 {
@@ -1647,7 +1640,7 @@ typedef union tagScDispatchIntclr
 } SC_DISPATCH_INTCLR_U;
 
 /* Define the union U_SC_DISPATCH_ERRSTAT_U */
-/* dispatchµÄERR×´Ì¬¼Ä´æÆ÷ */
+/* dispatch??ERR×´Ì¬?Ä´??? */
 /* 0x1110 */
 typedef union tagScDispatchErrstat
 {
@@ -1665,7 +1658,7 @@ typedef union tagScDispatchErrstat
 } SC_DISPATCH_ERRSTAT_U;
 
 /* Define the union U_SC_REMAP_CTRL_U */
-/* subsysµÄÆô¶¯Remap¼Ä´æÆ÷ */
+/* subsys??????Remap?Ä´??? */
 /* 0x1200 */
 typedef union tagScRemapCtrl
 {
@@ -1682,7 +1675,7 @@ typedef union tagScRemapCtrl
 } SC_REMAP_CTRL_U;
 
 /* Define the union U_SC_EXTINT_CTRL_U */
-/* Íâ²¿ÖÐ¶Ï¼«ÐÔÅäÖÃ¼Ä´æÆ÷ */
+/* ?â²¿?Ð¶Ï¼??????Ã¼Ä´??? */
 /* 0x2000 */
 typedef union tagScExtintCtrl
 {
@@ -1701,7 +1694,7 @@ typedef union tagScExtintCtrl
 } SC_EXTINT_CTRL_U;
 
 /* Define the union U_SC_SPI_CTRL_U */
-/* spi¿ØÖÆ¼Ä´æÆ÷ */
+/* spi???Æ¼Ä´??? */
 /* 0x2020 */
 typedef union tagScSpiCtrl
 {
@@ -1724,7 +1717,7 @@ typedef union tagScSpiCtrl
 } SC_SPI_CTRL_U;
 
 /* Define the union U_SC_I2C_CTRL_U */
-/* i2c¿ØÖÆ¼Ä´æÆ÷ */
+/* i2c???Æ¼Ä´??? */
 /* 0x2024 */
 typedef union tagScI2cCtrl
 {
@@ -1758,7 +1751,7 @@ typedef union tagScI2cCtrl
 } SC_I2C_CTRL_U;
 
 /* Define the union U_SC_SRAM_CTRL0_U */
-/* sram¿ØÖÆ¼Ä´æÆ÷0 */
+/* sram???Æ¼Ä´???0 */
 /* 0x2030 */
 typedef union tagScSramCtrl0
 {
@@ -1781,7 +1774,7 @@ typedef union tagScSramCtrl0
 } SC_SRAM_CTRL0_U;
 
 /* Define the union U_SC_SRAM_CTRL1_U */
-/* sram¿ØÖÆ¼Ä´æÆ÷1£¨°²È«¼Ä´æÆ÷£© */
+/* sram???Æ¼Ä´???1????È«?Ä´????? */
 /* 0x2034 */
 typedef union tagScSramCtrl1
 {
@@ -1798,7 +1791,7 @@ typedef union tagScSramCtrl1
 } SC_SRAM_CTRL1_U;
 
 /* Define the union U_SC_TIMER_CLKEN_CTRL_U */
-/* TIMERµÄclkenÉú³É¿ØÖÆ¼Ä´æÆ÷ */
+/* TIMER??clken???É¿??Æ¼Ä´??? */
 /* 0x2040 */
 typedef union tagScTimerClkenCtrl
 {
@@ -1816,7 +1809,7 @@ typedef union tagScTimerClkenCtrl
 } SC_TIMER_CLKEN_CTRL_U;
 
 /* Define the union U_SC_WDOG_CLKEN_CTRL_U */
-/* WDOGµÄclkenÉú³É¿ØÖÆ¼Ä´æÆ÷ */
+/* WDOG??clken???É¿??Æ¼Ä´??? */
 /* 0x2050 */
 typedef union tagScWdogClkenCtrl
 {
@@ -1833,7 +1826,7 @@ typedef union tagScWdogClkenCtrl
 } SC_WDOG_CLKEN_CTRL_U;
 
 /* Define the union U_SC_USBHOST_CTRL0_U */
-/* usbÅäÖÃ */
+/* usb???? */
 /* 0x2060 */
 typedef union tagScUsbhostCtrl0
 {
@@ -1860,7 +1853,7 @@ typedef union tagScUsbhostCtrl0
 } SC_USBHOST_CTRL0_U;
 
 /* Define the union U_SC_ISO_EN_TSV_SLLC_SRST_U */
-/* IDIE isolation CELLÊ¹ÄÜÐÅºÅ£»TSV_SLLC_IDIEÕûÌåÈí¸´Î»ÇëÇó¿ØÖÆ */
+/* IDIE isolation CELLÊ¹???ÅºÅ£?TSV_SLLC_IDIE?????í¸´Î»???????? */
 /* 0x2080 */
 typedef union tagScIsoEnTsvSllcSrst
 {
@@ -1878,7 +1871,7 @@ typedef union tagScIsoEnTsvSllcSrst
 } SC_ISO_EN_TSV_SLLC_SRST_U;
 
 /* Define the union U_SC_USBPHY_CTRL0_U */
-/* USBPHY¿ØÖÆ¼Ä´æÆ÷0 */
+/* USBPHY???Æ¼Ä´???0 */
 /* 0x20A0 */
 typedef union tagScUsbphyCtrl0
 {
@@ -1904,7 +1897,7 @@ typedef union tagScUsbphyCtrl0
 } SC_USBPHY_CTRL0_U;
 
 /* Define the union U_SC_USBPHY_CTRL1_U */
-/* USBPHY¿ØÖÆ¼Ä´æÆ÷1 */
+/* USBPHY???Æ¼Ä´???1 */
 /* 0x20A4 */
 typedef union tagScUsbphyCtrl1
 {
@@ -1928,7 +1921,7 @@ typedef union tagScUsbphyCtrl1
 } SC_USBPHY_CTRL1_U;
 
 /* Define the union U_SC_M3_CTRL0_U */
-/* M3¿ØÖÆ¼Ä´æÆ÷0 */
+/* M3???Æ¼Ä´???0 */
 /* 0x20B0 */
 typedef union tagScM3Ctrl0
 {
@@ -1950,7 +1943,7 @@ typedef union tagScM3Ctrl0
 } SC_M3_CTRL0_U;
 
 /* Define the union U_SC_M3_CTRL1_U */
-/* M3¿ØÖÆ¼Ä´æÆ÷1 */
+/* M3???Æ¼Ä´???1 */
 /* 0x20B4 */
 typedef union tagScM3Ctrl1
 {
@@ -1967,7 +1960,7 @@ typedef union tagScM3Ctrl1
 } SC_M3_CTRL1_U;
 
 /* Define the union U_SC_VMID_CTRL0_U */
-/* m3 vmidÅäÖÃ */
+/* m3 vmid???? */
 /* 0x20E0 */
 typedef union tagScVmidCtrl0
 {
@@ -1986,7 +1979,7 @@ typedef union tagScVmidCtrl0
 } SC_VMID_CTRL0_U;
 
 /* Define the union U_SC_VMID_CTRL1_U */
-/* usb vmidÅäÖÃ */
+/* usb vmid???? */
 /* 0x20E4 */
 typedef union tagScVmidCtrl1
 {
@@ -2004,7 +1997,7 @@ typedef union tagScVmidCtrl1
 } SC_VMID_CTRL1_U;
 
 /* Define the union U_SC_I2C_M_VMID_U */
-/* i2c_m vmidÅäÖÃ */
+/* i2c_m vmid???? */
 /* 0x20E8 */
 typedef union tagScI2cMVmid
 {
@@ -2021,7 +2014,7 @@ typedef union tagScI2cMVmid
 } SC_I2C_M_VMID_U;
 
 /* Define the union U_SC_M3_REMAP_ADDR_EN_U */
-/* m3µØÖ·Ó³ÉäÊ¹ÄÜ */
+/* m3??Ö·Ó³??Ê¹?? */
 /* 0x2180 */
 typedef union tagScM3RemapAddrEn
 {
@@ -2038,7 +2031,7 @@ typedef union tagScM3RemapAddrEn
 } SC_M3_REMAP_ADDR_EN_U;
 
 /* Define the union U_SC_ITS_M3_INT_MUX_SEL_U */
-/* ¶ÔÖÐ¶ÏËÍµ½ITS»¹ÊÇM3£¬×öMUXÑ¡Ôñ */
+/* ???Ð¶??Íµ?ITS????M3????MUXÑ¡?? */
 /* 0x21F0 */
 typedef union tagScItsM3IntMuxSel
 {
@@ -2065,7 +2058,7 @@ typedef union tagScItsM3IntMuxSel
 } SC_ITS_M3_INT_MUX_SEL_U;
 
 /* Define the union U_SC_FTE_MUX_CTRL_U */
-/* FTE¸´ÓÃÑ¡Ôñ¼Ä´æÆ÷ */
+/* FTE????Ñ¡???Ä´??? */
 /* 0x2200 */
 typedef union tagScFteMuxCtrl
 {
@@ -2082,7 +2075,7 @@ typedef union tagScFteMuxCtrl
 } SC_FTE_MUX_CTRL_U;
 
 /* Define the union U_SC_PM_CTRL0_U */
-/* PW_STAT_CTRLµÄ¿ØÖÆ¼Ä´æÆ÷ */
+/* PW_STAT_CTRL?Ä¿??Æ¼Ä´??? */
 /* 0x2380 */
 typedef union tagScPmCtrl0
 {
@@ -2099,7 +2092,7 @@ typedef union tagScPmCtrl0
 } SC_PM_CTRL0_U;
 
 /* Define the union U_SC_PM_CTRL1_U */
-/* PW_STAT_CTRLµÄ¿ØÖÆ¼Ä´æÆ÷ */
+/* PW_STAT_CTRL?Ä¿??Æ¼Ä´??? */
 /* 0x2384 */
 typedef union tagScPmCtrl1
 {
@@ -2117,7 +2110,7 @@ typedef union tagScPmCtrl1
 } SC_PM_CTRL1_U;
 
 /* Define the union U_SC_PM_CTRL2_U */
-/* PW_STAT_CTRLµÄ¿ØÖÆ¼Ä´æÆ÷ */
+/* PW_STAT_CTRL?Ä¿??Æ¼Ä´??? */
 /* 0x2388 */
 typedef union tagScPmCtrl2
 {
@@ -2134,7 +2127,7 @@ typedef union tagScPmCtrl2
 } SC_PM_CTRL2_U;
 
 /* Define the union U_SC_PM_INT_U */
-/* PW_STAT_CTRLÄÚÖÐ¶ÏÔ´¼Ä´æÆ÷ */
+/* PW_STAT_CTRL???Ð¶?Ô´?Ä´??? */
 /* 0x238C */
 typedef union tagScPmInt
 {
@@ -2155,7 +2148,7 @@ typedef union tagScPmInt
 } SC_PM_INT_U;
 
 /* Define the union U_SC_PM_INT_MASK_U */
-/* PW_STAT_CTRLµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
+/* PW_STAT_CTRL???Ð¶??Á±Î¼Ä´??? */
 /* 0x2390 */
 typedef union tagScPmIntMask
 {
@@ -2176,7 +2169,7 @@ typedef union tagScPmIntMask
 } SC_PM_INT_MASK_U;
 
 /* Define the union U_SC_PM_CTRL3_U */
-/* ¿ØÖÆ¹Ü½ÅPM_CTL */
+/* ???Æ¹Ü½?PM_CTL */
 /* 0x2394 */
 typedef union tagScPmCtrl3
 {
@@ -2193,7 +2186,7 @@ typedef union tagScPmCtrl3
 } SC_PM_CTRL3_U;
 
 /* Define the union U_SC_PM_ST_U */
-/* ÉÏµç¸´Î»Ö¸Ê¾×´Ì¬ÐÅºÅ */
+/* ?Ïµç¸´Î»Ö¸Ê¾×´Ì¬?Åº? */
 /* 0x2398 */
 typedef union tagScPmSt
 {
@@ -2210,7 +2203,7 @@ typedef union tagScPmSt
 } SC_PM_ST_U;
 
 /* Define the union U_SC_BISR_RE_REPAIR_EN_U */
-/* BISRµÄRE REPAIRÊ¹ÄÜ¼Ä´æÆ÷ */
+/* BISR??RE REPAIRÊ¹?Ü¼Ä´??? */
 /* 0x2D80 */
 typedef union tagScBisrReRepairEn
 {
@@ -2227,7 +2220,7 @@ typedef union tagScBisrReRepairEn
 } SC_BISR_RE_REPAIR_EN_U;
 
 /* Define the union U_SC_BISR_INT_U */
-/* BISR_TOP_IDIEµÄÖÐ¶ÏÔ´¼Ä´æÆ÷ */
+/* BISR_TOP_IDIE???Ð¶?Ô´?Ä´??? */
 /* 0x2D90 */
 typedef union tagScBisrInt
 {
@@ -2244,7 +2237,7 @@ typedef union tagScBisrInt
 } SC_BISR_INT_U;
 
 /* Define the union U_SC_BISR_INT_MASK_U */
-/* BISR_TOP_IDIEµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
+/* BISR_TOP_IDIE???Ð¶??Á±Î¼Ä´??? */
 /* 0x2DA0 */
 typedef union tagScBisrIntMask
 {
@@ -2261,7 +2254,7 @@ typedef union tagScBisrIntMask
 } SC_BISR_INT_MASK_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL0_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* smmu mem???Æ¼Ä´???0 */
 /* 0x3000 */
 typedef union tagScSmmuMemCtrl0
 {
@@ -2278,7 +2271,7 @@ typedef union tagScSmmuMemCtrl0
 } SC_SMMU_MEM_CTRL0_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL1_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* smmu mem???Æ¼Ä´???1 */
 /* 0x3004 */
 typedef union tagScSmmuMemCtrl1
 {
@@ -2295,7 +2288,7 @@ typedef union tagScSmmuMemCtrl1
 } SC_SMMU_MEM_CTRL1_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL2_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷2 */
+/* smmu mem???Æ¼Ä´???2 */
 /* 0x3008 */
 typedef union tagScSmmuMemCtrl2
 {
@@ -2312,7 +2305,7 @@ typedef union tagScSmmuMemCtrl2
 } SC_SMMU_MEM_CTRL2_U;
 
 /* Define the union U_SC_SRAM_MEM_CTRL_U */
-/* sram mem¿ØÖÆ¼Ä´æÆ÷ */
+/* sram mem???Æ¼Ä´??? */
 /* 0x3020 */
 typedef union tagScSramMemCtrl
 {
@@ -2329,7 +2322,7 @@ typedef union tagScSramMemCtrl
 } SC_SRAM_MEM_CTRL_U;
 
 /* Define the union U_SC_SFC_MEM_CTRL_U */
-/* sfc mem¿ØÖÆ¼Ä´æÆ÷ */
+/* sfc mem???Æ¼Ä´??? */
 /* 0x3030 */
 typedef union tagScSfcMemCtrl
 {
@@ -2346,7 +2339,7 @@ typedef union tagScSfcMemCtrl
 } SC_SFC_MEM_CTRL_U;
 
 /* Define the union U_SC_SEC_MEM_CTRL_U */
-/* sec mem¿ØÖÆ¼Ä´æÆ÷ */
+/* sec mem???Æ¼Ä´??? */
 /* 0x3070 */
 typedef union tagScSecMemCtrl
 {
@@ -2363,7 +2356,7 @@ typedef union tagScSecMemCtrl
 } SC_SEC_MEM_CTRL_U;
 
 /* Define the union U_SC_WDG_CLK_ST_U */
-/* WDGÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* WDGÊ±??×´Ì¬?Ä´??? */
 /* 0x5300 */
 typedef union tagScWdgClkSt
 {
@@ -2380,7 +2373,7 @@ typedef union tagScWdgClkSt
 } SC_WDG_CLK_ST_U;
 
 /* Define the union U_SC_TIMER_CLK_ST_U */
-/* TIMERÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* TIMERÊ±??×´Ì¬?Ä´??? */
 /* 0x5304 */
 typedef union tagScTimerClkSt
 {
@@ -2397,7 +2390,7 @@ typedef union tagScTimerClkSt
 } SC_TIMER_CLK_ST_U;
 
 /* Define the union U_SC_UART_CLK_ST_U */
-/* UARTÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* UARTÊ±??×´Ì¬?Ä´??? */
 /* 0x5308 */
 typedef union tagScUartClkSt
 {
@@ -2415,7 +2408,7 @@ typedef union tagScUartClkSt
 } SC_UART_CLK_ST_U;
 
 /* Define the union U_SC_ITS_CLK_ST_U */
-/* ITSÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* ITSÊ±??×´Ì¬?Ä´??? */
 /* 0x530C */
 typedef union tagScItsClkSt
 {
@@ -2432,7 +2425,7 @@ typedef union tagScItsClkSt
 } SC_ITS_CLK_ST_U;
 
 /* Define the union U_SC_IPCM_CLK_ST_U */
-/* IPCMÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* IPCMÊ±??×´Ì¬?Ä´??? */
 /* 0x5310 */
 typedef union tagScIpcmClkSt
 {
@@ -2449,7 +2442,7 @@ typedef union tagScIpcmClkSt
 } SC_IPCM_CLK_ST_U;
 
 /* Define the union U_SC_SRAM_CLK_ST_U */
-/* SRAMÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SRAMÊ±??×´Ì¬?Ä´??? */
 /* 0x5314 */
 typedef union tagScSramClkSt
 {
@@ -2466,7 +2459,7 @@ typedef union tagScSramClkSt
 } SC_SRAM_CLK_ST_U;
 
 /* Define the union U_SC_SFC_CLK_ST_U */
-/* SFCÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SFCÊ±??×´Ì¬?Ä´??? */
 /* 0x5318 */
 typedef union tagScSfcClkSt
 {
@@ -2484,7 +2477,7 @@ typedef union tagScSfcClkSt
 } SC_SFC_CLK_ST_U;
 
 /* Define the union U_SC_I2CM_CLK_ST_U */
-/* I2CMÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* I2CMÊ±??×´Ì¬?Ä´??? */
 /* 0x531C */
 typedef union tagScI2cmClkSt
 {
@@ -2501,7 +2494,7 @@ typedef union tagScI2cmClkSt
 } SC_I2CM_CLK_ST_U;
 
 /* Define the union U_SC_I2C_CLK_ST_U */
-/* I2CÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* I2CÊ±??×´Ì¬?Ä´??? */
 /* 0x5320 */
 typedef union tagScI2cClkSt
 {
@@ -2520,7 +2513,7 @@ typedef union tagScI2cClkSt
 } SC_I2C_CLK_ST_U;
 
 /* Define the union U_SC_GPIO_CLK_ST_U */
-/* GPIOÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* GPIOÊ±??×´Ì¬?Ä´??? */
 /* 0x5324 */
 typedef union tagScGpioClkSt
 {
@@ -2541,7 +2534,7 @@ typedef union tagScGpioClkSt
 } SC_GPIO_CLK_ST_U;
 
 /* Define the union U_SC_CPU_CLK_ST_U */
-/* M3 CPUÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* M3 CPUÊ±??×´Ì¬?Ä´??? */
 /* 0x5328 */
 typedef union tagScCpuClkSt
 {
@@ -2558,7 +2551,7 @@ typedef union tagScCpuClkSt
 } SC_CPU_CLK_ST_U;
 
 /* Define the union U_SC_USB_CLK_ST_U */
-/* USBÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* USBÊ±??×´Ì¬?Ä´??? */
 /* 0x5334 */
 typedef union tagScUsbClkSt
 {
@@ -2578,7 +2571,7 @@ typedef union tagScUsbClkSt
 } SC_USB_CLK_ST_U;
 
 /* Define the union U_SC_SPI_CLK_ST_U */
-/* SPIÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SPIÊ±??×´Ì¬?Ä´??? */
 /* 0x5344 */
 typedef union tagScSpiClkSt
 {
@@ -2595,7 +2588,7 @@ typedef union tagScSpiClkSt
 } SC_SPI_CLK_ST_U;
 
 /* Define the union U_SC_SEC_CLK_ST_U */
-/* SECÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SECÊ±??×´Ì¬?Ä´??? */
 /* 0x535C */
 typedef union tagScSecClkSt
 {
@@ -2614,7 +2607,7 @@ typedef union tagScSecClkSt
 } SC_SEC_CLK_ST_U;
 
 /* Define the union U_SC_WDG_RESET_ST_U */
-/* WDG¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* WDG??Î»×´Ì¬?Ä´??? */
 /* 0x5A00 */
 typedef union tagScWdgResetSt
 {
@@ -2631,7 +2624,7 @@ typedef union tagScWdgResetSt
 } SC_WDG_RESET_ST_U;
 
 /* Define the union U_SC_TIMER_RESET_ST_U */
-/* TIMER¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* TIMER??Î»×´Ì¬?Ä´??? */
 /* 0x5A04 */
 typedef union tagScTimerResetSt
 {
@@ -2648,7 +2641,7 @@ typedef union tagScTimerResetSt
 } SC_TIMER_RESET_ST_U;
 
 /* Define the union U_SC_UART_RESET_ST_U */
-/* UART¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* UART??Î»×´Ì¬?Ä´??? */
 /* 0x5A08 */
 typedef union tagScUartResetSt
 {
@@ -2666,7 +2659,7 @@ typedef union tagScUartResetSt
 } SC_UART_RESET_ST_U;
 
 /* Define the union U_SC_ITS_RESET_ST_U */
-/* ITS¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* ITS??Î»×´Ì¬?Ä´??? */
 /* 0x5A0C */
 typedef union tagScItsResetSt
 {
@@ -2683,7 +2676,7 @@ typedef union tagScItsResetSt
 } SC_ITS_RESET_ST_U;
 
 /* Define the union U_SC_IPCM_RESET_ST_U */
-/* IPCM¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* IPCM??Î»×´Ì¬?Ä´??? */
 /* 0x5A10 */
 typedef union tagScIpcmResetSt
 {
@@ -2700,7 +2693,7 @@ typedef union tagScIpcmResetSt
 } SC_IPCM_RESET_ST_U;
 
 /* Define the union U_SC_SRAM_RESET_ST_U */
-/* SRAM¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SRAM??Î»×´Ì¬?Ä´??? */
 /* 0x5A14 */
 typedef union tagScSramResetSt
 {
@@ -2717,7 +2710,7 @@ typedef union tagScSramResetSt
 } SC_SRAM_RESET_ST_U;
 
 /* Define the union U_SC_SFC_RESET_ST_U */
-/* SFC¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SFC??Î»×´Ì¬?Ä´??? */
 /* 0x5A18 */
 typedef union tagScSfcResetSt
 {
@@ -2735,7 +2728,7 @@ typedef union tagScSfcResetSt
 } SC_SFC_RESET_ST_U;
 
 /* Define the union U_SC_I2CM_RESET_ST_U */
-/* I2CM¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* I2CM??Î»×´Ì¬?Ä´??? */
 /* 0x5A1C */
 typedef union tagScI2cmResetSt
 {
@@ -2752,7 +2745,7 @@ typedef union tagScI2cmResetSt
 } SC_I2CM_RESET_ST_U;
 
 /* Define the union U_SC_I2C_RESET_ST_U */
-/* I2C¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* I2C??Î»×´Ì¬?Ä´??? */
 /* 0x5A20 */
 typedef union tagScI2cResetSt
 {
@@ -2771,7 +2764,7 @@ typedef union tagScI2cResetSt
 } SC_I2C_RESET_ST_U;
 
 /* Define the union U_SC_GPIO_RESET_ST_U */
-/* GPIO¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* GPIO??Î»×´Ì¬?Ä´??? */
 /* 0x5A24 */
 typedef union tagScGpioResetSt
 {
@@ -2792,7 +2785,7 @@ typedef union tagScGpioResetSt
 } SC_GPIO_RESET_ST_U;
 
 /* Define the union U_SC_CPU_RESET_ST_U */
-/* M3 CPU¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* M3 CPU??Î»×´Ì¬?Ä´??? */
 /* 0x5A28 */
 typedef union tagScCpuResetSt
 {
@@ -2809,7 +2802,7 @@ typedef union tagScCpuResetSt
 } SC_CPU_RESET_ST_U;
 
 /* Define the union U_SC_USB_RESET_ST_U */
-/* USB¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* USB??Î»×´Ì¬?Ä´??? */
 /* 0x5A44 */
 typedef union tagScUsbResetSt
 {
@@ -2830,7 +2823,7 @@ typedef union tagScUsbResetSt
 } SC_USB_RESET_ST_U;
 
 /* Define the union U_SC_SPI_RESET_ST_U */
-/* SPI¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SPI??Î»×´Ì¬?Ä´??? */
 /* 0x5A4C */
 typedef union tagScSpiResetSt
 {
@@ -2847,7 +2840,7 @@ typedef union tagScSpiResetSt
 } SC_SPI_RESET_ST_U;
 
 /* Define the union U_SC_SEC_RESET_ST_U */
-/* SEC¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SEC??Î»×´Ì¬?Ä´??? */
 /* 0x5A54 */
 typedef union tagScSecResetSt
 {
@@ -2864,7 +2857,7 @@ typedef union tagScSecResetSt
 } SC_SEC_RESET_ST_U;
 
 /* Define the union U_SC_SEC_BUILD_RESET_ST_U */
-/* SEC BUILD¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SEC BUILD??Î»×´Ì¬?Ä´??? */
 /* 0x5A5C */
 typedef union tagScSecBuildResetSt
 {
@@ -2901,7 +2894,7 @@ typedef union tagScSecBuildResetSt
 } SC_SEC_BUILD_RESET_ST_U;
 
 /* Define the union U_SC_PW_CTRL_RESET_ST_U */
-/* PW_CTRL¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* PW_CTRL??Î»×´Ì¬?Ä´??? */
 /* 0x5A60 */
 typedef union tagScPwCtrlResetSt
 {
@@ -2918,7 +2911,7 @@ typedef union tagScPwCtrlResetSt
 } SC_PW_CTRL_RESET_ST_U;
 
 /* Define the union U_SC_MBIST_CPUI_ENABLE_U */
-/* CPUÆô¶¯MBISTÑ¡ÔñÐÅºÅ£»Ð¾Æ¬µçÂ·²âÊÔÊ¹ÓÃ¡£ */
+/* CPU????MBISTÑ¡???ÅºÅ£?Ð¾Æ¬??Â·????Ê¹?Ã¡? */
 /* 0x5C00 */
 typedef union tagScMbistCpuiEnable
 {
@@ -2935,7 +2928,7 @@ typedef union tagScMbistCpuiEnable
 } SC_MBIST_CPUI_ENABLE_U;
 
 /* Define the union U_SC_MBIST_CPUI_RESET_N_U */
-/* CPUÆô¶¯MBIST¸´Î»ÐÅºÅ */
+/* CPU????MBIST??Î»?Åº? */
 /* 0x5C04 */
 typedef union tagScMbistCpuiResetN
 {
@@ -2952,7 +2945,7 @@ typedef union tagScMbistCpuiResetN
 } SC_MBIST_CPUI_RESET_N_U;
 
 /* Define the union U_SC_MBIST_CPUI_WRITE_EN_U */
-/* DFT MBISTÄ£Ê½ÏÂTMBµçÂ·CPU2TAP½Ó¿ÚÅäÖÃ¼Ä´æÆ÷£»Ð¾Æ¬µçÂ·²âÊÔÊ¹ÓÃ¡£ */
+/* DFT MBISTÄ£Ê½??TMB??Â·CPU2TAP?Ó¿????Ã¼Ä´?????Ð¾Æ¬??Â·????Ê¹?Ã¡? */
 /* 0x5C0C */
 typedef union tagScMbistCpuiWriteEn
 {
@@ -2969,7 +2962,7 @@ typedef union tagScMbistCpuiWriteEn
 } SC_MBIST_CPUI_WRITE_EN_U;
 
 /* Define the union U_SC_SRAM_ST0_U */
-/* sram×´Ì¬¼Ä´æÆ÷0 */
+/* sram×´Ì¬?Ä´???0 */
 /* 0x6000 */
 typedef union tagScSramSt0
 {
@@ -2988,7 +2981,7 @@ typedef union tagScSramSt0
 } SC_SRAM_ST0_U;
 
 /* Define the union U_SC_SRAM_ST3_U */
-/* sram×´Ì¬¼Ä´æÆ÷3 */
+/* sram×´Ì¬?Ä´???3 */
 /* 0x600C */
 typedef union tagScSramSt3
 {
@@ -3005,7 +2998,7 @@ typedef union tagScSramSt3
 } SC_SRAM_ST3_U;
 
 /* Define the union U_SC_SRAM_ST4_U */
-/* sram×´Ì¬¼Ä´æÆ÷4 */
+/* sram×´Ì¬?Ä´???4 */
 /* 0x6010 */
 typedef union tagScSramSt4
 {
@@ -3022,7 +3015,7 @@ typedef union tagScSramSt4
 } SC_SRAM_ST4_U;
 
 /* Define the union U_SC_SRAM_ST5_U */
-/* sram×´Ì¬¼Ä´æÆ÷5 */
+/* sram×´Ì¬?Ä´???5 */
 /* 0x6014 */
 typedef union tagScSramSt5
 {
@@ -3062,7 +3055,7 @@ typedef union tagScM3Stat
 } SC_M3_STAT_U;
 
 /* Define the union U_SC_PM_ST0_U */
-/* PW_STAT_CTRLµÄÄÚ²¿×´Ì¬ */
+/* PW_STAT_CTRL???Ú²?×´Ì¬ */
 /* 0x6380 */
 typedef union tagScPmSt0
 {
@@ -3079,7 +3072,7 @@ typedef union tagScPmSt0
 } SC_PM_ST0_U;
 
 /* Define the union U_SC_PM_ST1_U */
-/* À´×Ô¹Ü½ÅµÄPWRGD×´Ì¬ */
+/* À´?Ô¹Ü½Åµ?PWRGD×´Ì¬ */
 /* 0x6384 */
 typedef union tagScPmSt1
 {
@@ -3096,7 +3089,7 @@ typedef union tagScPmSt1
 } SC_PM_ST1_U;
 
 /* Define the union U_SC_PM_ST2_U */
-/* Êä³ö¸ø¹Ü½ÅµÄPWR_CTRL2~0 */
+/* ???????Ü½Åµ?PWR_CTRL2~0 */
 /* 0x6388 */
 typedef union tagScPmSt2
 {
@@ -3113,7 +3106,7 @@ typedef union tagScPmSt2
 } SC_PM_ST2_U;
 
 /* Define the union U_SC_PM_ST3_U */
-/* MEÏà¹Ø¹Ü½Å×´Ì¬ */
+/* ME???Ø¹Ü½?×´Ì¬ */
 /* 0x638C */
 typedef union tagScPmSt3
 {
@@ -3134,8 +3127,8 @@ typedef union tagScPmSt3
 } SC_PM_ST3_U;
 
 /* Define the union U_SC_DBG_AUTH_CTRL_U */
-/* °²È«µÈ¼¶ÊÚÈ¨¿ØÖÆ¼Ä´æÆ÷¡£
-£¨×¢Òâ£º1£¬´Ë¼Ä´æÆ÷¿Õ¼ä±ØÐëÊÇ°²È«·ÃÎÊ²ÅÄÜ³É¹¦£»2£¬Ä¬ÈÏ¾ùÊÇ´ò¿ªµ÷ÊÔÄ£Ê½£¬ÓÐÂ©¶´£¬ÔÚÕý³£¹¤×÷Ê±Çë³õÊ¼»¯¹Ø±Õµ÷ÊÔ¹¦ÄÜ£© */
+/* ??È«?È¼???È¨???Æ¼Ä´?????
+??×¢?â£º1???Ë¼Ä´????Õ¼??????Ç°?È«???Ê²??Ü³É¹???2??Ä¬?Ï¾??Ç´ò¿ªµ???Ä£Ê½????Â©??????????????Ê±????Ê¼???Ø±Õµ??Ô¹??Ü£? */
 /* 0x6700 */
 typedef union tagScDbgAuthCtrl
 {
@@ -3152,7 +3145,7 @@ typedef union tagScDbgAuthCtrl
 } SC_DBG_AUTH_CTRL_U;
 
 /* Define the union U_SC_BOOT_CTRL_ST_U */
-/* SC_BOOT_CTRL_ST±íÊ¾CPUÆô¶¯¿ØÖÆµÄPADºÍeFuseÐÅºÅ×´Ì¬ */
+/* SC_BOOT_CTRL_ST??Ê¾CPU?ô¶¯¿??Æµ?PAD??eFuse?Åº?×´Ì¬ */
 /* 0xE084 */
 typedef union tagScBootCtrlSt
 {
@@ -3169,7 +3162,7 @@ typedef union tagScBootCtrlSt
 } SC_BOOT_CTRL_ST_U;
 
 /* Define the union U_SC_EFUSE_RD_ADDR_U */
-/* ¶ÁDIEIDÊ±ËùÓÃµØÖ·£¨°²È«¼Ä´æÆ÷£© */
+/* ??DIEIDÊ±???Ãµ?Ö·????È«?Ä´????? */
 /* 0xE100 */
 typedef union tagScEfuseRdAddr
 {
@@ -3188,7 +3181,7 @@ typedef union tagScEfuseRdAddr
 #else
 
 /* Define the union U_SC_WDG_CLK_EN_U */
-/* WDGÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* WDGÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x300 */
 typedef union tagScWdgClkEn
 {
@@ -3205,7 +3198,7 @@ typedef union tagScWdgClkEn
 } SC_WDG_CLK_EN_U;
 
 /* Define the union U_SC_WDG_CLK_DIS_U */
-/* WDGÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* WDGÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x304 */
 typedef union tagScWdgClkDis
 {
@@ -3222,7 +3215,7 @@ typedef union tagScWdgClkDis
 } SC_WDG_CLK_DIS_U;
 
 /* Define the union U_SC_TIMER_CLK_EN_U */
-/* TIMERÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* TIMERÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x308 */
 typedef union tagScTimerClkEn
 {
@@ -3239,7 +3232,7 @@ typedef union tagScTimerClkEn
 } SC_TIMER_CLK_EN_U;
 
 /* Define the union U_SC_TIMER_CLK_DIS_U */
-/* TIMERÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* TIMERÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x30C */
 typedef union tagScTimerClkDis
 {
@@ -3256,7 +3249,7 @@ typedef union tagScTimerClkDis
 } SC_TIMER_CLK_DIS_U;
 
 /* Define the union U_SC_UART_CLK_EN_U */
-/* UARTÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* UARTÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x310 */
 typedef union tagScUartClkEn
 {
@@ -3274,7 +3267,7 @@ typedef union tagScUartClkEn
 } SC_UART_CLK_EN_U;
 
 /* Define the union U_SC_UART_CLK_DIS_U */
-/* UARTÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* UARTÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x314 */
 typedef union tagScUartClkDis
 {
@@ -3292,7 +3285,7 @@ typedef union tagScUartClkDis
 } SC_UART_CLK_DIS_U;
 
 /* Define the union U_SC_ITS_CLK_EN_U */
-/* ITSÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* ITSÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x318 */
 typedef union tagScItsClkEn
 {
@@ -3309,7 +3302,7 @@ typedef union tagScItsClkEn
 } SC_ITS_CLK_EN_U;
 
 /* Define the union U_SC_ITS_CLK_DIS_U */
-/* ITSÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* ITSÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x31C */
 typedef union tagScItsClkDis
 {
@@ -3326,7 +3319,7 @@ typedef union tagScItsClkDis
 } SC_ITS_CLK_DIS_U;
 
 /* Define the union U_SC_IPCM_CLK_EN_U */
-/* IPCMÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* IPCMÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x320 */
 typedef union tagScIpcmClkEn
 {
@@ -3343,7 +3336,7 @@ typedef union tagScIpcmClkEn
 } SC_IPCM_CLK_EN_U;
 
 /* Define the union U_SC_IPCM_CLK_DIS_U */
-/* IPCMÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* IPCMÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x324 */
 typedef union tagScIpcmClkDis
 {
@@ -3360,7 +3353,7 @@ typedef union tagScIpcmClkDis
 } SC_IPCM_CLK_DIS_U;
 
 /* Define the union U_SC_SRAM_CLK_EN_U */
-/* SRAMÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* SRAMÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x328 */
 typedef union tagScSramClkEn
 {
@@ -3377,7 +3370,7 @@ typedef union tagScSramClkEn
 } SC_SRAM_CLK_EN_U;
 
 /* Define the union U_SC_SRAM_CLK_DIS_U */
-/* SRAMÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* SRAMÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x32C */
 typedef union tagScSramClkDis
 {
@@ -3394,7 +3387,7 @@ typedef union tagScSramClkDis
 } SC_SRAM_CLK_DIS_U;
 
 /* Define the union U_SC_SFC_CLK_EN_U */
-/* SFCÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* SFCÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x330 */
 typedef union tagScSfcClkEn
 {
@@ -3412,7 +3405,7 @@ typedef union tagScSfcClkEn
 } SC_SFC_CLK_EN_U;
 
 /* Define the union U_SC_SFC_CLK_DIS_U */
-/* SFCÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* SFCÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x334 */
 typedef union tagScSfcClkDis
 {
@@ -3430,7 +3423,7 @@ typedef union tagScSfcClkDis
 } SC_SFC_CLK_DIS_U;
 
 /* Define the union U_SC_I2CM_CLK_EN_U */
-/* I2CMÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* I2CMÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x338 */
 typedef union tagScI2cmClkEn
 {
@@ -3447,7 +3440,7 @@ typedef union tagScI2cmClkEn
 } SC_I2CM_CLK_EN_U;
 
 /* Define the union U_SC_I2CM_CLK_DIS_U */
-/* I2CMÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* I2CMÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x33C */
 typedef union tagScI2cmClkDis
 {
@@ -3464,7 +3457,7 @@ typedef union tagScI2cmClkDis
 } SC_I2CM_CLK_DIS_U;
 
 /* Define the union U_SC_I2C_CLK_EN_U */
-/* I2CÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* I2CÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x340 */
 typedef union tagScI2cClkEn
 {
@@ -3483,7 +3476,7 @@ typedef union tagScI2cClkEn
 } SC_I2C_CLK_EN_U;
 
 /* Define the union U_SC_I2C_CLK_DIS_U */
-/* I2CÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* I2CÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x344 */
 typedef union tagScI2cClkDis
 {
@@ -3502,7 +3495,7 @@ typedef union tagScI2cClkDis
 } SC_I2C_CLK_DIS_U;
 
 /* Define the union U_SC_GPIO_CLK_EN_U */
-/* GPIOÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* GPIOÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x348 */
 typedef union tagScGpioClkEn
 {
@@ -3523,7 +3516,7 @@ typedef union tagScGpioClkEn
 } SC_GPIO_CLK_EN_U;
 
 /* Define the union U_SC_GPIO_CLK_DIS_U */
-/* GPIOÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* GPIOÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x34C */
 typedef union tagScGpioClkDis
 {
@@ -3544,7 +3537,7 @@ typedef union tagScGpioClkDis
 } SC_GPIO_CLK_DIS_U;
 
 /* Define the union U_SC_CPU_CLK_EN_U */
-/* M3 CPUÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* M3 CPUÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x350 */
 typedef union tagScCpuClkEn
 {
@@ -3561,7 +3554,7 @@ typedef union tagScCpuClkEn
 } SC_CPU_CLK_EN_U;
 
 /* Define the union U_SC_CPU_CLK_DIS_U */
-/* M3 CPUÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* M3 CPUÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x354 */
 typedef union tagScCpuClkDis
 {
@@ -3578,7 +3571,7 @@ typedef union tagScCpuClkDis
 } SC_CPU_CLK_DIS_U;
 
 /* Define the union U_SC_USB_CLK_EN_U */
-/* USBÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* USBÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x368 */
 typedef union tagScUsbClkEn
 {
@@ -3598,7 +3591,7 @@ typedef union tagScUsbClkEn
 } SC_USB_CLK_EN_U;
 
 /* Define the union U_SC_USB_CLK_DIS_U */
-/* USBÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* USBÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x36C */
 typedef union tagScUsbClkDis
 {
@@ -3618,7 +3611,7 @@ typedef union tagScUsbClkDis
 } SC_USB_CLK_DIS_U;
 
 /* Define the union U_SC_SPI_CLK_EN_U */
-/* spiÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* spiÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x388 */
 typedef union tagScSpiClkEn
 {
@@ -3635,7 +3628,7 @@ typedef union tagScSpiClkEn
 } SC_SPI_CLK_EN_U;
 
 /* Define the union U_SC_SPI_CLK_DIS_U */
-/* spiÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* spiÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x38C */
 typedef union tagScSpiClkDis
 {
@@ -3652,7 +3645,7 @@ typedef union tagScSpiClkDis
 } SC_SPI_CLK_DIS_U;
 
 /* Define the union U_SC_SEC_CLK_EN_U */
-/* SECÊ±ÖÓÊ¹ÄÜ¼Ä´æÆ÷ */
+/* SECÊ±??Ê¹?Ü¼Ä´??? */
 /* 0x3B8 */
 typedef union tagScSecClkEn
 {
@@ -3671,7 +3664,7 @@ typedef union tagScSecClkEn
 } SC_SEC_CLK_EN_U;
 
 /* Define the union U_SC_SEC_CLK_DIS_U */
-/* SECÊ±ÖÓ½ûÖ¹¼Ä´æÆ÷ */
+/* SECÊ±?Ó½?Ö¹?Ä´??? */
 /* 0x3BC */
 typedef union tagScSecClkDis
 {
@@ -3690,7 +3683,7 @@ typedef union tagScSecClkDis
 } SC_SEC_CLK_DIS_U;
 
 /* Define the union U_SC_WDG_RESET_REQ_U */
-/* WDGÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* WDG?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA00 */
 typedef union tagScWdgResetReq
 {
@@ -3707,7 +3700,7 @@ typedef union tagScWdgResetReq
 } SC_WDG_RESET_REQ_U;
 
 /* Define the union U_SC_WDG_RESET_DREQ_U */
-/* WDGÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* WDG?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA04 */
 typedef union tagScWdgResetDreq
 {
@@ -3724,7 +3717,7 @@ typedef union tagScWdgResetDreq
 } SC_WDG_RESET_DREQ_U;
 
 /* Define the union U_SC_TIMER_RESET_REQ_U */
-/* TIMERÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* TIMER?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA08 */
 typedef union tagScTimerResetReq
 {
@@ -3741,7 +3734,7 @@ typedef union tagScTimerResetReq
 } SC_TIMER_RESET_REQ_U;
 
 /* Define the union U_SC_TIMER_RESET_DREQ_U */
-/* TIMERÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* TIMER?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA0C */
 typedef union tagScTimerResetDreq
 {
@@ -3758,7 +3751,7 @@ typedef union tagScTimerResetDreq
 } SC_TIMER_RESET_DREQ_U;
 
 /* Define the union U_SC_UART_RESET_REQ_U */
-/* UARTÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* UART?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA10 */
 typedef union tagScUartResetReq
 {
@@ -3776,7 +3769,7 @@ typedef union tagScUartResetReq
 } SC_UART_RESET_REQ_U;
 
 /* Define the union U_SC_UART_RESET_DREQ_U */
-/* UARTÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* UART?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA14 */
 typedef union tagScUartResetDreq
 {
@@ -3794,7 +3787,7 @@ typedef union tagScUartResetDreq
 } SC_UART_RESET_DREQ_U;
 
 /* Define the union U_SC_ITS_RESET_REQ_U */
-/* ITSÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ITS?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA18 */
 typedef union tagScItsResetReq
 {
@@ -3811,7 +3804,7 @@ typedef union tagScItsResetReq
 } SC_ITS_RESET_REQ_U;
 
 /* Define the union U_SC_ITS_RESET_DREQ_U */
-/* ITSÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* ITS?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA1C */
 typedef union tagScItsResetDreq
 {
@@ -3828,7 +3821,7 @@ typedef union tagScItsResetDreq
 } SC_ITS_RESET_DREQ_U;
 
 /* Define the union U_SC_IPCM_RESET_REQ_U */
-/* IPCMÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* IPCM?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA20 */
 typedef union tagScIpcmResetReq
 {
@@ -3845,7 +3838,7 @@ typedef union tagScIpcmResetReq
 } SC_IPCM_RESET_REQ_U;
 
 /* Define the union U_SC_IPCM_RESET_DREQ_U */
-/* IPCMÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* IPCM?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA24 */
 typedef union tagScIpcmResetDreq
 {
@@ -3862,7 +3855,7 @@ typedef union tagScIpcmResetDreq
 } SC_IPCM_RESET_DREQ_U;
 
 /* Define the union U_SC_SRAM_RESET_REQ_U */
-/* SRAMÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SRAM?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA28 */
 typedef union tagScSramResetReq
 {
@@ -3879,7 +3872,7 @@ typedef union tagScSramResetReq
 } SC_SRAM_RESET_REQ_U;
 
 /* Define the union U_SC_SRAM_RESET_DREQ_U */
-/* SRAMÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SRAM?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA2C */
 typedef union tagScSramResetDreq
 {
@@ -3896,7 +3889,7 @@ typedef union tagScSramResetDreq
 } SC_SRAM_RESET_DREQ_U;
 
 /* Define the union U_SC_SFC_RESET_REQ_U */
-/* SFCÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SFC?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA30 */
 typedef union tagScSfcResetReq
 {
@@ -3914,7 +3907,7 @@ typedef union tagScSfcResetReq
 } SC_SFC_RESET_REQ_U;
 
 /* Define the union U_SC_SFC_RESET_DREQ_U */
-/* SFCÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SFC?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA34 */
 typedef union tagScSfcResetDreq
 {
@@ -3932,7 +3925,7 @@ typedef union tagScSfcResetDreq
 } SC_SFC_RESET_DREQ_U;
 
 /* Define the union U_SC_I2CM_RESET_REQ_U */
-/* I2CMÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* I2CM?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA38 */
 typedef union tagScI2cmResetReq
 {
@@ -3949,7 +3942,7 @@ typedef union tagScI2cmResetReq
 } SC_I2CM_RESET_REQ_U;
 
 /* Define the union U_SC_I2CM_RESET_DREQ_U */
-/* I2CMÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* I2CM?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA3C */
 typedef union tagScI2cmResetDreq
 {
@@ -3966,7 +3959,7 @@ typedef union tagScI2cmResetDreq
 } SC_I2CM_RESET_DREQ_U;
 
 /* Define the union U_SC_I2C_RESET_REQ_U */
-/* I2CÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* I2C?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA40 */
 typedef union tagScI2cResetReq
 {
@@ -3985,7 +3978,7 @@ typedef union tagScI2cResetReq
 } SC_I2C_RESET_REQ_U;
 
 /* Define the union U_SC_I2C_RESET_DREQ_U */
-/* I2CÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* I2C?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA44 */
 typedef union tagScI2cResetDreq
 {
@@ -4004,7 +3997,7 @@ typedef union tagScI2cResetDreq
 } SC_I2C_RESET_DREQ_U;
 
 /* Define the union U_SC_GPIO_RESET_REQ_U */
-/* GPIOÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* GPIO?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA48 */
 typedef union tagScGpioResetReq
 {
@@ -4025,7 +4018,7 @@ typedef union tagScGpioResetReq
 } SC_GPIO_RESET_REQ_U;
 
 /* Define the union U_SC_GPIO_RESET_DREQ_U */
-/* GPIOÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* GPIO?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA4C */
 typedef union tagScGpioResetDreq
 {
@@ -4046,7 +4039,7 @@ typedef union tagScGpioResetDreq
 } SC_GPIO_RESET_DREQ_U;
 
 /* Define the union U_SC_CPU_RESET_REQ_U */
-/* M3 CPUÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* M3 CPU?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA50 */
 typedef union tagScCpuResetReq
 {
@@ -4063,7 +4056,7 @@ typedef union tagScCpuResetReq
 } SC_CPU_RESET_REQ_U;
 
 /* Define the union U_SC_CPU_RESET_DREQ_U */
-/* M3 CPUÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* M3 CPU?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA54 */
 typedef union tagScCpuResetDreq
 {
@@ -4080,7 +4073,7 @@ typedef union tagScCpuResetDreq
 } SC_CPU_RESET_DREQ_U;
 
 /* Define the union U_SC_USB_RESET_REQ_U */
-/* USBÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* USB?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA88 */
 typedef union tagScUsbResetReq
 {
@@ -4101,7 +4094,7 @@ typedef union tagScUsbResetReq
 } SC_USB_RESET_REQ_U;
 
 /* Define the union U_SC_USB_RESET_DREQ_U */
-/* USBÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* USB?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA8C */
 typedef union tagScUsbResetDreq
 {
@@ -4122,7 +4115,7 @@ typedef union tagScUsbResetDreq
 } SC_USB_RESET_DREQ_U;
 
 /* Define the union U_SC_SPI_RESET_REQ_U */
-/* SPIÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SPI?í¸´Î»???????Æ¼Ä´??? */
 /* 0xA98 */
 typedef union tagScSpiResetReq
 {
@@ -4139,7 +4132,7 @@ typedef union tagScSpiResetReq
 } SC_SPI_RESET_REQ_U;
 
 /* Define the union U_SC_SPI_RESET_DREQ_U */
-/* SPIÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SPI?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xA9C */
 typedef union tagScSpiResetDreq
 {
@@ -4156,7 +4149,7 @@ typedef union tagScSpiResetDreq
 } SC_SPI_RESET_DREQ_U;
 
 /* Define the union U_SC_SEC_RESET_REQ_U */
-/* SECÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAA8 */
 typedef union tagScSecResetReq
 {
@@ -4173,7 +4166,7 @@ typedef union tagScSecResetReq
 } SC_SEC_RESET_REQ_U;
 
 /* Define the union U_SC_SEC_RESET_DREQ_U */
-/* SECÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAAC */
 typedef union tagScSecResetDreq
 {
@@ -4190,7 +4183,7 @@ typedef union tagScSecResetDreq
 } SC_SEC_RESET_DREQ_U;
 
 /* Define the union U_SC_SEC_BUILD_RESET_REQ_U */
-/* SEC BUILDÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC BUILD?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAB8 */
 typedef union tagScSecBuildResetReq
 {
@@ -4227,7 +4220,7 @@ typedef union tagScSecBuildResetReq
 } SC_SEC_BUILD_RESET_REQ_U;
 
 /* Define the union U_SC_SEC_BUILD_RESET_DREQ_U */
-/* SEC BUILDÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* SEC BUILD?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xABC */
 typedef union tagScSecBuildResetDreq
 {
@@ -4264,7 +4257,7 @@ typedef union tagScSecBuildResetDreq
 } SC_SEC_BUILD_RESET_DREQ_U;
 
 /* Define the union U_SC_PW_CTRL_RESET_REQ_U */
-/* PW_CTRLÈí¸´Î»ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PW_CTRL?í¸´Î»???????Æ¼Ä´??? */
 /* 0xAC0 */
 typedef union tagScPwCtrlResetReq
 {
@@ -4281,7 +4274,7 @@ typedef union tagScPwCtrlResetReq
 } SC_PW_CTRL_RESET_REQ_U;
 
 /* Define the union U_SC_PW_CTRL_RESET_DREQ_U */
-/* PW_CTRLÈí¸´Î»È¥ÇëÇó¿ØÖÆ¼Ä´æÆ÷ */
+/* PW_CTRL?í¸´Î»È¥???????Æ¼Ä´??? */
 /* 0xAC4 */
 typedef union tagScPwCtrlResetDreq
 {
@@ -4298,7 +4291,7 @@ typedef union tagScPwCtrlResetDreq
 } SC_PW_CTRL_RESET_DREQ_U;
 
 /* Define the union U_SC_DISPATCH_DAW_EN_U */
-/* dispatch daw enÅäÖÃ */
+/* dispatch daw en???? */
 /* 0x1000 */
 typedef union tagScDispatchDawEn
 {
@@ -4315,7 +4308,7 @@ typedef union tagScDispatchDawEn
 } SC_DISPATCH_DAW_EN_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY0_U */
-/* dispatch dawÅäÖÃÕóÁÐ0 */
+/* dispatch daw????????0 */
 /* 0x1004 */
 typedef union tagScDispatchDawArray0
 {
@@ -4335,7 +4328,7 @@ typedef union tagScDispatchDawArray0
 } SC_DISPATCH_DAW_ARRAY0_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY1_U */
-/* dispatch dawÅäÖÃÕóÁÐ1 */
+/* dispatch daw????????1 */
 /* 0x1008 */
 typedef union tagScDispatchDawArray1
 {
@@ -4355,7 +4348,7 @@ typedef union tagScDispatchDawArray1
 } SC_DISPATCH_DAW_ARRAY1_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY2_U */
-/* dispatch dawÅäÖÃÕóÁÐ2 */
+/* dispatch daw????????2 */
 /* 0x100C */
 typedef union tagScDispatchDawArray2
 {
@@ -4375,7 +4368,7 @@ typedef union tagScDispatchDawArray2
 } SC_DISPATCH_DAW_ARRAY2_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY3_U */
-/* dispatch dawÅäÖÃÕóÁÐ3 */
+/* dispatch daw????????3 */
 /* 0x1010 */
 typedef union tagScDispatchDawArray3
 {
@@ -4395,7 +4388,7 @@ typedef union tagScDispatchDawArray3
 } SC_DISPATCH_DAW_ARRAY3_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY4_U */
-/* dispatch dawÅäÖÃÕóÁÐ4 */
+/* dispatch daw????????4 */
 /* 0x1014 */
 typedef union tagScDispatchDawArray4
 {
@@ -4415,7 +4408,7 @@ typedef union tagScDispatchDawArray4
 } SC_DISPATCH_DAW_ARRAY4_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY5_U */
-/* dispatch dawÅäÖÃÕóÁÐ5 */
+/* dispatch daw????????5 */
 /* 0x1018 */
 typedef union tagScDispatchDawArray5
 {
@@ -4435,7 +4428,7 @@ typedef union tagScDispatchDawArray5
 } SC_DISPATCH_DAW_ARRAY5_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY6_U */
-/* dispatch dawÅäÖÃÕóÁÐ6 */
+/* dispatch daw????????6 */
 /* 0x101C */
 typedef union tagScDispatchDawArray6
 {
@@ -4455,7 +4448,7 @@ typedef union tagScDispatchDawArray6
 } SC_DISPATCH_DAW_ARRAY6_U;
 
 /* Define the union U_SC_DISPATCH_DAW_ARRAY7_U */
-/* dispatch dawÅäÖÃÕóÁÐ7 */
+/* dispatch daw????????7 */
 /* 0x1020 */
 typedef union tagScDispatchDawArray7
 {
@@ -4475,7 +4468,7 @@ typedef union tagScDispatchDawArray7
 } SC_DISPATCH_DAW_ARRAY7_U;
 
 /* Define the union U_SC_DISPATCH_RETRY_CONTROL_U */
-/* dispatch retry¿ØÖÆ¼Ä´æÆ÷ */
+/* dispatch retry???Æ¼Ä´??? */
 /* 0x1030 */
 typedef union tagScDispatchRetryControl
 {
@@ -4493,7 +4486,7 @@ typedef union tagScDispatchRetryControl
 } SC_DISPATCH_RETRY_CONTROL_U;
 
 /* Define the union U_SC_DISPATCH_INTMASK_U */
-/* dispatchµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
+/* dispatch???Ð¶??Á±Î¼Ä´??? */
 /* 0x1100 */
 typedef union tagScDispatchIntmask
 {
@@ -4510,7 +4503,7 @@ typedef union tagScDispatchIntmask
 } SC_DISPATCH_INTMASK_U;
 
 /* Define the union U_SC_DISPATCH_RAWINT_U */
-/* dispatchµÄÔ­Ê¼ÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
+/* dispatch??Ô­Ê¼?Ð¶?×´Ì¬?Ä´??? */
 /* 0x1104 */
 typedef union tagScDispatchRawint
 {
@@ -4527,7 +4520,7 @@ typedef union tagScDispatchRawint
 } SC_DISPATCH_RAWINT_U;
 
 /* Define the union U_SC_DISPATCH_INTSTAT_U */
-/* dispatchµÄÆÁ±ÎºóµÄÖÐ¶Ï×´Ì¬¼Ä´æÆ÷ */
+/* dispatch???Á±Îº????Ð¶?×´Ì¬?Ä´??? */
 /* 0x1108 */
 typedef union tagScDispatchIntstat
 {
@@ -4544,7 +4537,7 @@ typedef union tagScDispatchIntstat
 } SC_DISPATCH_INTSTAT_U;
 
 /* Define the union U_SC_DISPATCH_INTCLR_U */
-/* dispatchµÄÖÐ¶ÏÇå³ý¼Ä´æÆ÷ */
+/* dispatch???Ð¶??????Ä´??? */
 /* 0x110C */
 typedef union tagScDispatchIntclr
 {
@@ -4561,7 +4554,7 @@ typedef union tagScDispatchIntclr
 } SC_DISPATCH_INTCLR_U;
 
 /* Define the union U_SC_DISPATCH_ERRSTAT_U */
-/* dispatchµÄERR×´Ì¬¼Ä´æÆ÷ */
+/* dispatch??ERR×´Ì¬?Ä´??? */
 /* 0x1110 */
 typedef union tagScDispatchErrstat
 {
@@ -4579,7 +4572,7 @@ typedef union tagScDispatchErrstat
 } SC_DISPATCH_ERRSTAT_U;
 
 /* Define the union U_SC_REMAP_CTRL_U */
-/* subsysµÄÆô¶¯Remap¼Ä´æÆ÷ */
+/* subsys??????Remap?Ä´??? */
 /* 0x1200 */
 typedef union tagScRemapCtrl
 {
@@ -4596,7 +4589,7 @@ typedef union tagScRemapCtrl
 } SC_REMAP_CTRL_U;
 
 /* Define the union U_SC_EXTINT_CTRL_U */
-/* Íâ²¿ÖÐ¶Ï¼«ÐÔÅäÖÃ¼Ä´æÆ÷ */
+/* ?â²¿?Ð¶Ï¼??????Ã¼Ä´??? */
 /* 0x2000 */
 typedef union tagScExtintCtrl
 {
@@ -4615,7 +4608,7 @@ typedef union tagScExtintCtrl
 } SC_EXTINT_CTRL_U;
 
 /* Define the union U_SC_SPI_CTRL_U */
-/* spi¿ØÖÆ¼Ä´æÆ÷ */
+/* spi???Æ¼Ä´??? */
 /* 0x2020 */
 typedef union tagScSpiCtrl
 {
@@ -4638,7 +4631,7 @@ typedef union tagScSpiCtrl
 } SC_SPI_CTRL_U;
 
 /* Define the union U_SC_I2C_CTRL_U */
-/* i2c¿ØÖÆ¼Ä´æÆ÷ */
+/* i2c???Æ¼Ä´??? */
 /* 0x2024 */
 typedef union tagScI2cCtrl
 {
@@ -4672,7 +4665,7 @@ typedef union tagScI2cCtrl
 } SC_I2C_CTRL_U;
 
 /* Define the union U_SC_SRAM_CTRL0_U */
-/* sram¿ØÖÆ¼Ä´æÆ÷0 */
+/* sram???Æ¼Ä´???0 */
 /* 0x2030 */
 typedef union tagScSramCtrl0
 {
@@ -4695,7 +4688,7 @@ typedef union tagScSramCtrl0
 } SC_SRAM_CTRL0_U;
 
 /* Define the union U_SC_SRAM_CTRL1_U */
-/* sram¿ØÖÆ¼Ä´æÆ÷1£¨°²È«¼Ä´æÆ÷£© */
+/* sram???Æ¼Ä´???1????È«?Ä´????? */
 /* 0x2034 */
 typedef union tagScSramCtrl1
 {
@@ -4712,7 +4705,7 @@ typedef union tagScSramCtrl1
 } SC_SRAM_CTRL1_U;
 
 /* Define the union U_SC_TIMER_CLKEN_CTRL_U */
-/* TIMERµÄclkenÉú³É¿ØÖÆ¼Ä´æÆ÷ */
+/* TIMER??clken???É¿??Æ¼Ä´??? */
 /* 0x2040 */
 typedef union tagScTimerClkenCtrl
 {
@@ -4730,7 +4723,7 @@ typedef union tagScTimerClkenCtrl
 } SC_TIMER_CLKEN_CTRL_U;
 
 /* Define the union U_SC_WDOG_CLKEN_CTRL_U */
-/* WDOGµÄclkenÉú³É¿ØÖÆ¼Ä´æÆ÷ */
+/* WDOG??clken???É¿??Æ¼Ä´??? */
 /* 0x2050 */
 typedef union tagScWdogClkenCtrl
 {
@@ -4747,7 +4740,7 @@ typedef union tagScWdogClkenCtrl
 } SC_WDOG_CLKEN_CTRL_U;
 
 /* Define the union U_SC_USBHOST_CTRL0_U */
-/* usbÅäÖÃ */
+/* usb???? */
 /* 0x2060 */
 typedef union tagScUsbhostCtrl0
 {
@@ -4774,7 +4767,7 @@ typedef union tagScUsbhostCtrl0
 } SC_USBHOST_CTRL0_U;
 
 /* Define the union U_SC_ISO_EN_TSV_SLLC_SRST_U */
-/* IDIE isolation CELLÊ¹ÄÜÐÅºÅ£»TSV_SLLC_IDIEÕûÌåÈí¸´Î»ÇëÇó¿ØÖÆ */
+/* IDIE isolation CELLÊ¹???ÅºÅ£?TSV_SLLC_IDIE?????í¸´Î»???????? */
 /* 0x2080 */
 typedef union tagScIsoEnTsvSllcSrst
 {
@@ -4792,7 +4785,7 @@ typedef union tagScIsoEnTsvSllcSrst
 } SC_ISO_EN_TSV_SLLC_SRST_U;
 
 /* Define the union U_SC_USBPHY_CTRL0_U */
-/* USBPHY¿ØÖÆ¼Ä´æÆ÷0 */
+/* USBPHY???Æ¼Ä´???0 */
 /* 0x20A0 */
 typedef union tagScUsbphyCtrl0
 {
@@ -4818,7 +4811,7 @@ typedef union tagScUsbphyCtrl0
 } SC_USBPHY_CTRL0_U;
 
 /* Define the union U_SC_USBPHY_CTRL1_U */
-/* USBPHY¿ØÖÆ¼Ä´æÆ÷1 */
+/* USBPHY???Æ¼Ä´???1 */
 /* 0x20A4 */
 typedef union tagScUsbphyCtrl1
 {
@@ -4842,7 +4835,7 @@ typedef union tagScUsbphyCtrl1
 } SC_USBPHY_CTRL1_U;
 
 /* Define the union U_SC_M3_CTRL0_U */
-/* M3¿ØÖÆ¼Ä´æÆ÷0 */
+/* M3???Æ¼Ä´???0 */
 /* 0x20B0 */
 typedef union tagScM3Ctrl0
 {
@@ -4864,7 +4857,7 @@ typedef union tagScM3Ctrl0
 } SC_M3_CTRL0_U;
 
 /* Define the union U_SC_M3_CTRL1_U */
-/* M3¿ØÖÆ¼Ä´æÆ÷1 */
+/* M3???Æ¼Ä´???1 */
 /* 0x20B4 */
 typedef union tagScM3Ctrl1
 {
@@ -4881,7 +4874,7 @@ typedef union tagScM3Ctrl1
 } SC_M3_CTRL1_U;
 
 /* Define the union U_SC_VMID_CTRL0_U */
-/* m3 vmidÅäÖÃ */
+/* m3 vmid???? */
 /* 0x20E0 */
 typedef union tagScVmidCtrl0
 {
@@ -4900,7 +4893,7 @@ typedef union tagScVmidCtrl0
 } SC_VMID_CTRL0_U;
 
 /* Define the union U_SC_VMID_CTRL1_U */
-/* usb vmidÅäÖÃ */
+/* usb vmid???? */
 /* 0x20E4 */
 typedef union tagScVmidCtrl1
 {
@@ -4918,7 +4911,7 @@ typedef union tagScVmidCtrl1
 } SC_VMID_CTRL1_U;
 
 /* Define the union U_SC_I2C_M_VMID_U */
-/* i2c_m vmidÅäÖÃ */
+/* i2c_m vmid???? */
 /* 0x20E8 */
 typedef union tagScI2cMVmid
 {
@@ -4935,7 +4928,7 @@ typedef union tagScI2cMVmid
 } SC_I2C_M_VMID_U;
 
 /* Define the union U_SC_M3_REMAP_ADDR_EN_U */
-/* m3µØÖ·Ó³ÉäÊ¹ÄÜ */
+/* m3??Ö·Ó³??Ê¹?? */
 /* 0x2180 */
 typedef union tagScM3RemapAddrEn
 {
@@ -4952,7 +4945,7 @@ typedef union tagScM3RemapAddrEn
 } SC_M3_REMAP_ADDR_EN_U;
 
 /* Define the union U_SC_ITS_M3_INT_MUX_SEL_U */
-/* ¶ÔÖÐ¶ÏËÍµ½ITS»¹ÊÇM3£¬×öMUXÑ¡Ôñ */
+/* ???Ð¶??Íµ?ITS????M3????MUXÑ¡?? */
 /* 0x21F0 */
 typedef union tagScItsM3IntMuxSel
 {
@@ -4979,7 +4972,7 @@ typedef union tagScItsM3IntMuxSel
 } SC_ITS_M3_INT_MUX_SEL_U;
 
 /* Define the union U_SC_FTE_MUX_CTRL_U */
-/* FTE¸´ÓÃÑ¡Ôñ¼Ä´æÆ÷ */
+/* FTE????Ñ¡???Ä´??? */
 /* 0x2200 */
 typedef union tagScFteMuxCtrl
 {
@@ -4996,7 +4989,7 @@ typedef union tagScFteMuxCtrl
 } SC_FTE_MUX_CTRL_U;
 
 /* Define the union U_SC_PM_CTRL0_U */
-/* PW_STAT_CTRLµÄ¿ØÖÆ¼Ä´æÆ÷ */
+/* PW_STAT_CTRL?Ä¿??Æ¼Ä´??? */
 /* 0x2380 */
 typedef union tagScPmCtrl0
 {
@@ -5013,7 +5006,7 @@ typedef union tagScPmCtrl0
 } SC_PM_CTRL0_U;
 
 /* Define the union U_SC_PM_CTRL1_U */
-/* PW_STAT_CTRLµÄ¿ØÖÆ¼Ä´æÆ÷ */
+/* PW_STAT_CTRL?Ä¿??Æ¼Ä´??? */
 /* 0x2384 */
 typedef union tagScPmCtrl1
 {
@@ -5031,7 +5024,7 @@ typedef union tagScPmCtrl1
 } SC_PM_CTRL1_U;
 
 /* Define the union U_SC_PM_CTRL2_U */
-/* PW_STAT_CTRLµÄ¿ØÖÆ¼Ä´æÆ÷ */
+/* PW_STAT_CTRL?Ä¿??Æ¼Ä´??? */
 /* 0x2388 */
 typedef union tagScPmCtrl2
 {
@@ -5048,7 +5041,7 @@ typedef union tagScPmCtrl2
 } SC_PM_CTRL2_U;
 
 /* Define the union U_SC_PM_INT_U */
-/* PW_STAT_CTRLÄÚÖÐ¶ÏÔ´¼Ä´æÆ÷ */
+/* PW_STAT_CTRL???Ð¶?Ô´?Ä´??? */
 /* 0x238C */
 typedef union tagScPmInt
 {
@@ -5069,7 +5062,7 @@ typedef union tagScPmInt
 } SC_PM_INT_U;
 
 /* Define the union U_SC_PM_INT_MASK_U */
-/* PW_STAT_CTRLµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
+/* PW_STAT_CTRL???Ð¶??Á±Î¼Ä´??? */
 /* 0x2390 */
 typedef union tagScPmIntMask
 {
@@ -5090,7 +5083,7 @@ typedef union tagScPmIntMask
 } SC_PM_INT_MASK_U;
 
 /* Define the union U_SC_PM_CTRL3_U */
-/* ¿ØÖÆ¹Ü½ÅPM_CTL */
+/* ???Æ¹Ü½?PM_CTL */
 /* 0x2394 */
 typedef union tagScPmCtrl3
 {
@@ -5107,7 +5100,7 @@ typedef union tagScPmCtrl3
 } SC_PM_CTRL3_U;
 
 /* Define the union U_SC_PM_ST_U */
-/* ÉÏµç¸´Î»Ö¸Ê¾×´Ì¬ÐÅºÅ */
+/* ?Ïµç¸´Î»Ö¸Ê¾×´Ì¬?Åº? */
 /* 0x2398 */
 typedef union tagScPmSt
 {
@@ -5124,7 +5117,7 @@ typedef union tagScPmSt
 } SC_PM_ST_U;
 
 /* Define the union U_SC_BISR_RE_REPAIR_EN_U */
-/* BISRµÄRE REPAIRÊ¹ÄÜ¼Ä´æÆ÷ */
+/* BISR??RE REPAIRÊ¹?Ü¼Ä´??? */
 /* 0x2D80 */
 typedef union tagScBisrReRepairEn
 {
@@ -5141,7 +5134,7 @@ typedef union tagScBisrReRepairEn
 } SC_BISR_RE_REPAIR_EN_U;
 
 /* Define the union U_SC_BISR_INT_U */
-/* BISR_TOP_IDIEµÄÖÐ¶ÏÔ´¼Ä´æÆ÷ */
+/* BISR_TOP_IDIE???Ð¶?Ô´?Ä´??? */
 /* 0x2D90 */
 typedef union tagScBisrInt
 {
@@ -5158,7 +5151,7 @@ typedef union tagScBisrInt
 } SC_BISR_INT_U;
 
 /* Define the union U_SC_BISR_INT_MASK_U */
-/* BISR_TOP_IDIEµÄÖÐ¶ÏÆÁ±Î¼Ä´æÆ÷ */
+/* BISR_TOP_IDIE???Ð¶??Á±Î¼Ä´??? */
 /* 0x2DA0 */
 typedef union tagScBisrIntMask
 {
@@ -5175,7 +5168,7 @@ typedef union tagScBisrIntMask
 } SC_BISR_INT_MASK_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL0_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷0 */
+/* smmu mem???Æ¼Ä´???0 */
 /* 0x3000 */
 typedef union tagScSmmuMemCtrl0
 {
@@ -5192,7 +5185,7 @@ typedef union tagScSmmuMemCtrl0
 } SC_SMMU_MEM_CTRL0_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL1_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷1 */
+/* smmu mem???Æ¼Ä´???1 */
 /* 0x3004 */
 typedef union tagScSmmuMemCtrl1
 {
@@ -5209,7 +5202,7 @@ typedef union tagScSmmuMemCtrl1
 } SC_SMMU_MEM_CTRL1_U;
 
 /* Define the union U_SC_SMMU_MEM_CTRL2_U */
-/* smmu mem¿ØÖÆ¼Ä´æÆ÷2 */
+/* smmu mem???Æ¼Ä´???2 */
 /* 0x3008 */
 typedef union tagScSmmuMemCtrl2
 {
@@ -5226,7 +5219,7 @@ typedef union tagScSmmuMemCtrl2
 } SC_SMMU_MEM_CTRL2_U;
 
 /* Define the union U_SC_SRAM_MEM_CTRL_U */
-/* sram mem¿ØÖÆ¼Ä´æÆ÷ */
+/* sram mem???Æ¼Ä´??? */
 /* 0x3020 */
 typedef union tagScSramMemCtrl
 {
@@ -5243,7 +5236,7 @@ typedef union tagScSramMemCtrl
 } SC_SRAM_MEM_CTRL_U;
 
 /* Define the union U_SC_SFC_MEM_CTRL_U */
-/* sfc mem¿ØÖÆ¼Ä´æÆ÷ */
+/* sfc mem???Æ¼Ä´??? */
 /* 0x3030 */
 typedef union tagScSfcMemCtrl
 {
@@ -5260,7 +5253,7 @@ typedef union tagScSfcMemCtrl
 } SC_SFC_MEM_CTRL_U;
 
 /* Define the union U_SC_SEC_MEM_CTRL_U */
-/* sec mem¿ØÖÆ¼Ä´æÆ÷ */
+/* sec mem???Æ¼Ä´??? */
 /* 0x3070 */
 typedef union tagScSecMemCtrl
 {
@@ -5277,7 +5270,7 @@ typedef union tagScSecMemCtrl
 } SC_SEC_MEM_CTRL_U;
 
 /* Define the union U_SC_WDG_CLK_ST_U */
-/* WDGÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* WDGÊ±??×´Ì¬?Ä´??? */
 /* 0x5300 */
 typedef union tagScWdgClkSt
 {
@@ -5294,7 +5287,7 @@ typedef union tagScWdgClkSt
 } SC_WDG_CLK_ST_U;
 
 /* Define the union U_SC_TIMER_CLK_ST_U */
-/* TIMERÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* TIMERÊ±??×´Ì¬?Ä´??? */
 /* 0x5304 */
 typedef union tagScTimerClkSt
 {
@@ -5311,7 +5304,7 @@ typedef union tagScTimerClkSt
 } SC_TIMER_CLK_ST_U;
 
 /* Define the union U_SC_UART_CLK_ST_U */
-/* UARTÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* UARTÊ±??×´Ì¬?Ä´??? */
 /* 0x5308 */
 typedef union tagScUartClkSt
 {
@@ -5329,7 +5322,7 @@ typedef union tagScUartClkSt
 } SC_UART_CLK_ST_U;
 
 /* Define the union U_SC_ITS_CLK_ST_U */
-/* ITSÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* ITSÊ±??×´Ì¬?Ä´??? */
 /* 0x530C */
 typedef union tagScItsClkSt
 {
@@ -5346,7 +5339,7 @@ typedef union tagScItsClkSt
 } SC_ITS_CLK_ST_U;
 
 /* Define the union U_SC_IPCM_CLK_ST_U */
-/* IPCMÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* IPCMÊ±??×´Ì¬?Ä´??? */
 /* 0x5310 */
 typedef union tagScIpcmClkSt
 {
@@ -5363,7 +5356,7 @@ typedef union tagScIpcmClkSt
 } SC_IPCM_CLK_ST_U;
 
 /* Define the union U_SC_SRAM_CLK_ST_U */
-/* SRAMÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SRAMÊ±??×´Ì¬?Ä´??? */
 /* 0x5314 */
 typedef union tagScSramClkSt
 {
@@ -5380,7 +5373,7 @@ typedef union tagScSramClkSt
 } SC_SRAM_CLK_ST_U;
 
 /* Define the union U_SC_SFC_CLK_ST_U */
-/* SFCÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SFCÊ±??×´Ì¬?Ä´??? */
 /* 0x5318 */
 typedef union tagScSfcClkSt
 {
@@ -5398,7 +5391,7 @@ typedef union tagScSfcClkSt
 } SC_SFC_CLK_ST_U;
 
 /* Define the union U_SC_I2CM_CLK_ST_U */
-/* I2CMÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* I2CMÊ±??×´Ì¬?Ä´??? */
 /* 0x531C */
 typedef union tagScI2cmClkSt
 {
@@ -5415,7 +5408,7 @@ typedef union tagScI2cmClkSt
 } SC_I2CM_CLK_ST_U;
 
 /* Define the union U_SC_I2C_CLK_ST_U */
-/* I2CÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* I2CÊ±??×´Ì¬?Ä´??? */
 /* 0x5320 */
 typedef union tagScI2cClkSt
 {
@@ -5434,7 +5427,7 @@ typedef union tagScI2cClkSt
 } SC_I2C_CLK_ST_U;
 
 /* Define the union U_SC_GPIO_CLK_ST_U */
-/* GPIOÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* GPIOÊ±??×´Ì¬?Ä´??? */
 /* 0x5324 */
 typedef union tagScGpioClkSt
 {
@@ -5455,7 +5448,7 @@ typedef union tagScGpioClkSt
 } SC_GPIO_CLK_ST_U;
 
 /* Define the union U_SC_CPU_CLK_ST_U */
-/* M3 CPUÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* M3 CPUÊ±??×´Ì¬?Ä´??? */
 /* 0x5328 */
 typedef union tagScCpuClkSt
 {
@@ -5472,7 +5465,7 @@ typedef union tagScCpuClkSt
 } SC_CPU_CLK_ST_U;
 
 /* Define the union U_SC_USB_CLK_ST_U */
-/* USBÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* USBÊ±??×´Ì¬?Ä´??? */
 /* 0x5334 */
 typedef union tagScUsbClkSt
 {
@@ -5492,7 +5485,7 @@ typedef union tagScUsbClkSt
 } SC_USB_CLK_ST_U;
 
 /* Define the union U_SC_SPI_CLK_ST_U */
-/* SPIÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SPIÊ±??×´Ì¬?Ä´??? */
 /* 0x5344 */
 typedef union tagScSpiClkSt
 {
@@ -5509,7 +5502,7 @@ typedef union tagScSpiClkSt
 } SC_SPI_CLK_ST_U;
 
 /* Define the union U_SC_SEC_CLK_ST_U */
-/* SECÊ±ÖÓ×´Ì¬¼Ä´æÆ÷ */
+/* SECÊ±??×´Ì¬?Ä´??? */
 /* 0x535C */
 typedef union tagScSecClkSt
 {
@@ -5528,7 +5521,7 @@ typedef union tagScSecClkSt
 } SC_SEC_CLK_ST_U;
 
 /* Define the union U_SC_WDG_RESET_ST_U */
-/* WDG¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* WDG??Î»×´Ì¬?Ä´??? */
 /* 0x5A00 */
 typedef union tagScWdgResetSt
 {
@@ -5545,7 +5538,7 @@ typedef union tagScWdgResetSt
 } SC_WDG_RESET_ST_U;
 
 /* Define the union U_SC_TIMER_RESET_ST_U */
-/* TIMER¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* TIMER??Î»×´Ì¬?Ä´??? */
 /* 0x5A04 */
 typedef union tagScTimerResetSt
 {
@@ -5562,7 +5555,7 @@ typedef union tagScTimerResetSt
 } SC_TIMER_RESET_ST_U;
 
 /* Define the union U_SC_UART_RESET_ST_U */
-/* UART¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* UART??Î»×´Ì¬?Ä´??? */
 /* 0x5A08 */
 typedef union tagScUartResetSt
 {
@@ -5580,7 +5573,7 @@ typedef union tagScUartResetSt
 } SC_UART_RESET_ST_U;
 
 /* Define the union U_SC_ITS_RESET_ST_U */
-/* ITS¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* ITS??Î»×´Ì¬?Ä´??? */
 /* 0x5A0C */
 typedef union tagScItsResetSt
 {
@@ -5597,7 +5590,7 @@ typedef union tagScItsResetSt
 } SC_ITS_RESET_ST_U;
 
 /* Define the union U_SC_IPCM_RESET_ST_U */
-/* IPCM¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* IPCM??Î»×´Ì¬?Ä´??? */
 /* 0x5A10 */
 typedef union tagScIpcmResetSt
 {
@@ -5614,7 +5607,7 @@ typedef union tagScIpcmResetSt
 } SC_IPCM_RESET_ST_U;
 
 /* Define the union U_SC_SRAM_RESET_ST_U */
-/* SRAM¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SRAM??Î»×´Ì¬?Ä´??? */
 /* 0x5A14 */
 typedef union tagScSramResetSt
 {
@@ -5631,7 +5624,7 @@ typedef union tagScSramResetSt
 } SC_SRAM_RESET_ST_U;
 
 /* Define the union U_SC_SFC_RESET_ST_U */
-/* SFC¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SFC??Î»×´Ì¬?Ä´??? */
 /* 0x5A18 */
 typedef union tagScSfcResetSt
 {
@@ -5649,7 +5642,7 @@ typedef union tagScSfcResetSt
 } SC_SFC_RESET_ST_U;
 
 /* Define the union U_SC_I2CM_RESET_ST_U */
-/* I2CM¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* I2CM??Î»×´Ì¬?Ä´??? */
 /* 0x5A1C */
 typedef union tagScI2cmResetSt
 {
@@ -5666,7 +5659,7 @@ typedef union tagScI2cmResetSt
 } SC_I2CM_RESET_ST_U;
 
 /* Define the union U_SC_I2C_RESET_ST_U */
-/* I2C¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* I2C??Î»×´Ì¬?Ä´??? */
 /* 0x5A20 */
 typedef union tagScI2cResetSt
 {
@@ -5685,7 +5678,7 @@ typedef union tagScI2cResetSt
 } SC_I2C_RESET_ST_U;
 
 /* Define the union U_SC_GPIO_RESET_ST_U */
-/* GPIO¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* GPIO??Î»×´Ì¬?Ä´??? */
 /* 0x5A24 */
 typedef union tagScGpioResetSt
 {
@@ -5706,7 +5699,7 @@ typedef union tagScGpioResetSt
 } SC_GPIO_RESET_ST_U;
 
 /* Define the union U_SC_CPU_RESET_ST_U */
-/* M3 CPU¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* M3 CPU??Î»×´Ì¬?Ä´??? */
 /* 0x5A28 */
 typedef union tagScCpuResetSt
 {
@@ -5723,7 +5716,7 @@ typedef union tagScCpuResetSt
 } SC_CPU_RESET_ST_U;
 
 /* Define the union U_SC_USB_RESET_ST_U */
-/* USB¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* USB??Î»×´Ì¬?Ä´??? */
 /* 0x5A44 */
 typedef union tagScUsbResetSt
 {
@@ -5744,7 +5737,7 @@ typedef union tagScUsbResetSt
 } SC_USB_RESET_ST_U;
 
 /* Define the union U_SC_SPI_RESET_ST_U */
-/* SPI¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SPI??Î»×´Ì¬?Ä´??? */
 /* 0x5A4C */
 typedef union tagScSpiResetSt
 {
@@ -5761,7 +5754,7 @@ typedef union tagScSpiResetSt
 } SC_SPI_RESET_ST_U;
 
 /* Define the union U_SC_SEC_RESET_ST_U */
-/* SEC¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SEC??Î»×´Ì¬?Ä´??? */
 /* 0x5A54 */
 typedef union tagScSecResetSt
 {
@@ -5778,7 +5771,7 @@ typedef union tagScSecResetSt
 } SC_SEC_RESET_ST_U;
 
 /* Define the union U_SC_SEC_BUILD_RESET_ST_U */
-/* SEC BUILD¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* SEC BUILD??Î»×´Ì¬?Ä´??? */
 /* 0x5A5C */
 typedef union tagScSecBuildResetSt
 {
@@ -5815,7 +5808,7 @@ typedef union tagScSecBuildResetSt
 } SC_SEC_BUILD_RESET_ST_U;
 
 /* Define the union U_SC_PW_CTRL_RESET_ST_U */
-/* PW_CTRL¸´Î»×´Ì¬¼Ä´æÆ÷ */
+/* PW_CTRL??Î»×´Ì¬?Ä´??? */
 /* 0x5A60 */
 typedef union tagScPwCtrlResetSt
 {
@@ -5832,7 +5825,7 @@ typedef union tagScPwCtrlResetSt
 } SC_PW_CTRL_RESET_ST_U;
 
 /* Define the union U_SC_MBIST_CPUI_ENABLE_U */
-/* CPUÆô¶¯MBISTÑ¡ÔñÐÅºÅ£»Ð¾Æ¬µçÂ·²âÊÔÊ¹ÓÃ¡£ */
+/* CPU????MBISTÑ¡???ÅºÅ£?Ð¾Æ¬??Â·????Ê¹?Ã¡? */
 /* 0x5C00 */
 typedef union tagScMbistCpuiEnable
 {
@@ -5849,7 +5842,7 @@ typedef union tagScMbistCpuiEnable
 } SC_MBIST_CPUI_ENABLE_U;
 
 /* Define the union U_SC_MBIST_CPUI_RESET_N_U */
-/* CPUÆô¶¯MBIST¸´Î»ÐÅºÅ */
+/* CPU????MBIST??Î»?Åº? */
 /* 0x5C04 */
 typedef union tagScMbistCpuiResetN
 {
@@ -5866,7 +5859,7 @@ typedef union tagScMbistCpuiResetN
 } SC_MBIST_CPUI_RESET_N_U;
 
 /* Define the union U_SC_MBIST_CPUI_WRITE_EN_U */
-/* DFT MBISTÄ£Ê½ÏÂTMBµçÂ·CPU2TAP½Ó¿ÚÅäÖÃ¼Ä´æÆ÷£»Ð¾Æ¬µçÂ·²âÊÔÊ¹ÓÃ¡£ */
+/* DFT MBISTÄ£Ê½??TMB??Â·CPU2TAP?Ó¿????Ã¼Ä´?????Ð¾Æ¬??Â·????Ê¹?Ã¡? */
 /* 0x5C0C */
 typedef union tagScMbistCpuiWriteEn
 {
@@ -5883,7 +5876,7 @@ typedef union tagScMbistCpuiWriteEn
 } SC_MBIST_CPUI_WRITE_EN_U;
 
 /* Define the union U_SC_SRAM_ST0_U */
-/* sram×´Ì¬¼Ä´æÆ÷0 */
+/* sram×´Ì¬?Ä´???0 */
 /* 0x6000 */
 typedef union tagScSramSt0
 {
@@ -5902,7 +5895,7 @@ typedef union tagScSramSt0
 } SC_SRAM_ST0_U;
 
 /* Define the union U_SC_SRAM_ST3_U */
-/* sram×´Ì¬¼Ä´æÆ÷3 */
+/* sram×´Ì¬?Ä´???3 */
 /* 0x600C */
 typedef union tagScSramSt3
 {
@@ -5919,7 +5912,7 @@ typedef union tagScSramSt3
 } SC_SRAM_ST3_U;
 
 /* Define the union U_SC_SRAM_ST4_U */
-/* sram×´Ì¬¼Ä´æÆ÷4 */
+/* sram×´Ì¬?Ä´???4 */
 /* 0x6010 */
 typedef union tagScSramSt4
 {
@@ -5936,7 +5929,7 @@ typedef union tagScSramSt4
 } SC_SRAM_ST4_U;
 
 /* Define the union U_SC_SRAM_ST5_U */
-/* sram×´Ì¬¼Ä´æÆ÷5 */
+/* sram×´Ì¬?Ä´???5 */
 /* 0x6014 */
 typedef union tagScSramSt5
 {
@@ -5976,7 +5969,7 @@ typedef union tagScM3Stat
 } SC_M3_STAT_U;
 
 /* Define the union U_SC_PM_ST0_U */
-/* PW_STAT_CTRLµÄÄÚ²¿×´Ì¬ */
+/* PW_STAT_CTRL???Ú²?×´Ì¬ */
 /* 0x6380 */
 typedef union tagScPmSt0
 {
@@ -5993,7 +5986,7 @@ typedef union tagScPmSt0
 } SC_PM_ST0_U;
 
 /* Define the union U_SC_PM_ST1_U */
-/* À´×Ô¹Ü½ÅµÄPWRGD×´Ì¬ */
+/* À´?Ô¹Ü½Åµ?PWRGD×´Ì¬ */
 /* 0x6384 */
 typedef union tagScPmSt1
 {
@@ -6010,7 +6003,7 @@ typedef union tagScPmSt1
 } SC_PM_ST1_U;
 
 /* Define the union U_SC_PM_ST2_U */
-/* Êä³ö¸ø¹Ü½ÅµÄPWR_CTRL2~0 */
+/* ???????Ü½Åµ?PWR_CTRL2~0 */
 /* 0x6388 */
 typedef union tagScPmSt2
 {
@@ -6027,7 +6020,7 @@ typedef union tagScPmSt2
 } SC_PM_ST2_U;
 
 /* Define the union U_SC_PM_ST3_U */
-/* MEÏà¹Ø¹Ü½Å×´Ì¬ */
+/* ME???Ø¹Ü½?×´Ì¬ */
 /* 0x638C */
 typedef union tagScPmSt3
 {
@@ -6048,8 +6041,8 @@ typedef union tagScPmSt3
 } SC_PM_ST3_U;
 
 /* Define the union U_SC_DBG_AUTH_CTRL_U */
-/* °²È«µÈ¼¶ÊÚÈ¨¿ØÖÆ¼Ä´æÆ÷¡£
-£¨×¢Òâ£º1£¬´Ë¼Ä´æÆ÷¿Õ¼ä±ØÐëÊÇ°²È«·ÃÎÊ²ÅÄÜ³É¹¦£»2£¬Ä¬ÈÏ¾ùÊÇ´ò¿ªµ÷ÊÔÄ£Ê½£¬ÓÐÂ©¶´£¬ÔÚÕý³£¹¤×÷Ê±Çë³õÊ¼»¯¹Ø±Õµ÷ÊÔ¹¦ÄÜ£© */
+/* ??È«?È¼???È¨???Æ¼Ä´?????
+??×¢?â£º1???Ë¼Ä´????Õ¼??????Ç°?È«???Ê²??Ü³É¹???2??Ä¬?Ï¾??Ç´ò¿ªµ???Ä£Ê½????Â©??????????????Ê±????Ê¼???Ø±Õµ??Ô¹??Ü£? */
 /* 0x6700 */
 typedef union tagScDbgAuthCtrl
 {
@@ -6066,7 +6059,7 @@ typedef union tagScDbgAuthCtrl
 } SC_DBG_AUTH_CTRL_U;
 
 /* Define the union U_SC_BOOT_CTRL_ST_U */
-/* SC_BOOT_CTRL_ST±íÊ¾CPUÆô¶¯¿ØÖÆµÄPADºÍeFuseÐÅºÅ×´Ì¬ */
+/* SC_BOOT_CTRL_ST??Ê¾CPU?ô¶¯¿??Æµ?PAD??eFuse?Åº?×´Ì¬ */
 /* 0xE084 */
 typedef union tagScBootCtrlSt
 {
@@ -6083,7 +6076,7 @@ typedef union tagScBootCtrlSt
 } SC_BOOT_CTRL_ST_U;
 
 /* Define the union U_SC_EFUSE_RD_ADDR_U */
-/* ¶ÁDIEIDÊ±ËùÓÃµØÖ·£¨°²È«¼Ä´æÆ÷£© */
+/* ??DIEIDÊ±???Ãµ?Ö·????È«?Ä´????? */
 /* 0xE100 */
 typedef union tagScEfuseRdAddr
 {

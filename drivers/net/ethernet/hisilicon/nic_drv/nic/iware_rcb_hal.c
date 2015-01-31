@@ -1,10 +1,3 @@
-/*--------------------------------------------------------------------------------------------------------------------------*/
-/*!!Warning: This is a key information asset of Huawei Tech Co.,Ltd                                                         */
-/*CODEMARK:64z4jYnYa5t1KtRL8a/vnMxg4uGttU/wzF06xcyNtiEfsIe4UpyXkUSy93j7U7XZDdqx2rNx
-p+25Dla32ZW7osA9Q1ovzSUNJmwD2Lwb8CS3jj1e4NXnh+7DT2iIAuYHJTrgjUqp838S0X3Y
-kLe48+m6h9vMt03DFcyLbRZLl4l78X9jvgaHHi4vgkp6ssb1n/9nRprZtSc7fuUjjhJHtgsP
-oVY8h5mvKCtTr6+2AyqYgSCzD9mG5QbOBRJ3agOasw+ePekEOFVj8VOmOLo6lA==*/
-/*--------------------------------------------------------------------------------------------------------------------------*/
 /************************************************************************
 
   Hisilicon NIC driver

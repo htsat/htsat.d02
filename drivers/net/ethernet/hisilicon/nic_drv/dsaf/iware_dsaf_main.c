@@ -1,10 +1,3 @@
-/*--------------------------------------------------------------------------------------------------------------------------*/
-/*!!Warning: This is a key information asset of Huawei Tech Co.,Ltd                                                         */
-/*CODEMARK:64z4jYnYa5t1KtRL8a/vnMxg4uGttU/wzF06xcyNtiEfsIe4UpyXkUSy93j7U7XZDdqx2rNx
-p+25Dla32ZW7osA9Q1ovzSUNJmwD2Lwb8CS3jj1e4NXnh+7DT2iIAuYHJTrgjUqp838S0X3Y
-kLe4803ScZEptIRgbgyVkhOuBnV7zN6H8Hlwd4kh+5z8rzIgY+bJD1TCc4QTx6xpwOwubiks
-4UWMn8suRzJDxHADo12UJv69GpvH7XWduUXl+b47MU6DB1hVfYqGKuJFXMsrMA==*/
-/*--------------------------------------------------------------------------------------------------------------------------*/
 /*******************************************************************************
 
   Hisilicon DSAF - support L2 switch

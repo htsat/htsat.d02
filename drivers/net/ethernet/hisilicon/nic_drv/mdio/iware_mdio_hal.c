@@ -1,10 +1,3 @@
-/*--------------------------------------------------------------------------------------------------------------------------*/
-/*!!Warning: This is a key information asset of Huawei Tech Co.,Ltd                                                         */
-/*CODEMARK:64z4jYnYa5t1KtRL8a/vnMxg4uGttU/wzF06xcyNtiEfsIe4UpyXkUSy93j7U7XZDdqx2rNx
-p+25Dla32ZW7osA9Q1ovzSUNJmwD2Lwb8CS3jj1e4NXnh+7DT2iIAuYHJTrgjUqp838S0X3Y
-kLe483srxy0NOL4THvTHEtjnJ71qMwcNKFQeWV8Q07Cdm5gG1IFfhliFcrjTpOPs+EjmdZ5n
-fL6TlvM+GB0m6pzEXwHf9obi9JRYx9AMaHLc6IpSEtVf3xddYxmwR+sgGxoyyg==*/
-/*--------------------------------------------------------------------------------------------------------------------------*/
 /************************************************************************
 
   Hisilicon MDIO driver
