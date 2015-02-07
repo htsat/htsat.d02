@@ -1,4 +1,4 @@
-cd ~/hulk
+cd ~/htsat.d02
 make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- O=../hulk.build defconfig
 make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- O=../hulk.build -j16 Image
 make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- O=../hulk.build hisilicon/hip05-d02.dtb
