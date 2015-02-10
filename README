@@ -1,7 +1,4 @@
-cd ~/htsat.d02
-make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- O=../hulk.build defconfig
-make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- O=../hulk.build -j16 Image
-make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- O=../hulk.build hisilicon/hip05-d02.dtb
+Hi, Every body,
 
-cp ../hulk-test.build/arch/arm64/boot/Image /home/share/Jodah/
-cp ../hulk-test.build/arch/arm64/boot/dts/hisilicon/hip05-d02.dtb /home/share/Judah/ 
+  This repository has been moved to https://github.com/huawei-hisi/estuary.git
+  you can get it by: git clone https://github.com/huawei-hisi/estuary.git
